@@ -1,0 +1,30 @@
+{
+ "started": "2026-11-03 11:20:37 AM KST",
+ "designs": {
+  "g6fit04": {
+   "name": "g6fit04",
+   "shots": 2000,
+   "detectors": 8,
+   "detectors_using_mpp_record": 1,
+   "detector_fires": 0,
+   "all_detectors_zero": true,
+   "fidelity_min": 0.9999999999999584,
+   "infidelity_max": 4.163336342344337e-14,
+   "p_code_min": 0.9999999999999583,
+   "cirq_simulator": {
+    "detectors_zero": true,
+    "fidelity": 1.0,
+    "p_code": 1.0,
+    "fid_given_code": 1.0
+   },
+   "decode_all_zero": true,
+   "decode_shots": 2000,
+   "control_uniform_T": {
+    "acceptance": 0.5,
+    "fidelity": 0.4999999975746806,
+    "p_code": 0.999999999999963,
+    "fid_given_code": 0.4999999975746991
+   }
+  }
+ }
+}

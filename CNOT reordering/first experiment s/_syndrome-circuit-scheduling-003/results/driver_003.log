@@ -1,0 +1,149 @@
+== driver_003 start Wed Oct 14 06:34:49 UTC 2026  decoder: OSD_0 0
+== stage 1a: [[72]] S, S^-1, alt and best/median/worst at p = 0.006, 0.004 Wed Oct 14 06:34:50 UTC 2026
+[212 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 37.5 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 33062: 120 fails (1921s) -> total 120/500 LER=0.24
+[212 Z p=0.006] end: 120/500  LER=0.24
+[212 X p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 36.8 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 38651: 100 fails (2000s) -> total 100/500 LER=0.2
+[212 X p=0.006] end: 100/500  LER=0.2
+[1307 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 36.9 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 40623: 87 fails (2115s) -> total 87/500 LER=0.174
+[1307 Z p=0.006] end: 87/500  LER=0.174
+[1307 X p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 36.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 18830: 85 fails (1934s) -> total 85/500 LER=0.17
+[1307 X p=0.006] end: 85/500  LER=0.17
+[212+1307 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 37.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 55334: 95 fails (1994s) -> total 95/500 LER=0.19
+[212+1307 Z p=0.006] end: 95/500  LER=0.19
+[212+1307 X p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 36.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 43703: 82 fails (2156s) -> total 82/500 LER=0.164
+[212+1307 X p=0.006] end: 82/500  LER=0.164
+[744 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 39.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 86941: 84 fails (2156s) -> total 84/500 LER=0.168
+[744 Z p=0.006] end: 84/500  LER=0.168
+[744 X p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 39.1 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 26208: 102 fails (2035s) -> total 102/500 LER=0.204
+[744 X p=0.006] end: 102/500  LER=0.204
+[131 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 39.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 50023: 98 fails (2066s) -> total 98/500 LER=0.196
+[131 Z p=0.006] end: 98/500  LER=0.196
+[131 X p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 39.4 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 56090: 83 fails (2084s) -> total 83/500 LER=0.166
+[131 X p=0.006] end: 83/500  LER=0.166
+[52 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 37.3 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 88771: 118 fails (1821s) -> total 118/500 LER=0.236
+[52 Z p=0.006] end: 118/500  LER=0.236
+[52 X p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 37.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 95717: 100 fails (1822s) -> total 100/500 LER=0.2
+[52 X p=0.006] end: 100/500  LER=0.2
+[212 Z p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 37.5 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 36397: 20 fails (1921s) -> total 20/1000 LER=0.02
+  [mem guard] decoder ~0.05 GB, available 39.1 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 37397: 32 fails (2104s) -> total 52/2000 LER=0.026
+[212 Z p=0.004] end: 52/2000  LER=0.026
+[212 X p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 38.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 12592: 35 fails (1867s) -> total 35/1000 LER=0.035
+  [mem guard] decoder ~0.05 GB, available 38.7 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 13592: 34 fails (1835s) -> total 69/2000 LER=0.0345
+[212 X p=0.004] end: 69/2000  LER=0.0345
+[1307 Z p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 38.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 77519: 22 fails (1640s) -> total 22/1000 LER=0.022
+  [mem guard] decoder ~0.05 GB, available 40.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 78519: 30 fails (1623s) -> total 52/2000 LER=0.026
+[1307 Z p=0.004] end: 52/2000  LER=0.026
+[1307 X p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 39.8 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 74606: 32 fails (1591s) -> total 32/1000 LER=0.032
+  [mem guard] decoder ~0.05 GB, available 39.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 75606: 27 fails (1616s) -> total 59/2000 LER=0.0295
+[1307 X p=0.004] end: 59/2000  LER=0.0295
+[212+1307 Z p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 40.1 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 20864: 24 fails (1557s) -> total 24/1000 LER=0.024
+  [mem guard] decoder ~0.05 GB, available 40.3 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 21864: 24 fails (1401s) -> total 48/2000 LER=0.024
+  [mem guard] decoder ~0.05 GB, available 40.3 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 22864: 21 fails (1328s) -> total 69/3000 LER=0.023
+[212+1307 Z p=0.004] end: 69/3000  LER=0.023
+[212+1307 X p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 40.4 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 23089: 25 fails (1510s) -> total 25/1000 LER=0.025
+  [mem guard] decoder ~0.05 GB, available 40.3 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 24089: 21 fails (1430s) -> total 46/2000 LER=0.023
+  [mem guard] decoder ~0.05 GB, available 39.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 25089: 21 fails (1562s) -> total 67/3000 LER=0.0223
+[212+1307 X p=0.004] end: 67/3000  LER=0.0223
+[744 Z p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 39.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 18646: 13 fails (1331s) -> total 13/1000 LER=0.013
+  [mem guard] decoder ~0.05 GB, available 39.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 19646: 25 fails (1386s) -> total 38/2000 LER=0.019
+  [mem guard] decoder ~0.05 GB, available 39.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 20646: 25 fails (1287s) -> total 63/3000 LER=0.021
+[744 Z p=0.004] end: 63/3000  LER=0.021
+[744 X p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 39.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 21771: 30 fails (1357s) -> total 30/1000 LER=0.03
+  [mem guard] decoder ~0.05 GB, available 39.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 22771: 19 fails (1279s) -> total 49/2000 LER=0.0245
+  [mem guard] decoder ~0.05 GB, available 39.1 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 23771: 24 fails (1340s) -> total 73/3000 LER=0.0243
+[744 X p=0.004] end: 73/3000  LER=0.0243
+[131 Z p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 39.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 70348: 35 fails (1424s) -> total 35/1000 LER=0.035
+  [mem guard] decoder ~0.05 GB, available 39.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 71348: 17 fails (1294s) -> total 52/2000 LER=0.026
+[131 Z p=0.004] end: 52/2000  LER=0.026
+[131 X p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 39.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 40241: 20 fails (1304s) -> total 20/1000 LER=0.02
+  [mem guard] decoder ~0.05 GB, available 39.3 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 41241: 21 fails (1320s) -> total 41/2000 LER=0.0205
+  [mem guard] decoder ~0.05 GB, available 39.3 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 42241: 28 fails (1371s) -> total 69/3000 LER=0.023
+[131 X p=0.004] end: 69/3000  LER=0.023
+[52 Z p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 39.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 80621: 36 fails (1194s) -> total 36/1000 LER=0.036
+  [mem guard] decoder ~0.05 GB, available 37.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 81621: 39 fails (1286s) -> total 75/2000 LER=0.0375
+[52 Z p=0.004] end: 75/2000  LER=0.0375
+[52 X p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 37.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 31627: 35 fails (1192s) -> total 35/1000 LER=0.035
+  [mem guard] decoder ~0.05 GB, available 37.7 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 32627: 36 fails (1141s) -> total 71/2000 LER=0.0355
+[52 X p=0.004] end: 71/2000  LER=0.0355
+figure: figures/exp_72_ler_osd0.png
+figure: figures/single_schedules_ler_osd0.png
+== stage 1b: [[72]] p = 0.002 Thu Oct 15 01:05:53 UTC 2026
+[212 Z p=0.002] start: 0/0 failures
+  [mem guard] decoder ~0.05 GB, available 37.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 5000 shots seed 18257: 4 fails (2440s) -> total 4/5000 LER=0.0008
+  [mem guard] decoder ~0.05 GB, available 38.3 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 5000 shots seed 23257: 5 fails (2518s) -> total 9/10000 LER=0.0009
+  [mem guard] decoder ~0.05 GB, available 37.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+== stopped by user (./launch.sh stop) Thu Oct 15 02:54:13 UTC 2026
+== driver_003 start Thu Oct 15 02:54:31 UTC 2026  decoder: OSD_0 0
+== stage 1: [[72]] skipped by user; drawing figures from the finished points Thu Oct 15 02:54:32 UTC 2026
+figure: figures/exp_72_ler_osd0.png
+figure: figures/single_schedules_ler_osd0.png
+== stage 2: waiting for the 001 gross-code job to finish Thu Oct 15 02:54:35 UTC 2026
+== stopped by user (./launch.sh stop) Thu Oct 15 03:09:38 UTC 2026
+== cancelled by user: [[144]] BP-OSD-0 stage not needed Thu Oct 15 03:09:40 UTC 2026

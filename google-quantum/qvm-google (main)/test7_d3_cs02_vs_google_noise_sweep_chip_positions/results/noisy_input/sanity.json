@@ -1,0 +1,146 @@
+{
+ "G4_G6style phi=0.7854": {
+  "HXY": {
+   "retention": 1.0,
+   "value": 1.0,
+   "in_code": 1.0
+  },
+  "X": {
+   "retention": 1.0,
+   "value": 0.687,
+   "in_code": 1.0
+  },
+  "Y": {
+   "retention": 1.0,
+   "value": 0.7095,
+   "in_code": 1.0
+  },
+  "retention_ideal": 1.0
+ },
+ "G4_G6style phi=0.0000": {
+  "HXY": {
+   "retention": 0.85,
+   "value": 1.0,
+   "in_code": 1.0
+  },
+  "X": {
+   "retention": 0.85,
+   "value": 0.6894117647058824,
+   "in_code": 1.0
+  },
+  "Y": {
+   "retention": 0.85,
+   "value": 0.7123529411764706,
+   "in_code": 1.0
+  },
+  "retention_ideal": 0.8535533905932737
+ },
+ "G4_G6style phi=1.5708": {
+  "HXY": {
+   "retention": 0.85,
+   "value": 1.0,
+   "in_code": 1.0
+  },
+  "X": {
+   "retention": 0.85,
+   "value": 0.6894117647058824,
+   "in_code": 1.0
+  },
+  "Y": {
+   "retention": 0.85,
+   "value": 0.7123529411764706,
+   "in_code": 1.0
+  },
+  "retention_ideal": 0.8535533905932737
+ },
+ "G4_G6style phi=3.9270": {
+  "HXY": {
+   "retention": 0.0,
+   "value": null,
+   "in_code": null
+  },
+  "X": {
+   "retention": 0.0,
+   "value": null,
+   "in_code": null
+  },
+  "Y": {
+   "retention": 0.0,
+   "value": null,
+   "in_code": null
+  },
+  "retention_ideal": 0.0
+ },
+ "cont_success02 phi=0.7854": {
+  "HXY": {
+   "retention": 1.0,
+   "value": 1.0,
+   "in_code": 1.0
+  },
+  "X": {
+   "retention": 1.0,
+   "value": 0.698,
+   "in_code": 1.0
+  },
+  "Y": {
+   "retention": 1.0,
+   "value": 0.7105,
+   "in_code": 1.0
+  },
+  "retention_ideal": 1.0
+ },
+ "cont_success02 phi=0.0000": {
+  "HXY": {
+   "retention": 0.85025,
+   "value": 1.0,
+   "in_code": 1.0
+  },
+  "X": {
+   "retention": 0.85025,
+   "value": 0.6971478976771538,
+   "in_code": 1.0
+  },
+  "Y": {
+   "retention": 0.85025,
+   "value": 0.7083210820346957,
+   "in_code": 1.0
+  },
+  "retention_ideal": 0.8535533905932737
+ },
+ "cont_success02 phi=1.5708": {
+  "HXY": {
+   "retention": 0.85025,
+   "value": 1.0,
+   "in_code": 1.0
+  },
+  "X": {
+   "retention": 0.85025,
+   "value": 0.6971478976771538,
+   "in_code": 1.0
+  },
+  "Y": {
+   "retention": 0.85025,
+   "value": 0.7083210820346957,
+   "in_code": 1.0
+  },
+  "retention_ideal": 0.8535533905932737
+ },
+ "cont_success02 phi=3.9270": {
+  "HXY": {
+   "retention": 0.0,
+   "value": null,
+   "in_code": null
+  },
+  "X": {
+   "retention": 0.0,
+   "value": null,
+   "in_code": null
+  },
+  "Y": {
+   "retention": 0.0,
+   "value": null,
+   "in_code": null
+  },
+  "retention_ideal": 0.0
+ }
+}

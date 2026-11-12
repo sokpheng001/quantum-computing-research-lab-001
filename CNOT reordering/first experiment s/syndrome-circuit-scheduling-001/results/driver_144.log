@@ -1,0 +1,73 @@
+== driver_144 start Mon Oct 12 14:34:50 UTC 2026
+== Stage A: d_circ bounds, n=144, cycles=4, 4000 trials/config split over 12 workers
+  S/Z     : d_circ <= 11  hist={11: 2, 12: 126, 13: 144, 14: 252, 15: 255, 16: 292, 17: 322, 18: 274, 19: 243, 20: 221, 21: 210, 22: 201, 23: 162, 24: 151, 25: 136, 26: 121, 27: 108, 28: 95, 29: 88, 30: 86, 31: 71, 32: 56, 33: 43, 34: 52, 35: 45, 36: 28, 37: 40, 38: 19, 39: 24, 40: 17, 41: 20, 42: 9, 43: 8, 44: 10, 45: 10, 46: 5, 47: 9, 48: 5, 49: 7, 50: 4, 51: 2, 52: 4, 53: 2, 54: 1, 55: 3, 56: 1, 57: 2, 59: 1, 60: 4, 61: 1, 62: 2, 63: 1, 71: 1}  distinct min-weight paths found=2
+  S/X     : d_circ <= 11  hist={11: 14, 12: 120, 13: 209, 14: 279, 15: 252, 16: 315, 17: 261, 18: 209, 19: 188, 20: 162, 21: 130, 22: 80, 23: 90, 24: 103, 25: 60, 26: 68, 27: 62, 28: 53, 29: 59, 30: 48, 31: 63, 32: 54, 33: 45, 34: 39, 35: 39, 36: 44, 37: 43, 38: 41, 39: 34, 40: 42, 41: 36, 42: 37, 43: 40, 44: 27, 45: 35, 46: 27, 47: 25, 48: 23, 49: 26, 50: 26, 51: 22, 52: 31, 53: 24, 54: 25, 55: 21, 56: 22, 57: 22, 58: 19, 59: 15, 60: 28, 61: 25, 62: 18, 63: 13, 64: 14, 65: 16, 66: 24, 67: 12, 68: 15, 69: 8, 70: 10, 71: 17, 72: 17, 73: 7, 74: 10, 75: 7, 76: 8, 77: 7, 78: 4, 79: 8, 80: 2, 82: 3, 83: 2, 84: 1, 85: 2, 86: 3, 87: 1, 88: 1, 89: 1, 91: 1, 95: 1, 97: 1}  distinct min-weight paths found=14
+  Sinv/Z  : d_circ <= 11  hist={11: 17, 12: 132, 13: 220, 14: 266, 15: 290, 16: 258, 17: 274, 18: 225, 19: 169, 20: 177, 21: 148, 22: 104, 23: 107, 24: 104, 25: 82, 26: 76, 27: 83, 28: 72, 29: 72, 30: 76, 31: 60, 32: 50, 33: 73, 34: 54, 35: 63, 36: 48, 37: 40, 38: 34, 39: 31, 40: 36, 41: 36, 42: 25, 43: 32, 44: 16, 45: 28, 46: 31, 47: 24, 48: 20, 49: 22, 50: 20, 51: 22, 52: 14, 53: 12, 54: 26, 55: 18, 56: 17, 57: 12, 58: 12, 59: 14, 60: 12, 61: 13, 62: 7, 63: 13, 64: 9, 65: 9, 66: 8, 67: 10, 68: 7, 69: 5, 70: 5, 71: 9, 72: 6, 73: 5, 74: 2, 75: 4, 76: 4, 77: 4, 78: 3, 79: 4, 80: 1, 81: 1, 82: 2, 83: 1, 84: 2, 85: 1, 86: 3, 87: 1, 88: 2, 91: 1}  distinct min-weight paths found=17
+  Sinv/X  : d_circ <= 11  hist={11: 1, 12: 97, 13: 140, 14: 247, 15: 299, 16: 324, 17: 366, 18: 320, 19: 270, 20: 241, 21: 238, 22: 215, 23: 186, 24: 142, 25: 131, 26: 121, 27: 118, 28: 94, 29: 79, 30: 57, 31: 61, 32: 38, 33: 38, 34: 24, 35: 26, 36: 20, 37: 16, 38: 14, 39: 10, 40: 9, 41: 10, 42: 7, 43: 8, 44: 4, 45: 3, 46: 4, 47: 4, 48: 1, 49: 1, 50: 1, 51: 1, 52: 2, 54: 2, 55: 1, 57: 1, 63: 2, 64: 1, 69: 1}  distinct min-weight paths found=1
+  alt/Z   : d_circ <= 12  hist={12: 136, 13: 149, 14: 236, 15: 267, 16: 299, 17: 307, 18: 276, 19: 273, 20: 239, 21: 174, 22: 181, 23: 141, 24: 117, 25: 110, 26: 103, 27: 93, 28: 82, 29: 78, 30: 65, 31: 63, 32: 51, 33: 59, 34: 54, 35: 41, 36: 47, 37: 33, 38: 29, 39: 25, 40: 15, 41: 21, 42: 13, 43: 8, 44: 19, 45: 19, 46: 14, 47: 17, 48: 12, 49: 7, 50: 12, 51: 8, 52: 10, 53: 10, 54: 7, 55: 4, 56: 7, 57: 5, 58: 8, 59: 9, 60: 5, 61: 2, 62: 7, 63: 4, 64: 1, 65: 3, 66: 3, 67: 1, 68: 3, 69: 4, 70: 5, 72: 1, 73: 1, 74: 2, 83: 1}  distinct min-weight paths found=129
+  alt/X   : d_circ <= 11  hist={11: 9, 12: 122, 13: 166, 14: 275, 15: 294, 16: 301, 17: 310, 18: 258, 19: 248, 20: 208, 21: 175, 22: 139, 23: 129, 24: 127, 25: 132, 26: 93, 27: 94, 28: 70, 29: 86, 30: 61, 31: 77, 32: 68, 33: 57, 34: 58, 35: 50, 36: 53, 37: 31, 38: 34, 39: 28, 40: 23, 41: 23, 42: 28, 43: 22, 44: 22, 45: 10, 46: 9, 47: 12, 48: 12, 49: 9, 50: 9, 51: 7, 52: 8, 53: 4, 54: 6, 55: 3, 56: 10, 57: 5, 58: 1, 59: 4, 60: 2, 61: 5, 62: 4, 68: 1, 71: 2, 75: 1, 80: 1}  distinct min-weight paths found=9
+  stage A took 12142s
+done
+bounds appended to results/bounds_exp1.csv
+== stage 1 (bounds) finished Mon Oct 12 17:57:12 UTC 2026
+[212 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~4.29 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 200 shots seed 19603: 27 fails (1470s) -> total 27/200 LER=0.135
+  [mem guard] decoder ~4.28 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 200 shots seed 19803: 39 fails (1455s) -> total 66/400 LER=0.165
+[212 Z p=0.006] end: 66/400  LER=0.165
+[212 Z p=0.005] start: 0/0 failures
+  [mem guard] decoder ~4.29 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 300 shots seed 253: 11 fails (1867s) -> total 11/300 LER=0.0367
+  [mem guard] decoder ~4.28 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 300 shots seed 553: 10 fails (1773s) -> total 21/600 LER=0.035
+  [mem guard] decoder ~4.28 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 300 shots seed 853: 16 fails (1938s) -> total 37/900 LER=0.0411
+[212 Z p=0.005] end: 37/900  LER=0.0411
+[212 Z p=0.004] start: 0/0 failures
+  [mem guard] decoder ~4.29 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 500 shots seed 60920: 6 fails (3303s) -> total 6/500 LER=0.012
+  [mem guard] decoder ~4.28 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 500 shots seed 61420: 1 fails (3365s) -> total 7/1000 LER=0.007
+  [mem guard] decoder ~4.28 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 500 shots seed 61920: 6 fails (3266s) -> total 13/1500 LER=0.00867
+  [mem guard] decoder ~4.28 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 500 shots seed 62420: 2 fails (3251s) -> total 15/2000 LER=0.0075
+  [mem guard] decoder ~4.28 GB, available 46.4 GB, reserve 8.0 GB -> 7 workers (requested 8)
+  batch 500 shots seed 62920: 1 fails (3549s) -> total 16/2500 LER=0.0064
+  [mem guard] decoder ~4.28 GB, available 46.4 GB, reserve 8.0 GB -> 7 workers (requested 8)
+  batch 500 shots seed 63420: 7 fails (3352s) -> total 23/3000 LER=0.00767
+[212 Z p=0.004] end: 23/3000  LER=0.00767  (target 30 NOT reached, max shots)
+[212 X p=0.006] start: 0/0 failures
+  [mem guard] decoder ~4.31 GB, available 46.5 GB, reserve 8.0 GB -> 7 workers (requested 8)
+  batch 200 shots seed 89554: 30 fails (1568s) -> total 30/200 LER=0.15
+[212 X p=0.006] end: 30/200  LER=0.15
+[212 X p=0.005] start: 0/0 failures
+  [mem guard] decoder ~4.31 GB, available 46.5 GB, reserve 8.0 GB -> 7 workers (requested 8)
+  batch 300 shots seed 65820: 19 fails (2104s) -> total 19/300 LER=0.0633
+  [mem guard] decoder ~4.30 GB, available 46.5 GB, reserve 8.0 GB -> 7 workers (requested 8)
+  batch 300 shots seed 66120: 13 fails (2066s) -> total 32/600 LER=0.0533
+[212 X p=0.005] end: 32/600  LER=0.0533
+[212 X p=0.004] start: 0/0 failures
+  [mem guard] decoder ~4.31 GB, available 46.5 GB, reserve 8.0 GB -> 7 workers (requested 8)
+  batch 500 shots seed 84281: 2 fails (3210s) -> total 2/500 LER=0.004
+  [mem guard] decoder ~4.29 GB, available 46.5 GB, reserve 8.0 GB -> 7 workers (requested 8)
+  batch 500 shots seed 84781: 6 fails (3281s) -> total 8/1000 LER=0.008
+  [mem guard] decoder ~4.30 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 500 shots seed 85281: 2 fails (3351s) -> total 10/1500 LER=0.00667
+  [mem guard] decoder ~4.29 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 500 shots seed 85781: 6 fails (3075s) -> total 16/2000 LER=0.008
+  [mem guard] decoder ~4.29 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 500 shots seed 86281: 1 fails (3159s) -> total 17/2500 LER=0.0068
+  [mem guard] decoder ~4.29 GB, available 47.9 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 500 shots seed 86781: 5 fails (3075s) -> total 22/3000 LER=0.00733
+[212 X p=0.004] end: 22/3000  LER=0.00733  (target 30 NOT reached, max shots)
+[212+1307 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~3.91 GB, available 46.3 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 200 shots seed 4918: 32 fails (1386s) -> total 32/200 LER=0.16
+[212+1307 Z p=0.006] end: 32/200  LER=0.16
+[212+1307 Z p=0.005] start: 0/0 failures
+  [mem guard] decoder ~3.91 GB, available 46.2 GB, reserve 8.0 GB -> 8 workers (requested 8)
+  batch 300 shots seed 76979: 14 fails (1811s) -> total 14/300 LER=0.0467
+  [mem guard] decoder ~3.90 GB, available 46.2 GB, reserve 8.0 GB -> 8 workers (requested 8)
+== stopped by user Tue Oct 13 10:02:39 UTC 2026

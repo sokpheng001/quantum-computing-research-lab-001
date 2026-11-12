@@ -1,0 +1,16 @@
+d3a6 182968 {'new': (1, {1: 47424, 2: 135544}), 'new_check': (4, {4: 29220, 5: 20816, 6: 18908, 7: 39280, 8: 34840, 9: 27232, 10: 9504, 11: 3168}), 'old': (1, {1: 47424, 2: 135544}), 'old_zdorm': (1, {1: 47424, 2: 135544})}
+d3a4 38640 {'new': (1, {1: 38640}), 'new_check': (1, {1: 38640}), 'old': (1, {1: 38640}), 'old_zdorm': (1, {1: 38640})}
+G4 {'new': 0, 'new_check': 0, 'old': 0, 'old_zdorm': 0}
+G5 {'new': 0, 'new_check': 0, 'old': 12, 'old_zdorm': 0}
+    old readout: tick=65, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10
+    old readout: tick=65, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10
+    old readout: tick=80, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10
+    old readout: tick=80, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10
+    old readout: tick=120, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10
+    old readout: tick=120, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10
+    old readout: tick=135, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10
+    old readout: tick=135, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10
+    old readout: tick=175, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10
+    old readout: tick=175, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10
+    old readout: tick=190, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10
+    old readout: tick=190, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10

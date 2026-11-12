@@ -1,0 +1,75 @@
+{
+  "1e-03,3,ungrown": {
+    "error": 7.214703719939604e-07,
+    "error_ci95": [
+      6.772448866213474e-07,
+      7.67825535555362e-07
+    ],
+    "discard": 0.31320811049999997,
+    "discard_ci95": [
+      0.31319373751848817,
+      0.31322248375183137
+    ],
+    "kept": 2747167558,
+    "failures": 991,
+    "shots": 4000000000,
+    "stage": "ungrown",
+    "p": 0.001,
+    "d1": 3,
+    "gap_cutoff_db": null,
+    "cpu_seconds": 1598.5370000000012,
+    "target_shots": 4000000000,
+    "complete": true,
+    "paper_value": {
+      "error": 6e-07,
+      "discard": 0.35
+    },
+    "paper_stats_csv": {
+      "shots": 4377310754,
+      "kept": 3006229654,
+      "failures": 1029,
+      "error": 6.845784377323556e-07,
+      "discard": 0.31322452918086796
+    },
+    "ratio_to_paper": 1.202450619989934,
+    "pass": true,
+    "source": "simulated"
+  },
+  "1e-03,3": {
+    "error": 2.085855552764758e-06,
+    "error_ci95": [
+      1.6487824260746073e-06,
+      2.6032417928247076e-06
+    ],
+    "discard": 0.7745629488555533,
+    "discard_ci95": [
+      0.7745179792321041,
+      0.7746079136880641
+    ],
+    "kept": 74789455,
+    "failures": 78,
+    "shots": 331753164,
+    "stage": "end_to_end",
+    "p": 0.001,
+    "d1": 3,
+    "gap_cutoff_db": 69,
+    "cpu_seconds": 256524.27000000162,
+    "target_shots": 350000000,
+    "complete": false,
+    "paper_value": {
+      "error": 3e-06,
+      "discard": 0.8
+    },
+    "paper_stats_csv": {
+      "shots": 1000000000,
+      "kept": 225419907,
+      "failures": 299,
+      "error": 2.652826930675648e-06,
+      "discard": 0.774580093
+    },
+    "ratio_to_paper": 0.6952851842549194,
+    "pass": true,
+    "source": "simulated",
+    "note": "stopped at the 6 h cap before the target shots"
+  }
+}

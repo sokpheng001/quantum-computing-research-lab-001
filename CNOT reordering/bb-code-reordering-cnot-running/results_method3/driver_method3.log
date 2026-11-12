@@ -1,0 +1,237 @@
+== driver_method3 start Sat Oct 17 01:52:00 UTC 2026
+== [[72]] b0 start 2026-10-17 10:52 AM KST
+[[72]] k=12; 1872 valid schedules (Z-first 936); S = #212, S^-1 = #1307
+    [b0] 24/24 units, 0.02 h, ETA 0.0 h
+  B0: d1(S) X-type 6, Z-type 6 (3000 / 3000 trials) -> 6 vs Bravyi 6
+== [[72]] b0 done 2026-10-17 10:53 AM KST
+== [[72]] screen start 2026-10-17 10:53 AM KST
+  screen: 1872 schedules x 2 fault types x 200 trials (d1(S) = 6)
+    [base] 200/3744 units, 0.17 h, ETA 2.9 h
+    [base] 400/3744 units, 0.33 h, ETA 2.7 h
+    [base] 600/3744 units, 0.49 h, ETA 2.5 h
+    [base] 800/3744 units, 0.65 h, ETA 2.4 h
+    [base] 1000/3744 units, 0.81 h, ETA 2.2 h
+    [base] 1200/3744 units, 0.97 h, ETA 2.1 h
+    [base] 1400/3744 units, 1.13 h, ETA 1.9 h
+    [base] 1600/3744 units, 1.30 h, ETA 1.7 h
+    [base] 1800/3744 units, 1.46 h, ETA 1.6 h
+    [base] 2000/3744 units, 1.62 h, ETA 1.4 h
+    [base] 2200/3744 units, 1.78 h, ETA 1.3 h
+    [base] 2400/3744 units, 1.94 h, ETA 1.1 h
+    [base] 2600/3744 units, 2.10 h, ETA 0.9 h
+    [base] 2800/3744 units, 2.26 h, ETA 0.8 h
+    [base] 3000/3744 units, 2.43 h, ETA 0.6 h
+    [base] 3200/3744 units, 2.59 h, ETA 0.4 h
+    [base] 3400/3744 units, 2.75 h, ETA 0.3 h
+    [base] 3600/3744 units, 2.91 h, ETA 0.1 h
+    [base] 3744/3744 units, 3.03 h, ETA 0.0 h
+  round 0: 0 schedules above d1(S) = 6; 0 (schedule, fault type) pairs below 9000 trials
+  screen: d1 histogram {3: 48, 5: 240, 6: 1584}; max 6 reached by 1584 schedules; confirmed above d1(S): 0 []
+== [[72]] screen done 2026-10-17 01:55 PM KST
+== [[90]] b0 start 2026-10-17 01:55 PM KST
+[[90]] k=8; 1872 valid schedules (Z-first 936); S = #212, S^-1 = #1307
+    [b0] 24/24 units, 0.03 h, ETA 0.0 h
+  B0: d1(S) X-type 8, Z-type 8 (3000 / 3000 trials) -> 8 vs Bravyi 8
+== [[90]] b0 done 2026-10-17 01:57 PM KST
+== [[90]] screen start 2026-10-17 01:57 PM KST
+  screen: 1872 schedules x 2 fault types x 200 trials (d1(S) = 8)
+    [base] 200/3744 units, 0.21 h, ETA 3.7 h
+    [base] 400/3744 units, 0.42 h, ETA 3.5 h
+    [base] 600/3744 units, 0.61 h, ETA 3.2 h
+    [base] 800/3744 units, 0.82 h, ETA 3.0 h
+    [base] 1000/3744 units, 1.03 h, ETA 2.8 h
+    [base] 1200/3744 units, 1.23 h, ETA 2.6 h
+    [base] 1400/3744 units, 1.43 h, ETA 2.4 h
+    [base] 1600/3744 units, 1.64 h, ETA 2.2 h
+    [base] 1800/3744 units, 1.84 h, ETA 2.0 h
+    [base] 2000/3744 units, 2.05 h, ETA 1.8 h
+    [base] 2200/3744 units, 2.26 h, ETA 1.6 h
+    [base] 2400/3744 units, 2.46 h, ETA 1.4 h
+    [base] 2600/3744 units, 2.66 h, ETA 1.2 h
+    [base] 2800/3744 units, 2.87 h, ETA 1.0 h
+    [base] 3000/3744 units, 3.07 h, ETA 0.8 h
+    [base] 3200/3744 units, 3.28 h, ETA 0.6 h
+    [base] 3400/3744 units, 3.48 h, ETA 0.4 h
+    [base] 3600/3744 units, 3.69 h, ETA 0.1 h
+    [base] 3744/3744 units, 3.83 h, ETA 0.0 h
+  round 0: 515 schedules above d1(S) = 8; 1030 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/1030 units, 0.52 h, ETA 2.2 h
+    [ext] 400/1030 units, 1.04 h, ETA 1.6 h
+    [ext] 600/1030 units, 1.54 h, ETA 1.1 h
+    [ext] 800/1030 units, 2.05 h, ETA 0.6 h
+    [ext] 1000/1030 units, 2.57 h, ETA 0.1 h
+    [ext] 1030/1030 units, 2.64 h, ETA 0.0 h
+  round 1: 130 schedules above d1(S) = 8; 260 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/260 units, 0.52 h, ETA 0.2 h
+    [ext] 260/260 units, 0.68 h, ETA 0.0 h
+  round 2: 60 schedules above d1(S) = 8; 120 (schedule, fault type) pairs below 9000 trials
+    [ext] 120/120 units, 0.32 h, ETA 0.0 h
+  round 3: 33 schedules above d1(S) = 8; 66 (schedule, fault type) pairs below 9000 trials
+    [ext] 66/66 units, 0.18 h, ETA 0.0 h
+  round 4: 20 schedules above d1(S) = 8; 40 (schedule, fault type) pairs below 9000 trials
+    [ext] 40/40 units, 0.12 h, ETA 0.0 h
+  round 5: 8 schedules above d1(S) = 8; 16 (schedule, fault type) pairs below 9000 trials
+    [ext] 16/16 units, 0.06 h, ETA 0.0 h
+  round 6: 6 schedules above d1(S) = 8; 12 (schedule, fault type) pairs below 9000 trials
+    [ext] 12/12 units, 0.03 h, ETA 0.0 h
+  round 7: 4 schedules above d1(S) = 8; 8 (schedule, fault type) pairs below 9000 trials
+    [ext] 8/8 units, 0.03 h, ETA 0.0 h
+  round 8: 3 schedules above d1(S) = 8; 6 (schedule, fault type) pairs below 9000 trials
+    [ext] 6/6 units, 0.03 h, ETA 0.0 h
+  round 9: 3 schedules above d1(S) = 8; 6 (schedule, fault type) pairs below 9000 trials
+    [ext] 6/6 units, 0.03 h, ETA 0.0 h
+  round 10: 3 schedules above d1(S) = 8; 6 (schedule, fault type) pairs below 9000 trials
+    [ext] 6/6 units, 0.03 h, ETA 0.0 h
+  round 11: 3 schedules above d1(S) = 8; 6 (schedule, fault type) pairs below 9000 trials
+    [ext] 6/6 units, 0.03 h, ETA 0.0 h
+  round 12: 3 schedules above d1(S) = 8; 6 (schedule, fault type) pairs below 9000 trials
+    [ext] 6/6 units, 0.03 h, ETA 0.0 h
+  round 13: 1 schedules above d1(S) = 8; 2 (schedule, fault type) pairs below 9000 trials
+    [ext] 2/2 units, 0.03 h, ETA 0.0 h
+  round 14: 1 schedules above d1(S) = 8; 2 (schedule, fault type) pairs below 9000 trials
+    [ext] 2/2 units, 0.03 h, ETA 0.0 h
+  round 15: 1 schedules above d1(S) = 8; 2 (schedule, fault type) pairs below 9000 trials
+    [ext] 2/2 units, 0.03 h, ETA 0.0 h
+  round 16: 0 schedules above d1(S) = 8; 0 (schedule, fault type) pairs below 9000 trials
+  screen: d1 histogram {6: 30, 7: 62, 8: 1780}; max 8 reached by 1780 schedules; confirmed above d1(S): 0 []
+== [[90]] screen done 2026-10-17 10:05 PM KST
+== [[90]] b3 start 2026-10-17 10:05 PM KST
+  B3: no candidates
+== [[90]] b3 done 2026-10-17 10:05 PM KST
+== [[108]] b0 start 2026-10-17 10:05 PM KST
+[[108]] k=8; 1872 valid schedules (Z-first 936); S = #212, S^-1 = #1307
+    [b0] 24/24 units, 0.04 h, ETA 0.0 h
+  B0: d1(S) X-type 8, Z-type 8 (3000 / 3000 trials) -> 8 vs Bravyi 8
+== [[108]] b0 done 2026-10-17 10:07 PM KST
+== [[108]] screen start 2026-10-17 10:07 PM KST
+  screen: 1872 schedules x 2 fault types x 200 trials (d1(S) = 8)
+    [base] 200/3744 units, 0.25 h, ETA 4.5 h
+    [base] 400/3744 units, 0.50 h, ETA 4.2 h
+    [base] 600/3744 units, 0.74 h, ETA 3.9 h
+    [base] 800/3744 units, 1.00 h, ETA 3.7 h
+    [base] 1000/3744 units, 1.25 h, ETA 3.4 h
+    [base] 1200/3744 units, 1.49 h, ETA 3.2 h
+    [base] 1400/3744 units, 1.74 h, ETA 2.9 h
+    [base] 1600/3744 units, 1.99 h, ETA 2.7 h
+    [base] 1800/3744 units, 2.23 h, ETA 2.4 h
+    [base] 2000/3744 units, 2.48 h, ETA 2.2 h
+    [base] 2200/3744 units, 2.73 h, ETA 1.9 h
+    [base] 2400/3744 units, 2.98 h, ETA 1.7 h
+    [base] 2600/3744 units, 3.23 h, ETA 1.4 h
+    [base] 2800/3744 units, 3.48 h, ETA 1.2 h
+    [base] 3000/3744 units, 3.73 h, ETA 0.9 h
+    [base] 3200/3744 units, 3.97 h, ETA 0.7 h
+    [base] 3400/3744 units, 4.22 h, ETA 0.4 h
+    [base] 3600/3744 units, 4.47 h, ETA 0.2 h
+    [base] 3744/3744 units, 4.65 h, ETA 0.0 h
+  round 0: 1362 schedules above d1(S) = 8; 2724 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/2724 units, 0.63 h, ETA 8.0 h
+    [ext] 400/2724 units, 1.26 h, ETA 7.3 h
+    [ext] 600/2724 units, 1.86 h, ETA 6.6 h
+    [ext] 800/2724 units, 2.49 h, ETA 6.0 h
+    [ext] 1000/2724 units, 3.12 h, ETA 5.4 h
+    [ext] 1200/2724 units, 3.72 h, ETA 4.7 h
+    [ext] 1400/2724 units, 4.35 h, ETA 4.1 h
+    [ext] 1600/2724 units, 4.98 h, ETA 3.5 h
+    [ext] 1800/2724 units, 5.59 h, ETA 2.9 h
+    [ext] 2000/2724 units, 6.21 h, ETA 2.2 h
+    [ext] 2200/2724 units, 6.84 h, ETA 1.6 h
+    [ext] 2400/2724 units, 7.46 h, ETA 1.0 h
+    [ext] 2600/2724 units, 8.07 h, ETA 0.4 h
+    [ext] 2724/2724 units, 28.97 h, ETA 0.0 h
+  round 1: 1003 schedules above d1(S) = 8; 2006 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/2006 units, 1.56 h, ETA 14.1 h
+    [ext] 400/2006 units, 3.13 h, ETA 12.6 h
+    [ext] 600/2006 units, 4.71 h, ETA 11.0 h
+    [ext] 800/2006 units, 5.76 h, ETA 8.7 h
+    [ext] 1000/2006 units, 6.70 h, ETA 6.7 h
+    [ext] 1200/2006 units, 7.50 h, ETA 5.0 h
+    [ext] 1400/2006 units, 8.12 h, ETA 3.5 h
+== stopped by user Mon Oct 19 07:10:36 UTC 2026
+== driver_method3 start Sun Oct 25 07:51:35 UTC 2026
+[[72]] b0: already done
+[[72]] screen: already done
+[[90]] b0: already done
+[[90]] screen: already done
+[[90]] b3: already done
+[[108]] b0: already done
+== [[108]] screen start 2026-10-25 04:51 PM KST
+  screen: 1872 schedules x 2 fault types x 200 trials (d1(S) = 8)
+  round 0: 875 schedules above d1(S) = 8; 1750 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/1750 units, 0.63 h, ETA 4.9 h
+    [ext] 400/1750 units, 1.26 h, ETA 4.3 h
+    [ext] 600/1750 units, 1.87 h, ETA 3.6 h
+    [ext] 800/1750 units, 2.50 h, ETA 3.0 h
+    [ext] 1000/1750 units, 3.13 h, ETA 2.3 h
+    [ext] 1200/1750 units, 3.75 h, ETA 1.7 h
+    [ext] 1400/1750 units, 4.36 h, ETA 1.1 h
+    [ext] 1600/1750 units, 4.99 h, ETA 0.5 h
+    [ext] 1750/1750 units, 5.60 h, ETA 0.0 h
+  round 1: 779 schedules above d1(S) = 8; 1558 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/1558 units, 1.29 h, ETA 8.8 h
+    [ext] 400/1558 units, 2.58 h, ETA 7.5 h
+    [ext] 600/1558 units, 3.80 h, ETA 6.1 h
+    [ext] 800/1558 units, 5.08 h, ETA 4.8 h
+    [ext] 1000/1558 units, 6.04 h, ETA 3.4 h
+    [ext] 1200/1558 units, 6.66 h, ETA 2.0 h
+    [ext] 1400/1558 units, 7.28 h, ETA 0.8 h
+    [ext] 1558/1558 units, 7.76 h, ETA 0.0 h
+  round 2: 721 schedules above d1(S) = 8; 1442 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/1442 units, 0.63 h, ETA 3.9 h
+    [ext] 400/1442 units, 1.26 h, ETA 3.3 h
+    [ext] 600/1442 units, 1.86 h, ETA 2.6 h
+    [ext] 800/1442 units, 2.49 h, ETA 2.0 h
+    [ext] 1000/1442 units, 3.12 h, ETA 1.4 h
+    [ext] 1200/1442 units, 3.74 h, ETA 0.8 h
+    [ext] 1400/1442 units, 4.36 h, ETA 0.1 h
+    [ext] 1442/1442 units, 4.50 h, ETA 0.0 h
+  round 3: 679 schedules above d1(S) = 8; 1358 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/1358 units, 0.63 h, ETA 3.7 h
+    [ext] 400/1358 units, 1.26 h, ETA 3.0 h
+    [ext] 600/1358 units, 1.87 h, ETA 2.4 h
+    [ext] 800/1358 units, 2.49 h, ETA 1.7 h
+    [ext] 1000/1358 units, 3.12 h, ETA 1.1 h
+    [ext] 1200/1358 units, 3.74 h, ETA 0.5 h
+    [ext] 1358/1358 units, 4.24 h, ETA 0.0 h
+  round 4: 654 schedules above d1(S) = 8; 1308 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/1308 units, 0.63 h, ETA 3.5 h
+    [ext] 400/1308 units, 1.26 h, ETA 2.9 h
+    [ext] 600/1308 units, 1.87 h, ETA 2.2 h
+    [ext] 800/1308 units, 2.49 h, ETA 1.6 h
+    [ext] 1000/1308 units, 3.12 h, ETA 1.0 h
+    [ext] 1200/1308 units, 3.74 h, ETA 0.3 h
+    [ext] 1308/1308 units, 4.07 h, ETA 0.0 h
+  round 5: 635 schedules above d1(S) = 8; 1270 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/1270 units, 0.63 h, ETA 3.4 h
+    [ext] 400/1270 units, 1.26 h, ETA 2.7 h
+    [ext] 600/1270 units, 1.87 h, ETA 2.1 h
+    [ext] 800/1270 units, 2.50 h, ETA 1.5 h
+    [ext] 1000/1270 units, 3.13 h, ETA 0.8 h
+    [ext] 1200/1270 units, 3.74 h, ETA 0.2 h
+    [ext] 1270/1270 units, 3.96 h, ETA 0.0 h
+  round 6: 625 schedules above d1(S) = 8; 1250 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/1250 units, 0.63 h, ETA 3.3 h
+    [ext] 400/1250 units, 1.26 h, ETA 2.7 h
+    [ext] 600/1250 units, 1.87 h, ETA 2.0 h
+    [ext] 800/1250 units, 2.50 h, ETA 1.4 h
+    [ext] 1000/1250 units, 3.12 h, ETA 0.8 h
+    [ext] 1200/1250 units, 3.74 h, ETA 0.2 h
+    [ext] 1250/1250 units, 3.91 h, ETA 0.0 h
+  round 7: 622 schedules above d1(S) = 8; 1244 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/1244 units, 0.63 h, ETA 3.3 h
+    [ext] 400/1244 units, 1.26 h, ETA 2.7 h
+    [ext] 600/1244 units, 1.87 h, ETA 2.0 h
+    [ext] 800/1244 units, 2.49 h, ETA 1.4 h
+    [ext] 1000/1244 units, 3.12 h, ETA 0.8 h
+    [ext] 1200/1244 units, 3.74 h, ETA 0.1 h
+    [ext] 1244/1244 units, 3.87 h, ETA 0.0 h
+  round 8: 614 schedules above d1(S) = 8; 1228 (schedule, fault type) pairs below 9000 trials
+    [ext] 200/1228 units, 0.63 h, ETA 3.3 h
+    [ext] 400/1228 units, 1.26 h, ETA 2.6 h
+    [ext] 600/1228 units, 1.87 h, ETA 2.0 h
+    [ext] 800/1228 units, 2.49 h, ETA 1.3 h
+    [ext] 1000/1228 units, 3.12 h, ETA 0.7 h
+    [ext] 1200/1228 units, 3.75 h, ETA 0.1 h
+    [ext] 1228/1228 units, 3.83 h, ETA 0.0 h
+  round 9: 607 schedules above d1(S) = 8; 1214 (schedule, fault type) pairs below 9000 trials
+== stopped by user (./launch.sh stop) Tue Oct 27 02:08:26 UTC 2026

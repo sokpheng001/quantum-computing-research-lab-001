@@ -1,0 +1,568 @@
+{
+ "fig2/cultivation [X] vs G4": {
+  "gates": {
+   "ticks": [
+    57,
+    57
+   ],
+   "trailing_idle_ticks_dropped": [
+    1,
+    0
+   ],
+   "differing_ticks": [],
+   "n_differing_ticks": 0,
+   "identical": true
+  },
+  "with_tags": {
+   "ticks": [
+    57,
+    57
+   ],
+   "trailing_idle_ticks_dropped": [
+    1,
+    0
+   ],
+   "differing_ticks": [],
+   "n_differing_ticks": 0,
+   "identical": true
+  },
+  "detectors": {
+   "n": [
+    14,
+    14
+   ],
+   "same_set": true,
+   "same_order": false,
+   "observables_same": true,
+   "n_observables": [
+    1,
+    1
+   ]
+  },
+  "num_measurements": [
+   18,
+   18
+  ],
+  "cirq_vs_stim": {
+   "qubits": 12,
+   "cz_same": true,
+   "n_cz": [
+    48,
+    48
+   ],
+   "measurement_order_same": true,
+   "n_measurements": 18,
+   "real_T": 7,
+   "real_T_dagger": 7,
+   "real_T_qubits": [
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     7
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     9
+    ]
+   ],
+   "injection_rotation": [
+    [
+     "2*theta",
+     [
+      8,
+      9
+     ]
+    ]
+   ]
+  }
+ },
+ "fig2/cultivation [Z] vs G4": {
+  "gates": {
+   "ticks": [
+    56,
+    57
+   ],
+   "trailing_idle_ticks_dropped": [
+    1,
+    0
+   ],
+   "differing_ticks": [
+    1,
+    27,
+    46,
+    48,
+    50,
+    51,
+    52,
+    55,
+    56
+   ],
+   "n_differing_ticks": 9,
+   "identical": false,
+   "first_difference": {
+    "tick": 1,
+    "released_only": "{('I', '', 5): 1}",
+    "ours_only": "{('S', '', 5): 1}"
+   }
+  },
+  "with_tags": {
+   "ticks": [
+    56,
+    57
+   ],
+   "trailing_idle_ticks_dropped": [
+    1,
+    0
+   ],
+   "differing_ticks": [
+    1,
+    27,
+    46,
+    48,
+    50,
+    51,
+    52,
+    55,
+    56
+   ],
+   "n_differing_ticks": 9,
+   "identical": false
+  },
+  "detectors": {
+   "n": [
+    14,
+    14
+   ],
+   "same_set": true,
+   "same_order": false,
+   "observables_same": true,
+   "n_observables": [
+    1,
+    1
+   ]
+  },
+  "num_measurements": [
+   18,
+   18
+  ],
+  "cirq_vs_stim": {
+   "qubits": 12,
+   "cz_same": true,
+   "n_cz": [
+    48,
+    48
+   ],
+   "measurement_order_same": true,
+   "n_measurements": 18,
+   "real_T": 7,
+   "real_T_dagger": 7,
+   "real_T_qubits": [
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     7
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     9
+    ]
+   ],
+   "injection_rotation": [
+    [
+     "2*theta",
+     [
+      8,
+      9
+     ]
+    ]
+   ]
+  }
+ },
+ "fig3/with_idle_rounds [X] vs G5": {
+  "gates": {
+   "ticks": [
+    216,
+    216
+   ],
+   "trailing_idle_ticks_dropped": [
+    2,
+    0
+   ],
+   "differing_ticks": [],
+   "n_differing_ticks": 0,
+   "identical": true
+  },
+  "with_tags": {
+   "ticks": [
+    216,
+    216
+   ],
+   "trailing_idle_ticks_dropped": [
+    2,
+    0
+   ],
+   "differing_ticks": [],
+   "n_differing_ticks": 0,
+   "identical": true
+  },
+  "detectors": {
+   "n": [
+    49,
+    49
+   ],
+   "same_set": true,
+   "same_order": false,
+   "observables_same": true,
+   "n_observables": [
+    1,
+    1
+   ]
+  },
+  "num_measurements": [
+   54,
+   54
+  ],
+  "cirq_vs_stim": {
+   "qubits": 14,
+   "cz_same": true,
+   "n_cz": [
+    216,
+    216
+   ],
+   "measurement_order_same": true,
+   "n_measurements": 54,
+   "real_T": 21,
+   "real_T_dagger": 21,
+   "real_T_qubits": [
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     5
+    ]
+   ],
+   "injection_rotation": [
+    [
+     "2*theta",
+     [
+      4,
+      5
+     ]
+    ]
+   ]
+  }
+ },
+ "fig4/cultivation_N=2 [X] vs G6": {
+  "gates": {
+   "ticks": [
+    125,
+    125
+   ],
+   "trailing_idle_ticks_dropped": [
+    2,
+    0
+   ],
+   "differing_ticks": [],
+   "n_differing_ticks": 0,
+   "identical": true
+  },
+  "with_tags": {
+   "ticks": [
+    125,
+    125
+   ],
+   "trailing_idle_ticks_dropped": [
+    2,
+    0
+   ],
+   "differing_ticks": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    10,
+    12,
+    15,
+    17,
+    19,
+    21,
+    24,
+    25,
+    27,
+    28,
+    29,
+    30,
+    33,
+    35,
+    40
+   ],
+   "n_differing_ticks": 62,
+   "identical": false
+  },
+  "detectors": {
+   "n": [
+    67,
+    67
+   ],
+   "same_set": true,
+   "same_order": false,
+   "observables_same": true,
+   "n_observables": [
+    1,
+    1
+   ]
+  },
+  "num_measurements": [
+   91,
+   91
+  ],
+  "cirq_vs_stim": {
+   "qubits": 54,
+   "cz_same": true,
+   "n_cz": [
+    325,
+    325
+   ],
+   "measurement_order_same": true,
+   "n_measurements": 91,
+   "real_T": 7,
+   "real_T_dagger": 7,
+   "real_T_qubits": [
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "injection_rotation": [
+    [
+     "2*theta",
+     [
+      5,
+      6
+     ]
+    ]
+   ]
+  }
+ },
+ "fig4/cultivation_N=2 [Z] vs G6": {
+  "gates": {
+   "ticks": [
+    125,
+    125
+   ],
+   "trailing_idle_ticks_dropped": [
+    2,
+    0
+   ],
+   "differing_ticks": [
+    1,
+    27,
+    51,
+    106,
+    109,
+    112,
+    113,
+    115,
+    116,
+    118,
+    120,
+    122,
+    123
+   ],
+   "n_differing_ticks": 13,
+   "identical": false,
+   "first_difference": {
+    "tick": 1,
+    "released_only": "{('I', '', 10): 1}",
+    "ours_only": "{('S', '', 10): 1}"
+   }
+  },
+  "with_tags": {
+   "ticks": [
+    125,
+    125
+   ],
+   "trailing_idle_ticks_dropped": [
+    2,
+    0
+   ],
+   "differing_ticks": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    10,
+    12,
+    15,
+    17,
+    19,
+    21,
+    24,
+    25,
+    27,
+    28,
+    29,
+    30,
+    33,
+    35,
+    40
+   ],
+   "n_differing_ticks": 63,
+   "identical": false
+  },
+  "detectors": {
+   "n": [
+    65,
+    67
+   ],
+   "same_set": false,
+   "same_order": false,
+   "observables_same": false,
+   "n_observables": [
+    1,
+    1
+   ]
+  },
+  "num_measurements": [
+   91,
+   91
+  ],
+  "cirq_vs_stim": {
+   "qubits": 54,
+   "cz_same": true,
+   "n_cz": [
+    325,
+    325
+   ],
+   "measurement_order_same": true,
+   "n_measurements": 91,
+   "real_T": 7,
+   "real_T_dagger": 7,
+   "real_T_qubits": [
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "injection_rotation": [
+    [
+     "2*theta",
+     [
+      5,
+      6
+     ]
+    ]
+   ]
+  }
+ }
+}

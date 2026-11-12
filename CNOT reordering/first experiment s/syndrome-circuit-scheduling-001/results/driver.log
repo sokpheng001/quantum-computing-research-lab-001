@@ -1,0 +1,51 @@
+== driver start Mon Oct 12 03:27:59 UTC 2026
+[212 Z p=0.005] start: 0/24 failures
+  batch 500 shots seed 4064: 30 fails (216s) -> total 30/524 LER=0.0573
+  batch 500 shots seed 4564: 32 fails (199s) -> total 62/1024 LER=0.0605
+[212 Z p=0.005] end: 62/1024  LER=0.0605
+[212 X p=0.005] start: 0/0 failures
+  batch 500 shots seed 68565: 46 fails (200s) -> total 46/500 LER=0.092
+  batch 500 shots seed 69065: 33 fails (199s) -> total 79/1000 LER=0.079
+[212 X p=0.005] end: 79/1000  LER=0.079
+[212 Z p=0.003] start: 0/0 failures
+  batch 2000 shots seed 16212: 9 fails (364s) -> total 9/2000 LER=0.0045
+  batch 2000 shots seed 18212: 7 fails (378s) -> total 16/4000 LER=0.004
+  batch 2000 shots seed 20212: 14 fails (396s) -> total 30/6000 LER=0.005
+  batch 2000 shots seed 22212: 7 fails (406s) -> total 37/8000 LER=0.00462
+  batch 2000 shots seed 24212: 11 fails (383s) -> total 48/10000 LER=0.0048
+  batch 2000 shots seed 26212: 14 fails (381s) -> total 62/12000 LER=0.00517
+[212 Z p=0.003] end: 62/12000  LER=0.00517
+[212 X p=0.003] start: 0/0 failures
+  batch 2000 shots seed 36009: 14 fails (363s) -> total 14/2000 LER=0.007
+  batch 2000 shots seed 38009: 7 fails (343s) -> total 21/4000 LER=0.00525
+  batch 2000 shots seed 40009: 12 fails (323s) -> total 33/6000 LER=0.0055
+  batch 2000 shots seed 42009: 13 fails (352s) -> total 46/8000 LER=0.00575
+  batch 2000 shots seed 44009: 15 fails (323s) -> total 61/10000 LER=0.0061
+[212 X p=0.003] end: 61/10000  LER=0.0061
+[212 Z p=0.008] start: 0/0 failures
+  batch 500 shots seed 82517: 258 fails (342s) -> total 258/500 LER=0.516
+[212 Z p=0.008] end: 258/500  LER=0.516
+[212 X p=0.008] start: 0/0 failures
+  batch 500 shots seed 54504: 281 fails (359s) -> total 281/500 LER=0.562
+[212 X p=0.008] end: 281/500  LER=0.562
+[1307 Z p=0.008] start: 0/0 failures
+  batch 500 shots seed 47790: 269 fails (351s) -> total 269/500 LER=0.538
+[1307 Z p=0.008] end: 269/500  LER=0.538
+[1307 X p=0.008] start: 0/0 failures
+  batch 500 shots seed 89679: 264 fails (354s) -> total 264/500 LER=0.528
+[1307 X p=0.008] end: 264/500  LER=0.528
+[212+1307 Z p=0.008] start: 0/0 failures
+  batch 500 shots seed 52500: 251 fails (321s) -> total 251/500 LER=0.502
+[212+1307 Z p=0.008] end: 251/500  LER=0.502
+[212+1307 X p=0.008] start: 0/0 failures
+  batch 500 shots seed 46629: 260 fails (348s) -> total 260/500 LER=0.52
+[212+1307 X p=0.008] end: 260/500  LER=0.52
+[212 Z p=0.002] start: 0/2000 failures
+  batch 4000 shots seed 20257: 3 fails (415s) -> total 3/6000 LER=0.0005
+  batch 4000 shots seed 24257: 4 fails (428s) -> total 7/10000 LER=0.0007
+  batch 4000 shots seed 28257: 7 fails (417s) -> total 14/14000 LER=0.001
+  batch 4000 shots seed 32257: 4 fails (405s) -> total 18/18000 LER=0.001
+  batch 4000 shots seed 36257: 3 fails (442s) -> total 21/22000 LER=0.000955
+  batch 4000 shots seed 40257: 4 fails (422s) -> total 25/26000 LER=0.000962
+  batch 4000 shots seed 44257: 10 fails (396s) -> total 35/30000 LER=0.00117
+== stopped by user Mon Oct 12 06:13:39 UTC 2026

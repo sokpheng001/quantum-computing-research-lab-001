@@ -1,0 +1,26 @@
+# Python environments and caches
+.venv/
+.venv-tsim/
+venv/
+venv_bravyi/
+__pycache__/
+*.pyc
+.pytest_cache/
+.pycache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Not included in this repository: third-party code (get it from its own repository),
+# Google's data release (Zenodo DOI 10.5281/zenodo.17872003), raw decoder samples.
+**/cliffordea/
+**/Adaptive-qLDPC/
+**/bravyi_ref/
+**/msc-ls-src/
+**/zenodo_17872003/
+**/results/samples/
+*.npz
+CLAUDE.md
+.claude/

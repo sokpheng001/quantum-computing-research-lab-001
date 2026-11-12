@@ -1,0 +1,28 @@
+== Stage A: d_circ bounds, n=72, cycles=6, 600 trials/config split over 12 workers
+  S/Z     : d_circ <= 6  hist={6: 73, 7: 130, 8: 138, 9: 77, 10: 51, 11: 45, 12: 29, 13: 15, 14: 13, 15: 7, 16: 9, 17: 7, 20: 1, 21: 2, 30: 1, 34: 1, 56: 1}  distinct min-weight paths found=58
+  S/X     : d_circ <= 6  hist={6: 82, 7: 93, 8: 91, 9: 63, 10: 40, 11: 29, 12: 24, 13: 26, 14: 17, 15: 17, 16: 17, 17: 14, 18: 11, 19: 9, 20: 8, 21: 7, 22: 6, 23: 6, 24: 3, 25: 6, 26: 5, 27: 4, 28: 3, 29: 2, 30: 3, 31: 1, 32: 2, 37: 1, 38: 1, 39: 2, 40: 2, 41: 1, 42: 1, 44: 1, 55: 1, 57: 1}  distinct min-weight paths found=69
+  Sinv/Z  : d_circ <= 6  hist={6: 73, 7: 99, 8: 108, 9: 69, 10: 44, 11: 29, 12: 24, 13: 19, 14: 30, 15: 18, 16: 15, 17: 12, 18: 3, 19: 6, 20: 11, 21: 4, 22: 5, 23: 3, 24: 2, 25: 3, 26: 1, 27: 3, 28: 1, 29: 2, 30: 2, 31: 1, 32: 2, 33: 1, 34: 1, 38: 1, 39: 1, 41: 1, 44: 1, 46: 1, 51: 2, 53: 1, 63: 1}  distinct min-weight paths found=62
+  Sinv/X  : d_circ <= 6  hist={6: 105, 7: 94, 8: 100, 9: 94, 10: 60, 11: 46, 12: 24, 13: 26, 14: 18, 15: 10, 16: 5, 17: 8, 18: 5, 19: 2, 21: 1, 23: 1, 28: 1}  distinct min-weight paths found=92
+  alt/Z   : d_circ <= 6  hist={6: 84, 7: 95, 8: 131, 9: 83, 10: 61, 11: 40, 12: 21, 13: 19, 14: 18, 15: 16, 16: 8, 17: 6, 18: 3, 19: 2, 20: 2, 21: 2, 22: 3, 24: 2, 27: 1, 28: 1, 31: 1, 50: 1}  distinct min-weight paths found=68
+  alt/X   : d_circ <= 6  hist={6: 87, 7: 95, 8: 96, 9: 60, 10: 67, 11: 39, 12: 31, 13: 20, 14: 25, 15: 20, 16: 18, 17: 10, 18: 6, 19: 6, 20: 3, 21: 3, 22: 2, 23: 2, 24: 2, 26: 1, 29: 1, 30: 1, 34: 1, 36: 1, 38: 1, 40: 2}  distinct min-weight paths found=75
+  stage A took 1135s
+== Stage B: LER, cycles=6, osd_order=7, max_iter=100
+  p=0.0020 S     Z: fails=0/2000 LER=0 [0,0.00192] per-cycle=0 BPconv=0.93 (221s, 1.33s/shot/core)
+  p=0.0020 S     X: fails=4/2000 LER=0.002 [0.000778,0.00513] per-cycle=0.000334 BPconv=0.93 (228s, 1.37s/shot/core)
+  p=0.0020 Sinv  Z: fails=2/2000 LER=0.001 [0.000274,0.00364] per-cycle=0.000167 BPconv=0.94 (201s, 1.20s/shot/core)
+  p=0.0020 Sinv  X: fails=2/2000 LER=0.001 [0.000274,0.00364] per-cycle=0.000167 BPconv=0.94 (196s, 1.18s/shot/core)
+  p=0.0020 alt   Z: fails=0/2000 LER=0 [0,0.00192] per-cycle=0 BPconv=0.91 (225s, 1.35s/shot/core)
+  p=0.0020 alt   X: fails=6/2000 LER=0.003 [0.00138,0.00653] per-cycle=0.000501 BPconv=0.92 (254s, 1.52s/shot/core)
+  p=0.0040 S     Z: fails=33/1500 LER=0.022 [0.0157,0.0307] per-cycle=0.0037 BPconv=0.74 (475s, 3.80s/shot/core)
+  p=0.0040 S     X: fails=31/1500 LER=0.02067 [0.0146,0.0292] per-cycle=0.00347 BPconv=0.77 (436s, 3.48s/shot/core)
+  p=0.0040 Sinv  Z: fails=48/1500 LER=0.032 [0.0242,0.0422] per-cycle=0.00541 BPconv=0.77 (428s, 3.43s/shot/core)
+  p=0.0040 Sinv  X: fails=31/1500 LER=0.02067 [0.0146,0.0292] per-cycle=0.00347 BPconv=0.75 (457s, 3.66s/shot/core)
+  p=0.0040 alt   Z: fails=42/1500 LER=0.028 [0.0208,0.0376] per-cycle=0.00472 BPconv=0.75 (430s, 3.44s/shot/core)
+  p=0.0040 alt   X: fails=32/1500 LER=0.02133 [0.0152,0.03] per-cycle=0.00359 BPconv=0.73 (468s, 3.75s/shot/core)
+  p=0.0060 S     Z: fails=165/1000 LER=0.165 [0.143,0.189] per-cycle=0.0296 BPconv=0.45 (582s, 6.99s/shot/core)
+  p=0.0060 S     X: fails=176/1000 LER=0.176 [0.154,0.201] per-cycle=0.0317 BPconv=0.47 (556s, 6.67s/shot/core)
+  p=0.0060 Sinv  Z: fails=167/1000 LER=0.167 [0.145,0.191] per-cycle=0.03 BPconv=0.46 (563s, 6.76s/shot/core)
+  p=0.0060 Sinv  X: fails=167/1000 LER=0.167 [0.145,0.191] per-cycle=0.03 BPconv=0.44 (567s, 6.81s/shot/core)
+  p=0.0060 alt   Z: fails=177/1000 LER=0.177 [0.155,0.202] per-cycle=0.0319 BPconv=0.45 (540s, 6.48s/shot/core)
+  p=0.0060 alt   X: fails=169/1000 LER=0.169 [0.147,0.193] per-cycle=0.0304 BPconv=0.39 (608s, 7.29s/shot/core)
+done

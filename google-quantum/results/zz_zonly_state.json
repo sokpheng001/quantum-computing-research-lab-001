@@ -1,0 +1,69 @@
+{
+ "settings": {
+  "args": {
+   "out": "results",
+   "workers": 12,
+   "max_flags": 2,
+   "limit": null,
+   "hours": 6.0,
+   "n1": 40,
+   "k1": 8,
+   "n2": 16,
+   "n2_partial": 6,
+   "tag": "zz_zonly",
+   "abstract": false,
+   "stop_per_base": 2,
+   "bases": "Z"
+  },
+  "noise": "uniformly_depolarize",
+  "p": 0.001,
+  "max_fault_count": [
+   2,
+   3
+  ],
+  "readout": "strict",
+  "live_rule": "gate",
+  "final_layer": "auto",
+  "max_degree": 4
+ },
+ "started": "Sun Nov  1 04:06:43 2026",
+ "n_bases_done": 2540,
+ "n_evaluated": 46808,
+ "n_success": 0,
+ "best_non_success": [
+  {
+   "T2": 1,
+   "rate": 1.5497547881002887e-07,
+   "id": 534,
+   "base": "B0021"
+  },
+  {
+   "T2": 1,
+   "rate": 1.5497547881002887e-07,
+   "id": 537,
+   "base": "B0021"
+  },
+  {
+   "T2": 1,
+   "rate": 1.5497557368173392e-07,
+   "id": 297,
+   "base": "B0010"
+  },
+  {
+   "T2": 1,
+   "rate": 1.549755978702e-07,
+   "id": 64,
+   "base": "B0001"
+  },
+  {
+   "T2": 1,
+   "rate": 1.549755978702e-07,
+   "id": 72,
+   "base": "B0001"
+  }
+ ],
+ "elapsed_s": 2397.514140367508,
+ "n_bases_queued": 2540,
+ "stop_reason": "design space exhausted",
+ "finished": "Sun Nov  1 04:46:41 2026"
+}

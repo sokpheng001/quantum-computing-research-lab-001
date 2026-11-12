@@ -1,0 +1,18 @@
+{
+ "base": "d5a19",
+ "target_fault_distance": 4,
+ "n_targets": 3,
+ "n_sites": 4,
+ "n_options": 4,
+ "coverable_targets": 2,
+ "uncoverable": [
+  [
+   144,
+   151,
+   442
+  ]
+ ],
+ "results": [],
+ "success": false,
+ "runtime_s": 0.2
+}

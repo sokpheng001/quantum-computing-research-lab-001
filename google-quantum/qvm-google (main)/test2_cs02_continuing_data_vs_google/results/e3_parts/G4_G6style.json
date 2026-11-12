@@ -1,0 +1,211 @@
+{
+ "info": {
+  "faults": 150,
+  "events": 952,
+  "malignant2": 7,
+  "all_pairs": 11175
+ },
+ "summary": {
+  "single": {
+   "n": 952,
+   "agree": 952,
+   "signature_agree": 952,
+   "accept_agree": 952,
+   "nondeterministic": 0,
+   "real": {
+    "rejected": 898,
+    "benign": 54
+   },
+   "cliffordea": {
+    "rejected": 898,
+    "benign": 54
+   },
+   "disagreements": []
+  },
+  "malignant2": {
+   "n": 7,
+   "agree": 7,
+   "signature_agree": 7,
+   "accept_agree": 7,
+   "nondeterministic": 0,
+   "real": {
+    "malignant": 7
+   },
+   "cliffordea": {
+    "malignant": 7
+   },
+   "disagreements": []
+  },
+  "all2": {
+   "n": 11175,
+   "agree": 11175,
+   "signature_agree": 11175,
+   "accept_agree": 11175,
+   "nondeterministic": 0,
+   "real": {
+    "rejected": 11127,
+    "benign": 41,
+    "malignant": 7
+   },
+   "cliffordea": {
+    "rejected": 11127,
+    "benign": 41,
+    "malignant": 7
+   },
+   "disagreements": []
+  },
+  "random2": {
+   "n": 2000,
+   "agree": 2000,
+   "signature_agree": 2000,
+   "accept_agree": 2000,
+   "nondeterministic": 0,
+   "real": {
+    "rejected": 1987,
+    "malignant": 1,
+    "benign": 12
+   },
+   "cliffordea": {
+    "rejected": 1987,
+    "malignant": 1,
+    "benign": 12
+   },
+   "disagreements": []
+  }
+ },
+ "malignant2_rows": [
+  {
+   "cfg": [
+    8,
+    126
+   ],
+   "events": [
+    "(1, 'X_ERROR', ((2, ''),))",
+    "(17, 'E', ((3, 'Y'), (4, 'X')))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.250000002234691,
+   "fid_given_code": 1.1519094367560372e-14,
+   "accept_agree": true
+  },
+  {
+   "cfg": [
+    8,
+    137
+   ],
+   "events": [
+    "(1, 'X_ERROR', ((2, ''),))",
+    "(17, 'E', ((9, 'X'), (10, 'Y')))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.24999998914366872,
+   "fid_given_code": 1.2665413656058505e-15,
+   "accept_agree": true
+  },
+  {
+   "cfg": [
+    47,
+    116
+   ],
+   "events": [
+    "(5, 'X_ERROR', ((4, ''),))",
+    "(15, 'E', ((8, 'X'), (9, 'X')))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.25000000146314844,
+   "fid_given_code": 6.539058034391082e-15,
+   "accept_agree": true
+  },
+  {
+   "cfg": [
+    47,
+    149
+   ],
+   "events": [
+    "(5, 'X_ERROR', ((4, ''),))",
+    "(19, 'E', ((2, 'Y'), (6, 'X')))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.24999998975541363,
+   "fid_given_code": 2.940653310566698e-15,
+   "accept_agree": true
+  },
+  {
+   "cfg": [
+    58,
+    118
+   ],
+   "events": [
+    "(5, 'X_ERROR', ((5, ''),))",
+    "(15, 'Y_ERROR', ((8, ''),))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.2500000033919803,
+   "fid_given_code": 1.3371139984280631e-14,
+   "accept_agree": true
+  },
+  {
+   "cfg": [
+    67,
+    149
+   ],
+   "events": [
+    "(5, 'X_ERROR', ((9, ''),))",
+    "(19, 'E', ((2, 'Y'), (6, 'X')))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.2499999862698229,
+   "fid_given_code": 7.186457402253795e-15,
+   "accept_agree": true
+  },
+  {
+   "cfg": [
+    113,
+    149
+   ],
+   "events": [
+    "(15, 'X_ERROR', ((9, ''),))",
+    "(19, 'E', ((2, 'Y'), (6, 'X')))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.24999999348071433,
+   "fid_given_code": 7.401564979552785e-15,
+   "accept_agree": true
+  }
+ ]
+}

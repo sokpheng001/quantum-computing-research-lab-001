@@ -1,0 +1,70 @@
+{
+ "name": "d5a19f3",
+ "label": "Chan et al., 3 flags",
+ "geometry": {
+  "qubits": 41,
+  "two_qubit_gates": 86,
+  "data": 19,
+  "non_neighbour_gates": 6,
+  "non_neighbour_pairs": 3,
+  "max_partners": 5,
+  "over_4_partners": 2
+ },
+ "counts": {
+  "T": {
+   "0": {
+    "benign": 1,
+    "malignant": 0
+   },
+   "1": {
+    "benign": 2,
+    "malignant": 0
+   },
+   "2": {
+    "benign": 25,
+    "malignant": 0
+   },
+   "3": {
+    "benign": 2019,
+    "malignant": 0
+   },
+   "4": {
+    "benign": 45003,
+    "malignant": 335
+   }
+  },
+  "S": {
+   "0": {
+    "benign": 1,
+    "malignant": 0
+   },
+   "1": {
+    "benign": 2,
+    "malignant": 0
+   },
+   "2": {
+    "benign": 25,
+    "malignant": 0
+   },
+   "3": {
+    "benign": 1974,
+    "malignant": 0
+   },
+   "4": {
+    "benign": 42646,
+    "malignant": 0
+   }
+  }
+ },
+ "fault_count": 500,
+ "error_rate_per_kept_shot_p01": {
+  "T": 2.867458460073532e-10,
+  "S": 0.0
+ },
+ "fault_distance": {
+  "T": 4,
+  "S": null
+ },
+ "max_faults": 4,
+ "runtime_s": 1.2
+}

@@ -1,0 +1,20 @@
+E1 G4_G6style {'fault_locations': 150, 'malignant_T_pairs': 7, 'malignant_T_single': 0, 'malignant_S_pairs': 0, 'malignant_S_single': 0}
+E1 cont_success02 {'fault_locations': 162, 'malignant_T_pairs': 0, 'malignant_T_single': 0, 'malignant_S_pairs': 0, 'malignant_S_single': 0}
+E2 (8, 126) ['time slice 1: X on q2', 'time slice 17: Y3 X4'] silent 1.0 fires [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+E2 (8, 137) ['time slice 1: X on q2', 'time slice 17: X9 Y10'] silent 1.0 fires [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+E2 (47, 116) ['time slice 5: X on q4', 'time slice 15: X8 X9'] silent 1.0 fires [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+E2 (47, 149) ['time slice 5: X on q4', 'time slice 19: Y2 X6'] silent 1.0 fires [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+E2 (58, 118) ['time slice 5: X on q5', 'time slice 15: Y on q8'] silent 1.0 fires [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+E2 (67, 149) ['time slice 5: X on q9', 'time slice 19: Y2 X6'] silent 1.0 fires [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+E2 (113, 149) ['time slice 15: X on q9', 'time slice 19: Y2 X6'] silent 1.0 fires [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+E3 cont_success02 162 6 0
+E3 cs02_noflagdet 141 4 6
+E3 cs02_noflags 137 6 5
+E4 ['time slice 1: X on q1', 'time slice 22: X3 Y5'] silent all 0.0 silent no-flag 1.0 caught by ['ZZ flag F10', 'X flag F11']
+E4 ['time slice 1: X on q4', 'time slice 22: X7 Y9'] silent all 0.0 silent no-flag 1.0 caught by ['ZZ flag F10']
+E4 ['time slice 5: X on q0', 'time slice 22: X3 Y5'] silent all 0.0 silent no-flag 1.0 caught by ['ZZ flag F10', 'X flag F11']
+E4 ['time slice 5: X on q10', 'time slice 18: X on q2'] silent all 0.0 silent no-flag 1.0 caught by ['X flag F11']
+E4 ['time slice 7: X on q3', 'time slice 24: X0 Y1'] silent all 0.0 silent no-flag 1.0 caught by ['ZZ flag F10']
+E4 ['time slice 7: X on q7', 'time slice 24: X3 Y4'] silent all 0.0 silent no-flag 1.0 caught by ['ZZ flag F10']
+written /home/ubuntu/quantum001-PKNU-Lab/google-quantum/qvm-google (main)/test7_d3_cs02_vs_google_noise_sweep_chip_positions/results/mechanism/mechanism.json
+[2026-11-11 06:37 PM KST] mechanism finished, exit 0

@@ -1,0 +1,187 @@
+== driver_partner start Fri Oct 16 15:50:10 UTC 2026
+== [[72]] stage 0 start 2026-10-16 15:50:11.445025
+[[72]] l=6 m=6: n=72 k=12 Hx Hz^T = 0: True
+  S noiseless detectors all zero (both bases): {2: True, 6: True}
+  [workers] RAM 3.7/49.3 GB used -> 12 workers (asked 12)
+  bounds [stage0] 1 circuits: 0 chunks on file, 60 to run (100 trials each)
+    20/60 chunks, 0.16 h, ETA 0.3 h  (last: 212 Z 6c seed 4 chunk 0: min 6)
+    40/60 chunks, 0.30 h, ETA 0.2 h  (last: 212 Z 6c seed 4 chunk 1: min 6)
+    60/60 chunks, 0.44 h, ETA 0.0 h  (last: 212 X 6c seed 5 chunk 2: min 6)
+  S after 300 trials/seed: min 6 (target 6)
+  Stage 0 PASS: S min = 6 = Bravyi (300 trials/seed x 5 seeds x 2 bases x cycles 4,6)
+== [[72]] stage 0 done 2026-10-16 16:16:21.947494
+== [[72]] stage 1 start 2026-10-16 16:16:23.928947
+  valid schedules: 1872 (Z-first 936, X-first 936); stim rejects among them: 0
+  ids: {'S': 212, 'Sinv': 1307, 'Smirror': 676}; their time-reverse ids: {'S': 1307, 'Sinv': 212, 'Smirror': 1787}
+== [[72]] stage 1 done 2026-10-16 16:23:02.992541
+== [[72]] stage 2 start 2026-10-16 16:23:05.134237
+  S weight-6 sets, basis X, 4 cycles: 122 sets in 22 families; spans Counter({1: 22})
+  S weight-6 sets, basis X, 6 cycles: 134 sets in 26 families; spans Counter({1: 26})
+  S weight-6 sets, basis Z, 4 cycles: 136 sets in 19 families; spans Counter({1: 19})
+  S weight-6 sets, basis Z, 6 cycles: 139 sets in 23 families; spans Counter({1: 23})
+  S weight-7 sets, basis X, 4 cycles: 139 sets in 122 families; spans Counter({1: 112, 2: 10})
+  S weight-7 sets, basis X, 6 cycles: 161 sets in 141 families; spans Counter({1: 135, 2: 6})
+  S weight-7 sets, basis Z, 4 cycles: 151 sets in 121 families; spans Counter({1: 117, 2: 4})
+  S weight-7 sets, basis Z, 6 cycles: 196 sets in 174 families; spans Counter({1: 168, 2: 6})
+  Stage 2: 531 distinct weight-6 sets, 90 families
+== [[72]] stage 2 done 2026-10-16 16:23:07.326242
+== [[72]] stage 3 start 2026-10-16 16:23:09.336982
+  Stage 3: 1871 partners (S excluded), 0 on file, 1871 to screen
+  families: {'min': 90, 'next': 558}
+  sanity alt[S,S]: {'survives': 89, 'broken': 1}
+  [workers] RAM 1.1/49.3 GB used -> 12 workers (asked 12)
+    100/1871 partners, 0.6 min, ETA 10.5 min
+    200/1871 partners, 1.0 min, ETA 8.3 min
+    300/1871 partners, 1.4 min, ETA 7.2 min
+    400/1871 partners, 1.8 min, ETA 6.5 min
+    500/1871 partners, 2.2 min, ETA 5.9 min
+    600/1871 partners, 2.6 min, ETA 5.4 min
+    700/1871 partners, 3.0 min, ETA 4.9 min
+    800/1871 partners, 3.4 min, ETA 4.5 min
+    900/1871 partners, 3.7 min, ETA 4.0 min
+    1000/1871 partners, 4.1 min, ETA 3.6 min
+    1100/1871 partners, 4.5 min, ETA 3.2 min
+    1200/1871 partners, 5.0 min, ETA 2.8 min
+    1300/1871 partners, 5.5 min, ETA 2.4 min
+    1400/1871 partners, 5.9 min, ETA 2.0 min
+    1500/1871 partners, 6.3 min, ETA 1.6 min
+    1600/1871 partners, 6.7 min, ETA 1.1 min
+    1700/1871 partners, 7.1 min, ETA 0.7 min
+    1800/1871 partners, 7.5 min, ETA 0.3 min
+    1871/1871 partners, 7.7 min, ETA 0.0 min
+  Stage 3 scores (number of S weight-6 families still undetected+logical, of 90): {89: 1871}
+  score 0: 0 partners []; S^-1 (1307) score 89, S_mirror (676) score 89
+  stage-4 survivors: [0, 208, 417, 624, 832, 1040, 1248, 1455, 1663, 1871]
+== [[72]] stage 3 done 2026-10-16 16:31:01.739168
+== [[72]] stage 4 start 2026-10-16 16:31:04.405978
+  Stage 4 circuits: ['212', '1307', '676', '212+1307', '212+676', '212+0', '212+208', '212+417', '212+624', '212+832', '212+1040', '212+1248', '212+1455', '212+1663', '212+1871']
+  [workers] RAM 1.3/49.3 GB used -> 12 workers (asked 12)
+  bounds [stage4] 15 circuits: 0 chunks on file, 900 to run (100 trials each)
+    20/900 chunks, 0.10 h, ETA 4.2 h  (last: 212+832 X 4c seed 1 chunk 0: min 6)
+    40/900 chunks, 0.25 h, ETA 5.4 h  (last: 212+676 X 6c seed 1 chunk 0: min 6)
+    60/900 chunks, 0.40 h, ETA 5.7 h  (last: 676 Z 4c seed 2 chunk 0: min 6)
+    80/900 chunks, 0.49 h, ETA 5.0 h  (last: 212+832 X 4c seed 2 chunk 0: min 6)
+    100/900 chunks, 0.62 h, ETA 5.0 h  (last: 212+676 Z 6c seed 2 chunk 0: min 6)
+    120/900 chunks, 0.78 h, ETA 5.0 h  (last: 676 Z 4c seed 3 chunk 0: min 6)
+    140/900 chunks, 0.86 h, ETA 4.7 h  (last: 212+832 X 4c seed 3 chunk 0: min 6)
+    160/900 chunks, 1.02 h, ETA 4.7 h  (last: 212+0 Z 6c seed 3 chunk 0: min 3)
+    180/900 chunks, 1.18 h, ETA 4.7 h  (last: 676 X 4c seed 4 chunk 0: min 6)
+    200/900 chunks, 1.25 h, ETA 4.4 h  (last: 212+832 X 4c seed 4 chunk 0: min 6)
+    220/900 chunks, 1.39 h, ETA 4.3 h  (last: 212+676 Z 6c seed 4 chunk 0: min 6)
+    240/900 chunks, 1.55 h, ETA 4.3 h  (last: 676 X 4c seed 5 chunk 0: min 6)
+    260/900 chunks, 1.63 h, ETA 4.0 h  (last: 212+832 X 4c seed 5 chunk 0: min 6)
+    280/900 chunks, 1.77 h, ETA 3.9 h  (last: 212+676 X 6c seed 5 chunk 0: min 6)
+    300/900 chunks, 1.94 h, ETA 3.9 h  (last: 676 X 4c seed 1 chunk 1: min 6)
+    320/900 chunks, 2.01 h, ETA 3.6 h  (last: 212+832 Z 4c seed 1 chunk 1: min 6)
+    340/900 chunks, 2.15 h, ETA 3.5 h  (last: 212+676 Z 6c seed 1 chunk 1: min 6)
+    360/900 chunks, 2.31 h, ETA 3.5 h  (last: 676 X 4c seed 2 chunk 1: min 6)
+    380/900 chunks, 2.39 h, ETA 3.3 h  (last: 212+1040 Z 4c seed 2 chunk 1: min 6)
+    400/900 chunks, 2.53 h, ETA 3.2 h  (last: 212+676 X 6c seed 2 chunk 1: min 6)
+    420/900 chunks, 2.69 h, ETA 3.1 h  (last: 676 X 4c seed 3 chunk 1: min 6)
+    440/900 chunks, 2.77 h, ETA 2.9 h  (last: 212+1040 Z 4c seed 3 chunk 1: min 6)
+    460/900 chunks, 2.91 h, ETA 2.8 h  (last: 212+676 X 6c seed 3 chunk 1: min 6)
+    480/900 chunks, 3.07 h, ETA 2.7 h  (last: 676 X 4c seed 4 chunk 1: min 6)
+    500/900 chunks, 3.15 h, ETA 2.5 h  (last: 212+832 X 4c seed 4 chunk 1: min 6)
+    520/900 chunks, 3.28 h, ETA 2.4 h  (last: 212+676 X 6c seed 4 chunk 1: min 6)
+    540/900 chunks, 3.44 h, ETA 2.3 h  (last: 676 X 4c seed 5 chunk 1: min 6)
+    560/900 chunks, 3.53 h, ETA 2.1 h  (last: 212+832 X 4c seed 5 chunk 1: min 6)
+    580/900 chunks, 3.66 h, ETA 2.0 h  (last: 212+676 X 6c seed 5 chunk 1: min 6)
+    600/900 chunks, 3.82 h, ETA 1.9 h  (last: 676 X 4c seed 1 chunk 2: min 6)
+    620/900 chunks, 3.90 h, ETA 1.8 h  (last: 212+1040 Z 4c seed 1 chunk 2: min 6)
+    640/900 chunks, 4.04 h, ETA 1.6 h  (last: 212+0 Z 6c seed 1 chunk 2: min 3)
+    660/900 chunks, 4.20 h, ETA 1.5 h  (last: 676 X 4c seed 2 chunk 2: min 6)
+    680/900 chunks, 4.27 h, ETA 1.4 h  (last: 212+832 X 4c seed 2 chunk 2: min 6)
+    700/900 chunks, 4.41 h, ETA 1.3 h  (last: 212+676 Z 6c seed 2 chunk 2: min 6)
+    720/900 chunks, 4.57 h, ETA 1.1 h  (last: 676 X 4c seed 3 chunk 2: min 6)
+    740/900 chunks, 4.65 h, ETA 1.0 h  (last: 212+1040 Z 4c seed 3 chunk 2: min 6)
+    760/900 chunks, 4.79 h, ETA 0.9 h  (last: 212+676 Z 6c seed 3 chunk 2: min 6)
+    780/900 chunks, 4.94 h, ETA 0.8 h  (last: 676 X 4c seed 4 chunk 2: min 6)
+    800/900 chunks, 5.02 h, ETA 0.6 h  (last: 212+832 X 4c seed 4 chunk 2: min 6)
+    820/900 chunks, 5.16 h, ETA 0.5 h  (last: 212+676 Z 6c seed 4 chunk 2: min 6)
+    840/900 chunks, 5.32 h, ETA 0.4 h  (last: 676 X 4c seed 5 chunk 2: min 6)
+    860/900 chunks, 5.39 h, ETA 0.3 h  (last: 212+832 X 4c seed 5 chunk 2: min 6)
+    880/900 chunks, 5.54 h, ETA 0.1 h  (last: 212+676 X 6c seed 5 chunk 2: min 6)
+    900/900 chunks, 5.72 h, ETA 0.0 h  (last: 212+1871 X 6c seed 5 chunk 2: min 6)
+    212          min 6  exact self-check of its min sets ok/bad (531, 0)
+    1307         min 6  exact self-check of its min sets ok/bad (540, 0)
+    676          min 6  exact self-check of its min sets ok/bad (604, 0)
+    212+1307     min 6  exact self-check of its min sets ok/bad (564, 0)  cross {'alt_to_S': {'survives': 505, 'broken': 59}, 'S_to_alt': {'survives': 530, 'broken': 1}}
+    212+676      min 6  exact self-check of its min sets ok/bad (579, 0)  cross {'alt_to_S': {'survives': 523, 'broken': 56}, 'S_to_alt': {'survives': 530, 'broken': 1}}
+    212+0        min 3  exact self-check of its min sets ok/bad (116, 0)  cross {'alt_to_S': {'detected': 116}, 'S_to_alt': {'survives': 530, 'broken': 1}}
+    212+208      min 3  exact self-check of its min sets ok/bad (115, 0)  cross {'alt_to_S': {'detected': 115}, 'S_to_alt': {'survives': 530, 'detected': 1}}
+    212+417      min 3  exact self-check of its min sets ok/bad (177, 0)  cross {'alt_to_S': {'detected': 177}, 'S_to_alt': {'survives': 530, 'broken': 1}}
+    212+624      min 6  exact self-check of its min sets ok/bad (569, 0)  cross {'alt_to_S': {'survives': 502, 'broken': 67}, 'S_to_alt': {'survives': 530, 'broken': 1}}
+    212+832      min 6  exact self-check of its min sets ok/bad (510, 0)  cross {'alt_to_S': {'survives': 469, 'broken': 41}, 'S_to_alt': {'survives': 530, 'broken': 1}}
+    212+1040     min 6  exact self-check of its min sets ok/bad (533, 0)  cross {'alt_to_S': {'survives': 494, 'broken': 39}, 'S_to_alt': {'survives': 530, 'broken': 1}}
+    212+1248     min 6  exact self-check of its min sets ok/bad (609, 0)  cross {'alt_to_S': {'survives': 499, 'broken': 110}, 'S_to_alt': {'survives': 530, 'broken': 1}}
+    212+1455     min 6  exact self-check of its min sets ok/bad (593, 0)  cross {'alt_to_S': {'survives': 525, 'detected': 67, 'broken': 1}, 'S_to_alt': {'survives': 530, 'broken': 1}}
+    212+1663     min 5  exact self-check of its min sets ok/bad (104, 0)  cross {'alt_to_S': {'broken': 104}, 'S_to_alt': {'survives': 530, 'broken': 1}}
+    212+1871     min 6  exact self-check of its min sets ok/bad (554, 0)  cross {'alt_to_S': {'survives': 490, 'detected': 64}, 'S_to_alt': {'survives': 530, 'broken': 1}}
+  Stage 4: S min 6; circuits that beat S: none
+== [[72]] stage 4 done 2026-10-16 22:16:09.075878
+== [[72]] stage control start 2026-10-16 22:16:12.721125
+  control: S=6 True; every alt <= 6 True {'212+1307': 6, '212+676': 6, '212+0': 3, '212+208': 3, '212+417': 3, '212+624': 6, '212+832': 6, '212+1040': 6, '212+1248': 6, '212+1455': 6, '212+1663': 5, '212+1871': 6}; agrees with 001 True {'S': 6, 'Sinv': 6, 'alt': 6}; partners catching all S weight-6 families in Stage 3: 0
+== [[72]] stage control done 2026-10-16 22:16:12.722741
+== [[90]] stage 0 start 2026-10-16 22:16:16.019398
+[[90]] l=15 m=3: n=90 k=8 Hx Hz^T = 0: True
+  S noiseless detectors all zero (both bases): {2: True, 6: True}
+  [workers] RAM 1.2/49.3 GB used -> 12 workers (asked 12)
+  bounds [stage0] 1 circuits: 0 chunks on file, 120 to run (100 trials each)
+    20/120 chunks, 0.22 h, ETA 1.1 h  (last: 212 Z 6c seed 4 chunk 0: min 8)
+    40/120 chunks, 0.43 h, ETA 0.9 h  (last: 212 X 4c seed 2 chunk 2: min 10)
+    60/120 chunks, 0.59 h, ETA 0.6 h  (last: 212 X 4c seed 2 chunk 3: min 10)
+    80/120 chunks, 0.78 h, ETA 0.4 h  (last: 212 Z 6c seed 4 chunk 3: min 9)
+    100/120 chunks, 0.96 h, ETA 0.2 h  (last: 212 X 6c seed 4 chunk 4: min 10)
+    120/120 chunks, 1.18 h, ETA 0.0 h  (last: 212 X 6c seed 5 chunk 5: min 11)
+  S after 600 trials/seed: min 8 (target 8)
+  Stage 0 PASS: S min = 8 = Bravyi (600 trials/seed x 5 seeds x 2 bases x cycles 4,6)
+== [[90]] stage 0 done 2026-10-16 23:27:07.618970
+== [[90]] stage 1 start 2026-10-16 23:27:10.886286
+  valid schedules: 1872 (Z-first 936, X-first 936); stim rejects among them: 0
+  ids: {'S': 212, 'Sinv': 1307, 'Smirror': 676}; their time-reverse ids: {'S': 1307, 'Sinv': 212, 'Smirror': 1787}
+== [[90]] stage 1 done 2026-10-16 23:36:11.188062
+== [[90]] stage 2 start 2026-10-16 23:36:14.659000
+  S weight-8 sets, basis Z, 4 cycles: 4 sets in 3 families; spans Counter({1: 3})
+  S weight-8 sets, basis Z, 6 cycles: 9 sets in 6 families; spans Counter({2: 3, 1: 3})
+  S weight-9 sets, basis X, 6 cycles: 4 sets in 4 families; spans Counter({1: 4})
+  S weight-9 sets, basis Z, 4 cycles: 22 sets in 21 families; spans Counter({1: 15, 2: 6})
+  S weight-9 sets, basis Z, 6 cycles: 17 sets in 16 families; spans Counter({1: 13, 2: 3})
+  Stage 2: 13 distinct weight-8 sets, 9 families
+== [[90]] stage 2 done 2026-10-16 23:36:15.760710
+== [[90]] stage 3 start 2026-10-16 23:36:19.044301
+  Stage 3: 1871 partners (S excluded), 0 on file, 1871 to screen
+  families: {'min': 9, 'next': 41}
+  sanity alt[S,S]: {'survives': 6, 'broken': 3}
+  [workers] RAM 1.1/49.3 GB used -> 12 workers (asked 12)
+    100/1871 partners, 0.3 min, ETA 5.4 min
+    200/1871 partners, 0.5 min, ETA 4.2 min
+    300/1871 partners, 0.7 min, ETA 3.7 min
+    400/1871 partners, 0.9 min, ETA 3.4 min
+    500/1871 partners, 1.1 min, ETA 3.1 min
+    600/1871 partners, 1.3 min, ETA 2.8 min
+    700/1871 partners, 1.5 min, ETA 2.5 min
+    800/1871 partners, 1.7 min, ETA 2.3 min
+    900/1871 partners, 1.9 min, ETA 2.1 min
+    1000/1871 partners, 2.1 min, ETA 1.9 min
+    1100/1871 partners, 2.4 min, ETA 1.7 min
+    1200/1871 partners, 2.6 min, ETA 1.5 min
+    1300/1871 partners, 2.8 min, ETA 1.2 min
+    1400/1871 partners, 3.0 min, ETA 1.0 min
+    1500/1871 partners, 3.2 min, ETA 0.8 min
+    1600/1871 partners, 3.4 min, ETA 0.6 min
+    1700/1871 partners, 3.7 min, ETA 0.4 min
+    1800/1871 partners, 3.9 min, ETA 0.2 min
+    1871/1871 partners, 4.0 min, ETA 0.0 min
+  Stage 3 scores (number of S weight-8 families still undetected+logical, of 9): {6: 1871}
+  score 0: 0 partners []; S^-1 (1307) score 6, S_mirror (676) score 6
+  stage-4 survivors: [0, 208, 417, 624, 832, 1040, 1248, 1455, 1663, 1871]
+== [[90]] stage 3 done 2026-10-16 23:40:24.878306
+== [[90]] stage 4 start 2026-10-16 23:40:28.497792
+  Stage 4 circuits: ['212', '1307', '676', '212+1307', '212+676', '212+0', '212+208', '212+417', '212+624', '212+832', '212+1040', '212+1248', '212+1455', '212+1663', '212+1871']
+  [workers] RAM 1.1/49.3 GB used -> 12 workers (asked 12)
+  bounds [stage4] 15 circuits: 0 chunks on file, 1800 to run (100 trials each)
+    20/1800 chunks, 0.14 h, ETA 12.5 h  (last: 212+624 Z 4c seed 1 chunk 0: min 8)
+    40/1800 chunks, 0.36 h, ETA 15.8 h  (last: 212+676 X 6c seed 1 chunk 0: min 10)
+    60/1800 chunks, 0.58 h, ETA 16.9 h  (last: 212+1663 Z 6c seed 1 chunk 0: min 8)
+    80/1800 chunks, 0.71 h, ETA 15.3 h  (last: 212+832 X 4c seed 2 chunk 0: min 10)
+== stopped by user (./launch.sh stop) Sat Oct 17 00:34:00 UTC 2026

@@ -1,0 +1,187 @@
+{
+ "state_at_tick31": {
+  "X(0, 3, 10, 11)": 1,
+  "X(2, 3, 8, 10)": 1,
+  "X(5, 8, 10, 11)": 1,
+  "Z(0, 3, 10, 11)": 1,
+  "Z(2, 3, 8, 10)": 1,
+  "Z(5, 8, 10, 11)": 1,
+  "X_L": 1,
+  "Z_L": 0,
+  "Z1": 1,
+  "Z4": 1,
+  "Z6": 1,
+  "Z7": 1,
+  "Z9": 1
+ },
+ "code": {
+  "data_indices": [
+   0,
+   2,
+   3,
+   5,
+   8,
+   10,
+   11
+  ],
+  "stabilizers": [
+   [
+    0,
+    3,
+    10,
+    11
+   ],
+   [
+    2,
+    3,
+    8,
+    10
+   ],
+   [
+    5,
+    8,
+    10,
+    11
+   ]
+  ],
+  "logical_s": [
+   "S 0 2 5 10",
+   "S_DAG 3 8 11"
+  ],
+  "relabelling_to_d3a6": {
+   "0": 0,
+   "2": 7,
+   "3": 3,
+   "5": 11,
+   "8": 10,
+   "10": 5,
+   "11": 8
+  },
+  "same_code_as_d3a6": true,
+  "stabilizers_match_simulated_state": true
+ },
+ "mid_M9_measures": "+X_XXZXZ_XZXX",
+ "mid_M6_measures": "+_______Z____",
+ "unfold_is_fold_inverse_up_to_H_1_4_6_9": true,
+ "flows_exist": {
+  "G4 segment (TICKs 26-56)": {
+   "X_L -> rec": true,
+   "X0 -> X0": true,
+   "X2 -> X2": true,
+   "X3 -> X3": true,
+   "X5 -> X5": true,
+   "X8 -> X8": true,
+   "X10 -> X10": true,
+   "X11 -> X11": true,
+   "X(0, 3, 10, 11) -> same": true,
+   "Z(0, 3, 10, 11) -> same": true,
+   "X(2, 3, 8, 10) -> same": true,
+   "Z(2, 3, 8, 10) -> same": true,
+   "X(5, 8, 10, 11) -> same": true,
+   "Z(5, 8, 10, 11) -> same": true,
+   "Z0Z2 -> same": true,
+   "Z2Z3 -> same": true,
+   "Z3Z5 -> same": true,
+   "Z5Z8 -> same": true,
+   "Z8Z10 -> same": true,
+   "Z10Z11 -> same": true,
+   "Z_L -> Z_L": false
+  },
+  "extracted native": {
+   "X_L -> rec": true,
+   "X0 -> X0": true,
+   "X2 -> X2": true,
+   "X3 -> X3": true,
+   "X5 -> X5": true,
+   "X8 -> X8": true,
+   "X10 -> X10": true,
+   "X11 -> X11": true,
+   "X(0, 3, 10, 11) -> same": true,
+   "Z(0, 3, 10, 11) -> same": true,
+   "X(2, 3, 8, 10) -> same": true,
+   "Z(2, 3, 8, 10) -> same": true,
+   "X(5, 8, 10, 11) -> same": true,
+   "Z(5, 8, 10, 11) -> same": true,
+   "Z0Z2 -> same": true,
+   "Z2Z3 -> same": true,
+   "Z3Z5 -> same": true,
+   "Z5Z8 -> same": true,
+   "Z8Z10 -> same": true,
+   "Z10Z11 -> same": true,
+   "Z_L -> Z_L": false
+  },
+  "extracted CX": {
+   "X_L -> rec": true,
+   "X0 -> X0": true,
+   "X2 -> X2": true,
+   "X3 -> X3": true,
+   "X5 -> X5": true,
+   "X8 -> X8": true,
+   "X10 -> X10": true,
+   "X11 -> X11": true,
+   "X(0, 3, 10, 11) -> same": true,
+   "Z(0, 3, 10, 11) -> same": true,
+   "X(2, 3, 8, 10) -> same": true,
+   "Z(2, 3, 8, 10) -> same": true,
+   "X(5, 8, 10, 11) -> same": true,
+   "Z(5, 8, 10, 11) -> same": true,
+   "Z0Z2 -> same": true,
+   "Z2Z3 -> same": true,
+   "Z3Z5 -> same": true,
+   "Z5Z8 -> same": true,
+   "Z8Z10 -> same": true,
+   "Z10Z11 -> same": true,
+   "Z_L -> Z_L": false
+  }
+ },
+ "flows_identical_existence": true,
+ "native_ticks_equal_g4_31_50": true,
+ "deterministic": {
+  "native": true,
+  "cx": true,
+  "full_native": true,
+  "full_cx": true,
+  "native_as_run": true,
+  "full_native_as_run": true
+ },
+ "cx_conversion": {
+  "non_cx": 0,
+  "choice": {
+   "q4@1": 1,
+   "q1@1": 1,
+   "q9@1": 1,
+   "q9@12": 1,
+   "q6@1": 1,
+   "q6@12": 0,
+   "q7@1": 0
+  }
+ },
+ "equivalence_native": {
+  "i_code": true,
+  "ii_check": true,
+  "iii_reverse": true,
+  "iv_deterministic": true,
+  "ok": true
+ },
+ "equivalence_cx": {
+  "i_code": true,
+  "ii_check": true,
+  "iii_reverse": true,
+  "iv_deterministic": true,
+  "ok": true
+ }
+}
+d3a6 2 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 37, 'malignant': 4}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 34, 'malignant': 0}} 1 in 4,760,490 0.0 s
+d3a4 2 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 7, 'malignant': 0}, 2: {'benign': 129, 'malignant': 12}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 7, 'malignant': 0}, 2: {'benign': 115, 'malignant': 0}} 1 in 3,583,893 0.0 s
+G4-CX (cliffordea T_z convention) 2 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 41, 'malignant': 7}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 33, 'malignant': 0}} 1 in 2,421,930 0.0 s
+G4-native CZ+H (cliffordea T_z convention) 2 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 41, 'malignant': 7}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 33, 'malignant': 0}} 1 in 447,652 0.0 s
+G4-CX (as-run T_y frame) 2 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 41, 'malignant': 7}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 33, 'malignant': 0}} 1 in 2,421,930 0.0 s
+G4-native CZ+H (as-run T_y frame) 2 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 41, 'malignant': 7}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 33, 'malignant': 0}} 1 in 447,652 0.0 s
+G4-native CZ+H, I placeholders kept (cliffordea T_z convention) 2 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 41, 'malignant': 7}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 33, 'malignant': 0}} 1 in 447,652 0.0 s
+d3a6 3 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 37, 'malignant': 4}, 3: {'benign': 1436, 'malignant': 415}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 34, 'malignant': 0}, 3: {'benign': 1175, 'malignant': 82}} 1 in 3,568,591 0.0 s
+d3a4 3 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 7, 'malignant': 0}, 2: {'benign': 129, 'malignant': 12}, 3: {'benign': 4013, 'malignant': 1619}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 7, 'malignant': 0}, 2: {'benign': 115, 'malignant': 0}, 3: {'benign': 2897, 'malignant': 442}} 1 in 3,184,814 0.1 s
+G4-CX (cliffordea T_z convention) 3 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 41, 'malignant': 7}, 3: {'benign': 1598, 'malignant': 671}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 33, 'malignant': 0}, 3: {'benign': 1149, 'malignant': 162}} 1 in 2,054,158 0.1 s
+G4-native CZ+H (cliffordea T_z convention) 3 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 41, 'malignant': 7}, 3: {'benign': 1598, 'malignant': 671}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 33, 'malignant': 0}, 3: {'benign': 1149, 'malignant': 162}} 1 in 314,362 0.1 s
+G4-CX (as-run T_y frame) 3 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 41, 'malignant': 7}, 3: {'benign': 1598, 'malignant': 671}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 33, 'malignant': 0}, 3: {'benign': 1149, 'malignant': 162}} 1 in 2,054,637 0.1 s
+G4-native CZ+H (as-run T_y frame) 3 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 41, 'malignant': 7}, 3: {'benign': 1598, 'malignant': 671}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 33, 'malignant': 0}, 3: {'benign': 1149, 'malignant': 162}} 1 in 314,648 0.1 s
+G4-native CZ+H, I placeholders kept (cliffordea T_z convention) 3 {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 41, 'malignant': 7}, 3: {'benign': 1598, 'malignant': 671}} {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 2, 'malignant': 0}, 2: {'benign': 33, 'malignant': 0}, 3: {'benign': 1149, 'malignant': 162}} 1 in 314,362 0.1 s

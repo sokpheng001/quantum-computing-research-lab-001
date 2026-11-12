@@ -1,0 +1,578 @@
+{
+ "started": "2026-11-01 04:24:15 PM KST",
+ "random_pairs_per_design": 2000,
+ "seed": 2026,
+ "designs": {
+  "success03": {
+   "info": {
+    "faults": 168,
+    "events": 1301,
+    "malignant2": 0,
+    "all_pairs": 14028
+   },
+   "summary": {
+    "single": {
+     "n": 1301,
+     "agree": 1301,
+     "signature_agree": 1301,
+     "accept_agree": 1301,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 1257,
+      "benign": 44
+     },
+     "cliffordea": {
+      "rejected": 1257,
+      "benign": 44
+     },
+     "disagreements": []
+    },
+    "malignant2": {
+     "n": 0,
+     "agree": 0,
+     "signature_agree": 0,
+     "accept_agree": 0,
+     "nondeterministic": 0,
+     "real": {},
+     "cliffordea": {},
+     "disagreements": []
+    },
+    "all2": {
+     "n": 14028,
+     "agree": 14028,
+     "signature_agree": 14028,
+     "accept_agree": 14028,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 14011,
+      "benign": 17
+     },
+     "cliffordea": {
+      "rejected": 14011,
+      "benign": 17
+     },
+     "disagreements": []
+    },
+    "random2": {
+     "n": 2000,
+     "agree": 2000,
+     "signature_agree": 2000,
+     "accept_agree": 2000,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 1999,
+      "benign": 1
+     },
+     "cliffordea": {
+      "rejected": 1999,
+      "benign": 1
+     },
+     "disagreements": []
+    }
+   },
+   "malignant2_rows": []
+  },
+  "success04": {
+   "info": {
+    "faults": 174,
+    "events": 1340,
+    "malignant2": 0,
+    "all_pairs": 15051
+   },
+   "summary": {
+    "single": {
+     "n": 1340,
+     "agree": 1340,
+     "signature_agree": 1340,
+     "accept_agree": 1340,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 1289,
+      "benign": 51
+     },
+     "cliffordea": {
+      "rejected": 1289,
+      "benign": 51
+     },
+     "disagreements": []
+    },
+    "malignant2": {
+     "n": 0,
+     "agree": 0,
+     "signature_agree": 0,
+     "accept_agree": 0,
+     "nondeterministic": 0,
+     "real": {},
+     "cliffordea": {},
+     "disagreements": []
+    },
+    "all2": {
+     "n": 15051,
+     "agree": 15051,
+     "signature_agree": 15051,
+     "accept_agree": 15051,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 15034,
+      "benign": 17
+     },
+     "cliffordea": {
+      "rejected": 15034,
+      "benign": 17
+     },
+     "disagreements": []
+    },
+    "random2": {
+     "n": 2000,
+     "agree": 2000,
+     "signature_agree": 2000,
+     "accept_agree": 2000,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 1996,
+      "benign": 4
+     },
+     "cliffordea": {
+      "rejected": 1996,
+      "benign": 4
+     },
+     "disagreements": []
+    }
+   },
+   "malignant2_rows": []
+  },
+  "success00": {
+   "info": {
+    "faults": 168,
+    "events": 1301,
+    "malignant2": 0,
+    "all_pairs": 14028
+   },
+   "summary": {
+    "single": {
+     "n": 1301,
+     "agree": 1301,
+     "signature_agree": 1301,
+     "accept_agree": 1301,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 1257,
+      "benign": 44
+     },
+     "cliffordea": {
+      "rejected": 1257,
+      "benign": 44
+     },
+     "disagreements": []
+    },
+    "malignant2": {
+     "n": 0,
+     "agree": 0,
+     "signature_agree": 0,
+     "accept_agree": 0,
+     "nondeterministic": 0,
+     "real": {},
+     "cliffordea": {},
+     "disagreements": []
+    },
+    "all2": {
+     "n": 14028,
+     "agree": 14028,
+     "signature_agree": 14028,
+     "accept_agree": 14028,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 14010,
+      "benign": 18
+     },
+     "cliffordea": {
+      "rejected": 14010,
+      "benign": 18
+     },
+     "disagreements": []
+    },
+    "random2": {
+     "n": 2000,
+     "agree": 2000,
+     "signature_agree": 2000,
+     "accept_agree": 2000,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 1996,
+      "benign": 4
+     },
+     "cliffordea": {
+      "rejected": 1996,
+      "benign": 4
+     },
+     "disagreements": []
+    }
+   },
+   "malignant2_rows": []
+  },
+  "G4": {
+   "info": {
+    "faults": 154,
+    "events": 1018,
+    "malignant2": 7,
+    "all_pairs": 11781
+   },
+   "summary": {
+    "single": {
+     "n": 1018,
+     "agree": 1018,
+     "signature_agree": 1018,
+     "accept_agree": 1018,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 975,
+      "benign": 43
+     },
+     "cliffordea": {
+      "rejected": 975,
+      "benign": 43
+     },
+     "disagreements": []
+    },
+    "malignant2": {
+     "n": 7,
+     "agree": 7,
+     "signature_agree": 7,
+     "accept_agree": 7,
+     "nondeterministic": 0,
+     "real": {
+      "malignant": 7
+     },
+     "cliffordea": {
+      "malignant": 7
+     },
+     "disagreements": []
+    },
+    "all2": {
+     "n": 11781,
+     "agree": 11781,
+     "signature_agree": 11781,
+     "accept_agree": 11781,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 11733,
+      "benign": 41,
+      "malignant": 7
+     },
+     "cliffordea": {
+      "rejected": 11733,
+      "benign": 41,
+      "malignant": 7
+     },
+     "disagreements": []
+    },
+    "random2": {
+     "n": 2000,
+     "agree": 2000,
+     "signature_agree": 2000,
+     "accept_agree": 2000,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 1997,
+      "benign": 3
+     },
+     "cliffordea": {
+      "rejected": 1997,
+      "benign": 3
+     },
+     "disagreements": []
+    }
+   },
+   "malignant2_rows": [
+    {
+     "cfg": [
+      8,
+      130
+     ],
+     "events": [
+      "(1, 'X_ERROR', ((2, ''),))",
+      "(18, 'E', ((3, 'Y'), (4, 'X')))"
+     ],
+     "cliffordea": "malignant",
+     "cliffordea_accept": 0.25,
+     "real": "malignant",
+     "agree": true,
+     "signature_agree": true,
+     "deterministic": true,
+     "p_code": 0.2500000152594982,
+     "fid_given_code": 5.602227005763126e-15,
+     "accept_agree": true
+    },
+    {
+     "cfg": [
+      8,
+      141
+     ],
+     "events": [
+      "(1, 'X_ERROR', ((2, ''),))",
+      "(18, 'E', ((9, 'X'), (10, 'Y')))"
+     ],
+     "cliffordea": "malignant",
+     "cliffordea_accept": 0.25,
+     "real": "malignant",
+     "agree": true,
+     "signature_agree": true,
+     "deterministic": true,
+     "p_code": 0.24999998005642404,
+     "fid_given_code": 5.617358448767058e-16,
+     "accept_agree": true
+    },
+    {
+     "cfg": [
+      47,
+      120
+     ],
+     "events": [
+      "(5, 'X_ERROR', ((4, ''),))",
+      "(16, 'E', ((8, 'X'), (9, 'X')))"
+     ],
+     "cliffordea": "malignant",
+     "cliffordea_accept": 0.25,
+     "real": "malignant",
+     "agree": true,
+     "signature_agree": true,
+     "deterministic": true,
+     "p_code": 0.24999998246461536,
+     "fid_given_code": 2.3651295606084266e-15,
+     "accept_agree": true
+    },
+    {
+     "cfg": [
+      47,
+      153
+     ],
+     "events": [
+      "(5, 'X_ERROR', ((4, ''),))",
+      "(20, 'E', ((2, 'Y'), (6, 'X')))"
+     ],
+     "cliffordea": "malignant",
+     "cliffordea_accept": 0.25,
+     "real": "malignant",
+     "agree": true,
+     "signature_agree": true,
+     "deterministic": true,
+     "p_code": 0.24999998332977877,
+     "fid_given_code": 1.788182561803934e-17,
+     "accept_agree": true
+    },
+    {
+     "cfg": [
+      58,
+      122
+     ],
+     "events": [
+      "(5, 'X_ERROR', ((5, ''),))",
+      "(16, 'Y_ERROR', ((8, ''),))"
+     ],
+     "cliffordea": "malignant",
+     "cliffordea_accept": 0.25,
+     "real": "malignant",
+     "agree": true,
+     "signature_agree": true,
+     "deterministic": true,
+     "p_code": 0.2500000015430255,
+     "fid_given_code": 3.753750801217521e-15,
+     "accept_agree": true
+    },
+    {
+     "cfg": [
+      67,
+      153
+     ],
+     "events": [
+      "(5, 'X_ERROR', ((9, ''),))",
+      "(20, 'E', ((2, 'Y'), (6, 'X')))"
+     ],
+     "cliffordea": "malignant",
+     "cliffordea_accept": 0.25,
+     "real": "malignant",
+     "agree": true,
+     "signature_agree": true,
+     "deterministic": true,
+     "p_code": 0.2500000055878835,
+     "fid_given_code": 1.468320506952073e-15,
+     "accept_agree": true
+    },
+    {
+     "cfg": [
+      117,
+      153
+     ],
+     "events": [
+      "(16, 'X_ERROR', ((9, ''),))",
+      "(20, 'E', ((2, 'Y'), (6, 'X')))"
+     ],
+     "cliffordea": "malignant",
+     "cliffordea_accept": 0.25,
+     "real": "malignant",
+     "agree": true,
+     "signature_agree": true,
+     "deterministic": true,
+     "p_code": 0.25000000504233844,
+     "fid_given_code": 2.3961183553001087e-16,
+     "accept_agree": true
+    }
+   ]
+  },
+  "d3a6": {
+   "info": {
+    "faults": 158,
+    "events": 1010,
+    "malignant2": 4,
+    "all_pairs": 12403
+   },
+   "summary": {
+    "single": {
+     "n": 1010,
+     "agree": 1010,
+     "signature_agree": 1010,
+     "accept_agree": 1010,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 982,
+      "benign": 28
+     },
+     "cliffordea": {
+      "rejected": 982,
+      "benign": 28
+     },
+     "disagreements": []
+    },
+    "malignant2": {
+     "n": 4,
+     "agree": 4,
+     "signature_agree": 4,
+     "accept_agree": 4,
+     "nondeterministic": 0,
+     "real": {
+      "malignant": 4
+     },
+     "cliffordea": {
+      "malignant": 4
+     },
+     "disagreements": []
+    },
+    "all2": {
+     "n": 12403,
+     "agree": 12403,
+     "signature_agree": 12403,
+     "accept_agree": 12403,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 12362,
+      "benign": 37,
+      "malignant": 4
+     },
+     "cliffordea": {
+      "rejected": 12362,
+      "benign": 37,
+      "malignant": 4
+     },
+     "disagreements": []
+    },
+    "random2": {
+     "n": 2000,
+     "agree": 2000,
+     "signature_agree": 2000,
+     "accept_agree": 2000,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 1994,
+      "benign": 5,
+      "malignant": 1
+     },
+     "cliffordea": {
+      "rejected": 1994,
+      "benign": 5,
+      "malignant": 1
+     },
+     "disagreements": []
+    }
+   },
+   "malignant2_rows": [
+    {
+     "cfg": [
+      54,
+      151
+     ],
+     "events": [
+      "(5, 'X_ERROR', ((3, ''),))",
+      "(19, 'E', ((6, 'X'), (7, 'Y')))"
+     ],
+     "cliffordea": "malignant",
+     "cliffordea_accept": 0.25,
+     "real": "malignant",
+     "agree": true,
+     "signature_agree": true,
+     "deterministic": true,
+     "p_code": 0.24999998891771608,
+     "fid_given_code": 2.8289707971466346e-15,
+     "accept_agree": true
+    },
+    {
+     "cfg": [
+      65,
+      149
+     ],
+     "events": [
+      "(5, 'X_ERROR', ((5, ''),))",
+      "(19, 'E', ((8, 'Y'), (9, 'X')))"
+     ],
+     "cliffordea": "malignant",
+     "cliffordea_accept": 0.25,
+     "real": "malignant",
+     "agree": true,
+     "signature_agree": true,
+     "deterministic": true,
+     "p_code": 0.25000000353806984,
+     "fid_given_code": 3.1493639926815595e-15,
+     "accept_agree": true
+    },
+    {
+     "cfg": [
+      74,
+      147
+     ],
+     "events": [
+      "(5, 'X_ERROR', ((9, ''),))",
+      "(19, 'E', ((0, 'Y'), (1, 'X')))"
+     ],
+     "cliffordea": "malignant",
+     "cliffordea_accept": 0.25,
+     "real": "malignant",
+     "agree": true,
+     "signature_agree": true,
+     "deterministic": true,
+     "p_code": 0.24999999999998812,
+     "fid_given_code": 2.089284254682615e-15,
+     "accept_agree": true
+    },
+    {
+     "cfg": [
+      111,
+      149
+     ],
+     "events": [
+      "(15, 'X_ERROR', ((5, ''),))",
+      "(19, 'E', ((8, 'Y'), (9, 'X')))"
+     ],
+     "cliffordea": "malignant",
+     "cliffordea_accept": 0.25,
+     "real": "malignant",
+     "agree": true,
+     "signature_agree": true,
+     "deterministic": true,
+     "p_code": 0.250000003538071,
+     "fid_given_code": 3.3875533532302298e-15,
+     "accept_agree": true
+    }
+   ]
+  }
+ },
+ "runtime_s": 236.98757481575012
+}

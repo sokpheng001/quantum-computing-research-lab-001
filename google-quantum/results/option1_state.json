@@ -1,0 +1,209 @@
+{
+ "space": {
+  "m1_d3_n8_abstract_bases": 1,
+  "m1_d3_n8_embedded_bases": 136,
+  "m1_d4_n10_abstract_bases": 374,
+  "m1_d4_n10_embedded_bases": 88396,
+  "m1_d4_n11_abstract_bases": 489,
+  "m1_d4_n11_embedded_bases": 157892,
+  "m1_d4_n8_abstract_bases": 31,
+  "m1_d4_n8_embedded_bases": 2850,
+  "m1_d4_n9_abstract_bases": 157,
+  "m1_d4_n9_embedded_bases": 24828,
+  "m1_forests_n10": 9500,
+  "m1_forests_n11": 11806,
+  "m1_forests_n2": 4,
+  "m1_forests_n3": 14,
+  "m1_forests_n4": 48,
+  "m1_forests_n5": 163,
+  "m1_forests_n6": 490,
+  "m1_forests_n7": 1282,
+  "m1_forests_n8": 2986,
+  "m1_forests_n9": 5860,
+  "m2_d3_n10_abstract_bases": 130,
+  "m2_d3_n10_embedded_bases": 66766,
+  "m2_d3_n11_abstract_bases": 215,
+  "m2_d3_n11_embedded_bases": 181488,
+  "m2_d3_n9_abstract_bases": 37,
+  "m2_d3_n9_embedded_bases": 10576,
+  "m2_d4_n10_abstract_bases": 504,
+  "m2_d4_n10_embedded_bases": 237624,
+  "m2_d4_n11_abstract_bases": 1731,
+  "m2_d4_n11_embedded_bases": 1388958,
+  "m2_d4_n9_abstract_bases": 74,
+  "m2_d4_n9_embedded_bases": 17948,
+  "m2_forests_n10": 77538,
+  "m2_forests_n11": 190118,
+  "m2_forests_n3": 8,
+  "m2_forests_n4": 42,
+  "m2_forests_n5": 188,
+  "m2_forests_n6": 765,
+  "m2_forests_n7": 2832,
+  "m2_forests_n8": 9447,
+  "m2_forests_n9": 28524
+ },
+ "abstract_bases_total": 3743,
+ "abstract_bases_x_labellings": 786030,
+ "settings": {
+  "roots": {
+   "1": [
+    [
+     9,
+     9
+    ]
+   ],
+   "2": [
+    [
+     9,
+     9
+    ],
+    [
+     8,
+     10
+    ]
+   ]
+  },
+  "dmax": 4,
+  "nmax": 11,
+  "noise": "uniformly_depolarize",
+  "p": 0.001,
+  "max_fault_count": [
+   2,
+   3
+  ],
+  "readout": "strict",
+  "live_rule": "gate",
+  "final_layer": "auto",
+  "max_degree": 4,
+  "labelling_classes": 210,
+  "max_embeddings_per_base": 60,
+  "max_valid": 20,
+  "order": "groups by (depth, n, m); inside a group by (best malignant T2, #hooks, LER)"
+ },
+ "n_abstract_screened": 3743,
+ "n_bases_flag_tried": 34,
+ "n_evaluated": 51,
+ "n_valid": 20,
+ "invalid_reasons": {
+  "constraints": 31
+ },
+ "groups_done": [
+  {
+   "depth": 3,
+   "n": 8,
+   "m": 1,
+   "abstract": 1
+  },
+  {
+   "depth": 3,
+   "n": 9,
+   "m": 2,
+   "abstract": 37
+  },
+  {
+   "depth": 3,
+   "n": 10,
+   "m": 2,
+   "abstract": 130
+  },
+  {
+   "depth": 3,
+   "n": 11,
+   "m": 2,
+   "abstract": 215
+  },
+  {
+   "depth": 4,
+   "n": 8,
+   "m": 1,
+   "abstract": 31
+  },
+  {
+   "depth": 4,
+   "n": 9,
+   "m": 1,
+   "abstract": 157
+  },
+  {
+   "depth": 4,
+   "n": 9,
+   "m": 2,
+   "abstract": 74
+  },
+  {
+   "depth": 4,
+   "n": 10,
+   "m": 1,
+   "abstract": 374
+  },
+  {
+   "depth": 4,
+   "n": 10,
+   "m": 2,
+   "abstract": 504
+  },
+  {
+   "depth": 4,
+   "n": 11,
+   "m": 1,
+   "abstract": 489
+  },
+  {
+   "depth": 4,
+   "n": 11,
+   "m": 2,
+   "abstract": 1731
+  }
+ ],
+ "elapsed_s": 1411.2699107469525,
+ "screen_best_malignant_T2_histogram": {
+  "6": 7,
+  "7": 12,
+  "8": 8,
+  "9": 28,
+  "10": 66,
+  "11": 80,
+  "12": 82,
+  "13": 91,
+  "14": 118,
+  "15": 103,
+  "16": 106,
+  "17": 117,
+  "18": 112,
+  "19": 131,
+  "20": 142,
+  "21": 112,
+  "22": 66,
+  "23": 75,
+  "24": 56,
+  "25": 105,
+  "26": 136,
+  "27": 107,
+  "28": 26,
+  "29": 84,
+  "30": 27,
+  "31": 74,
+  "32": 54,
+  "33": 58,
+  "34": 21,
+  "35": 27,
+  "36": 37,
+  "37": 23,
+  "38": 28,
+  "39": 2,
+  "40": 50,
+  "41": 11,
+  "42": 30,
+  "43": 20,
+  "44": 9,
+  "45": 46,
+  "46": 4,
+  "47": 12,
+  "48": 12,
+  "51": 8,
+  "52": 8,
+  "57": 8,
+  "1000000": 1204
+ },
+ "exhausted": false
+}

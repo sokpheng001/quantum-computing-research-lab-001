@@ -1,0 +1,8 @@
+{
+ "counts": {
+  "invalid": 25920,
+  "collision": 492480
+ },
+ "stim_confirmed": 0,
+ "valid": []
+}

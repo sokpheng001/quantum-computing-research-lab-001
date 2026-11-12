@@ -1,0 +1,1191 @@
+{
+ "g6_offer": {
+  "(4, 4)": {
+   "data": [
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     4
+    ]
+   ],
+   "kind": "2 data",
+   "contains": []
+  },
+  "(4, 6)": {
+   "data": [
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "kind": "partial",
+   "contains": [
+    "partial"
+   ]
+  },
+  "(5, 5)": {
+   "data": [
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     5
+    ]
+   ],
+   "kind": "stabiliser",
+   "contains": [
+    "partial",
+    "stabiliser"
+   ]
+  },
+  "(5, 7)": {
+   "data": [
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "kind": "partial",
+   "contains": [
+    "partial"
+   ]
+  },
+  "(6, 4)": {
+   "data": [
+    [
+     5,
+     4
+    ],
+    [
+     6,
+     5
+    ]
+   ],
+   "kind": "2 data",
+   "contains": []
+  },
+  "(6, 6)": {
+   "data": [
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "kind": "stabiliser",
+   "contains": [
+    "partial",
+    "stabiliser"
+   ]
+  },
+  "(7, 5)": {
+   "data": [
+    [
+     6,
+     5
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "kind": "2 data",
+   "contains": []
+  },
+  "(7, 7)": {
+   "data": [
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "kind": "2 data",
+   "contains": []
+  }
+ },
+ "circuits": {
+  "cs00": {
+   "needs": {
+    "0": {
+     "data": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "kind": "other-4",
+     "non_data_partners": []
+    },
+    "5": {
+     "data": [
+      4,
+      9
+     ],
+     "kind": "2 data",
+     "non_data_partners": [
+      6
+     ]
+    },
+    "6": {
+     "data": [
+      7,
+      8
+     ],
+     "kind": "2 data",
+     "non_data_partners": [
+      5,
+      10
+     ]
+    },
+    "10": {
+     "data": [
+      1
+     ],
+     "kind": "1 data",
+     "non_data_partners": [
+      6
+     ]
+    },
+    "11": {
+     "data": [
+      2
+     ],
+     "kind": "1 data",
+     "non_data_partners": []
+    }
+   },
+   "kinds_not_offered": {
+    "0": {
+     "data": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "kind": "other-4",
+     "non_data_partners": []
+    }
+   }
+  },
+  "cs01": {
+   "needs": {
+    "0": {
+     "data": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "kind": "other-4",
+     "non_data_partners": []
+    },
+    "5": {
+     "data": [
+      4,
+      9
+     ],
+     "kind": "2 data",
+     "non_data_partners": [
+      6
+     ]
+    },
+    "6": {
+     "data": [
+      7,
+      8
+     ],
+     "kind": "2 data",
+     "non_data_partners": [
+      5,
+      10
+     ]
+    },
+    "10": {
+     "data": [
+      1
+     ],
+     "kind": "1 data",
+     "non_data_partners": [
+      6
+     ]
+    },
+    "11": {
+     "data": [
+      8
+     ],
+     "kind": "1 data",
+     "non_data_partners": []
+    }
+   },
+   "kinds_not_offered": {
+    "0": {
+     "data": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "kind": "other-4",
+     "non_data_partners": []
+    }
+   }
+  },
+  "cs02": {
+   "needs": {
+    "0": {
+     "data": [
+      1,
+      2,
+      6
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "3": {
+     "data": [
+      2,
+      4,
+      5
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "7": {
+     "data": [
+      6,
+      8,
+      9
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "10": {
+     "data": [
+      5,
+      8
+     ],
+     "kind": "2 data",
+     "non_data_partners": []
+    },
+    "11": {
+     "data": [
+      5
+     ],
+     "kind": "1 data",
+     "non_data_partners": []
+    }
+   },
+   "kinds_not_offered": {}
+  },
+  "cs03": {
+   "needs": {
+    "0": {
+     "data": [
+      1,
+      2,
+      6
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "3": {
+     "data": [
+      2,
+      4,
+      5
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "7": {
+     "data": [
+      6,
+      8,
+      9
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "10": {
+     "data": [
+      5,
+      8
+     ],
+     "kind": "2 data",
+     "non_data_partners": []
+    },
+    "11": {
+     "data": [
+      8
+     ],
+     "kind": "1 data",
+     "non_data_partners": []
+    }
+   },
+   "kinds_not_offered": {}
+  },
+  "cs04": {
+   "needs": {
+    "0": {
+     "data": [
+      1,
+      2,
+      6
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "3": {
+     "data": [
+      2,
+      4,
+      5
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "7": {
+     "data": [
+      6,
+      8,
+      9
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "10": {
+     "data": [
+      5,
+      8
+     ],
+     "kind": "2 data",
+     "non_data_partners": []
+    },
+    "11": {
+     "data": [
+      5,
+      8
+     ],
+     "kind": "2 data",
+     "non_data_partners": []
+    }
+   },
+   "kinds_not_offered": {}
+  },
+  "cs05": {
+   "needs": {
+    "0": {
+     "data": [
+      3
+     ],
+     "kind": "1 data",
+     "non_data_partners": [
+      1
+     ]
+    },
+    "1": {
+     "data": [
+      2
+     ],
+     "kind": "1 data",
+     "non_data_partners": [
+      0
+     ]
+    },
+    "4": {
+     "data": [
+      3,
+      5,
+      6
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "7": {
+     "data": [
+      3,
+      8,
+      9,
+      10
+     ],
+     "kind": "other-4",
+     "non_data_partners": []
+    },
+    "11": {
+     "data": [
+      5,
+      9
+     ],
+     "kind": "2 data",
+     "non_data_partners": []
+    },
+    "12": {
+     "data": [
+      5
+     ],
+     "kind": "1 data",
+     "non_data_partners": []
+    }
+   },
+   "kinds_not_offered": {
+    "7": {
+     "data": [
+      3,
+      8,
+      9,
+      10
+     ],
+     "kind": "other-4",
+     "non_data_partners": []
+    }
+   }
+  },
+  "cs06": {
+   "needs": {
+    "0": {
+     "data": [
+      3
+     ],
+     "kind": "1 data",
+     "non_data_partners": [
+      1
+     ]
+    },
+    "1": {
+     "data": [
+      2
+     ],
+     "kind": "1 data",
+     "non_data_partners": [
+      0
+     ]
+    },
+    "4": {
+     "data": [
+      3,
+      5,
+      6
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "7": {
+     "data": [
+      3,
+      8,
+      9,
+      10
+     ],
+     "kind": "other-4",
+     "non_data_partners": []
+    },
+    "11": {
+     "data": [
+      5,
+      9
+     ],
+     "kind": "2 data",
+     "non_data_partners": []
+    },
+    "12": {
+     "data": [
+      9
+     ],
+     "kind": "1 data",
+     "non_data_partners": []
+    }
+   },
+   "kinds_not_offered": {
+    "7": {
+     "data": [
+      3,
+      8,
+      9,
+      10
+     ],
+     "kind": "other-4",
+     "non_data_partners": []
+    }
+   }
+  },
+  "cs07": {
+   "needs": {
+    "0": {
+     "data": [
+      3,
+      7
+     ],
+     "kind": "2 data",
+     "non_data_partners": [
+      1
+     ]
+    },
+    "1": {
+     "data": [
+      2
+     ],
+     "kind": "1 data",
+     "non_data_partners": [
+      0
+     ]
+    },
+    "4": {
+     "data": [
+      3,
+      5,
+      6
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "8": {
+     "data": [
+      7,
+      9,
+      10
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "11": {
+     "data": [
+      6,
+      9
+     ],
+     "kind": "2 data",
+     "non_data_partners": []
+    },
+    "12": {
+     "data": [
+      6
+     ],
+     "kind": "1 data",
+     "non_data_partners": []
+    }
+   },
+   "kinds_not_offered": {}
+  },
+  "cs08": {
+   "needs": {
+    "0": {
+     "data": [
+      3,
+      7
+     ],
+     "kind": "2 data",
+     "non_data_partners": [
+      1
+     ]
+    },
+    "1": {
+     "data": [
+      2
+     ],
+     "kind": "1 data",
+     "non_data_partners": [
+      0
+     ]
+    },
+    "4": {
+     "data": [
+      3,
+      5,
+      6
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "8": {
+     "data": [
+      7,
+      9,
+      10
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "11": {
+     "data": [
+      6,
+      9
+     ],
+     "kind": "2 data",
+     "non_data_partners": []
+    },
+    "12": {
+     "data": [
+      9
+     ],
+     "kind": "1 data",
+     "non_data_partners": []
+    }
+   },
+   "kinds_not_offered": {}
+  },
+  "cs09": {
+   "needs": {
+    "0": {
+     "data": [
+      3,
+      7
+     ],
+     "kind": "2 data",
+     "non_data_partners": [
+      1
+     ]
+    },
+    "1": {
+     "data": [
+      2
+     ],
+     "kind": "1 data",
+     "non_data_partners": [
+      0
+     ]
+    },
+    "4": {
+     "data": [
+      3,
+      5,
+      6
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "8": {
+     "data": [
+      7,
+      9,
+      10
+     ],
+     "kind": "partial",
+     "non_data_partners": []
+    },
+    "11": {
+     "data": [
+      6,
+      9
+     ],
+     "kind": "2 data",
+     "non_data_partners": []
+    },
+    "12": {
+     "data": [
+      6,
+      9
+     ],
+     "kind": "2 data",
+     "non_data_partners": []
+    }
+   },
+   "kinds_not_offered": {}
+  }
+ },
+ "cs02_requirement_check": {
+  "fail_counts": {
+   "0": 108,
+   "3": 108,
+   "7": 108,
+   "10": 56
+  },
+  "fewest": [
+   7
+  ],
+  "examples": {
+   "0,3,7": {
+    "1": [
+     4,
+     5
+    ],
+    "2": [
+     4,
+     7
+    ],
+    "4": [
+     5,
+     6
+    ],
+    "5": [
+     7,
+     6
+    ],
+    "6": [
+     6,
+     5
+    ],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     4
+    ]
+   },
+   "3,7": {
+    "1": [
+     4,
+     5
+    ],
+    "2": [
+     4,
+     7
+    ],
+    "4": [
+     6,
+     5
+    ],
+    "5": [
+     6,
+     7
+    ],
+    "6": [
+     5,
+     6
+    ],
+    "8": [
+     7,
+     6
+    ],
+    "9": [
+     5,
+     4
+    ]
+   },
+   "3,10": {
+    "1": [
+     4,
+     5
+    ],
+    "2": [
+     5,
+     6
+    ],
+    "4": [
+     4,
+     7
+    ],
+    "5": [
+     5,
+     4
+    ],
+    "6": [
+     6,
+     5
+    ],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     7,
+     6
+    ]
+   },
+   "0,3,10": {
+    "1": [
+     4,
+     5
+    ],
+    "2": [
+     5,
+     6
+    ],
+    "4": [
+     5,
+     4
+    ],
+    "5": [
+     4,
+     7
+    ],
+    "6": [
+     6,
+     7
+    ],
+    "8": [
+     6,
+     5
+    ],
+    "9": [
+     7,
+     6
+    ]
+   },
+   "7,10": {
+    "1": [
+     4,
+     5
+    ],
+    "2": [
+     5,
+     6
+    ],
+    "4": [
+     6,
+     5
+    ],
+    "5": [
+     6,
+     7
+    ],
+    "6": [
+     4,
+     7
+    ],
+    "8": [
+     5,
+     4
+    ],
+    "9": [
+     7,
+     6
+    ]
+   },
+   "0,3": {
+    "1": [
+     4,
+     5
+    ],
+    "2": [
+     6,
+     5
+    ],
+    "4": [
+     5,
+     4
+    ],
+    "5": [
+     4,
+     7
+    ],
+    "6": [
+     7,
+     6
+    ],
+    "8": [
+     5,
+     6
+    ],
+    "9": [
+     6,
+     7
+    ]
+   },
+   "0,7,10": {
+    "1": [
+     4,
+     5
+    ],
+    "2": [
+     6,
+     5
+    ],
+    "4": [
+     5,
+     6
+    ],
+    "5": [
+     7,
+     6
+    ],
+    "6": [
+     4,
+     7
+    ],
+    "8": [
+     5,
+     4
+    ],
+    "9": [
+     6,
+     7
+    ]
+   },
+   "7": {
+    "1": [
+     4,
+     5
+    ],
+    "2": [
+     6,
+     5
+    ],
+    "4": [
+     7,
+     6
+    ],
+    "5": [
+     5,
+     6
+    ],
+    "6": [
+     5,
+     4
+    ],
+    "8": [
+     4,
+     7
+    ],
+    "9": [
+     6,
+     7
+    ]
+   },
+   "0,7": {
+    "1": [
+     4,
+     5
+    ],
+    "2": [
+     6,
+     7
+    ],
+    "4": [
+     7,
+     6
+    ],
+    "5": [
+     5,
+     6
+    ],
+    "6": [
+     4,
+     7
+    ],
+    "8": [
+     5,
+     4
+    ],
+    "9": [
+     6,
+     5
+    ]
+   },
+   "3": {
+    "1": [
+     4,
+     7
+    ],
+    "2": [
+     4,
+     5
+    ],
+    "4": [
+     7,
+     6
+    ],
+    "5": [
+     6,
+     7
+    ],
+    "6": [
+     5,
+     6
+    ],
+    "8": [
+     6,
+     5
+    ],
+    "9": [
+     5,
+     4
+    ]
+   },
+   "0,10": {
+    "1": [
+     4,
+     7
+    ],
+    "2": [
+     5,
+     6
+    ],
+    "4": [
+     4,
+     5
+    ],
+    "5": [
+     5,
+     4
+    ],
+    "6": [
+     7,
+     6
+    ],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     6,
+     5
+    ]
+   },
+   "10": {
+    "1": [
+     4,
+     7
+    ],
+    "2": [
+     5,
+     6
+    ],
+    "4": [
+     5,
+     4
+    ],
+    "5": [
+     4,
+     5
+    ],
+    "6": [
+     6,
+     7
+    ],
+    "8": [
+     7,
+     6
+    ],
+    "9": [
+     6,
+     5
+    ]
+   },
+   "0": {
+    "1": [
+     5,
+     4
+    ],
+    "2": [
+     6,
+     7
+    ],
+    "4": [
+     7,
+     6
+    ],
+    "5": [
+     6,
+     5
+    ],
+    "6": [
+     4,
+     7
+    ],
+    "8": [
+     4,
+     5
+    ],
+    "9": [
+     5,
+     6
+    ]
+   },
+   "0,3,7,10": {
+    "1": [
+     5,
+     6
+    ],
+    "2": [
+     4,
+     5
+    ],
+    "4": [
+     6,
+     5
+    ],
+    "5": [
+     4,
+     7
+    ],
+    "6": [
+     6,
+     7
+    ],
+    "8": [
+     5,
+     4
+    ],
+    "9": [
+     7,
+     6
+    ]
+   },
+   "3,7,10": {
+    "1": [
+     5,
+     6
+    ],
+    "2": [
+     4,
+     5
+    ],
+    "4": [
+     6,
+     7
+    ],
+    "5": [
+     5,
+     4
+    ],
+    "6": [
+     6,
+     5
+    ],
+    "8": [
+     4,
+     7
+    ],
+    "9": [
+     7,
+     6
+    ]
+   }
+  }
+ }
+}

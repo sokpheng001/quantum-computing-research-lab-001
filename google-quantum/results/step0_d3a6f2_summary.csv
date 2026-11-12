@@ -1,0 +1,9 @@
+,,configuration_count,configuration_count,weight,weight,weight
+,,benign,malignant,benign,malignant,malignant_probability
+cultivated_state,fault_count,,,,,
+S,0,1,0,1.0,0.0,0.0
+S,1,2,0,3.1999999999999997,0.0,0.0
+S,2,37,0,4.671111111111111,0.0,0.0
+T,0,1,0,1.0,0.0,0.0
+T,1,2,0,3.1999999999999997,0.0,0.0
+T,2,37,0,4.3311111111111105,0.0,0.0

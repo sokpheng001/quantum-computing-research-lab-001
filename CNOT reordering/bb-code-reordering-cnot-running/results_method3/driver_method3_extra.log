@@ -1,0 +1,338 @@
+== driver_method3_extra start Sun Oct 18 01:58:01 UTC 2026
+== stopped by Claude to restart with [[90]] first Sun Oct 18 02:12:17 UTC 2026
+== driver_method3_extra start Sun Oct 18 02:12:17 UTC 2026
+== [[90]] extra start 2026-10-18 11:12 AM KST
+  extra: A* = #1277 (d1 8, 16400 search trials before reaching it); circuits [(212,), (212, 1307), (1277,), (1277, 268)]
+== stopped by Claude: reorder (LER first) Sun Oct 18 02:13:12 UTC 2026
+== driver_method3_extra start Sun Oct 18 02:13:36 UTC 2026
+== main run paused for the [[90]] LER Sun Oct 18 02:13:36 UTC 2026
+== [[90]] ler start 2026-10-18 11:13 AM KST
+  extra: A* = #1277 (d1 8, 16400 search trials before reaching it); circuits [(212,), (212, 1307), (1277,), (1277, 268)]
+  [mem guard] decoder ~0.39 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.005: 17/500
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.005: 27/1000
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.005: 36/1500
+  [mem guard] decoder ~0.39 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.005: 53/2000
+  [mem guard] decoder ~0.34 GB, available 45.4 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.005: 23/500
+  [mem guard] decoder ~0.35 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.005: 37/1000
+  [mem guard] decoder ~0.35 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.005: 45/1500
+  [mem guard] decoder ~0.35 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.005: 56/2000
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.005: 15/500
+  [mem guard] decoder ~0.39 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.005: 30/1000
+  [mem guard] decoder ~0.39 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.005: 47/1500
+  [mem guard] decoder ~0.39 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.005: 66/2000
+  [mem guard] decoder ~0.38 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.005: 6/500
+  [mem guard] decoder ~0.38 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.005: 21/1000
+  [mem guard] decoder ~0.38 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.005: 34/1500
+  [mem guard] decoder ~0.38 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.005: 48/2000
+  [mem guard] decoder ~0.38 GB, available 45.5 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.005: 62/2500
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 2/500
+  [mem guard] decoder ~0.39 GB, available 45.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 5/1000
+  [mem guard] decoder ~0.39 GB, available 45.5 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 5/1500
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 9/2000
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 12/2500
+  [mem guard] decoder ~0.39 GB, available 45.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 15/3000
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 19/3500
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 24/4000
+  [mem guard] decoder ~0.39 GB, available 45.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 27/4500
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 32/5000
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 35/5500
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 38/6000
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 39/6500
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 41/7000
+  [mem guard] decoder ~0.39 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 42/7500
+  [mem guard] decoder ~0.39 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 44/8000
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 47/8500
+  [mem guard] decoder ~0.39 GB, available 45.5 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 Z p=0.004: 54/9000
+  [mem guard] decoder ~0.35 GB, available 45.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 4/500
+  [mem guard] decoder ~0.34 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 6/1000
+  [mem guard] decoder ~0.35 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 7/1500
+  [mem guard] decoder ~0.35 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 12/2000
+  [mem guard] decoder ~0.34 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 17/2500
+  [mem guard] decoder ~0.35 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 22/3000
+  [mem guard] decoder ~0.34 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 26/3500
+  [mem guard] decoder ~0.35 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 27/4000
+  [mem guard] decoder ~0.34 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 31/4500
+  [mem guard] decoder ~0.34 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 38/5000
+  [mem guard] decoder ~0.34 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 44/5500
+  [mem guard] decoder ~0.34 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 49/6000
+  [mem guard] decoder ~0.34 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 Z p=0.004: 52/6500
+  [mem guard] decoder ~0.39 GB, available 43.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 2/500
+  [mem guard] decoder ~0.39 GB, available 43.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 7/1000
+  [mem guard] decoder ~0.39 GB, available 43.6 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 12/1500
+  [mem guard] decoder ~0.39 GB, available 44.6 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 16/2000
+  [mem guard] decoder ~0.39 GB, available 44.6 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 17/2500
+  [mem guard] decoder ~0.39 GB, available 44.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 21/3000
+  [mem guard] decoder ~0.39 GB, available 44.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 24/3500
+  [mem guard] decoder ~0.39 GB, available 44.6 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 26/4000
+  [mem guard] decoder ~0.39 GB, available 44.6 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 28/4500
+  [mem guard] decoder ~0.39 GB, available 44.6 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 30/5000
+  [mem guard] decoder ~0.39 GB, available 46.5 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 32/5500
+  [mem guard] decoder ~0.39 GB, available 46.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 36/6000
+  [mem guard] decoder ~0.39 GB, available 46.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 37/6500
+  [mem guard] decoder ~0.39 GB, available 46.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 39/7000
+  [mem guard] decoder ~0.39 GB, available 46.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 40/7500
+  [mem guard] decoder ~0.39 GB, available 45.6 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 43/8000
+  [mem guard] decoder ~0.39 GB, available 45.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 43/8500
+  [mem guard] decoder ~0.39 GB, available 45.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 43/9000
+  [mem guard] decoder ~0.39 GB, available 45.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 45/9500
+  [mem guard] decoder ~0.39 GB, available 45.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 48/10000
+  [mem guard] decoder ~0.39 GB, available 45.6 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 Z p=0.004: 56/10500
+  [mem guard] decoder ~0.37 GB, available 45.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 3/500
+  [mem guard] decoder ~0.36 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 4/1000
+  [mem guard] decoder ~0.36 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 6/1500
+  [mem guard] decoder ~0.36 GB, available 45.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 8/2000
+  [mem guard] decoder ~0.36 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 9/2500
+  [mem guard] decoder ~0.37 GB, available 45.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 13/3000
+  [mem guard] decoder ~0.38 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 16/3500
+  [mem guard] decoder ~0.37 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 20/4000
+  [mem guard] decoder ~0.37 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 25/4500
+  [mem guard] decoder ~0.36 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 29/5000
+  [mem guard] decoder ~0.36 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 34/5500
+  [mem guard] decoder ~0.37 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 36/6000
+  [mem guard] decoder ~0.37 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 39/6500
+  [mem guard] decoder ~0.36 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 40/7000
+  [mem guard] decoder ~0.36 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 42/7500
+  [mem guard] decoder ~0.37 GB, available 45.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 44/8000
+  [mem guard] decoder ~0.37 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 47/8500
+  [mem guard] decoder ~0.36 GB, available 43.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 48/9000
+  [mem guard] decoder ~0.36 GB, available 43.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 Z p=0.004: 55/9500
+  [mem guard] decoder ~0.39 GB, available 43.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.005: 15/500
+  [mem guard] decoder ~0.39 GB, available 43.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.005: 30/1000
+  [mem guard] decoder ~0.39 GB, available 45.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.005: 44/1500
+  [mem guard] decoder ~0.39 GB, available 44.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.005: 56/2000
+  [mem guard] decoder ~0.38 GB, available 45.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.005: 14/500
+  [mem guard] decoder ~0.36 GB, available 45.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.005: 24/1000
+  [mem guard] decoder ~0.36 GB, available 45.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.005: 37/1500
+  [mem guard] decoder ~0.36 GB, available 45.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.005: 51/2000
+  [mem guard] decoder ~0.37 GB, available 44.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.005: 14/500
+  [mem guard] decoder ~0.39 GB, available 44.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.005: 28/1000
+  [mem guard] decoder ~0.39 GB, available 44.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.005: 49/1500
+  [mem guard] decoder ~0.39 GB, available 44.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.005: 61/2000
+  [mem guard] decoder ~0.34 GB, available 45.4 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.005: 25/500
+  [mem guard] decoder ~0.33 GB, available 45.5 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.005: 44/1000
+  [mem guard] decoder ~0.33 GB, available 45.4 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.005: 58/1500
+  [mem guard] decoder ~0.38 GB, available 45.4 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 1/500
+  [mem guard] decoder ~0.39 GB, available 44.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 5/1000
+  [mem guard] decoder ~0.39 GB, available 45.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 7/1500
+  [mem guard] decoder ~0.39 GB, available 45.2 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 9/2000
+  [mem guard] decoder ~0.39 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 10/2500
+  [mem guard] decoder ~0.39 GB, available 45.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 12/3000
+  [mem guard] decoder ~0.39 GB, available 46.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 16/3500
+  [mem guard] decoder ~0.39 GB, available 46.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 19/4000
+  [mem guard] decoder ~0.39 GB, available 46.6 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 20/4500
+  [mem guard] decoder ~0.39 GB, available 46.6 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 25/5000
+  [mem guard] decoder ~0.39 GB, available 46.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 26/5500
+  [mem guard] decoder ~0.39 GB, available 46.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 33/6000
+  [mem guard] decoder ~0.39 GB, available 46.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 38/6500
+  [mem guard] decoder ~0.39 GB, available 46.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 43/7000
+  [mem guard] decoder ~0.39 GB, available 46.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212 X p=0.004: 50/7500
+  [mem guard] decoder ~0.38 GB, available 46.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 5/500
+  [mem guard] decoder ~0.36 GB, available 46.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 9/1000
+  [mem guard] decoder ~0.36 GB, available 46.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 11/1500
+  [mem guard] decoder ~0.36 GB, available 46.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 13/2000
+  [mem guard] decoder ~0.36 GB, available 46.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 15/2500
+  [mem guard] decoder ~0.36 GB, available 46.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 19/3000
+  [mem guard] decoder ~0.36 GB, available 46.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 25/3500
+  [mem guard] decoder ~0.36 GB, available 46.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 28/4000
+  [mem guard] decoder ~0.36 GB, available 46.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 34/4500
+  [mem guard] decoder ~0.36 GB, available 46.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 36/5000
+  [mem guard] decoder ~0.36 GB, available 46.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 42/5500
+  [mem guard] decoder ~0.36 GB, available 46.5 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 47/6000
+  [mem guard] decoder ~0.36 GB, available 46.8 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 212+1307 X p=0.004: 52/6500
+  [mem guard] decoder ~0.37 GB, available 46.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 6/500
+  [mem guard] decoder ~0.39 GB, available 46.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 10/1000
+  [mem guard] decoder ~0.39 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 13/1500
+  [mem guard] decoder ~0.39 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 16/2000
+  [mem guard] decoder ~0.39 GB, available 46.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 21/2500
+  [mem guard] decoder ~0.39 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 23/3000
+  [mem guard] decoder ~0.39 GB, available 46.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 26/3500
+  [mem guard] decoder ~0.39 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 28/4000
+  [mem guard] decoder ~0.39 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 32/4500
+  [mem guard] decoder ~0.39 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 35/5000
+  [mem guard] decoder ~0.39 GB, available 47.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 37/5500
+  [mem guard] decoder ~0.39 GB, available 46.9 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 41/6000
+  [mem guard] decoder ~0.39 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 42/6500
+  [mem guard] decoder ~0.39 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 46/7000
+  [mem guard] decoder ~0.39 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277 X p=0.004: 52/7500
+  [mem guard] decoder ~0.35 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 2/500
+  [mem guard] decoder ~0.33 GB, available 47.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 6/1000
+  [mem guard] decoder ~0.33 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 11/1500
+  [mem guard] decoder ~0.33 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 14/2000
+  [mem guard] decoder ~0.33 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 18/2500
+  [mem guard] decoder ~0.33 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 26/3000
+  [mem guard] decoder ~0.33 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 31/3500
+  [mem guard] decoder ~0.33 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 33/4000
+  [mem guard] decoder ~0.33 GB, available 47.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 35/4500
+  [mem guard] decoder ~0.33 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 39/5000
+  [mem guard] decoder ~0.33 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 43/5500
+  [mem guard] decoder ~0.33 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 46/6000
+  [mem guard] decoder ~0.33 GB, available 47.0 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 49/6500
+  [mem guard] decoder ~0.33 GB, available 47.3 GB, reserve 8.0 GB -> 12 workers (requested 12)
+    LER 1277+268 X p=0.004: 54/7000
+== [[90]] ler done 2026-10-19 07:42 AM KST
+== main run resumed Sun Oct 18 22:42:56 UTC 2026
+== [[90]] extra start 2026-10-19 07:42 AM KST
+  extra: A* = #1277 (d1 8, 16400 search trials before reaching it); circuits [(212,), (212, 1307), (1277,), (1277, 268)]
+    [dcirc] 80/80 units, 5.27 h, ETA 0.0 h
+  extra distance: 212: 8 {'X4': 8, 'X6': 8, 'Z4': 8, 'Z6': 8}; 212+1307: 8 {'X4': 8, 'X6': 8, 'Z4': 8, 'Z6': 8}; 1277: 8 {'X4': 8, 'X6': 8, 'Z4': 8, 'Z6': 8}; 1277+268: 8 {'X4': 8, 'X6': 8, 'Z4': 9, 'Z6': 8}
+== [[90]] extra done 2026-10-19 12:59 PM KST
+== stopped by user Mon Oct 19 07:10:36 UTC 2026

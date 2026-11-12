@@ -1,0 +1,67 @@
+{
+ "info": {
+  "faults": 169,
+  "events": 1777,
+  "malignant2": 0,
+  "all_pairs": 14196
+ },
+ "summary": {
+  "single": {
+   "n": 1777,
+   "agree": 1777,
+   "signature_agree": 1777,
+   "accept_agree": 1777,
+   "nondeterministic": 0,
+   "real": {
+    "rejected": 1672,
+    "benign": 105
+   },
+   "cliffordea": {
+    "rejected": 1672,
+    "benign": 105
+   },
+   "disagreements": []
+  },
+  "malignant2": {
+   "n": 0,
+   "agree": 0,
+   "signature_agree": 0,
+   "accept_agree": 0,
+   "nondeterministic": 0,
+   "real": {},
+   "cliffordea": {},
+   "disagreements": []
+  },
+  "all2": {
+   "n": 14196,
+   "agree": 14196,
+   "signature_agree": 14196,
+   "accept_agree": 14196,
+   "nondeterministic": 0,
+   "real": {
+    "rejected": 14181,
+    "benign": 15
+   },
+   "cliffordea": {
+    "rejected": 14181,
+    "benign": 15
+   },
+   "disagreements": []
+  },
+  "random2": {
+   "n": 2000,
+   "agree": 2000,
+   "signature_agree": 2000,
+   "accept_agree": 2000,
+   "nondeterministic": 0,
+   "real": {
+    "rejected": 2000
+   },
+   "cliffordea": {
+    "rejected": 2000
+   },
+   "disagreements": []
+  }
+ },
+ "malignant2_rows": []
+}

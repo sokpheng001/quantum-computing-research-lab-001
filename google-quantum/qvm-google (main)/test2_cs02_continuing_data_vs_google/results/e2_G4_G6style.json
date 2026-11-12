@@ -1,0 +1,30 @@
+{
+ "started": "2026-11-02 01:40:51 PM KST",
+ "designs": {
+  "G4_G6style": {
+   "name": "G4_G6style",
+   "shots": 2000,
+   "detectors": 6,
+   "detectors_using_mpp_record": 1,
+   "detector_fires": 0,
+   "all_detectors_zero": true,
+   "fidelity_min": 0.9999999999999304,
+   "infidelity_max": 6.961098364399732e-14,
+   "p_code_min": 0.9999999999999307,
+   "cirq_simulator": {
+    "detectors_zero": true,
+    "fidelity": 1.0,
+    "p_code": 0.9999999999999998,
+    "fid_given_code": 1.0000000000000002
+   },
+   "decode_all_zero": true,
+   "decode_shots": 2000,
+   "control_uniform_T": {
+    "acceptance": 0.4995,
+    "fidelity": 0.499999988955477,
+    "p_code": 0.9999999999999472,
+    "fid_given_code": 0.4999999889555034
+   }
+  }
+ }
+}

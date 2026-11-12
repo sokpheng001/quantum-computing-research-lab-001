@@ -1,0 +1,70 @@
+{
+ "settings": {
+  "args": {
+   "out": "results",
+   "workers": 12,
+   "max_flags": 2,
+   "limit": null,
+   "hours": 6.0,
+   "n1": 40,
+   "k1": 8,
+   "n2": 16,
+   "n2_partial": 6,
+   "tag": "zz_zonly_m2fix",
+   "abstract": false,
+   "stop_per_base": 2,
+   "only_bases": "results/zz_zonly_errored_bases.txt",
+   "bases": "Z"
+  },
+  "noise": "uniformly_depolarize",
+  "p": 0.001,
+  "max_fault_count": [
+   2,
+   3
+  ],
+  "readout": "strict",
+  "live_rule": "gate",
+  "final_layer": "auto",
+  "max_degree": 4
+ },
+ "started": "Sun Nov  1 04:47:21 2026",
+ "n_bases_done": 908,
+ "n_evaluated": 25019,
+ "n_success": 0,
+ "best_non_success": [
+  {
+   "T2": 9,
+   "rate": 8.127934171727133e-07,
+   "id": 83,
+   "base": "B0595"
+  },
+  {
+   "T2": 9,
+   "rate": 1.201819313273701e-06,
+   "id": 951,
+   "base": "B1202"
+  },
+  {
+   "T2": 9,
+   "rate": 1.2671498141633524e-06,
+   "id": 87,
+   "base": "B0595"
+  },
+  {
+   "T2": 9,
+   "rate": 1.3406381056607613e-06,
+   "id": 986,
+   "base": "B1203"
+  },
+  {
+   "T2": 9,
+   "rate": 2.7008285556959654e-06,
+   "id": 91,
+   "base": "B0595"
+  }
+ ],
+ "elapsed_s": 6865.824257850647,
+ "n_bases_queued": 908,
+ "stop_reason": "design space exhausted",
+ "finished": "Sun Nov  1 06:41:47 2026"
+}

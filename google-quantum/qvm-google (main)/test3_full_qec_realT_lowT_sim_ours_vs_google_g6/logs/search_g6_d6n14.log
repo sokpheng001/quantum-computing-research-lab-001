@@ -1,0 +1,94 @@
+[     0.6 s] 128 line patterns with three data lines two apart
+[   261.6 s] patterns 100/128: 398 placements on G6's data
+[   546.1 s] groups: 431, placements: 796, cs02's tree among them: True
+[   548.6 s] base g6-00016 T2=6 eval=4 L1=5 L2=4 succ=0
+[   549.7 s] base g6-00017 T2=6 eval=9 L1=5 L2=3 succ=0
+[   549.9 s] base g6-00000 T2=7 eval=9 L1=5 L2=4 succ=0
+[   553.0 s] base g6-00014 T2=8 eval=9 L1=7 L2=6 succ=0
+[   554.5 s] base g6-00013 T2=8 eval=9 L1=6 L2=5 succ=0
+[   557.4 s] base g6-00001 T2=8 eval=18 L1=6 L2=4 succ=0
+[   561.9 s] base g6-00026 T2=6 eval=46 L1=4 L2=2 succ=0
+[   563.0 s] base g6-00027 T2=6 eval=29 L1=4 L2=2 succ=0
+[   566.3 s] base g6-00028 T2=6 eval=29 L1=4 L2=2 succ=0
+[   569.6 s] base g6-00029 T2=5 eval=31 L1=3 L2=2 succ=0
+[   576.6 s] base g6-00020 T2=10 eval=27 L1=4 L2=3 succ=0
+[   577.6 s] base g6-00012 T2=10 eval=12 L1=6 L2=5 succ=0
+[   581.0 s] base g6-00015 T2=10 eval=34 L1=4 L2=3 succ=0
+[   582.7 s] SUCCESS #0 base g6-00030 flags Zf11[q4@t3+q10@t4+q4@t16+q10@t17];Xf12[q4@t2+q4@t17] T3=355 1 in 3875150
+[   582.7 s] SUCCESS #1 base g6-00030 flags Zf11[q4@t2+q10@t3+q4@t15+q10@t16];Xf12[q10@t2+q10@t17] T3=384 1 in 2633280
+[   582.7 s] base g6-00030 T2=14 eval=68 L1=1 L2=0 succ=2
+[   582.9 s] 50/431 groups, 334 circuits, 2 successes
+[   583.1 s] SUCCESS #2 base g6-00032 flags Zf11[q9@t2+q4@t3+q4@t15+q9@t16];Xf12[q4@t2+q4@t16] T3=317 1 in 3886598
+[   583.1 s] SUCCESS #3 base g6-00032 flags Zf11[q9@t3+q4@t4+q4@t16+q9@t17];Xf12[q9@t2+q9@t18] T3=381 1 in 2099942
+[   583.1 s] base g6-00032 T2=13 eval=67 L1=1 L2=0 succ=2
+[   586.5 s] base g6-00068 T2=6 eval=1 L1=5 L2= succ=0
+[   587.6 s] base g6-00052 T2=8 eval=9 L1=5 L2=4 succ=0
+[   588.4 s] base g6-00050 T2=8 eval=18 L1=5 L2=4 succ=0
+[   593.6 s] base g6-00065 T2=8 eval=4 L1=7 L2=6 succ=0
+[   596.3 s] base g6-00024 T2=14 eval=12 L1=7 L2=6 succ=0
+[   596.6 s] base g6-00073 T2=5 eval=15 L1=4 L2=3 succ=0
+[   597.0 s] base g6-00080 T2=7 eval=1 L1=6 L2= succ=0
+[   597.1 s] base g6-00021 T2=11 eval=25 L1=3 L2=2 succ=0
+[   600.4 s] base g6-00081 T2=8 eval=1 L1=6 L2= succ=0
+[   611.8 s] base g6-00022 T2=13 eval=18 L1=6 L2=5 succ=0
+[   613.9 s] base g6-00053 T2=9 eval=15 L1=7 L2=5 succ=0
+[   614.8 s] base g6-00025 T2=12 eval=23 L1=5 L2=2 succ=0
+[   614.9 s] base g6-00084 T2=10 eval=4 L1=7 L2=5 succ=0
+[   621.1 s] base g6-00085 T2=9 eval=37 L1=5 L2=2 succ=0
+[   621.2 s] base g6-00023 T2=11 eval=18 L1=6 L2=5 succ=0
+[   622.7 s] base g6-00086 T2=11 eval=4 L1=7 L2=6 succ=0
+[   625.0 s] base g6-00051 T2=9 eval=24 L1=7 L2=5 succ=0
+[   625.9 s] base g6-00087 T2=9 eval=9 L1=6 L2=4 succ=0
+[   631.6 s] base g6-00083 T2=10 eval=34 L1=4 L2=3 succ=0
+[   638.5 s] SUCCESS #4 base g6-00071 flags Zf12[q7@t2+q9@t3+q9@t15+q7@t16];Xf13[q9@t2+q9@t16] T3=326 1 in 4022889
+[   638.5 s] SUCCESS #5 base g6-00071 flags Xf12[q9@t3+q9@t17];Zf13[q7@t2+q9@t4+q9@t16+q7@t18] T3=326 1 in 2670380
+[   638.5 s] base g6-00071 T2=10 eval=49 L1=4 L2=0 succ=2
+[   653.3 s] base g6-00094 T2=12 eval=15 L1=7 L2=4 succ=0
+[   656.8 s] base g6-00091 T2=14 eval=6 L1=6 L2=5 succ=0
+[   656.9 s] 100/431 groups, 743 circuits, 6 successes
+[   657.8 s] base g6-00096 T2=8 eval=21 L1=6 L2=4 succ=0
+[   663.7 s] base g6-00095 T2=12 eval=15 L1=7 L2=4 succ=0
+[   669.5 s] base g6-00138 T2=8 eval=9 L1=5 L2=4 succ=0
+[   671.8 s] base g6-00100 T2=11 eval=62 L1=3 L2=1 succ=0
+[   677.8 s] base g6-00092 T2=12 eval=27 L1=5 L2=2 succ=0
+[   679.4 s] base g6-00103 T2=9 eval=32 L1=3 L2=1 succ=0
+[   685.0 s] base g6-00143 T2=8 eval=9 L1=7 L2=6 succ=0
+[   685.1 s] base g6-00140 T2=7 eval=15 L1=5 L2=3 succ=0
+[   692.3 s] base g6-00159 T2=7 eval=5 L1=5 L2=4 succ=0
+[   692.3 s] 150/431 groups, 938 circuits, 6 successes
+[   693.2 s] base g6-00154 T2=8 eval=4 L1=6 L2=5 succ=0
+[   698.6 s] base g6-00139 T2=9 eval=15 L1=7 L2=5 succ=0
+[   699.7 s] base g6-00097 T2=14 eval=18 L1=8 L2=6 succ=0
+[   701.8 s] SUCCESS #6 base g6-00104 flags Zf12[q6@t3+q7@t4+q7@t16+q6@t17];Xf13[q6@t2+q6@t18] T3=338 1 in 2088924
+[   701.8 s] base g6-00104 T2=14 eval=66 L1=1 L2=0 succ=1
+[   705.0 s] base g6-00155 T2=8 eval=9 L1=6 L2=5 succ=0
+[   705.5 s] base g6-00170 T2=7 eval=4 L1=6 L2=5 succ=0
+[   706.0 s] base g6-00160 T2=7 eval=13 L1=5 L2=4 succ=0
+[   707.9 s] base g6-00171 T2=7 eval=10 L1=5 L2=3 succ=0
+[   714.8 s] base g6-00072 T2=12 eval=15 L1=8 L2=4 succ=0
+[   732.1 s] base g6-00108 T2=13 eval=26 L1=7 L2=5 succ=0
+[   736.1 s] base g6-00099 T2=13 eval=33 L1=3 L2=1 succ=0
+[   745.9 s] base g6-00180 T2=10 eval=9 L1=8 L2=6 succ=0
+[   751.0 s] base g6-00151 T2=9 eval=21 L1=6 L2=5 succ=0
+[   752.9 s] base g6-00179 T2=9 eval=17 L1=6 L2=4 succ=0
+[   753.7 s] base g6-00177 T2=9 eval=24 L1=6 L2=4 succ=0
+[   756.2 s] base g6-00141 T2=10 eval=18 L1=5 L2=3 succ=0
+[   761.2 s] base g6-00181 T2=10 eval=12 L1=8 L2=6 succ=0
+[   763.0 s] base g6-00198 T2=7 eval=7 L1=5 L2=4 succ=0
+[   778.7 s] base g6-00199 T2=9 eval=7 L1=5 L2=4 succ=0
+[   788.0 s] base g6-00176 T2=10 eval=24 L1=5 L2=4 succ=0
+[   789.4 s] base g6-00178 T2=10 eval=17 L1=5 L2=4 succ=0
+[   826.0 s] base g6-00209 T2=12 eval=4 L1=11 L2=10 succ=0
+[   826.0 s] 200/431 groups, 1311 circuits, 7 successes
+[   826.4 s] base g6-00197 T2=12 eval=24 L1=4 L2=2 succ=0
+[   828.5 s] base g6-00202 T2=10 eval=29 L1=4 L2=3 succ=0
+[   833.7 s] base g6-00196 T2=12 eval=27 L1=4 L2=2 succ=0
+[   834.3 s] base g6-00194 T2=12 eval=27 L1=6 L2=3 succ=0
+[   835.3 s] base g6-00200 T2=10 eval=27 L1=6 L2=5 succ=0
+[   836.3 s] SUCCESS #7 base g6-00221 flags Zf13[q5@t3+q5@t6+q5@t14+q5@t17];Zf14[q3@t2+q10@t3+q10@t17+q3@t18] T3=344 1 in 2047061
+[   836.3 s] SUCCESS #8 base g6-00221 flags Zf13[q5@t3+q5@t6+q5@t14+q5@t17];Zf14[q3@t2+q10@t3+q10@t17+q3@t18] T3=344 1 in 2047061
+[   836.3 s] base g6-00221 T2=10 eval=5 L1=None L2=0 succ=2
+[   836.4 s] SUCCESS #9 base g6-00222 flags Zf13[q5@t3+q5@t6+q5@t14+q5@t18];Zf14[q4@t2+q10@t3+q10@t16+q4@t18] T3=351 1 in 2428130
+[   836.4 s] SUCCESS #10 base g6-00222 flags Zf13[q5@t3+q5@t6+q5@t14+q5@t18];Zf14[q4@t2+q10@t3+q10@t16+q4@t18] T3=351 1 in 2428130
+[   836.4 s] base g6-00222 T2=8 eval=7 L1=None L2=0 succ=2
+[   836.7 s] done: 10 successes groups 217, evaluated 1457, successes 11

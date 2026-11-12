@@ -1,0 +1,14 @@
+CLEANUP START 2026-11-01 05:27 PM KST
+size before: 1012M
+1. caches
+2. aborted ZZ run (superseded by the canonical run)
+3. figures -> figures/archive/ (already done by hand at 5:00 pm; this step is a no-op if so)
+4. compress transcripts and the Step 3 candidate table
+5. full test suite after cleanup
+........................................................................ [ 61%]
+..............................................                           [100%]
+118 passed in 58.60s
+cliffordea status (must be empty):
+test..py left untouched (user's file)
+size after: 722M
+CLEANUP DONE 2026-11-01 05:28 PM KST

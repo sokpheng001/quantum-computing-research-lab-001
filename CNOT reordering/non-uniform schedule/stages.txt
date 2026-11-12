@@ -1,0 +1,15 @@
+reg 90
+reg 72
+part0 72
+partA 90
+partB4 90
+partB5 90
+reg 108
+partB4 108
+partB5 108
+lerB 108
+reg 144
+partA 144
+partB4 144
+partB5 144
+lerB 144

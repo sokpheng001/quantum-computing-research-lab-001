@@ -1,0 +1,128 @@
+{
+  "useless T": {
+    "p": 0.001,
+    "target_success": 0.999,
+    "shots": 1000,
+    "t_count": 0,
+    "gates": {
+      "x": 1,
+      "measure": 1
+    },
+    "measured": [
+      0
+    ],
+    "qec": {
+      "p_cycle": {
+        "3": 0.00031676699740235126,
+        "5": 1.0000200005966242e-05
+      },
+      "fails": {
+        "3": 19,
+        "5": 1
+      },
+      "lambda": 31.676066200012418
+    },
+    "plan": {
+      "d": 5,
+      "cycles": 20,
+      "data_fail": 0.00019998500049933643,
+      "factory": null
+    },
+    "execution": {
+      "ideal": {
+        "1": 1.0
+      },
+      "counts": {
+        "1": 999,
+        "0": 1
+      },
+      "p_fail": 0.00019998500049933643,
+      "failed_shots": 1
+    },
+    "qubits": {
+      "data": 49,
+      "factory": 0,
+      "routing": 24,
+      "total": 73
+    }
+  },
+  "Toffoli AND": {
+    "p": 0.001,
+    "target_success": 0.999,
+    "shots": 1000,
+    "t_count": 7,
+    "gates": {
+      "h": 4,
+      "cx": 6,
+      "tdg": 3,
+      "t": 4,
+      "measure": 3
+    },
+    "measured": [
+      0,
+      1,
+      2
+    ],
+    "qec": {
+      "p_cycle": {
+        "3": 0.00031676699740235126,
+        "5": 1.0000200005966242e-05
+      },
+      "fails": {
+        "3": 19,
+        "5": 1
+      },
+      "lambda": 31.676066200012418
+    },
+    "plan": {
+      "d": 7,
+      "cycles": 98,
+      "data_fail": 9.281211903300335e-05,
+      "factory": {
+        "magic_states": 7,
+        "max_error_each": 7.142857142857149e-05,
+        "d1": 3,
+        "error_each": 2.085855552764758e-06,
+        "discard": 0.7745629488555533,
+        "attempts_per_state": 4.435828072286394,
+        "source": "simulated",
+        "options": [
+          {
+            "d1": 3,
+            "error": 2.085855552764758e-06,
+            "discard": 0.7745629488555533,
+            "source": "simulated"
+          },
+          {
+            "d1": 5,
+            "error": 2e-09,
+            "discard": 0.99,
+            "source": "published"
+          }
+        ]
+      }
+    },
+    "execution": {
+      "ideal": {
+        "000": 0.25,
+        "001": 0.25,
+        "010": 0.25,
+        "111": 0.25
+      },
+      "counts": {
+        "001": 234,
+        "010": 246,
+        "000": 285,
+        "111": 235
+      },
+      "p_fail": 0.00010741166139549563,
+      "failed_shots": 0
+    },
+    "qubits": {
+      "data": 291,
+      "factory": 449,
+      "routing": 145,
+      "total": 885
+    }
+  }
+}

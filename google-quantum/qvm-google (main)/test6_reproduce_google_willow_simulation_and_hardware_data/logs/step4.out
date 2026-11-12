@@ -1,0 +1,18 @@
+[Nov 09, 03:06 PM KST] step 4: fig2/cultivation [X] vs G4: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:06 PM KST] step 4: fig2/cultivation [Z] vs G4: gates identical=False (differing ticks 9), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:06 PM KST] step 4: fig3/with_idle_rounds [X] vs G5: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 21 / T-dagger 21
+[Nov 09, 03:06 PM KST] step 4: fig4/cultivation_N=2 [X] vs G6: gates identical=True (differing ticks 0), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:06 PM KST] step 4: fig4/cultivation_N=2 [Z] vs G6: gates identical=False (differing ticks 13), with tags=False, detectors same=False, observable same=False, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:06 PM KST] step 4 done
+[Nov 09, 03:09 PM KST] step 4: fig2/cultivation [X] vs G4: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:09 PM KST] step 4: fig2/cultivation [Z] vs G4: gates identical=False (differing ticks 9), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:09 PM KST] step 4: fig3/with_idle_rounds [X] vs G5: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 21 / T-dagger 21
+[Nov 09, 03:09 PM KST] step 4: fig4/cultivation_N=2 [X] vs G6: gates identical=True (differing ticks 0), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:09 PM KST] step 4: fig4/cultivation_N=2 [Z] vs G6: gates identical=False (differing ticks 13), with tags=False, detectors same=False, observable same=False, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:09 PM KST] step 4 done
+[Nov 09, 03:22 PM KST] step 4: fig2/cultivation [X] vs G4: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:22 PM KST] step 4: fig2/cultivation [Z] vs G4: gates identical=False (differing ticks 9), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:22 PM KST] step 4: fig3/with_idle_rounds [X] vs G5: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 21 / T-dagger 21
+[Nov 09, 03:22 PM KST] step 4: fig4/cultivation_N=2 [X] vs G6: gates identical=True (differing ticks 0), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:22 PM KST] step 4: fig4/cultivation_N=2 [Z] vs G6: gates identical=False (differing ticks 13), with tags=False, detectors same=False, observable same=False, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:22 PM KST] step 4 done

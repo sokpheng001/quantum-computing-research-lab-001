@@ -1,0 +1,209 @@
+{
+ "info": {
+  "faults": 154,
+  "events": 1018,
+  "malignant2": 7,
+  "all_pairs": 11781
+ },
+ "summary": {
+  "single": {
+   "n": 1018,
+   "agree": 1018,
+   "signature_agree": 1018,
+   "accept_agree": 1018,
+   "nondeterministic": 0,
+   "real": {
+    "rejected": 975,
+    "benign": 43
+   },
+   "cliffordea": {
+    "rejected": 975,
+    "benign": 43
+   },
+   "disagreements": []
+  },
+  "malignant2": {
+   "n": 7,
+   "agree": 7,
+   "signature_agree": 7,
+   "accept_agree": 7,
+   "nondeterministic": 0,
+   "real": {
+    "malignant": 7
+   },
+   "cliffordea": {
+    "malignant": 7
+   },
+   "disagreements": []
+  },
+  "all2": {
+   "n": 11781,
+   "agree": 11781,
+   "signature_agree": 11781,
+   "accept_agree": 11781,
+   "nondeterministic": 0,
+   "real": {
+    "rejected": 11733,
+    "benign": 41,
+    "malignant": 7
+   },
+   "cliffordea": {
+    "rejected": 11733,
+    "benign": 41,
+    "malignant": 7
+   },
+   "disagreements": []
+  },
+  "random2": {
+   "n": 2000,
+   "agree": 2000,
+   "signature_agree": 2000,
+   "accept_agree": 2000,
+   "nondeterministic": 0,
+   "real": {
+    "rejected": 1997,
+    "benign": 3
+   },
+   "cliffordea": {
+    "rejected": 1997,
+    "benign": 3
+   },
+   "disagreements": []
+  }
+ },
+ "malignant2_rows": [
+  {
+   "cfg": [
+    8,
+    130
+   ],
+   "events": [
+    "(1, 'X_ERROR', ((2, ''),))",
+    "(18, 'E', ((3, 'Y'), (4, 'X')))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.2500000152594982,
+   "fid_given_code": 5.602227005763126e-15,
+   "accept_agree": true
+  },
+  {
+   "cfg": [
+    8,
+    141
+   ],
+   "events": [
+    "(1, 'X_ERROR', ((2, ''),))",
+    "(18, 'E', ((9, 'X'), (10, 'Y')))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.24999998005642404,
+   "fid_given_code": 5.617358448767058e-16,
+   "accept_agree": true
+  },
+  {
+   "cfg": [
+    47,
+    120
+   ],
+   "events": [
+    "(5, 'X_ERROR', ((4, ''),))",
+    "(16, 'E', ((8, 'X'), (9, 'X')))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.24999998246461536,
+   "fid_given_code": 2.3651295606084266e-15,
+   "accept_agree": true
+  },
+  {
+   "cfg": [
+    47,
+    153
+   ],
+   "events": [
+    "(5, 'X_ERROR', ((4, ''),))",
+    "(20, 'E', ((2, 'Y'), (6, 'X')))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.24999998332977877,
+   "fid_given_code": 1.788182561803934e-17,
+   "accept_agree": true
+  },
+  {
+   "cfg": [
+    58,
+    122
+   ],
+   "events": [
+    "(5, 'X_ERROR', ((5, ''),))",
+    "(16, 'Y_ERROR', ((8, ''),))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.2500000015430255,
+   "fid_given_code": 3.753750801217521e-15,
+   "accept_agree": true
+  },
+  {
+   "cfg": [
+    67,
+    153
+   ],
+   "events": [
+    "(5, 'X_ERROR', ((9, ''),))",
+    "(20, 'E', ((2, 'Y'), (6, 'X')))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.2500000055878835,
+   "fid_given_code": 1.468320506952073e-15,
+   "accept_agree": true
+  },
+  {
+   "cfg": [
+    117,
+    153
+   ],
+   "events": [
+    "(16, 'X_ERROR', ((9, ''),))",
+    "(20, 'E', ((2, 'Y'), (6, 'X')))"
+   ],
+   "cliffordea": "malignant",
+   "cliffordea_accept": 0.25,
+   "real": "malignant",
+   "agree": true,
+   "signature_agree": true,
+   "deterministic": true,
+   "p_code": 0.25000000504233844,
+   "fid_given_code": 2.3961183553001087e-16,
+   "accept_agree": true
+  }
+ ]
+}

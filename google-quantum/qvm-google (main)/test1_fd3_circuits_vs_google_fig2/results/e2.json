@@ -1,0 +1,131 @@
+{
+ "started": "2026-11-01 04:12:27 PM KST",
+ "designs": {
+  "success03": {
+   "name": "success03",
+   "shots": 2000,
+   "detectors": 7,
+   "detectors_using_mpp_record": 1,
+   "detector_fires": 0,
+   "all_detectors_zero": true,
+   "fidelity_min": 0.9999999999999598,
+   "infidelity_max": 4.0190073491430667e-14,
+   "p_code_min": 0.9999999999999599,
+   "cirq_simulator": {
+    "detectors_zero": true,
+    "fidelity": 1.0,
+    "p_code": 1.0,
+    "fid_given_code": 1.0
+   },
+   "decode_all_zero": true,
+   "decode_shots": 2000,
+   "control_uniform_T": {
+    "acceptance": 0.4995,
+    "fidelity": 0.5000000093897439,
+    "p_code": 0.9999999999999706,
+    "fid_given_code": 0.5000000093897586
+   }
+  },
+  "success04": {
+   "name": "success04",
+   "shots": 2000,
+   "detectors": 7,
+   "detectors_using_mpp_record": 1,
+   "detector_fires": 0,
+   "all_detectors_zero": true,
+   "fidelity_min": 0.9999999999999576,
+   "infidelity_max": 4.241051954068098e-14,
+   "p_code_min": 0.9999999999999576,
+   "cirq_simulator": {
+    "detectors_zero": true,
+    "fidelity": 1.0,
+    "p_code": 1.0,
+    "fid_given_code": 1.0
+   },
+   "decode_all_zero": true,
+   "decode_shots": 2000,
+   "control_uniform_T": {
+    "acceptance": 0.4995,
+    "fidelity": 0.4999999794002258,
+    "p_code": 0.9999999999999714,
+    "fid_given_code": 0.4999999794002401
+   }
+  },
+  "success00": {
+   "name": "success00",
+   "shots": 2000,
+   "detectors": 7,
+   "detectors_using_mpp_record": 1,
+   "detector_fires": 0,
+   "all_detectors_zero": true,
+   "fidelity_min": 0.9999999999999585,
+   "infidelity_max": 4.1522341120980855e-14,
+   "p_code_min": 0.9999999999999585,
+   "cirq_simulator": {
+    "detectors_zero": true,
+    "fidelity": 1.0,
+    "p_code": 1.0,
+    "fid_given_code": 1.0
+   },
+   "decode_all_zero": true,
+   "decode_shots": 2000,
+   "control_uniform_T": {
+    "acceptance": 0.491,
+    "fidelity": 0.5000000008265757,
+    "p_code": 0.9999999999999631,
+    "fid_given_code": 0.5000000008265941
+   }
+  },
+  "G4": {
+   "name": "G4",
+   "shots": 2000,
+   "detectors": 7,
+   "detectors_using_mpp_record": 1,
+   "detector_fires": 0,
+   "all_detectors_zero": true,
+   "fidelity_min": 0.999999999999929,
+   "infidelity_max": 7.105427357601002e-14,
+   "p_code_min": 0.9999999999999288,
+   "cirq_simulator": {
+    "detectors_zero": true,
+    "fidelity": 1.0,
+    "p_code": 1.0,
+    "fid_given_code": 1.0
+   },
+   "decode_all_zero": true,
+   "decode_shots": 2000,
+   "control_uniform_T": {
+    "acceptance": 0.4995,
+    "fidelity": 0.5000000156943627,
+    "p_code": 0.9999999999999418,
+    "fid_given_code": 0.5000000156943918
+   }
+  },
+  "d3a6": {
+   "name": "d3a6",
+   "shots": 2000,
+   "detectors": 7,
+   "detectors_using_mpp_record": 1,
+   "detector_fires": 0,
+   "all_detectors_zero": true,
+   "fidelity_min": 0.9999999999999444,
+   "infidelity_max": 5.562217353372034e-14,
+   "p_code_min": 0.9999999999999448,
+   "cirq_simulator": {
+    "detectors_zero": true,
+    "fidelity": 1.0,
+    "p_code": 1.0,
+    "fid_given_code": 1.0
+   },
+   "decode_all_zero": true,
+   "decode_shots": 2000,
+   "control_uniform_T": {
+    "acceptance": 0.499,
+    "fidelity": 5.861490816912859e-16,
+    "p_code": 2.198762005800603e-15,
+    "fid_given_code": NaN
+   }
+  }
+ },
+ "runtime_s": 29.91969394683838
+}

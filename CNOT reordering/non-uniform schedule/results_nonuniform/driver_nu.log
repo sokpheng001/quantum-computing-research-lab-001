@@ -1,0 +1,623 @@
+== driver_nu start Sun Oct 18 07:07:36 UTC 2026
+== [[90]] reg start 2026-10-18 04:07 PM KST
+  [[90]] regression: d1(S = #212) with the validated search (ours/bravyi_d1.py), CONFIRM = 100000 trials per fault type, 6 workers
+    [reg] 20/400 units, 0.20 h, ETA 3.8 h
+    [reg] 40/400 units, 0.36 h, ETA 3.3 h
+    [reg] 60/400 units, 0.54 h, ETA 3.1 h
+    [reg] 80/400 units, 0.75 h, ETA 3.0 h
+    [reg] 100/400 units, 0.91 h, ETA 2.7 h
+    [reg] 120/400 units, 1.06 h, ETA 2.5 h
+    [reg] 140/400 units, 1.23 h, ETA 2.3 h
+    [reg] 160/400 units, 1.43 h, ETA 2.1 h
+    [reg] 180/400 units, 1.68 h, ETA 2.0 h
+    [reg] 200/400 units, 1.85 h, ETA 1.9 h
+    [reg] 220/400 units, 2.00 h, ETA 1.6 h
+    [reg] 240/400 units, 2.14 h, ETA 1.4 h
+    [reg] 260/400 units, 2.27 h, ETA 1.2 h
+    [reg] 280/400 units, 2.41 h, ETA 1.0 h
+    [reg] 300/400 units, 2.55 h, ETA 0.9 h
+    [reg] 320/400 units, 2.68 h, ETA 0.7 h
+    [reg] 340/400 units, 2.84 h, ETA 0.5 h
+    [reg] 360/400 units, 2.98 h, ETA 0.3 h
+    [reg] 380/400 units, 3.12 h, ETA 0.2 h
+    [reg] 400/400 units, 3.27 h, ETA 0.0 h
+  regression [[90]]: d1(S) X-type 8 (100000 trials), Z-type 8 (100000 trials); Bravyi 8 -> PASS
+== [[90]] reg done 2026-10-18 07:23 PM KST
+== [[72]] reg start 2026-10-18 07:23 PM KST
+  [[72]] regression: d1(S = #212) with the validated search (ours/bravyi_d1.py), CONFIRM = 100000 trials per fault type, 6 workers
+    [reg] 20/400 units, 0.14 h, ETA 2.6 h
+    [reg] 40/400 units, 0.25 h, ETA 2.2 h
+    [reg] 60/400 units, 0.35 h, ETA 2.0 h
+    [reg] 80/400 units, 0.46 h, ETA 1.9 h
+    [reg] 100/400 units, 0.58 h, ETA 1.7 h
+    [reg] 120/400 units, 0.68 h, ETA 1.6 h
+    [reg] 140/400 units, 0.79 h, ETA 1.5 h
+    [reg] 160/400 units, 0.91 h, ETA 1.4 h
+    [reg] 180/400 units, 1.02 h, ETA 1.2 h
+    [reg] 200/400 units, 1.13 h, ETA 1.1 h
+    [reg] 220/400 units, 1.25 h, ETA 1.0 h
+    [reg] 240/400 units, 1.36 h, ETA 0.9 h
+    [reg] 260/400 units, 1.47 h, ETA 0.8 h
+    [reg] 280/400 units, 1.60 h, ETA 0.7 h
+    [reg] 300/400 units, 1.71 h, ETA 0.6 h
+    [reg] 320/400 units, 1.83 h, ETA 0.5 h
+    [reg] 340/400 units, 1.94 h, ETA 0.3 h
+    [reg] 360/400 units, 2.06 h, ETA 0.2 h
+    [reg] 380/400 units, 2.18 h, ETA 0.1 h
+    [reg] 400/400 units, 2.27 h, ETA 0.0 h
+  regression [[72]]: d1(S) X-type 6 (100000 trials), Z-type 6 (100000 trials); Bravyi 6 -> PASS
+== [[72]] reg done 2026-10-18 09:39 PM KST
+== [[72]] part0 start 2026-10-18 09:39 PM KST
+  0.2 S weight-6 sets/families/copies: {'X': {'sets': 222, 'families': 8, 'copies': 222}, 'Z': {'sets': 324, 'families': 11, 'copies': 324}}
+  sanity: S itself keeps {'X': 222, 'Z': 324} of [222, 324] copies (must be all)
+  B2/B4: 11915 candidates, 0 on file, 11915 to check
+    [B2/B4] 500/11915, 0.0 min, ETA 0.8 min
+    [B2/B4] 1000/11915, 0.1 min, ETA 0.6 min
+    [B2/B4] 1500/11915, 0.1 min, ETA 0.5 min
+    [B2/B4] 2000/11915, 0.1 min, ETA 0.6 min
+    [B2/B4] 2500/11915, 0.1 min, ETA 0.6 min
+    [B2/B4] 3000/11915, 0.2 min, ETA 0.5 min
+    [B2/B4] 3500/11915, 0.2 min, ETA 0.5 min
+    [B2/B4] 4000/11915, 0.2 min, ETA 0.4 min
+    [B2/B4] 4500/11915, 0.2 min, ETA 0.4 min
+    [B2/B4] 5000/11915, 0.2 min, ETA 0.3 min
+    [B2/B4] 5500/11915, 0.3 min, ETA 0.3 min
+    [B2/B4] 6000/11915, 0.3 min, ETA 0.3 min
+    [B2/B4] 6500/11915, 0.3 min, ETA 0.2 min
+    [B2/B4] 7000/11915, 0.3 min, ETA 0.2 min
+    [B2/B4] 7500/11915, 0.3 min, ETA 0.2 min
+    [B2/B4] 8000/11915, 0.3 min, ETA 0.2 min
+    [B2/B4] 8500/11915, 0.4 min, ETA 0.1 min
+    [B2/B4] 9000/11915, 0.4 min, ETA 0.1 min
+    [B2/B4] 9500/11915, 0.4 min, ETA 0.1 min
+    [B2/B4] 10000/11915, 0.5 min, ETA 0.1 min
+    [B2/B4] 10500/11915, 0.5 min, ETA 0.1 min
+    [B2/B4] 11000/11915, 0.5 min, ETA 0.0 min
+    [B2/B4] 11500/11915, 0.5 min, ETA 0.0 min
+    [B2/B4] 11915/11915, 0.5 min, ETA 0.0 min
+  funnel: {'Z2 (1,0)': {'generated': 1583, 'valid': 3, 'pass_b4': 0}, 'Z2 (0,1)': {'generated': 1583, 'valid': 15, 'pass_b4': 0}, 'Z2 (1,1)': {'generated': 1583, 'valid': 3, 'pass_b4': 0}, 'Z3 (1,0)': {'generated': 3583, 'valid': 3, 'pass_b4': 0}, 'Z3 (0,1)': {'generated': 3583, 'valid': 32, 'pass_b4': 0}}
+    [b5] 20/448 units, 0.13 h, ETA 2.8 h
+    [b5] 40/448 units, 0.24 h, ETA 2.4 h
+    [b5] 60/448 units, 0.37 h, ETA 2.4 h
+    [b5] 80/448 units, 0.48 h, ETA 2.2 h
+    [b5] 100/448 units, 0.60 h, ETA 2.1 h
+    [b5] 120/448 units, 0.71 h, ETA 1.9 h
+    [b5] 140/448 units, 0.82 h, ETA 1.8 h
+    [b5] 160/448 units, 0.94 h, ETA 1.7 h
+    [b5] 180/448 units, 1.06 h, ETA 1.6 h
+    [b5] 200/448 units, 1.17 h, ETA 1.4 h
+    [b5] 220/448 units, 1.29 h, ETA 1.3 h
+    [b5] 240/448 units, 1.41 h, ETA 1.2 h
+    [b5] 260/448 units, 1.53 h, ETA 1.1 h
+    [b5] 280/448 units, 1.64 h, ETA 1.0 h
+    [b5] 300/448 units, 1.76 h, ETA 0.9 h
+    [b5] 320/448 units, 1.88 h, ETA 0.8 h
+    [b5] 340/448 units, 1.99 h, ETA 0.6 h
+    [b5] 360/448 units, 2.12 h, ETA 0.5 h
+    [b5] 380/448 units, 2.23 h, ETA 0.4 h
+    [b5] 400/448 units, 2.34 h, ETA 0.3 h
+    [b5] 420/448 units, 2.46 h, ETA 0.2 h
+    [b5] 440/448 units, 2.57 h, ETA 0.0 h
+    [b5] 448/448 units, 2.62 h, ETA 0.0 h
+  B5 screen (2000 trials/type) on 56 candidates: d1 histogram {5: 3, 6: 53}; screen > 6 in both types: 0; confirmed > 6: []
+    LER u212 p=0.006: Z basis 94/400, X basis 103/400  (42s per 400)
+    LER c2:0,1:212,230 p=0.006: Z basis 93/400, X basis 99/400  (37s per 400)
+    LER u212 p=0.004: Z basis 17/400, X basis 26/400  (8s per 400)
+    LER u212 p=0.004: Z basis 29/800, X basis 50/800  (9s per 400)
+    LER u212 p=0.004: Z basis 56/1200, X basis 63/1200  (6s per 400)
+    LER c2:0,1:212,230 p=0.004: Z basis 17/400, X basis 29/400  (7s per 400)
+    LER c2:0,1:212,230 p=0.004: Z basis 34/800, X basis 46/800  (6s per 400)
+    LER c2:0,1:212,230 p=0.004: Z basis 62/1200, X basis 60/1200  (7s per 400)
+  0.3 LER S vs N72 = c2:0,1:212,230: agree within 95% intervals: {'Z|0.006': True, 'X|0.006': True, 'Z|0.004': True, 'X|0.004': True}
+  0.4 control: regression 6/6 (expect 6/6); confirmed d1 > 6: 0 (expect 0); LER agree: True (expect True)
+== [[72]] part0 done 2026-10-19 12:19 AM KST
+== [[90]] partA start 2026-10-19 12:50 AM KST
+  Part A [[90]] X faults: 66 weight-8 sets in 2 families; hooks per family [4, 2]
+  Part A [[90]] Z faults: 291 weight-8 sets in 12 families; hooks per family [5, 3, 4, 4, 3, 2, 2, 5, 3, 5, 3, 4]
+== [[90]] partA done 2026-10-19 12:50 AM KST
+== [[90]] partB4 start 2026-10-19 12:50 AM KST
+  [[90]] S weight-8 copies: X 90, Z 540; S keeps {'X': 90, 'Z': 540}
+  homomorphisms (image of x, image of y): [(3, (0, 1)), (3, (1, 0)), (3, (1, 1)), (3, (1, 2))]; candidates: 87116
+  B2/B4: 87116 candidates, 0 on file, 87116 to check
+    [B2/B4] 500/87116, 0.1 min, ETA 14.5 min
+    [B2/B4] 1000/87116, 0.1 min, ETA 9.0 min
+    [B2/B4] 1500/87116, 0.1 min, ETA 6.9 min
+    [B2/B4] 2000/87116, 0.1 min, ETA 5.9 min
+    [B2/B4] 2500/87116, 0.2 min, ETA 5.3 min
+    [B2/B4] 3000/87116, 0.2 min, ETA 4.8 min
+    [B2/B4] 3500/87116, 0.2 min, ETA 4.5 min
+    [B2/B4] 4000/87116, 0.2 min, ETA 4.3 min
+    [B2/B4] 4500/87116, 0.2 min, ETA 4.1 min
+    [B2/B4] 5000/87116, 0.2 min, ETA 4.0 min
+    [B2/B4] 5500/87116, 0.3 min, ETA 3.8 min
+    [B2/B4] 6000/87116, 0.3 min, ETA 3.7 min
+    [B2/B4] 6500/87116, 0.3 min, ETA 3.6 min
+    [B2/B4] 7000/87116, 0.3 min, ETA 3.5 min
+    [B2/B4] 7500/87116, 0.3 min, ETA 3.4 min
+    [B2/B4] 8000/87116, 0.3 min, ETA 3.4 min
+    [B2/B4] 8500/87116, 0.4 min, ETA 3.4 min
+    [B2/B4] 9000/87116, 0.4 min, ETA 3.4 min
+    [B2/B4] 9500/87116, 0.4 min, ETA 3.5 min
+    [B2/B4] 10000/87116, 0.4 min, ETA 3.5 min
+    [B2/B4] 10500/87116, 0.5 min, ETA 3.4 min
+    [B2/B4] 11000/87116, 0.5 min, ETA 3.4 min
+    [B2/B4] 11500/87116, 0.5 min, ETA 3.4 min
+    [B2/B4] 12000/87116, 0.5 min, ETA 3.4 min
+    [B2/B4] 12500/87116, 0.6 min, ETA 3.4 min
+    [B2/B4] 13000/87116, 0.6 min, ETA 3.4 min
+    [B2/B4] 13500/87116, 0.6 min, ETA 3.3 min
+    [B2/B4] 14000/87116, 0.6 min, ETA 3.4 min
+    [B2/B4] 14500/87116, 0.7 min, ETA 3.4 min
+    [B2/B4] 15000/87116, 0.7 min, ETA 3.3 min
+    [B2/B4] 15500/87116, 0.7 min, ETA 3.3 min
+    [B2/B4] 16000/87116, 0.7 min, ETA 3.3 min
+    [B2/B4] 16500/87116, 0.8 min, ETA 3.2 min
+    [B2/B4] 17000/87116, 0.8 min, ETA 3.2 min
+    [B2/B4] 17500/87116, 0.8 min, ETA 3.2 min
+    [B2/B4] 18000/87116, 0.8 min, ETA 3.2 min
+    [B2/B4] 18500/87116, 0.8 min, ETA 3.1 min
+    [B2/B4] 19000/87116, 0.9 min, ETA 3.1 min
+    [B2/B4] 19500/87116, 0.9 min, ETA 3.1 min
+    [B2/B4] 20000/87116, 0.9 min, ETA 3.1 min
+    [B2/B4] 20500/87116, 0.9 min, ETA 3.1 min
+    [B2/B4] 21000/87116, 1.0 min, ETA 3.1 min
+    [B2/B4] 21500/87116, 1.0 min, ETA 3.0 min
+    [B2/B4] 22000/87116, 1.0 min, ETA 3.0 min
+    [B2/B4] 22500/87116, 1.0 min, ETA 3.0 min
+    [B2/B4] 23000/87116, 1.1 min, ETA 3.0 min
+    [B2/B4] 23500/87116, 1.1 min, ETA 3.0 min
+    [B2/B4] 24000/87116, 1.1 min, ETA 2.9 min
+    [B2/B4] 24500/87116, 1.1 min, ETA 2.9 min
+    [B2/B4] 25000/87116, 1.2 min, ETA 2.9 min
+    [B2/B4] 25500/87116, 1.2 min, ETA 2.9 min
+    [B2/B4] 26000/87116, 1.2 min, ETA 2.9 min
+    [B2/B4] 26500/87116, 1.3 min, ETA 2.9 min
+    [B2/B4] 27000/87116, 1.3 min, ETA 2.8 min
+    [B2/B4] 27500/87116, 1.3 min, ETA 2.8 min
+    [B2/B4] 28000/87116, 1.3 min, ETA 2.8 min
+    [B2/B4] 28500/87116, 1.3 min, ETA 2.8 min
+    [B2/B4] 29000/87116, 1.4 min, ETA 2.7 min
+    [B2/B4] 29500/87116, 1.4 min, ETA 2.7 min
+    [B2/B4] 30000/87116, 1.4 min, ETA 2.7 min
+    [B2/B4] 30500/87116, 1.4 min, ETA 2.6 min
+    [B2/B4] 31000/87116, 1.4 min, ETA 2.6 min
+    [B2/B4] 31500/87116, 1.5 min, ETA 2.6 min
+    [B2/B4] 32000/87116, 1.5 min, ETA 2.6 min
+    [B2/B4] 32500/87116, 1.5 min, ETA 2.5 min
+    [B2/B4] 33000/87116, 1.5 min, ETA 2.5 min
+    [B2/B4] 33500/87116, 1.6 min, ETA 2.5 min
+    [B2/B4] 34000/87116, 1.6 min, ETA 2.5 min
+    [B2/B4] 34500/87116, 1.6 min, ETA 2.5 min
+    [B2/B4] 35000/87116, 1.6 min, ETA 2.4 min
+    [B2/B4] 35500/87116, 1.7 min, ETA 2.4 min
+    [B2/B4] 36000/87116, 1.7 min, ETA 2.4 min
+    [B2/B4] 36500/87116, 1.7 min, ETA 2.4 min
+    [B2/B4] 37000/87116, 1.7 min, ETA 2.3 min
+    [B2/B4] 37500/87116, 1.7 min, ETA 2.3 min
+    [B2/B4] 38000/87116, 1.8 min, ETA 2.3 min
+    [B2/B4] 38500/87116, 1.8 min, ETA 2.3 min
+    [B2/B4] 39000/87116, 1.8 min, ETA 2.2 min
+    [B2/B4] 39500/87116, 1.8 min, ETA 2.2 min
+    [B2/B4] 40000/87116, 1.9 min, ETA 2.2 min
+    [B2/B4] 40500/87116, 1.9 min, ETA 2.2 min
+    [B2/B4] 41000/87116, 1.9 min, ETA 2.1 min
+    [B2/B4] 41500/87116, 1.9 min, ETA 2.1 min
+    [B2/B4] 42000/87116, 2.0 min, ETA 2.1 min
+    [B2/B4] 42500/87116, 2.0 min, ETA 2.1 min
+    [B2/B4] 43000/87116, 2.0 min, ETA 2.0 min
+    [B2/B4] 43500/87116, 2.0 min, ETA 2.0 min
+    [B2/B4] 44000/87116, 2.0 min, ETA 2.0 min
+    [B2/B4] 44500/87116, 2.1 min, ETA 2.0 min
+    [B2/B4] 45000/87116, 2.1 min, ETA 1.9 min
+    [B2/B4] 45500/87116, 2.1 min, ETA 1.9 min
+    [B2/B4] 46000/87116, 2.1 min, ETA 1.9 min
+    [B2/B4] 46500/87116, 2.1 min, ETA 1.9 min
+    [B2/B4] 47000/87116, 2.2 min, ETA 1.8 min
+    [B2/B4] 47500/87116, 2.2 min, ETA 1.8 min
+    [B2/B4] 48000/87116, 2.2 min, ETA 1.8 min
+    [B2/B4] 48500/87116, 2.2 min, ETA 1.8 min
+    [B2/B4] 49000/87116, 2.2 min, ETA 1.7 min
+    [B2/B4] 49500/87116, 2.3 min, ETA 1.7 min
+    [B2/B4] 50000/87116, 2.3 min, ETA 1.7 min
+    [B2/B4] 50500/87116, 2.3 min, ETA 1.7 min
+    [B2/B4] 51000/87116, 2.3 min, ETA 1.6 min
+    [B2/B4] 51500/87116, 2.3 min, ETA 1.6 min
+    [B2/B4] 52000/87116, 2.4 min, ETA 1.6 min
+    [B2/B4] 52500/87116, 2.4 min, ETA 1.6 min
+    [B2/B4] 53000/87116, 2.4 min, ETA 1.6 min
+    [B2/B4] 53500/87116, 2.4 min, ETA 1.5 min
+    [B2/B4] 54000/87116, 2.5 min, ETA 1.5 min
+    [B2/B4] 54500/87116, 2.5 min, ETA 1.5 min
+    [B2/B4] 55000/87116, 2.5 min, ETA 1.5 min
+    [B2/B4] 55500/87116, 2.5 min, ETA 1.4 min
+    [B2/B4] 56000/87116, 2.6 min, ETA 1.4 min
+    [B2/B4] 56500/87116, 2.6 min, ETA 1.4 min
+    [B2/B4] 57000/87116, 2.6 min, ETA 1.4 min
+    [B2/B4] 57500/87116, 2.6 min, ETA 1.4 min
+    [B2/B4] 58000/87116, 2.7 min, ETA 1.3 min
+    [B2/B4] 58500/87116, 2.7 min, ETA 1.3 min
+    [B2/B4] 59000/87116, 2.7 min, ETA 1.3 min
+    [B2/B4] 59500/87116, 2.7 min, ETA 1.3 min
+    [B2/B4] 60000/87116, 2.7 min, ETA 1.2 min
+    [B2/B4] 60500/87116, 2.8 min, ETA 1.2 min
+    [B2/B4] 61000/87116, 2.8 min, ETA 1.2 min
+    [B2/B4] 61500/87116, 2.8 min, ETA 1.2 min
+    [B2/B4] 62000/87116, 2.8 min, ETA 1.2 min
+    [B2/B4] 62500/87116, 2.9 min, ETA 1.1 min
+    [B2/B4] 63000/87116, 2.9 min, ETA 1.1 min
+    [B2/B4] 63500/87116, 2.9 min, ETA 1.1 min
+    [B2/B4] 64000/87116, 2.9 min, ETA 1.1 min
+    [B2/B4] 64500/87116, 3.0 min, ETA 1.0 min
+    [B2/B4] 65000/87116, 3.0 min, ETA 1.0 min
+    [B2/B4] 65500/87116, 3.0 min, ETA 1.0 min
+    [B2/B4] 66000/87116, 3.0 min, ETA 1.0 min
+    [B2/B4] 66500/87116, 3.0 min, ETA 0.9 min
+    [B2/B4] 67000/87116, 3.1 min, ETA 0.9 min
+    [B2/B4] 67500/87116, 3.1 min, ETA 0.9 min
+    [B2/B4] 68000/87116, 3.1 min, ETA 0.9 min
+    [B2/B4] 68500/87116, 3.1 min, ETA 0.9 min
+    [B2/B4] 69000/87116, 3.2 min, ETA 0.8 min
+    [B2/B4] 69500/87116, 3.2 min, ETA 0.8 min
+    [B2/B4] 70000/87116, 3.2 min, ETA 0.8 min
+    [B2/B4] 70500/87116, 3.2 min, ETA 0.8 min
+    [B2/B4] 71000/87116, 3.3 min, ETA 0.7 min
+    [B2/B4] 71500/87116, 3.3 min, ETA 0.7 min
+    [B2/B4] 72000/87116, 3.3 min, ETA 0.7 min
+    [B2/B4] 72500/87116, 3.3 min, ETA 0.7 min
+    [B2/B4] 73000/87116, 3.3 min, ETA 0.6 min
+    [B2/B4] 73500/87116, 3.4 min, ETA 0.6 min
+    [B2/B4] 74000/87116, 3.4 min, ETA 0.6 min
+    [B2/B4] 74500/87116, 3.4 min, ETA 0.6 min
+    [B2/B4] 75000/87116, 3.4 min, ETA 0.6 min
+    [B2/B4] 75500/87116, 3.5 min, ETA 0.5 min
+    [B2/B4] 76000/87116, 3.5 min, ETA 0.5 min
+    [B2/B4] 76500/87116, 3.5 min, ETA 0.5 min
+    [B2/B4] 77000/87116, 3.5 min, ETA 0.5 min
+    [B2/B4] 77500/87116, 3.6 min, ETA 0.4 min
+    [B2/B4] 78000/87116, 3.6 min, ETA 0.4 min
+    [B2/B4] 78500/87116, 3.6 min, ETA 0.4 min
+    [B2/B4] 79000/87116, 3.6 min, ETA 0.4 min
+    [B2/B4] 79500/87116, 3.6 min, ETA 0.3 min
+    [B2/B4] 80000/87116, 3.7 min, ETA 0.3 min
+    [B2/B4] 80500/87116, 3.7 min, ETA 0.3 min
+    [B2/B4] 81000/87116, 3.7 min, ETA 0.3 min
+    [B2/B4] 81500/87116, 3.7 min, ETA 0.3 min
+    [B2/B4] 82000/87116, 3.8 min, ETA 0.2 min
+    [B2/B4] 82500/87116, 3.8 min, ETA 0.2 min
+    [B2/B4] 83000/87116, 3.8 min, ETA 0.2 min
+    [B2/B4] 83500/87116, 3.8 min, ETA 0.2 min
+    [B2/B4] 84000/87116, 3.9 min, ETA 0.1 min
+    [B2/B4] 84500/87116, 3.9 min, ETA 0.1 min
+    [B2/B4] 85000/87116, 3.9 min, ETA 0.1 min
+    [B2/B4] 85500/87116, 3.9 min, ETA 0.1 min
+    [B2/B4] 86000/87116, 4.0 min, ETA 0.1 min
+    [B2/B4] 86500/87116, 4.0 min, ETA 0.0 min
+    [B2/B4] 87000/87116, 4.0 min, ETA 0.0 min
+    [B2/B4] 87116/87116, 4.0 min, ETA 0.0 min
+  funnel: {'Z3 (0,1) F1': {'generated': 20000, 'valid': 11, 'pass_b4': 0}, 'Z3 (0,1) F2': {'generated': 1779, 'valid': 35, 'pass_b4': 0}, 'Z3 (1,0) F1': {'generated': 20000, 'valid': 1, 'pass_b4': 0}, 'Z3 (1,0) F2': {'generated': 1779, 'valid': 3, 'pass_b4': 0}, 'Z3 (1,1) F1': {'generated': 20000, 'valid': 0, 'pass_b4': 0}, 'Z3 (1,1) F2': {'generated': 1779, 'valid': 0, 'pass_b4': 0}, 'Z3 (1,2) F1': {'generated': 20000, 'valid': 0, 'pass_b4': 0}, 'Z3 (1,2) F2': {'generated': 1779, 'valid': 0, 'pass_b4': 0}}
+  B4b: 0 candidates pass the exact screen (score 0 in both fault types); valid 50 of 87116
+  [[90]]: no class schedule of this kind breaks all of S's weight-8 families (stop rule)
+== [[90]] partB4 done 2026-10-19 12:54 AM KST
+== [[90]] partB5 start 2026-10-19 12:54 AM KST
+  B5 [[90]]: screen d1 histogram {}; screen > 8 in both: 0; CONFIRMED d1 > 8: none
+== [[90]] partB5 done 2026-10-19 12:54 AM KST
+== [[108]] reg start 2026-10-19 12:56 AM KST
+  [[108]] regression: d1(S = #212) with the validated search (ours/bravyi_d1.py), CONFIRM = 100000 trials per fault type, 6 workers
+    [reg] 20/400 units, 0.20 h, ETA 3.9 h
+    [reg] 40/400 units, 0.41 h, ETA 3.7 h
+    [reg] 60/400 units, 0.62 h, ETA 3.5 h
+    [reg] 80/400 units, 0.84 h, ETA 3.3 h
+    [reg] 100/400 units, 1.03 h, ETA 3.1 h
+    [reg] 120/400 units, 1.21 h, ETA 2.8 h
+    [reg] 140/400 units, 1.38 h, ETA 2.6 h
+    [reg] 160/400 units, 1.53 h, ETA 2.3 h
+    [reg] 180/400 units, 1.69 h, ETA 2.1 h
+    [reg] 200/400 units, 1.86 h, ETA 1.9 h
+    [reg] 220/400 units, 2.03 h, ETA 1.7 h
+    [reg] 240/400 units, 2.19 h, ETA 1.5 h
+    [reg] 260/400 units, 2.35 h, ETA 1.3 h
+    [reg] 280/400 units, 2.52 h, ETA 1.1 h
+    [reg] 300/400 units, 2.69 h, ETA 0.9 h
+    [reg] 320/400 units, 2.85 h, ETA 0.7 h
+    [reg] 340/400 units, 3.03 h, ETA 0.5 h
+    [reg] 360/400 units, 3.20 h, ETA 0.4 h
+    [reg] 380/400 units, 3.35 h, ETA 0.2 h
+    [reg] 400/400 units, 3.51 h, ETA 0.0 h
+  regression [[108]]: d1(S) X-type 8 (100000 trials), Z-type 8 (100000 trials); Bravyi 8 -> PASS
+== [[108]] reg done 2026-10-19 04:27 AM KST
+== [[108]] partB4 start 2026-10-19 04:27 AM KST
+  [[108]] S weight-8 copies: X 135, Z 135; S keeps {'X': 135, 'Z': 135}
+  NOTE: no uniform d1 table for [[108]] yet: using all 1872 schedules as class orders
+  homomorphisms (image of x, image of y): [(2, (0, 1)), (3, (0, 1)), (3, (1, 0)), (3, (1, 1)), (3, (1, 2))]; candidates: 89355
+  B2/B4: 89355 candidates, 0 on file, 89355 to check
+    [B2/B4] 500/89355, 0.1 min, ETA 18.7 min
+    [B2/B4] 1000/89355, 0.1 min, ETA 13.1 min
+    [B2/B4] 1500/89355, 0.2 min, ETA 10.7 min
+    [B2/B4] 2000/89355, 0.2 min, ETA 9.2 min
+    [B2/B4] 2500/89355, 0.4 min, ETA 12.4 min
+    [B2/B4] 3000/89355, 0.4 min, ETA 11.1 min
+    [B2/B4] 3500/89355, 0.4 min, ETA 10.0 min
+    [B2/B4] 4000/89355, 0.4 min, ETA 9.3 min
+    [B2/B4] 4500/89355, 0.5 min, ETA 8.7 min
+    [B2/B4] 5000/89355, 0.5 min, ETA 8.2 min
+    [B2/B4] 5500/89355, 0.5 min, ETA 7.8 min
+    [B2/B4] 6000/89355, 0.5 min, ETA 7.5 min
+    [B2/B4] 6500/89355, 0.6 min, ETA 7.2 min
+    [B2/B4] 7000/89355, 0.6 min, ETA 7.0 min
+    [B2/B4] 7500/89355, 0.6 min, ETA 6.8 min
+    [B2/B4] 8000/89355, 0.7 min, ETA 6.6 min
+    [B2/B4] 8500/89355, 0.7 min, ETA 6.4 min
+    [B2/B4] 9000/89355, 0.7 min, ETA 6.3 min
+    [B2/B4] 9500/89355, 0.7 min, ETA 6.1 min
+    [B2/B4] 10000/89355, 0.8 min, ETA 6.0 min
+    [B2/B4] 10500/89355, 0.8 min, ETA 5.9 min
+    [B2/B4] 11000/89355, 0.8 min, ETA 5.7 min
+    [B2/B4] 11500/89355, 0.8 min, ETA 5.6 min
+    [B2/B4] 12000/89355, 0.9 min, ETA 5.5 min
+    [B2/B4] 12500/89355, 0.9 min, ETA 5.4 min
+    [B2/B4] 13000/89355, 0.9 min, ETA 5.4 min
+    [B2/B4] 13500/89355, 0.9 min, ETA 5.3 min
+    [B2/B4] 14000/89355, 1.0 min, ETA 5.2 min
+    [B2/B4] 14500/89355, 1.0 min, ETA 5.1 min
+    [B2/B4] 15000/89355, 1.0 min, ETA 5.0 min
+    [B2/B4] 15500/89355, 1.0 min, ETA 4.9 min
+    [B2/B4] 16000/89355, 1.1 min, ETA 4.9 min
+    [B2/B4] 16500/89355, 1.1 min, ETA 4.8 min
+    [B2/B4] 17000/89355, 1.1 min, ETA 4.7 min
+    [B2/B4] 17500/89355, 1.1 min, ETA 4.7 min
+    [B2/B4] 18000/89355, 1.2 min, ETA 4.6 min
+    [B2/B4] 18500/89355, 1.2 min, ETA 4.6 min
+    [B2/B4] 19000/89355, 1.2 min, ETA 4.5 min
+    [B2/B4] 19500/89355, 1.2 min, ETA 4.4 min
+    [B2/B4] 20000/89355, 1.3 min, ETA 4.4 min
+    [B2/B4] 20500/89355, 1.3 min, ETA 4.3 min
+    [B2/B4] 21000/89355, 1.3 min, ETA 4.3 min
+    [B2/B4] 21500/89355, 1.3 min, ETA 4.2 min
+    [B2/B4] 22000/89355, 1.4 min, ETA 4.2 min
+    [B2/B4] 22500/89355, 1.4 min, ETA 4.1 min
+    [B2/B4] 23000/89355, 1.4 min, ETA 4.1 min
+    [B2/B4] 23500/89355, 1.4 min, ETA 4.0 min
+    [B2/B4] 24000/89355, 1.5 min, ETA 4.0 min
+    [B2/B4] 24500/89355, 1.5 min, ETA 4.0 min
+    [B2/B4] 25000/89355, 1.5 min, ETA 3.9 min
+    [B2/B4] 25500/89355, 1.6 min, ETA 3.9 min
+    [B2/B4] 26000/89355, 1.6 min, ETA 3.8 min
+    [B2/B4] 26500/89355, 1.6 min, ETA 3.8 min
+    [B2/B4] 27000/89355, 1.6 min, ETA 3.7 min
+    [B2/B4] 27500/89355, 1.6 min, ETA 3.7 min
+    [B2/B4] 28000/89355, 1.7 min, ETA 3.6 min
+    [B2/B4] 28500/89355, 1.7 min, ETA 3.6 min
+    [B2/B4] 29000/89355, 1.7 min, ETA 3.6 min
+    [B2/B4] 29500/89355, 1.7 min, ETA 3.5 min
+    [B2/B4] 30000/89355, 1.8 min, ETA 3.5 min
+    [B2/B4] 30500/89355, 1.8 min, ETA 3.4 min
+    [B2/B4] 31000/89355, 1.8 min, ETA 3.4 min
+    [B2/B4] 31500/89355, 1.8 min, ETA 3.3 min
+    [B2/B4] 32000/89355, 1.8 min, ETA 3.3 min
+    [B2/B4] 32500/89355, 1.9 min, ETA 3.3 min
+    [B2/B4] 33000/89355, 1.9 min, ETA 3.2 min
+    [B2/B4] 33500/89355, 1.9 min, ETA 3.2 min
+    [B2/B4] 34000/89355, 1.9 min, ETA 3.1 min
+    [B2/B4] 34500/89355, 1.9 min, ETA 3.1 min
+    [B2/B4] 35000/89355, 2.0 min, ETA 3.1 min
+    [B2/B4] 35500/89355, 2.0 min, ETA 3.0 min
+    [B2/B4] 36000/89355, 2.0 min, ETA 3.0 min
+    [B2/B4] 36500/89355, 2.0 min, ETA 2.9 min
+    [B2/B4] 37000/89355, 2.1 min, ETA 2.9 min
+    [B2/B4] 37500/89355, 2.1 min, ETA 2.9 min
+    [B2/B4] 38000/89355, 2.1 min, ETA 2.8 min
+    [B2/B4] 38500/89355, 2.1 min, ETA 2.8 min
+    [B2/B4] 39000/89355, 2.1 min, ETA 2.8 min
+    [B2/B4] 39500/89355, 2.2 min, ETA 2.7 min
+    [B2/B4] 40000/89355, 2.2 min, ETA 2.7 min
+    [B2/B4] 40500/89355, 2.2 min, ETA 2.7 min
+    [B2/B4] 41000/89355, 2.2 min, ETA 2.6 min
+    [B2/B4] 41500/89355, 2.2 min, ETA 2.6 min
+    [B2/B4] 42000/89355, 2.3 min, ETA 2.6 min
+    [B2/B4] 42500/89355, 2.3 min, ETA 2.5 min
+    [B2/B4] 43000/89355, 2.3 min, ETA 2.5 min
+    [B2/B4] 43500/89355, 2.3 min, ETA 2.5 min
+    [B2/B4] 44000/89355, 2.3 min, ETA 2.4 min
+    [B2/B4] 44500/89355, 2.4 min, ETA 2.4 min
+    [B2/B4] 45000/89355, 2.4 min, ETA 2.4 min
+    [B2/B4] 45500/89355, 2.4 min, ETA 2.3 min
+    [B2/B4] 46000/89355, 2.4 min, ETA 2.3 min
+    [B2/B4] 46500/89355, 2.4 min, ETA 2.3 min
+    [B2/B4] 47000/89355, 2.5 min, ETA 2.2 min
+    [B2/B4] 47500/89355, 2.5 min, ETA 2.2 min
+    [B2/B4] 48000/89355, 2.5 min, ETA 2.2 min
+    [B2/B4] 48500/89355, 2.5 min, ETA 2.1 min
+    [B2/B4] 49000/89355, 2.5 min, ETA 2.1 min
+    [B2/B4] 49500/89355, 2.6 min, ETA 2.1 min
+    [B2/B4] 50000/89355, 2.6 min, ETA 2.0 min
+    [B2/B4] 50500/89355, 2.6 min, ETA 2.0 min
+    [B2/B4] 51000/89355, 2.6 min, ETA 2.0 min
+    [B2/B4] 51500/89355, 2.6 min, ETA 1.9 min
+    [B2/B4] 52000/89355, 2.7 min, ETA 1.9 min
+    [B2/B4] 52500/89355, 2.7 min, ETA 1.9 min
+    [B2/B4] 53000/89355, 2.7 min, ETA 1.9 min
+    [B2/B4] 53500/89355, 2.7 min, ETA 1.8 min
+    [B2/B4] 54000/89355, 2.7 min, ETA 1.8 min
+    [B2/B4] 54500/89355, 2.8 min, ETA 1.8 min
+    [B2/B4] 55000/89355, 2.8 min, ETA 1.7 min
+    [B2/B4] 55500/89355, 2.8 min, ETA 1.7 min
+    [B2/B4] 56000/89355, 2.8 min, ETA 1.7 min
+    [B2/B4] 56500/89355, 2.8 min, ETA 1.7 min
+    [B2/B4] 57000/89355, 2.9 min, ETA 1.6 min
+    [B2/B4] 57500/89355, 2.9 min, ETA 1.6 min
+    [B2/B4] 58000/89355, 2.9 min, ETA 1.6 min
+    [B2/B4] 58500/89355, 2.9 min, ETA 1.5 min
+    [B2/B4] 59000/89355, 2.9 min, ETA 1.5 min
+    [B2/B4] 59500/89355, 3.0 min, ETA 1.5 min
+    [B2/B4] 60000/89355, 3.0 min, ETA 1.5 min
+    [B2/B4] 60500/89355, 3.0 min, ETA 1.4 min
+    [B2/B4] 61000/89355, 3.0 min, ETA 1.4 min
+    [B2/B4] 61500/89355, 3.0 min, ETA 1.4 min
+    [B2/B4] 62000/89355, 3.1 min, ETA 1.3 min
+    [B2/B4] 62500/89355, 3.1 min, ETA 1.3 min
+    [B2/B4] 63000/89355, 3.1 min, ETA 1.3 min
+    [B2/B4] 63500/89355, 3.1 min, ETA 1.3 min
+    [B2/B4] 64000/89355, 3.1 min, ETA 1.2 min
+    [B2/B4] 64500/89355, 3.2 min, ETA 1.2 min
+    [B2/B4] 65000/89355, 3.2 min, ETA 1.2 min
+    [B2/B4] 65500/89355, 3.2 min, ETA 1.2 min
+    [B2/B4] 66000/89355, 3.2 min, ETA 1.1 min
+    [B2/B4] 66500/89355, 3.2 min, ETA 1.1 min
+    [B2/B4] 67000/89355, 3.3 min, ETA 1.1 min
+    [B2/B4] 67500/89355, 3.3 min, ETA 1.1 min
+    [B2/B4] 68000/89355, 3.3 min, ETA 1.0 min
+    [B2/B4] 68500/89355, 3.3 min, ETA 1.0 min
+    [B2/B4] 69000/89355, 3.3 min, ETA 1.0 min
+    [B2/B4] 69500/89355, 3.3 min, ETA 1.0 min
+    [B2/B4] 70000/89355, 3.4 min, ETA 0.9 min
+    [B2/B4] 70500/89355, 3.4 min, ETA 0.9 min
+    [B2/B4] 71000/89355, 3.4 min, ETA 0.9 min
+    [B2/B4] 71500/89355, 3.4 min, ETA 0.9 min
+    [B2/B4] 72000/89355, 3.4 min, ETA 0.8 min
+    [B2/B4] 72500/89355, 3.5 min, ETA 0.8 min
+    [B2/B4] 73000/89355, 3.5 min, ETA 0.8 min
+    [B2/B4] 73500/89355, 3.5 min, ETA 0.8 min
+    [B2/B4] 74000/89355, 3.5 min, ETA 0.7 min
+    [B2/B4] 74500/89355, 3.5 min, ETA 0.7 min
+    [B2/B4] 75000/89355, 3.6 min, ETA 0.7 min
+    [B2/B4] 75500/89355, 3.6 min, ETA 0.7 min
+    [B2/B4] 76000/89355, 3.6 min, ETA 0.6 min
+    [B2/B4] 76500/89355, 3.6 min, ETA 0.6 min
+    [B2/B4] 77000/89355, 3.6 min, ETA 0.6 min
+    [B2/B4] 77500/89355, 3.7 min, ETA 0.6 min
+    [B2/B4] 78000/89355, 3.7 min, ETA 0.5 min
+    [B2/B4] 78500/89355, 3.7 min, ETA 0.5 min
+    [B2/B4] 79000/89355, 3.7 min, ETA 0.5 min
+    [B2/B4] 79500/89355, 3.8 min, ETA 0.5 min
+    [B2/B4] 80000/89355, 3.8 min, ETA 0.4 min
+    [B2/B4] 80500/89355, 3.8 min, ETA 0.4 min
+    [B2/B4] 81000/89355, 3.8 min, ETA 0.4 min
+    [B2/B4] 81500/89355, 3.9 min, ETA 0.4 min
+    [B2/B4] 82000/89355, 3.9 min, ETA 0.3 min
+    [B2/B4] 82500/89355, 3.9 min, ETA 0.3 min
+    [B2/B4] 83000/89355, 3.9 min, ETA 0.3 min
+    [B2/B4] 83500/89355, 4.0 min, ETA 0.3 min
+    [B2/B4] 84000/89355, 4.0 min, ETA 0.3 min
+    [B2/B4] 84500/89355, 4.0 min, ETA 0.2 min
+    [B2/B4] 85000/89355, 4.0 min, ETA 0.2 min
+    [B2/B4] 85500/89355, 4.1 min, ETA 0.2 min
+    [B2/B4] 86000/89355, 4.1 min, ETA 0.2 min
+    [B2/B4] 86500/89355, 4.1 min, ETA 0.1 min
+    [B2/B4] 87000/89355, 4.1 min, ETA 0.1 min
+    [B2/B4] 87500/89355, 4.2 min, ETA 0.1 min
+    [B2/B4] 88000/89355, 4.2 min, ETA 0.1 min
+    [B2/B4] 88500/89355, 4.2 min, ETA 0.0 min
+    [B2/B4] 89000/89355, 4.2 min, ETA 0.0 min
+    [B2/B4] 89355/89355, 4.3 min, ETA 0.0 min
+  funnel: {'Z2 (0,1) F2': {'generated': 1871, 'valid': 15, 'pass_b4': 0}, 'Z3 (0,1) F1': {'generated': 20000, 'valid': 8, 'pass_b4': 0}, 'Z3 (0,1) F2': {'generated': 1871, 'valid': 35, 'pass_b4': 0}, 'Z3 (1,0) F1': {'generated': 20000, 'valid': 1, 'pass_b4': 0}, 'Z3 (1,0) F2': {'generated': 1871, 'valid': 3, 'pass_b4': 0}, 'Z3 (1,1) F1': {'generated': 20000, 'valid': 0, 'pass_b4': 0}, 'Z3 (1,1) F2': {'generated': 1871, 'valid': 0, 'pass_b4': 0}, 'Z3 (1,2) F1': {'generated': 20000, 'valid': 0, 'pass_b4': 0}, 'Z3 (1,2) F2': {'generated': 1871, 'valid': 0, 'pass_b4': 0}}
+  B4b: 0 candidates pass the exact screen (score 0 in both fault types); valid 62 of 89355
+  [[108]]: no class schedule of this kind breaks all of S's weight-8 families (stop rule)
+== [[108]] partB4 done 2026-10-19 04:31 AM KST
+== [[108]] partB5 start 2026-10-19 04:31 AM KST
+  B5 [[108]]: screen d1 histogram {}; screen > 8 in both: 0; CONFIRMED d1 > 8: none
+== [[108]] partB5 done 2026-10-19 04:31 AM KST
+== [[108]] lerB start 2026-10-19 04:31 AM KST
+  lerB [[108]]: S vs ['c2:0,1:212,276', 'c2:0,1:212,277', 'c2:0,1:212,282', 'c2:0,1:212,283'] (exact-screen copies kept X/Z: [[0, 135], [0, 135], [0, 135], [0, 135]])
+    [lerB_d1] 20/32 units, 0.19 h, ETA 0.1 h
+    [lerB_d1] 32/32 units, 0.28 h, ETA 0.0 h
+  d1 screen (X, Z): {'c2:0,1:212,276': [8, 8], 'c2:0,1:212,277': [8, 8], 'c2:0,1:212,282': [8, 8], 'c2:0,1:212,283': [8, 8]}
+    LER u212 p=0.005: Z basis 25/400, X basis 28/400  (40s per 400)
+    LER u212 p=0.005: Z basis 44/800, X basis 52/800  (47s per 400)
+    LER u212 p=0.005: Z basis 65/1200, X basis 71/1200  (42s per 400)
+    LER c2:0,1:212,276 p=0.005: Z basis 25/400, X basis 23/400  (48s per 400)
+    LER c2:0,1:212,276 p=0.005: Z basis 53/800, X basis 46/800  (50s per 400)
+    LER c2:0,1:212,276 p=0.005: Z basis 76/1200, X basis 63/1200  (48s per 400)
+    LER c2:0,1:212,277 p=0.005: Z basis 28/400, X basis 24/400  (46s per 400)
+    LER c2:0,1:212,277 p=0.005: Z basis 49/800, X basis 47/800  (46s per 400)
+    LER c2:0,1:212,277 p=0.005: Z basis 70/1200, X basis 64/1200  (38s per 400)
+    LER c2:0,1:212,282 p=0.005: Z basis 31/400, X basis 28/400  (37s per 400)
+    LER c2:0,1:212,282 p=0.005: Z basis 54/800, X basis 53/800  (32s per 400)
+    LER c2:0,1:212,283 p=0.005: Z basis 34/400, X basis 30/400  (32s per 400)
+    LER c2:0,1:212,283 p=0.005: Z basis 67/800, X basis 52/800  (46s per 400)
+    LER u212 p=0.004: Z basis 2/400, X basis 6/400  (15s per 400)
+    LER u212 p=0.004: Z basis 8/800, X basis 11/800  (21s per 400)
+    LER u212 p=0.004: Z basis 13/1200, X basis 17/1200  (18s per 400)
+    LER u212 p=0.004: Z basis 19/1600, X basis 22/1600  (20s per 400)
+    LER u212 p=0.004: Z basis 25/2000, X basis 24/2000  (17s per 400)
+    LER u212 p=0.004: Z basis 26/2400, X basis 26/2400  (13s per 400)
+    LER u212 p=0.004: Z basis 33/2800, X basis 32/2800  (18s per 400)
+    LER u212 p=0.004: Z basis 37/3200, X basis 38/3200  (19s per 400)
+    LER u212 p=0.004: Z basis 39/3600, X basis 40/3600  (20s per 400)
+    LER u212 p=0.004: Z basis 47/4000, X basis 45/4000  (16s per 400)
+    LER u212 p=0.004: Z basis 53/4400, X basis 51/4400  (17s per 400)
+    LER c2:0,1:212,276 p=0.004: Z basis 6/400, X basis 3/400  (16s per 400)
+    LER c2:0,1:212,276 p=0.004: Z basis 8/800, X basis 7/800  (15s per 400)
+    LER c2:0,1:212,276 p=0.004: Z basis 11/1200, X basis 15/1200  (20s per 400)
+    LER c2:0,1:212,276 p=0.004: Z basis 17/1600, X basis 20/1600  (14s per 400)
+    LER c2:0,1:212,276 p=0.004: Z basis 22/2000, X basis 26/2000  (16s per 400)
+    LER c2:0,1:212,276 p=0.004: Z basis 25/2400, X basis 31/2400  (14s per 400)
+    LER c2:0,1:212,276 p=0.004: Z basis 28/2800, X basis 40/2800  (16s per 400)
+    LER c2:0,1:212,276 p=0.004: Z basis 31/3200, X basis 47/3200  (14s per 400)
+    LER c2:0,1:212,276 p=0.004: Z basis 39/3600, X basis 50/3600  (15s per 400)
+    LER c2:0,1:212,276 p=0.004: Z basis 43/4000, X basis 52/4000  (11s per 400)
+    LER c2:0,1:212,276 p=0.004: Z basis 46/4400, X basis 56/4400  (11s per 400)
+    LER c2:0,1:212,276 p=0.004: Z basis 54/4800, X basis 61/4800  (14s per 400)
+    LER c2:0,1:212,277 p=0.004: Z basis 6/400, X basis 2/400  (9s per 400)
+    LER c2:0,1:212,277 p=0.004: Z basis 11/800, X basis 8/800  (10s per 400)
+    LER c2:0,1:212,277 p=0.004: Z basis 18/1200, X basis 15/1200  (14s per 400)
+    LER c2:0,1:212,277 p=0.004: Z basis 24/1600, X basis 20/1600  (16s per 400)
+    LER c2:0,1:212,277 p=0.004: Z basis 28/2000, X basis 23/2000  (16s per 400)
+    LER c2:0,1:212,277 p=0.004: Z basis 30/2400, X basis 27/2400  (14s per 400)
+    LER c2:0,1:212,277 p=0.004: Z basis 36/2800, X basis 36/2800  (20s per 400)
+    LER c2:0,1:212,277 p=0.004: Z basis 40/3200, X basis 40/3200  (19s per 400)
+    LER c2:0,1:212,277 p=0.004: Z basis 45/3600, X basis 44/3600  (17s per 400)
+    LER c2:0,1:212,277 p=0.004: Z basis 51/4000, X basis 50/4000  (17s per 400)
+    LER c2:0,1:212,282 p=0.004: Z basis 5/400, X basis 4/400  (13s per 400)
+    LER c2:0,1:212,282 p=0.004: Z basis 7/800, X basis 7/800  (16s per 400)
+    LER c2:0,1:212,282 p=0.004: Z basis 11/1200, X basis 12/1200  (19s per 400)
+    LER c2:0,1:212,282 p=0.004: Z basis 19/1600, X basis 16/1600  (17s per 400)
+    LER c2:0,1:212,282 p=0.004: Z basis 25/2000, X basis 20/2000  (16s per 400)
+    LER c2:0,1:212,282 p=0.004: Z basis 29/2400, X basis 24/2400  (14s per 400)
+    LER c2:0,1:212,282 p=0.004: Z basis 34/2800, X basis 32/2800  (20s per 400)
+    LER c2:0,1:212,282 p=0.004: Z basis 39/3200, X basis 38/3200  (19s per 400)
+    LER c2:0,1:212,282 p=0.004: Z basis 44/3600, X basis 43/3600  (16s per 400)
+    LER c2:0,1:212,282 p=0.004: Z basis 50/4000, X basis 47/4000  (16s per 400)
+    LER c2:0,1:212,282 p=0.004: Z basis 53/4400, X basis 53/4400  (19s per 400)
+    LER c2:0,1:212,283 p=0.004: Z basis 6/400, X basis 2/400  (15s per 400)
+    LER c2:0,1:212,283 p=0.004: Z basis 10/800, X basis 8/800  (18s per 400)
+    LER c2:0,1:212,283 p=0.004: Z basis 16/1200, X basis 11/1200  (20s per 400)
+    LER c2:0,1:212,283 p=0.004: Z basis 21/1600, X basis 14/1600  (17s per 400)
+    LER c2:0,1:212,283 p=0.004: Z basis 25/2000, X basis 18/2000  (16s per 400)
+    LER c2:0,1:212,283 p=0.004: Z basis 28/2400, X basis 22/2400  (13s per 400)
+    LER c2:0,1:212,283 p=0.004: Z basis 33/2800, X basis 29/2800  (15s per 400)
+    LER c2:0,1:212,283 p=0.004: Z basis 37/3200, X basis 36/3200  (13s per 400)
+    LER c2:0,1:212,283 p=0.004: Z basis 46/3600, X basis 39/3600  (11s per 400)
+    LER c2:0,1:212,283 p=0.004: Z basis 48/4000, X basis 46/4000  (12s per 400)
+    LER c2:0,1:212,283 p=0.004: Z basis 52/4400, X basis 52/4400  (10s per 400)
+== [[108]] lerB done 2026-10-19 05:12 AM KST
+== [[144]] reg start 2026-10-19 07:57 AM KST
+  [[144]] regression: d1(S = #212) with the validated search (ours/bravyi_d1.py), CONFIRM = 100000 trials per fault type, 6 workers
+    [reg] 20/400 units, 0.50 h, ETA 9.6 h
+    [reg] 40/400 units, 0.89 h, ETA 8.0 h
+    [reg] 60/400 units, 1.29 h, ETA 7.3 h
+    [reg] 80/400 units, 1.79 h, ETA 7.1 h
+    [reg] 100/400 units, 2.19 h, ETA 6.6 h
+    [reg] 120/400 units, 2.58 h, ETA 6.0 h
+    [reg] 140/400 units, 3.06 h, ETA 5.7 h
+    [reg] 160/400 units, 3.47 h, ETA 5.2 h
+    [reg] 180/400 units, 3.87 h, ETA 4.7 h
+    [reg] 200/400 units, 4.35 h, ETA 4.4 h
+    [reg] 220/400 units, 4.70 h, ETA 3.8 h
+    [reg] 240/400 units, 4.99 h, ETA 3.3 h
+    [reg] 260/400 units, 5.27 h, ETA 2.8 h
+    [reg] 280/400 units, 5.51 h, ETA 2.4 h
+    [reg] 300/400 units, 5.78 h, ETA 1.9 h
+    [reg] 320/400 units, 6.03 h, ETA 1.5 h
+    [reg] 340/400 units, 6.28 h, ETA 1.1 h
+    [reg] 360/400 units, 6.54 h, ETA 0.7 h
+    [reg] 380/400 units, 6.79 h, ETA 0.4 h
+    [reg] 400/400 units, 7.03 h, ETA 0.0 h
+Traceback (most recent call last):
+  File "/home/ubuntu/quantum001/CNOT reordering/non-uniform schedule/ours/nu.py", line 492, in <module>
+    STAGES[name](a.n, a)
+  File "/home/ubuntu/quantum001/CNOT reordering/non-uniform schedule/ours/nu.py", line 140, in reg
+    res = dict(n=n, S=S, d1_X=dX, d1_Z=dZ, target=BRAVYI_D[n], PASS=(dX[0] == BRAVYI_D[n] and dZ[0] == BRAVYI_D[n]), date=now())
+                                                  ~~~~~~~~^^^
+KeyError: 144
+== ERROR rc=1 at reg 144 Mon Oct 19 05:59:53 UTC 2026
+== stopped by user Mon Oct 19 07:10:30 UTC 2026

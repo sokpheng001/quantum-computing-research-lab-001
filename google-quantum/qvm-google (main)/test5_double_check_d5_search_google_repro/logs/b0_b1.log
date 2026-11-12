@@ -1,0 +1,15 @@
+[Nov 04, 07:10 PM KST] B1: 62 Willow placements; 0 violations: strict 0, continuing 0; best 3 / 38
+[Nov 04, 07:10 PM KST] B0 d5a19: geometry {'qubits': 38, 'two_qubit_gates': 74, 'data': 19, 'non_neighbour_gates': 0, 'non_neighbour_pairs': 0, 'max_partners': 4, 'over_4_partners': 0}; enumerating up to 4 faults
+[Nov 04, 07:10 PM KST] B0 d5a19: fault distance T 3, S None (None = above 4); 1.1 s
+[Nov 04, 07:10 PM KST] wrote /home/ubuntu/quantum001/google-quantum/qvm-google (main)/test5_double_check_d5_search_google_repro/RESULTS_B0_B1.md
+[Nov 04, 07:10 PM KST] B0 d5a19f3: geometry {'qubits': 41, 'two_qubit_gates': 86, 'data': 19, 'non_neighbour_gates': 6, 'non_neighbour_pairs': 3, 'max_partners': 5, 'over_4_partners': 2}; enumerating up to 4 faults
+[Nov 04, 07:10 PM KST] B0 d5a19f3: fault distance T 4, S None (None = above 4); 1.2 s
+[Nov 04, 07:10 PM KST] wrote /home/ubuntu/quantum001/google-quantum/qvm-google (main)/test5_double_check_d5_search_google_repro/RESULTS_B0_B1.md
+[Nov 04, 07:10 PM KST] B0 d5a19f13: geometry {'qubits': 51, 'two_qubit_gates': 126, 'data': 19, 'non_neighbour_gates': 26, 'non_neighbour_pairs': 13, 'max_partners': 7, 'over_4_partners': 9}; enumerating up to 4 faults
+[Nov 04, 07:10 PM KST] B0 d5a19f13: fault distance T None, S None (None = above 4); 1.9 s
+[Nov 04, 07:10 PM KST] wrote /home/ubuntu/quantum001/google-quantum/qvm-google (main)/test5_double_check_d5_search_google_repro/RESULTS_B0_B1.md
+[Nov 04, 07:10 PM KST] B0 d5a19f18: geometry {'qubits': 56, 'two_qubit_gates': 146, 'data': 19, 'non_neighbour_gates': 36, 'non_neighbour_pairs': 18, 'max_partners': 7, 'over_4_partners': 14}; enumerating up to 4 faults
+[Nov 04, 07:10 PM KST] B0 d5a19f18: fault distance T None, S None (None = above 4); 2.2 s
+[Nov 04, 07:10 PM KST] wrote /home/ubuntu/quantum001/google-quantum/qvm-google (main)/test5_double_check_d5_search_google_repro/RESULTS_B0_B1.md
+[Nov 04, 07:10 PM KST] done
+exit 0

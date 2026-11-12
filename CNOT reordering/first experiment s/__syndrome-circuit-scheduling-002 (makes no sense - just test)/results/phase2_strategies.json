@@ -1,0 +1,235 @@
+{
+ "A/simultaneous": {
+  "counts": {
+   "collision": 1296
+  },
+  "examples": {
+   "collision": [
+    [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "B3"
+    ],
+    [
+     "B1",
+     "B2",
+     "B3",
+     "A1",
+     "A2",
+     "A3"
+    ],
+    "layer 1"
+   ]
+  }
+ },
+ "A/z_first": {
+  "counts": {
+   "collision": 1296
+  },
+  "examples": {
+   "collision": [
+    [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "B3"
+    ],
+    [
+     "B1",
+     "B2",
+     "B3",
+     "A1",
+     "A2",
+     "A3"
+    ],
+    "layer 2"
+   ]
+  }
+ },
+ "A/x_first": {
+  "counts": {
+   "collision": 1296
+  },
+  "examples": {
+   "collision": [
+    [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "B3"
+    ],
+    [
+     "B1",
+     "B2",
+     "B3",
+     "A1",
+     "A2",
+     "A3"
+    ],
+    "layer 2"
+   ]
+  }
+ },
+ "B/simultaneous": {
+  "counts": {
+   "collision": 1296
+  },
+  "examples": {
+   "collision": [
+    [
+     "B1",
+     "B2",
+     "B3",
+     "A1",
+     "A2",
+     "A3"
+    ],
+    [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "B3"
+    ],
+    "layer 1"
+   ]
+  }
+ },
+ "B/z_first": {
+  "counts": {
+   "collision": 1296
+  },
+  "examples": {
+   "collision": [
+    [
+     "B1",
+     "B2",
+     "B3",
+     "A1",
+     "A2",
+     "A3"
+    ],
+    [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "B3"
+    ],
+    "layer 2"
+   ]
+  }
+ },
+ "B/x_first": {
+  "counts": {
+   "collision": 1296
+  },
+  "examples": {
+   "collision": [
+    [
+     "B1",
+     "B2",
+     "B3",
+     "A1",
+     "A2",
+     "A3"
+    ],
+    [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "B3"
+    ],
+    "layer 2"
+   ]
+  }
+ },
+ "C/simultaneous": {
+  "counts": {
+   "invalid (non-deterministic detectors)": 1296
+  },
+  "examples": {
+   "invalid": [
+    [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "B3"
+    ],
+    [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "B3"
+    ]
+   ]
+  }
+ },
+ "C/z_first": {
+  "counts": {
+   "collision": 1296
+  },
+  "examples": {
+   "collision": [
+    [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "B3"
+    ],
+    [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "B3"
+    ],
+    "layer 4"
+   ]
+  }
+ },
+ "C/x_first": {
+  "counts": {
+   "collision": 1296
+  },
+  "examples": {
+   "collision": [
+    [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "B3"
+    ],
+    [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "B3"
+    ],
+    "layer 4"
+   ]
+  }
+ }
+}

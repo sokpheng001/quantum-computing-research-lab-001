@@ -1,0 +1,131 @@
+{
+ "d3a6": {
+  "T": {
+   "0": {
+    "benign": 1,
+    "malignant": 0
+   },
+   "1": {
+    "benign": 2,
+    "malignant": 0
+   },
+   "2": {
+    "benign": 37,
+    "malignant": 4
+   }
+  },
+  "S": {
+   "0": {
+    "benign": 1,
+    "malignant": 0
+   },
+   "1": {
+    "benign": 2,
+    "malignant": 0
+   },
+   "2": {
+    "benign": 34,
+    "malignant": 0
+   }
+  },
+  "settings": {
+   "max_fault_count": 2,
+   "noise_level": 0.001,
+   "noise_model": "enum.noise.uniformly_depolarize",
+   "states": [
+    "S",
+    "T"
+   ]
+  },
+  "error_rate_per_kept_shot": {
+   "S": 0.0,
+   "T": 2.1006240537961121e-07
+  },
+  "malignant_T": [
+   [
+    2,
+    [
+     74,
+     146
+    ]
+   ],
+   [
+    2,
+    [
+     65,
+     148
+    ]
+   ],
+   [
+    2,
+    [
+     111,
+     148
+    ]
+   ],
+   [
+    2,
+    [
+     54,
+     150
+    ]
+   ]
+  ],
+  "fault_count": 158,
+  "runtime_s": 0.03183029405772686,
+  "summary_text": "                             configuration_count               weight                                \n                                          benign malignant     benign malignant malignant_probability\ncultivated_state fault_count                                                                         \nS                0                             1         0   1.000000      0.00              0.000000\n                 1                             2         0   0.933333      0.00              0.000000\n                 2                            34         0  14.208889      0.00              0.000000\nT                0                             1         0   1.000000      0.00              0.000000\n                 1                             2         0   0.933333      0.00              0.000000\n                 2                            37         4   5.441111      0.21              0.037161",
+  "identical_to_step0_summary": true,
+  "same_malignant_T_fault_indices": true,
+  "same_T_rate_as_step0": true
+ },
+ "d3a6f2": {
+  "T": {
+   "0": {
+    "benign": 1,
+    "malignant": 0
+   },
+   "1": {
+    "benign": 2,
+    "malignant": 0
+   },
+   "2": {
+    "benign": 37,
+    "malignant": 0
+   }
+  },
+  "S": {
+   "0": {
+    "benign": 1,
+    "malignant": 0
+   },
+   "1": {
+    "benign": 2,
+    "malignant": 0
+   },
+   "2": {
+    "benign": 37,
+    "malignant": 0
+   }
+  },
+  "settings": {
+   "max_fault_count": 2,
+   "noise_level": 0.001,
+   "noise_model": "enum.noise.uniformly_depolarize",
+   "states": [
+    "S",
+    "T"
+   ]
+  },
+  "error_rate_per_kept_shot": {
+   "S": 0.0,
+   "T": 0.0
+  },
+  "malignant_T": [],
+  "fault_count": 198,
+  "runtime_s": 0.03192839911207557,
+  "summary_text": "                             configuration_count              weight                                \n                                          benign malignant    benign malignant malignant_probability\ncultivated_state fault_count                                                                        \nS                0                             1         0  1.000000       0.0                   0.0\n                 1                             2         0  3.200000       0.0                   0.0\n                 2                            37         0  4.671111       0.0                   0.0\nT                0                             1         0  1.000000       0.0                   0.0\n                 1                             2         0  3.200000       0.0                   0.0\n                 2                            37         0  4.331111       0.0                   0.0",
+  "identical_to_step0_summary": true,
+  "same_malignant_T_fault_indices": true,
+  "same_T_rate_as_step0": true
+ }
+}

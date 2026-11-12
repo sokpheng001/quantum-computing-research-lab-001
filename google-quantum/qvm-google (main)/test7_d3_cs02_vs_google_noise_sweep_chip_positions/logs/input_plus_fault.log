@@ -1,0 +1,31 @@
+[2026-11-12 10:26:16 AM KST] G4_G6style: 3624 (input, fault) pairs
+[2026-11-12 10:27:07 AM KST] G4_G6style: 500/3624, 51 s
+[2026-11-12 10:27:55 AM KST] G4_G6style: 1000/3624, 99 s
+[2026-11-12 10:28:44 AM KST] G4_G6style: 1500/3624, 148 s
+[2026-11-12 10:29:33 AM KST] G4_G6style: 2000/3624, 197 s
+[2026-11-12 10:30:22 AM KST] G4_G6style: 2500/3624, 246 s
+[2026-11-12 10:31:11 AM KST] G4_G6style: 3000/3624, 294 s
+[2026-11-12 10:32:01 AM KST] G4_G6style: 3500/3624, 345 s
+[2026-11-12 10:32:15 AM KST] G4_G6style: done, malignant pairs 4
+[2026-11-12 10:32:15 AM KST] cont_success02: 3912 (input, fault) pairs
+[2026-11-12 10:33:01 AM KST] cont_success02: 500/3912, 47 s
+[2026-11-12 10:33:45 AM KST] cont_success02: 1000/3912, 91 s
+[2026-11-12 10:34:31 AM KST] cont_success02: 1500/3912, 136 s
+[2026-11-12 10:35:16 AM KST] cont_success02: 2000/3912, 182 s
+[2026-11-12 10:36:02 AM KST] cont_success02: 2500/3912, 227 s
+[2026-11-12 10:36:47 AM KST] cont_success02: 3000/3912, 272 s
+[2026-11-12 10:37:33 AM KST] cont_success02: 3500/3912, 318 s
+[2026-11-12 10:38:11 AM KST] cont_success02: done, malignant pairs 0
+# Test 7, part F: one input error + one fault in the double check (written 2026-11-12 10:38 AM KST)
+
+Each of 24 input errors (logical X, Y, Z before encoding; X, Y, Z on each data qubit after encoding) combined with no fault and with every distinct single fault of the check; Google's QVM circuit, real T, no other noise, ideal decode, 400 shots per pair. 'Silent wrong' = no detector fired, in the code space, wrong logical value. Script `t7_input_plus_fault.py`.
+
+| circuit | check faults | pairs tested | input alone: silent wrong | input + 1 fault: silent wrong pairs |
+|---|---|---|---|---|
+| Google G4 G6-style | 150 | 3,624 | 0 | 4 |
+| cs02 (ours) | 162 | 3,912 | 0 | 0 |
+
+## Google G4 G6-style: silent wrong (input, fault) pairs
+
+| input error | pairs | largest silent-wrong probability |
+[2026-11-12 10:38 AM KST] finished, exit 0

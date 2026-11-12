@@ -1,0 +1,83 @@
+[Nov 05, 10:23 PM KST] C: cs02: 160 Willow placements keep the continuing-data rule
+[Nov 05, 10:23 PM KST] C: G4G6: 196 Willow placements keep the continuing-data rule
+[Nov 05, 10:23 PM KST] 416 tasks, 4 workers
+[Nov 05, 10:23 PM KST] A G4 uniform_0.001: 1 in 2,047,233 acc 0.931
+[Nov 05, 10:23 PM KST] A G4 spec: 1 in 103,784 acc 0.802
+[Nov 05, 10:23 PM KST] A G4 calibration: 1 in 22,935 acc 0.737
+[Nov 05, 10:23 PM KST] A G4 si1000_0.0023: 1 in 237,812 acc 0.798
+[Nov 05, 10:23 PM KST] B G4 si1000_0.0005: 1 in 6,583,239 acc 0.952
+[Nov 05, 10:23 PM KST] B G4 si1000_0.001: 1 in 1,520,331 acc 0.905
+[Nov 05, 10:23 PM KST] B G4 si1000_0.0015: 1 in 626,560 acc 0.862
+[Nov 05, 10:23 PM KST] B G4 si1000_0.0023: 1 in 237,812 acc 0.798
+[Nov 05, 10:23 PM KST] A G4G6 uniform_0.001: 1 in 1,863,139 acc 0.934
+[Nov 05, 10:23 PM KST] B G4 si1000_0.003: 1 in 127,301 acc 0.744
+[Nov 05, 10:23 PM KST] B G4 si1000_0.005: 1 in 35,990 acc 0.613
+[Nov 05, 10:23 PM KST] A G4G6 spec: 1 in 99,859 acc 0.812
+[Nov 05, 10:23 PM KST] A G4G6 si1000_0.0023: 1 in 209,037 acc 0.812
+[Nov 05, 10:23 PM KST] A G4G6 calibration: 1 in 22,551 acc 0.748
+[Nov 05, 10:23 PM KST] B G4G6 si1000_0.0005: 1 in 5,772,643 acc 0.956
+[Nov 05, 10:23 PM KST] B G4G6 si1000_0.001: 1 in 1,334,006 acc 0.913
+[Nov 05, 10:23 PM KST] B G4G6 si1000_0.0015: 1 in 550,140 acc 0.873
+[Nov 05, 10:23 PM KST] B G4G6 si1000_0.0023: 1 in 209,037 acc 0.812
+[Nov 05, 10:23 PM KST] A d3a6 uniform_0.001: 1 in 3,549,475 acc 0.923
+[Nov 05, 10:23 PM KST] B G4G6 si1000_0.003: 1 in 112,009 acc 0.762
+[Nov 05, 10:23 PM KST] A d3a6 si1000_0.0023: 1 in 301,872 acc 0.790
+[Nov 05, 10:23 PM KST] A d3a6 spec: 1 in 128,850 acc 0.789
+[Nov 05, 10:23 PM KST] B G4G6 si1000_0.005: 1 in 31,763 acc 0.638
+[Nov 05, 10:23 PM KST] A d3a6 calibration: 1 in 24,159 acc 0.781
+[Nov 05, 10:23 PM KST] B d3a6 si1000_0.0005: 1 in 9,136,222 acc 0.949
+[Nov 05, 10:23 PM KST] B d3a6 si1000_0.001: 1 in 2,048,263 acc 0.902
+[Nov 05, 10:23 PM KST] B d3a6 si1000_0.0015: 1 in 822,893 acc 0.857
+[Nov 05, 10:23 PM KST] A d3a6f2 uniform_0.001: 1 in 6,666,914 acc 0.872
+[Nov 05, 10:23 PM KST] B d3a6 si1000_0.0023: 1 in 301,872 acc 0.790
+[Nov 05, 10:23 PM KST] B d3a6 si1000_0.003: 1 in 157,669 acc 0.734
+[Nov 05, 10:23 PM KST] B d3a6 si1000_0.005: 1 in 42,309 acc 0.600
+[Nov 05, 10:23 PM KST] A d3a6f2 si1000_0.0023: 1 in 704,880 acc 0.726
+[Nov 05, 10:23 PM KST] A d3a6f2 spec: 1 in 122,851 acc 0.688
+[Nov 05, 10:23 PM KST] A d3a6f2 calibration: 1 in 59,541 acc 0.629
+[Nov 05, 10:23 PM KST] B d3a6f2 si1000_0.0005: 1 in 72,775,658 acc 0.932
+[Nov 05, 10:23 PM KST] B d3a6f2 si1000_0.001: 1 in 8,946,072 acc 0.869
+[Nov 05, 10:23 PM KST] B d3a6f2 si1000_0.0015: 1 in 2,607,442 acc 0.811
+[Nov 05, 10:23 PM KST] A cs02 uniform_0.001: 1 in 5,504,576 acc 0.893
+[Nov 05, 10:23 PM KST] B d3a6f2 si1000_0.0023: 1 in 704,880 acc 0.726
+[Nov 05, 10:23 PM KST] B d3a6f2 si1000_0.003: 1 in 310,726 acc 0.658
+[Nov 05, 10:23 PM KST] B d3a6f2 si1000_0.005: 1 in 63,191 acc 0.500
+[Nov 05, 10:23 PM KST] A cs02 si1000_0.0023: 1 in 765,869 acc 0.783
+[Nov 05, 10:23 PM KST] B cs02 si1000_0.0005: 1 in 78,963,741 acc 0.947
+[Nov 05, 10:23 PM KST] A cs02 spec: 1 in 336,453 acc 0.762
+[Nov 05, 10:23 PM KST] A cs02 calibration: 1 in 128,163 acc 0.739
+[Nov 05, 10:23 PM KST] B cs02 si1000_0.001: 1 in 9,711,392 acc 0.898
+[Nov 05, 10:23 PM KST] B cs02 si1000_0.0015: 1 in 2,831,644 acc 0.851
+[Nov 05, 10:23 PM KST] B cs02 si1000_0.0023: 1 in 765,869 acc 0.783
+[Nov 05, 10:23 PM KST] B cs02 si1000_0.003: 1 in 337,710 acc 0.726
+[Nov 05, 10:23 PM KST] A g6fit00 uniform_0.001: 1 in 3,708,434 acc 0.861
+[Nov 05, 10:24 PM KST] B cs02 si1000_0.005: 1 in 68,690 acc 0.589
+[Nov 05, 10:24 PM KST] A g6fit00 si1000_0.0023: 1 in 640,910 acc 0.756
+[Nov 05, 10:24 PM KST] A g6fit00 spec: 1 in 268,934 acc 0.735
+[Nov 05, 10:24 PM KST] A g6fit00 calibration: 1 in 91,752 acc 0.685
+[Nov 05, 10:24 PM KST] B g6fit00 si1000_0.0005: 1 in 66,034,700 acc 0.941
+[Nov 05, 10:24 PM KST] B g6fit00 si1000_0.001: 1 in 8,122,473 acc 0.885
+[Nov 05, 10:24 PM KST] B g6fit00 si1000_0.0023: 1 in 640,910 acc 0.756
+[Nov 05, 10:24 PM KST] B g6fit00 si1000_0.0015: 1 in 2,368,775 acc 0.834
+[Nov 05, 10:24 PM KST] C cs02 calibration: 1 in 153,382
+[Nov 05, 10:24 PM KST] B g6fit00 si1000_0.003: 1 in 282,719 acc 0.695
+[Nov 05, 10:24 PM KST] B g6fit00 si1000_0.005: 1 in 57,588 acc 0.548
+[Nov 05, 10:24 PM KST] C cs02 calibration: 1 in 125,069
+[Nov 05, 10:24 PM KST] C cs02 calibration: 1 in 97,772
+[Nov 05, 10:24 PM KST] C cs02 calibration: 1 in 160,716
+[Nov 05, 10:24 PM KST] C cs02 calibration: 1 in 74,108
+[Nov 05, 10:24 PM KST] C cs02 calibration: 1 in 97,854
+[Nov 05, 10:24 PM KST] C cs02 calibration: 1 in 135,072
+[Nov 05, 10:24 PM KST] C cs02 calibration: 1 in 219,586
+[Nov 05, 10:24 PM KST] C G4G6 calibration: 1 in 34,225
+[Nov 05, 10:24 PM KST] C G4G6 calibration: 1 in 76,408
+[Nov 05, 10:24 PM KST] C G4G6 calibration: 1 in 101,452
+[Nov 05, 10:24 PM KST] C G4G6 calibration: 1 in 135,358
+[Nov 05, 10:24 PM KST] C G4G6 calibration: 1 in 31,023
+[Nov 05, 10:24 PM KST] C G4G6 calibration: 1 in 33,751
+[Nov 05, 10:24 PM KST] C G4G6 calibration: 1 in 40,249
+[Nov 05, 10:24 PM KST] C G4G6 calibration: 1 in 42,289
+[Nov 05, 10:24 PM KST] C G4G6 calibration: 1 in 33,329
+[Nov 05, 10:24 PM KST] C G4G6 calibration: 1 in 42,524
+[Nov 05, 10:24 PM KST] done
+exit 0

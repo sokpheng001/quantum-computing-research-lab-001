@@ -1,0 +1,1947 @@
+{
+ "n": 90,
+ "S": 212,
+ "weight": 8,
+ "homs": [
+  [
+   0,
+   1
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "kinds": {
+  "X": {
+   "sets": 66,
+   "families": [
+    {
+     "family": 0,
+     "copies": 45,
+     "members": 41,
+     "faults": [
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[18]",
+        "Zcheck[0]"
+       ],
+       "faulted": [
+        "data_right[18]",
+        "Zcheck[0]"
+       ],
+       "round": 0,
+       "hook": true,
+       "n_equivalent": 1
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[38]",
+        "Zcheck[20]"
+       ],
+       "faulted": [
+        "data_right[38]",
+        "Zcheck[20]"
+       ],
+       "round": 0,
+       "hook": true,
+       "n_equivalent": 1
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[37]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 5
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[43]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 5
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[2]",
+        "data_right[8]"
+       ],
+       "faulted": [
+        "Xcheck[2]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[27]",
+        "data_right[33]"
+       ],
+       "faulted": [
+        "Xcheck[27]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[7]",
+        "Zcheck[7]"
+       ],
+       "faulted": [
+        "data_left[7]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[15]",
+        "Zcheck[15]"
+       ],
+       "faulted": [
+        "data_left[15]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      }
+     ],
+     "n_hook": 4,
+     "ancillas": [
+      0,
+      2,
+      7,
+      15,
+      20,
+      27
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0,
+       1,
+       2
+      ],
+      "1,0": [
+       0,
+       2
+      ],
+      "1,1": [
+       0,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "family": 1,
+     "copies": 45,
+     "members": 25,
+     "faults": [
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[2]",
+        "data_right[23]"
+       ],
+       "faulted": [
+        "Xcheck[2]"
+       ],
+       "round": 4,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[32]",
+        "data_right[8]"
+       ],
+       "faulted": [
+        "Xcheck[32]"
+       ],
+       "round": 4,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[38]",
+        "Zcheck[14]"
+       ],
+       "faulted": [
+        "data_left[38]"
+       ],
+       "round": 4,
+       "hook": false,
+       "n_equivalent": 6
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[23]",
+        "Zcheck[44]"
+       ],
+       "faulted": [
+        "data_left[23]"
+       ],
+       "round": 4,
+       "hook": false,
+       "n_equivalent": 6
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[4]",
+        "Zcheck[5]"
+       ],
+       "faulted": [
+        "data_right[4]"
+       ],
+       "round": 5,
+       "hook": false,
+       "n_equivalent": 3
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[19]",
+        "Zcheck[20]"
+       ],
+       "faulted": [
+        "data_right[19]"
+       ],
+       "round": 5,
+       "hook": false,
+       "n_equivalent": 3
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[21]",
+        "Zcheck[22]"
+       ],
+       "faulted": [
+        "data_right[21]"
+       ],
+       "round": 5,
+       "hook": false,
+       "n_equivalent": 3
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[36]",
+        "Zcheck[37]"
+       ],
+       "faulted": [
+        "data_right[36]"
+       ],
+       "round": 5,
+       "hook": false,
+       "n_equivalent": 3
+      }
+     ],
+     "n_hook": 2,
+     "ancillas": [
+      2,
+      5,
+      14,
+      20,
+      22,
+      32,
+      37,
+      44
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       1,
+       2
+      ],
+      "1,0": [
+       0,
+       1,
+       2
+      ],
+      "1,1": [
+       0,
+       1,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    }
+   ]
+  },
+  "Z": {
+   "sets": 291,
+   "families": [
+    {
+     "family": 0,
+     "copies": 45,
+     "members": 16,
+     "faults": [
+      {
+       "type": "PrepX",
+       "qubits": [
+        "Xcheck[0]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 8
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[41]",
+        "Zcheck[23]"
+       ],
+       "faulted": [
+        "data_right[41]"
+       ],
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 5
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[0]",
+        "Zcheck[2]"
+       ],
+       "faulted": [
+        "Zcheck[2]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[15]",
+        "Zcheck[17]"
+       ],
+       "faulted": [
+        "Zcheck[17]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[30]",
+        "Zcheck[32]"
+       ],
+       "faulted": [
+        "Zcheck[32]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[20]",
+        "data_right[26]"
+       ],
+       "faulted": [
+        "data_right[26]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[1]",
+        "Zcheck[1]"
+       ],
+       "faulted": [
+        "Zcheck[1]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[18]",
+        "Zcheck[18]"
+       ],
+       "faulted": [
+        "Zcheck[18]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      }
+     ],
+     "n_hook": 5,
+     "ancillas": [
+      0,
+      1,
+      2,
+      17,
+      18,
+      20,
+      23,
+      32
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0,
+       1,
+       2
+      ],
+      "1,0": [
+       0,
+       1,
+       2
+      ],
+      "1,1": [
+       0,
+       1,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "family": 1,
+     "copies": 45,
+     "members": 26,
+     "faults": [
+      {
+       "type": "PrepX",
+       "qubits": [
+        "Xcheck[0]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 8
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[14]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[6]",
+        "data_right[12]"
+       ],
+       "faulted": [
+        "data_right[12]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[15]",
+        "data_right[21]"
+       ],
+       "faulted": [
+        "data_right[21]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[43]",
+        "data_right[4]"
+       ],
+       "faulted": [
+        "data_right[4]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[16]",
+        "Zcheck[16]"
+       ],
+       "faulted": [
+        "Zcheck[16]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[44]",
+        "Zcheck[44]"
+       ],
+       "faulted": [
+        "Zcheck[44]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[1]",
+        "Zcheck[7]"
+       ],
+       "faulted": [
+        "Zcheck[7]"
+       ],
+       "round": 3,
+       "hook": true,
+       "n_equivalent": 2
+      }
+     ],
+     "n_hook": 3,
+     "ancillas": [
+      0,
+      6,
+      7,
+      15,
+      16,
+      43,
+      44
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0,
+       1,
+       2
+      ],
+      "1,0": [
+       0,
+       2
+      ],
+      "1,1": [
+       0,
+       1,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "family": 2,
+     "copies": 45,
+     "members": 22,
+     "faults": [
+      {
+       "type": "PrepX",
+       "qubits": [
+        "Xcheck[1]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 8
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[36]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[23]",
+        "data_right[29]"
+       ],
+       "faulted": [
+        "data_right[29]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[31]",
+        "data_right[37]"
+       ],
+       "faulted": [
+        "data_right[37]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[21]",
+        "Zcheck[21]"
+       ],
+       "faulted": [
+        "Zcheck[21]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[32]",
+        "Zcheck[32]"
+       ],
+       "faulted": [
+        "Zcheck[32]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[41]",
+        "Zcheck[41]"
+       ],
+       "faulted": [
+        "Zcheck[41]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[41]",
+        "Zcheck[2]"
+       ],
+       "faulted": [
+        "Zcheck[2]"
+       ],
+       "round": 3,
+       "hook": true,
+       "n_equivalent": 2
+      }
+     ],
+     "n_hook": 4,
+     "ancillas": [
+      1,
+      2,
+      21,
+      23,
+      31,
+      32,
+      41
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0,
+       1,
+       2
+      ],
+      "1,0": [
+       0,
+       1
+      ],
+      "1,1": [
+       0,
+       1,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "family": 3,
+     "copies": 45,
+     "members": 23,
+     "faults": [
+      {
+       "type": "PrepX",
+       "qubits": [
+        "Xcheck[2]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 8
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[37]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[40]",
+        "Zcheck[39]"
+       ],
+       "faulted": [
+        "Zcheck[39]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[21]",
+        "data_right[27]"
+       ],
+       "faulted": [
+        "data_right[27]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[32]",
+        "data_right[38]"
+       ],
+       "faulted": [
+        "data_right[38]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[0]",
+        "Zcheck[0]"
+       ],
+       "faulted": [
+        "Zcheck[0]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[22]",
+        "Zcheck[22]"
+       ],
+       "faulted": [
+        "Zcheck[22]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[30]",
+        "Zcheck[30]"
+       ],
+       "faulted": [
+        "Zcheck[30]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      }
+     ],
+     "n_hook": 4,
+     "ancillas": [
+      0,
+      2,
+      21,
+      22,
+      30,
+      32,
+      39
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0,
+       1,
+       2
+      ],
+      "1,0": [
+       0,
+       1
+      ],
+      "1,1": [
+       0,
+       1,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "family": 4,
+     "copies": 45,
+     "members": 20,
+     "faults": [
+      {
+       "type": "PrepX",
+       "qubits": [
+        "Xcheck[5]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 8
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[40]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[24]",
+        "data_right[30]"
+       ],
+       "faulted": [
+        "data_right[30]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[35]",
+        "data_right[41]"
+       ],
+       "faulted": [
+        "data_right[41]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[25]",
+        "Zcheck[25]"
+       ],
+       "faulted": [
+        "Zcheck[25]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[42]",
+        "Zcheck[42]"
+       ],
+       "faulted": [
+        "Zcheck[42]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[27]",
+        "Zcheck[33]"
+       ],
+       "faulted": [
+        "Zcheck[33]"
+       ],
+       "round": 3,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[29]",
+        "data_right[5]"
+       ],
+       "faulted": [
+        "data_right[5]"
+       ],
+       "round": 4,
+       "hook": false,
+       "n_equivalent": 6
+      }
+     ],
+     "n_hook": 3,
+     "ancillas": [
+      5,
+      24,
+      25,
+      29,
+      33,
+      35,
+      42
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0,
+       1,
+       2
+      ],
+      "1,0": [
+       0,
+       1,
+       2
+      ],
+      "1,1": [
+       0,
+       1,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "family": 5,
+     "copies": 45,
+     "members": 34,
+     "faults": [
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[18]",
+        "Zcheck[0]"
+       ],
+       "faulted": [
+        "data_right[18]"
+       ],
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 5
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[24]",
+        "Zcheck[6]"
+       ],
+       "faulted": [
+        "data_right[24]"
+       ],
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 5
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[26]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[43]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[10]",
+        "data_right[16]"
+       ],
+       "faulted": [
+        "data_right[16]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[27]",
+        "data_right[33]"
+       ],
+       "faulted": [
+        "data_right[33]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[11]",
+        "Zcheck[11]"
+       ],
+       "faulted": [
+        "Zcheck[11]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[28]",
+        "Zcheck[28]"
+       ],
+       "faulted": [
+        "Zcheck[28]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      }
+     ],
+     "n_hook": 2,
+     "ancillas": [
+      0,
+      6,
+      10,
+      11,
+      27,
+      28
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0,
+       1,
+       2
+      ],
+      "1,0": [
+       0,
+       2
+      ],
+      "1,1": [
+       0,
+       1,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "family": 6,
+     "copies": 45,
+     "members": 32,
+     "faults": [
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[18]",
+        "Zcheck[0]"
+       ],
+       "faulted": [
+        "data_right[18]"
+       ],
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 5
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[33]",
+        "Zcheck[15]"
+       ],
+       "faulted": [
+        "data_right[33]"
+       ],
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 5
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[7]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[20]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[35]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[37]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[10]",
+        "Zcheck[9]"
+       ],
+       "faulted": [
+        "Zcheck[9]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[25]",
+        "Zcheck[24]"
+       ],
+       "faulted": [
+        "Zcheck[24]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      }
+     ],
+     "n_hook": 2,
+     "ancillas": [
+      0,
+      9,
+      15,
+      24
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0
+      ],
+      "1,0": [
+       0,
+       2
+      ],
+      "1,1": [
+       0,
+       2
+      ],
+      "1,2": [
+       0,
+       2
+      ]
+     }
+    },
+    {
+     "family": 7,
+     "copies": 45,
+     "members": 26,
+     "faults": [
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[18]",
+        "Zcheck[0]"
+       ],
+       "faulted": [
+        "data_right[18]"
+       ],
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 5
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[33]",
+        "Zcheck[15]"
+       ],
+       "faulted": [
+        "data_right[33]"
+       ],
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 5
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[10]",
+        "Zcheck[9]"
+       ],
+       "faulted": [
+        "Zcheck[9]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[25]",
+        "Zcheck[24]"
+       ],
+       "faulted": [
+        "Zcheck[24]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[13]",
+        "Zcheck[13]"
+       ],
+       "faulted": [
+        "Zcheck[13]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[39]",
+        "Zcheck[39]"
+       ],
+       "faulted": [
+        "Zcheck[39]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[41]",
+        "Zcheck[41]"
+       ],
+       "faulted": [
+        "Zcheck[41]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[40]",
+        "data_left[39]"
+       ],
+       "faulted": [
+        "data_left[39]"
+       ],
+       "round": 6,
+       "hook": false,
+       "n_equivalent": 2
+      }
+     ],
+     "n_hook": 5,
+     "ancillas": [
+      0,
+      9,
+      13,
+      15,
+      24,
+      39,
+      40,
+      41
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0,
+       1,
+       2
+      ],
+      "1,0": [
+       0,
+       1,
+       2
+      ],
+      "1,1": [
+       0,
+       1,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "family": 8,
+     "copies": 45,
+     "members": 24,
+     "faults": [
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[18]",
+        "Zcheck[0]"
+       ],
+       "faulted": [
+        "data_right[18]"
+       ],
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 5
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[39]",
+        "Zcheck[21]"
+       ],
+       "faulted": [
+        "data_right[39]"
+       ],
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 5
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[26]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[41]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[16]",
+        "Zcheck[15]"
+       ],
+       "faulted": [
+        "Zcheck[15]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[31]",
+        "Zcheck[30]"
+       ],
+       "faulted": [
+        "Zcheck[30]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[18]",
+        "data_right[24]"
+       ],
+       "faulted": [
+        "data_right[24]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[19]",
+        "Zcheck[19]"
+       ],
+       "faulted": [
+        "Zcheck[19]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      }
+     ],
+     "n_hook": 3,
+     "ancillas": [
+      0,
+      15,
+      18,
+      19,
+      21,
+      30
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0,
+       1
+      ],
+      "1,0": [
+       0,
+       1,
+       2
+      ],
+      "1,1": [
+       0,
+       1,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "family": 9,
+     "copies": 45,
+     "members": 25,
+     "faults": [
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[18]",
+        "Zcheck[0]"
+       ],
+       "faulted": [
+        "data_right[18]"
+       ],
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 5
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[26]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[10]",
+        "Zcheck[9]"
+       ],
+       "faulted": [
+        "Zcheck[9]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[25]",
+        "Zcheck[24]"
+       ],
+       "faulted": [
+        "Zcheck[24]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[24]",
+        "Zcheck[26]"
+       ],
+       "faulted": [
+        "Zcheck[26]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[40]",
+        "Zcheck[39]"
+       ],
+       "faulted": [
+        "Zcheck[39]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[42]",
+        "data_right[3]"
+       ],
+       "faulted": [
+        "data_right[3]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[43]",
+        "Zcheck[43]"
+       ],
+       "faulted": [
+        "Zcheck[43]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      }
+     ],
+     "n_hook": 5,
+     "ancillas": [
+      0,
+      9,
+      24,
+      26,
+      39,
+      42,
+      43
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0,
+       1,
+       2
+      ],
+      "1,0": [
+       0,
+       1,
+       2
+      ],
+      "1,1": [
+       0,
+       1,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "family": 10,
+     "copies": 45,
+     "members": 20,
+     "faults": [
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[0]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[13]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[8]",
+        "data_right[14]"
+       ],
+       "faulted": [
+        "data_right[14]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[17]",
+        "data_right[23]"
+       ],
+       "faulted": [
+        "data_right[23]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[42]",
+        "data_right[3]"
+       ],
+       "faulted": [
+        "data_right[3]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[6]",
+        "Zcheck[6]"
+       ],
+       "faulted": [
+        "Zcheck[6]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[15]",
+        "Zcheck[15]"
+       ],
+       "faulted": [
+        "Zcheck[15]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[43]",
+        "Zcheck[43]"
+       ],
+       "faulted": [
+        "Zcheck[43]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      }
+     ],
+     "n_hook": 3,
+     "ancillas": [
+      6,
+      8,
+      15,
+      17,
+      42,
+      43
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0,
+       1,
+       2
+      ],
+      "1,0": [
+       2
+      ],
+      "1,1": [
+       0,
+       1,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "family": 11,
+     "copies": 45,
+     "members": 23,
+     "faults": [
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[0]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "IDLE",
+       "qubits": [
+        "data_left[37]"
+       ],
+       "faulted": null,
+       "round": 0,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[1]",
+        "Zcheck[0]"
+       ],
+       "faulted": [
+        "Zcheck[0]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_right[40]",
+        "Zcheck[39]"
+       ],
+       "faulted": [
+        "Zcheck[39]"
+       ],
+       "round": 1,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[21]",
+        "data_right[27]"
+       ],
+       "faulted": [
+        "data_right[27]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "Xcheck[32]",
+        "data_right[38]"
+       ],
+       "faulted": [
+        "data_right[38]"
+       ],
+       "round": 2,
+       "hook": false,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[22]",
+        "Zcheck[22]"
+       ],
+       "faulted": [
+        "Zcheck[22]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      },
+      {
+       "type": "CNOT",
+       "qubits": [
+        "data_left[30]",
+        "Zcheck[30]"
+       ],
+       "faulted": [
+        "Zcheck[30]"
+       ],
+       "round": 2,
+       "hook": true,
+       "n_equivalent": 2
+      }
+     ],
+     "n_hook": 4,
+     "ancillas": [
+      0,
+      21,
+      22,
+      30,
+      32,
+      39
+     ],
+     "ancilla_classes": {
+      "0,1": [
+       0,
+       1,
+       2
+      ],
+      "1,0": [
+       0,
+       1
+      ],
+      "1,1": [
+       0,
+       1,
+       2
+      ],
+      "1,2": [
+       0,
+       1,
+       2
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "date": "2026-10-19 12:50 AM KST"
+}

@@ -1,0 +1,112 @@
+{
+ "circuit": "d3a6",
+ "distance": 3,
+ "ancilla_count": 6,
+ "flag_count": 0,
+ "noise_model": "enum.noise.uniformly_depolarize(INNER_CIRCUIT, noise_level=0.001)",
+ "max_fault_count": 2,
+ "cultivated_states": [
+  "S",
+  "T"
+ ],
+ "combinator": "FaultCombinator with 158 faults distributed among 19 detector signatures.",
+ "summary_text": "                             configuration_count               weight                                \n                                          benign malignant     benign malignant malignant_probability\ncultivated_state fault_count                                                                         \nS                0                             1         0   1.000000      0.00              0.000000\n                 1                             2         0   0.933333      0.00              0.000000\n                 2                            34         0  14.208889      0.00              0.000000\nT                0                             1         0   1.000000      0.00              0.000000\n                 1                             2         0   0.933333      0.00              0.000000\n                 2                            37         4   5.441111      0.21              0.037161",
+ "T_error_rate_per_kept_shot": 2.1006240537961121e-07,
+ "S_error_rate_per_kept_shot": 0.0,
+ "malignant_T_configurations": [
+  {
+   "fault_count": 2,
+   "accept_probability": 0.25,
+   "logical_fidelity": false,
+   "fault_indices": [
+    74,
+    146
+   ],
+   "events": [
+    [
+     "(3, 'X_ERROR', (stim.GateTarget(9),))",
+     "(4, 'E', (stim.target_x(9), stim.target_x(10)))",
+     "(8, 'X_ERROR', (stim.GateTarget(9),))",
+     "(9, 'E', (stim.target_x(9), stim.target_x(12)))"
+    ],
+    [
+     "(10, 'E', (stim.target_y(0), stim.target_x(1)))",
+     "(10, 'Y_ERROR', (stim.GateTarget(0),))",
+     "(11, 'Y_ERROR', (stim.GateTarget(0),))"
+    ]
+   ]
+  },
+  {
+   "fault_count": 2,
+   "accept_probability": 0.25,
+   "logical_fidelity": false,
+   "fault_indices": [
+    65,
+    148
+   ],
+   "events": [
+    [
+     "(3, 'X_ERROR', (stim.GateTarget(5),))",
+     "(4, 'E', (stim.target_x(3), stim.target_x(5)))"
+    ],
+    [
+     "(10, 'E', (stim.target_y(8), stim.target_x(9)))",
+     "(10, 'Y_ERROR', (stim.GateTarget(8),))",
+     "(11, 'Y_ERROR', (stim.GateTarget(8),))"
+    ]
+   ]
+  },
+  {
+   "fault_count": 2,
+   "accept_probability": 0.25,
+   "logical_fidelity": false,
+   "fault_indices": [
+    111,
+    148
+   ],
+   "events": [
+    [
+     "(8, 'X_ERROR', (stim.GateTarget(5),))",
+     "(9, 'E', (stim.target_x(5), stim.target_x(6)))"
+    ],
+    [
+     "(10, 'E', (stim.target_y(8), stim.target_x(9)))",
+     "(10, 'Y_ERROR', (stim.GateTarget(8),))",
+     "(11, 'Y_ERROR', (stim.GateTarget(8),))"
+    ]
+   ]
+  },
+  {
+   "fault_count": 2,
+   "accept_probability": 0.25,
+   "logical_fidelity": false,
+   "fault_indices": [
+    54,
+    150
+   ],
+   "events": [
+    [
+     "(3, 'X_ERROR', (stim.GateTarget(3),))",
+     "(4, 'X_ERROR', (stim.GateTarget(3),))",
+     "(5, 'X_ERROR', (stim.GateTarget(3),))",
+     "(6, 'X_ERROR', (stim.GateTarget(3),))",
+     "(7, 'X_ERROR', (stim.GateTarget(3),))",
+     "(8, 'X_ERROR', (stim.GateTarget(3),))",
+     "(9, 'E', (stim.target_x(1), stim.target_x(3)))"
+    ],
+    [
+     "(10, 'E', (stim.target_x(6), stim.target_y(7)))",
+     "(10, 'Y_ERROR', (stim.GateTarget(7),))",
+     "(11, 'Y_ERROR', (stim.GateTarget(7),))"
+    ]
+   ]
+  }
+ ],
+ "timing_s": {
+  "build": 0.01581827108748257,
+  "get_kept_effects": 0.00260134506970644,
+  "total": 0.026716258144006133
+ },
+ "started": "2026-10-31 07:53:40 PM KST",
+ "finished": "2026-10-31 07:53:40 PM KST"
+}

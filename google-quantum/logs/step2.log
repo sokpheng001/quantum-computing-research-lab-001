@@ -1,0 +1,22 @@
+== d3a6: identical summary to Step 0: True; same malignant T fault indices: True; same T rate: True; runtime 0.032 s
+                             configuration_count               weight                                
+                                          benign malignant     benign malignant malignant_probability
+cultivated_state fault_count                                                                         
+S                0                             1         0   1.000000      0.00              0.000000
+                 1                             2         0   0.933333      0.00              0.000000
+                 2                            34         0  14.208889      0.00              0.000000
+T                0                             1         0   1.000000      0.00              0.000000
+                 1                             2         0   0.933333      0.00              0.000000
+                 2                            37         4   5.441111      0.21              0.037161
+T malignant configs: [(2, (74, 146)), (2, (65, 148)), (2, (111, 148)), (2, (54, 150))]
+== d3a6f2: identical summary to Step 0: True; same malignant T fault indices: True; same T rate: True; runtime 0.032 s
+                             configuration_count              weight                                
+                                          benign malignant    benign malignant malignant_probability
+cultivated_state fault_count                                                                        
+S                0                             1         0  1.000000       0.0                   0.0
+                 1                             2         0  3.200000       0.0                   0.0
+                 2                            37         0  4.671111       0.0                   0.0
+T                0                             1         0  1.000000       0.0                   0.0
+                 1                             2         0  3.200000       0.0                   0.0
+                 2                            37         0  4.331111       0.0                   0.0
+T malignant configs: []

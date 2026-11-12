@@ -1,0 +1,1068 @@
+{
+ "placements": 62,
+ "rows": [
+  {
+   "symmetry": "id",
+   "offset": [
+    0,
+    6
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "id",
+   "offset": [
+    1,
+    5
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "id",
+   "offset": [
+    1,
+    6
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "id",
+   "offset": [
+    2,
+    4
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "id",
+   "offset": [
+    2,
+    5
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "id",
+   "offset": [
+    2,
+    6
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "id",
+   "offset": [
+    2,
+    7
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "id",
+   "offset": [
+    3,
+    6
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "rot90",
+   "offset": [
+    4,
+    10
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot90",
+   "offset": [
+    4,
+    11
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot90",
+   "offset": [
+    4,
+    12
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot90",
+   "offset": [
+    5,
+    11
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot90",
+   "offset": [
+    5,
+    12
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot90",
+   "offset": [
+    6,
+    11
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot90",
+   "offset": [
+    6,
+    12
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot180",
+   "offset": [
+    9,
+    8
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "rot180",
+   "offset": [
+    10,
+    7
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "rot180",
+   "offset": [
+    10,
+    8
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "rot180",
+   "offset": [
+    10,
+    9
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "rot180",
+   "offset": [
+    10,
+    10
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "rot180",
+   "offset": [
+    11,
+    8
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "rot180",
+   "offset": [
+    11,
+    9
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "rot180",
+   "offset": [
+    12,
+    8
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "rot270",
+   "offset": [
+    6,
+    2
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot270",
+   "offset": [
+    6,
+    3
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot270",
+   "offset": [
+    7,
+    2
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot270",
+   "offset": [
+    7,
+    3
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot270",
+   "offset": [
+    8,
+    2
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot270",
+   "offset": [
+    8,
+    3
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "rot270",
+   "offset": [
+    8,
+    4
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_r",
+   "offset": [
+    9,
+    5
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_r",
+   "offset": [
+    9,
+    6
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_r",
+   "offset": [
+    10,
+    4
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_r",
+   "offset": [
+    10,
+    5
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_r",
+   "offset": [
+    10,
+    6
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_r",
+   "offset": [
+    11,
+    6
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_r",
+   "offset": [
+    11,
+    7
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_r",
+   "offset": [
+    12,
+    6
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_c",
+   "offset": [
+    0,
+    8
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_c",
+   "offset": [
+    1,
+    7
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_c",
+   "offset": [
+    1,
+    8
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_c",
+   "offset": [
+    2,
+    8
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_c",
+   "offset": [
+    2,
+    9
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_c",
+   "offset": [
+    2,
+    10
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_c",
+   "offset": [
+    3,
+    8
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "flip_c",
+   "offset": [
+    3,
+    9
+   ],
+   "strict": {
+    "readout": 3
+   },
+   "continuing": {
+    "readout": 3,
+    "data_measured": 1,
+    "readout_continuing": 36
+   },
+   "strict_total": 3,
+   "continuing_total": 40
+  },
+  {
+   "symmetry": "transpose",
+   "offset": [
+    4,
+    2
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "transpose",
+   "offset": [
+    4,
+    3
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "transpose",
+   "offset": [
+    4,
+    4
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "transpose",
+   "offset": [
+    5,
+    2
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "transpose",
+   "offset": [
+    5,
+    3
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "transpose",
+   "offset": [
+    5,
+    4
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "transpose",
+   "offset": [
+    6,
+    2
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "transpose",
+   "offset": [
+    6,
+    3
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "antitranspose",
+   "offset": [
+    6,
+    11
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "antitranspose",
+   "offset": [
+    6,
+    12
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "antitranspose",
+   "offset": [
+    7,
+    10
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "antitranspose",
+   "offset": [
+    7,
+    11
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "antitranspose",
+   "offset": [
+    7,
+    12
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "antitranspose",
+   "offset": [
+    8,
+    10
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "antitranspose",
+   "offset": [
+    8,
+    11
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  },
+  {
+   "symmetry": "antitranspose",
+   "offset": [
+    8,
+    12
+   ],
+   "strict": {
+    "readout": 4
+   },
+   "continuing": {
+    "readout": 4,
+    "data_measured": 1,
+    "readout_continuing": 33
+   },
+   "strict_total": 4,
+   "continuing_total": 38
+  }
+ ],
+ "best_strict": 3,
+ "best_continuing": 38,
+ "zero_strict": 0,
+ "zero_continuing": 0,
+ "kinds_continuing": {
+  "readout": 218,
+  "data_measured": 62,
+  "readout_continuing": 2136
+ }
+}

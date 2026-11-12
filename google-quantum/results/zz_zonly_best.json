@@ -1,0 +1,16 @@
+{
+ "source": "results/zz_zonly/best0.inner.stim",
+ "base": "B0021",
+ "flags": "Zf11[q7@t2+q10@t3+q7@t12+q10@t13];Zf12[q1@t10+q1@t12]",
+ "n_flags": 2,
+ "malignant_T_1": 0,
+ "malignant_T_2": 1,
+ "malignant_T_3": 401,
+ "malignant_S_le2": 0,
+ "ler_T_mfc2_one_in": 6452634,
+ "ler_T_mfc3_one_in": 3696022,
+ "added_ticks": 3,
+ "n_qubits": 13,
+ "n_cx": 26,
+ "settings": "distance 3, uniformly_depolarize p=0.001, strict readout gate/auto; realisable on Willow (embedding exists)"
+}

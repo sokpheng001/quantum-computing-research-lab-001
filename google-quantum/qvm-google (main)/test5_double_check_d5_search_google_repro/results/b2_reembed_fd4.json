@@ -1,0 +1,59 @@
+{
+ "target": 4,
+ "n_targets": 3,
+ "n_options": 121,
+ "coverable": 3,
+ "tried": [
+  {
+   "cover": [
+    "Z(3, 30)"
+   ],
+   "stage": null,
+   "violations": null
+  },
+  {
+   "cover": [
+    "Z(0, 30)"
+   ],
+   "stage": null,
+   "violations": null
+  },
+  {
+   "cover": [
+    "Z(1, 31)"
+   ],
+   "stage": null,
+   "violations": null
+  },
+  {
+   "cover": [
+    "Z(1, 34)"
+   ],
+   "stage": null,
+   "violations": null
+  },
+  {
+   "cover": [
+    "Z(3, 26)"
+   ],
+   "stage": null,
+   "violations": null
+  },
+  {
+   "cover": [
+    "Z(0, 26)"
+   ],
+   "stage": null,
+   "violations": null
+  },
+  {
+   "cover": [
+    "Z(1, 27)"
+   ],
+   "stage": null,
+   "violations": null
+  }
+ ],
+ "result": {},
+ "runtime_s": 6.4
+}

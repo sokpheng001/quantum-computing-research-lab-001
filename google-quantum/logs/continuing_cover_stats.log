@@ -1,0 +1,2 @@
+abstract one 41 two 356 greedy Counter({2: 262, 3: 236, 1: 41})
+placeable one 4 two 86 greedy Counter({3: 327, None: 111, 2: 58, 4: 39, 1: 4})

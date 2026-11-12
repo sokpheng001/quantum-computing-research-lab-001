@@ -1,0 +1,70 @@
+{
+ "name": "d5a19",
+ "label": "Gidney et al. (original d = 5)",
+ "geometry": {
+  "qubits": 38,
+  "two_qubit_gates": 74,
+  "data": 19,
+  "non_neighbour_gates": 0,
+  "non_neighbour_pairs": 0,
+  "max_partners": 4,
+  "over_4_partners": 0
+ },
+ "counts": {
+  "T": {
+   "0": {
+    "benign": 1,
+    "malignant": 0
+   },
+   "1": {
+    "benign": 2,
+    "malignant": 0
+   },
+   "2": {
+    "benign": 28,
+    "malignant": 0
+   },
+   "3": {
+    "benign": 1872,
+    "malignant": 3
+   },
+   "4": {
+    "benign": 39618,
+    "malignant": 601
+   }
+  },
+  "S": {
+   "0": {
+    "benign": 1,
+    "malignant": 0
+   },
+   "1": {
+    "benign": 2,
+    "malignant": 0
+   },
+   "2": {
+    "benign": 28,
+    "malignant": 0
+   },
+   "3": {
+    "benign": 1823,
+    "malignant": 0
+   },
+   "4": {
+    "benign": 36981,
+    "malignant": 0
+   }
+  }
+ },
+ "fault_count": 452,
+ "error_rate_per_kept_shot_p01": {
+  "T": 1.0261426005458033e-09,
+  "S": 0.0
+ },
+ "fault_distance": {
+  "T": 3,
+  "S": null
+ },
+ "max_faults": 4,
+ "runtime_s": 1.1
+}

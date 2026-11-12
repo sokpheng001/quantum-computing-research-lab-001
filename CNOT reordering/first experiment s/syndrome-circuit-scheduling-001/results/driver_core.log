@@ -1,0 +1,279 @@
+== driver_core start Tue Oct 13 10:06:35 UTC 2026
+== task A: bounds + n_min + fault sets, [[72]], 4 cycles, Z-first ids 0-935, both bases, 100 trials, 12 workers
+0 done, 1872 jobs, cycles=4, trials=100, 12 workers
+  24/1872  6 min elapsed, eta 453 min
+  48/1872  12 min elapsed, eta 451 min
+  72/1872  18 min elapsed, eta 444 min
+  96/1872  23 min elapsed, eta 433 min
+  120/1872  29 min elapsed, eta 425 min
+  144/1872  35 min elapsed, eta 417 min
+  168/1872  41 min elapsed, eta 411 min
+  192/1872  46 min elapsed, eta 404 min
+  216/1872  52 min elapsed, eta 398 min
+  240/1872  58 min elapsed, eta 393 min
+  264/1872  64 min elapsed, eta 387 min
+  288/1872  69 min elapsed, eta 381 min
+  312/1872  75 min elapsed, eta 374 min
+  336/1872  81 min elapsed, eta 368 min
+  360/1872  86 min elapsed, eta 362 min
+  384/1872  92 min elapsed, eta 356 min
+  408/1872  98 min elapsed, eta 350 min
+  432/1872  103 min elapsed, eta 344 min
+  456/1872  109 min elapsed, eta 339 min
+  480/1872  115 min elapsed, eta 333 min
+  504/1872  121 min elapsed, eta 327 min
+  528/1872  126 min elapsed, eta 321 min
+  552/1872  132 min elapsed, eta 316 min
+  576/1872  138 min elapsed, eta 310 min
+  600/1872  143 min elapsed, eta 304 min
+  624/1872  149 min elapsed, eta 298 min
+  648/1872  155 min elapsed, eta 292 min
+  672/1872  160 min elapsed, eta 286 min
+  696/1872  166 min elapsed, eta 281 min
+  720/1872  172 min elapsed, eta 275 min
+  744/1872  178 min elapsed, eta 269 min
+  768/1872  183 min elapsed, eta 264 min
+  792/1872  189 min elapsed, eta 258 min
+  816/1872  195 min elapsed, eta 252 min
+  840/1872  200 min elapsed, eta 246 min
+  864/1872  206 min elapsed, eta 240 min
+  888/1872  212 min elapsed, eta 235 min
+  912/1872  218 min elapsed, eta 229 min
+  936/1872  223 min elapsed, eta 223 min
+  960/1872  229 min elapsed, eta 218 min
+  984/1872  235 min elapsed, eta 212 min
+  1008/1872  240 min elapsed, eta 206 min
+  1032/1872  246 min elapsed, eta 200 min
+  1056/1872  252 min elapsed, eta 194 min
+  1080/1872  257 min elapsed, eta 189 min
+  1104/1872  263 min elapsed, eta 183 min
+  1128/1872  269 min elapsed, eta 177 min
+  1152/1872  274 min elapsed, eta 171 min
+  1176/1872  280 min elapsed, eta 166 min
+  1200/1872  286 min elapsed, eta 160 min
+  1224/1872  291 min elapsed, eta 154 min
+  1248/1872  297 min elapsed, eta 148 min
+  1272/1872  303 min elapsed, eta 143 min
+  1296/1872  308 min elapsed, eta 137 min
+  1320/1872  314 min elapsed, eta 131 min
+  1344/1872  320 min elapsed, eta 126 min
+  1368/1872  325 min elapsed, eta 120 min
+  1392/1872  331 min elapsed, eta 114 min
+  1416/1872  337 min elapsed, eta 108 min
+  1440/1872  342 min elapsed, eta 103 min
+  1464/1872  348 min elapsed, eta 97 min
+  1488/1872  354 min elapsed, eta 91 min
+  1512/1872  359 min elapsed, eta 86 min
+  1536/1872  365 min elapsed, eta 80 min
+  1560/1872  371 min elapsed, eta 74 min
+  1584/1872  376 min elapsed, eta 68 min
+  1608/1872  382 min elapsed, eta 63 min
+  1632/1872  388 min elapsed, eta 57 min
+  1656/1872  393 min elapsed, eta 51 min
+  1680/1872  399 min elapsed, eta 46 min
+  1704/1872  405 min elapsed, eta 40 min
+  1728/1872  410 min elapsed, eta 34 min
+  1752/1872  416 min elapsed, eta 29 min
+  1776/1872  422 min elapsed, eta 23 min
+  1800/1872  427 min elapsed, eta 17 min
+  1824/1872  433 min elapsed, eta 11 min
+  1848/1872  439 min elapsed, eta 6 min
+  1872/1872  444 min elapsed, eta 0 min
+done
+== task A finished Tue Oct 13 17:30:54 UTC 2026
+== task B: ranking + symmetry classes Tue Oct 13 17:30:54 UTC 2026
+936 schedules with both bases
+core keys: {'Z': 17, 'X': 14}
+
+## Task B — ranking of the 936 Z-first depth-7 schedules, [[72]], 4 cycles, 100 trials (2026-10-13)
+
+Key: min(dZ,dX) desc, then nontrivial min-weight sets (Z+X) asc, then all min-weight sets asc. Core (schedule-independent) keys: Z 17, X 14; a set is nontrivial if it uses a non-core fault.
+
+Bound values: {3: 24, 6: 809, 5: 100, 4: 3}. Nontrivial sets per schedule: min 2, median 22, max 43.
+
+Symmetry: T1 maps 936/936 and T2 maps 936/936 schedules into the Z-first set; **270 classes** (sizes {2: 72, 4: 198}); bounds agree within 248/270 classes.
+
+**Bravyi S (id 212): rank 514 of 936, class 129** (class members [212, 310, 676, 774]).
+
+
+Top 5:
+| rank | id | class | dZ | dX | min-weight sets Z / X | nontrivial Z / X | X order / Z order |
+|---|---|---|---|---|---|---|---|
+| 1 | 744 | 1 | <= 6 | <= 6 | 7 / 6 | 5 / 5 | B2 A3 A1 A2 B3 B1 / B1 B3 A3 A1 A2 B2 |
+| 2 | 540 | 2 | <= 6 | <= 6 | 5 / 8 | 5 / 6 | B1 A2 A1 A3 B3 B2 / B3 B2 A2 A1 A3 B1 |
+| 3 | 873 | 3 | <= 6 | <= 6 | 7 / 6 | 6 / 5 | B3 A2 A3 A1 B2 B1 / B1 B2 A3 A2 A1 B3 |
+| 4 | 716 | 4 | <= 6 | <= 6 | 7 / 7 | 6 / 6 | B2 A2 A3 A1 B3 B1 / B1 B3 A3 A1 A2 B2 |
+| 5 | 750 | 5 | <= 6 | <= 6 | 8 / 6 | 7 / 5 | B2 A3 A1 A2 B3 B1 / B3 B1 A3 A1 A2 B2 |
+
+Median:
+| rank | id | class | dZ | dX | min-weight sets Z / X | nontrivial Z / X | X order / Z order |
+|---|---|---|---|---|---|---|---|
+| 469 | 243 | 142 | <= 6 | <= 6 | 16 / 15 | 13 / 11 | A2 B2 B3 B1 A1 A3 / A3 A1 B1 B3 B2 A2 |
+
+Bottom 5:
+| rank | id | class | dZ | dX | min-weight sets Z / X | nontrivial Z / X | X order / Z order |
+|---|---|---|---|---|---|---|---|
+| 932 | 934 | 268 | <= 3 | <= 3 | 8 / 9 | 8 / 9 | B3 A3 B2 A1 B1 A2 / A2 B1 A1 B2 A3 B3 |
+| 933 | 156 | 265 | <= 3 | <= 3 | 10 / 8 | 10 / 8 | A2 B1 A1 B2 A3 B3 / B3 A3 B2 A1 B1 A2 |
+| 934 | 417 | 269 | <= 3 | <= 3 | 8 / 10 | 8 / 10 | A3 B3 A1 B2 A2 B1 / B1 A2 B2 A1 B3 A3 |
+| 935 | 568 | 270 | <= 3 | <= 3 | 9 / 10 | 9 / 10 | B1 A2 B2 A1 B3 A3 / A3 B3 A1 B2 A2 B1 |
+| 936 | 52 | 270 | <= 3 | <= 3 | 8 / 13 | 8 / 13 | A1 B2 A2 B1 A3 B3 / B3 A3 B1 A2 B2 A1 |
+
+Bravyi:
+| rank | id | class | dZ | dX | min-weight sets Z / X | nontrivial Z / X | X order / Z order |
+|---|---|---|---|---|---|---|---|
+| 514 | 212 | 129 | <= 6 | <= 6 | 20 / 12 | 16 / 9 | A2 B2 B1 B3 A1 A3 / A1 A3 B1 B2 B3 A2 |
+
+Figure: figures/hist_dcirc_936.png; table: results/ranking_936.csv
+best=744 median=131 worst=52
+== task D: pair selection by fault-set overlap Tue Oct 13 17:30:55 UTC 2026
+top 20: [744, 540, 873, 716, 750, 497, 814, 387, 599, 48, 303, 735, 491, 350, 598, 391, 796, 860, 576, 321]
+1 of 190 pairs are disjoint
+  P1: 744+321  ranks 1,20  overlap 0
+  P2: 540+750  ranks 2,5  overlap 3
+  P3: 716+497  ranks 4,6  overlap 3
+  P4: 497+303  ranks 6,11  overlap 3
+  P5: 540+391  ranks 2,16  overlap 3
+  PA: 744+1517 (best with its time reverse)
+specs: 744+321,540+750,716+497,497+303,540+391,744+1517,744
+== task D: alternating bounds on [[72]] for 744+321,540+750,716+497,497+303,540+391,744+1517,744 Tue Oct 13 17:30:56 UTC 2026
+14 configs x 12 chunks, 600 trials each, 12 workers
+  12/168 chunks, 1 min
+  24/168 chunks, 3 min
+  36/168 chunks, 4 min
+  48/168 chunks, 6 min
+  60/168 chunks, 7 min
+  72/168 chunks, 9 min
+  84/168 chunks, 10 min
+  96/168 chunks, 12 min
+  108/168 chunks, 13 min
+  120/168 chunks, 15 min
+  132/168 chunks, 16 min
+  144/168 chunks, 18 min
+  156/168 chunks, 19 min
+  168/168 chunks, 20 min
+  744+321      Z  d_circ <= 6  min-weight sets 60  hist {6: 77, 7: 99, 8: 82, 9: 81, 10: 73, 11: 40, 12: 37, 13: 28, 14: 22, 15: 14, 16: 14, 17: 11, 18: 5, 19: 6, 20: 1, 21: 3, 22: 1, 23: 1, 24: 1, 26: 1, 27: 1, 30: 1, 33: 1}
+  744+321      X  d_circ <= 6  min-weight sets 64  hist {6: 79, 7: 82, 8: 77, 9: 48, 10: 37, 11: 28, 12: 28, 13: 22, 14: 30, 15: 31, 16: 18, 17: 15, 18: 13, 19: 13, 20: 11, 21: 6, 22: 6, 23: 2, 24: 4, 25: 7, 26: 9, 27: 8, 28: 5, 29: 3, 30: 2, 31: 5, 32: 3, 34: 4, 35: 1, 36: 1, 37: 1, 42: 1}
+  540+750      Z  d_circ <= 6  min-weight sets 64  hist {6: 77, 7: 104, 8: 109, 9: 95, 10: 59, 11: 41, 12: 33, 13: 22, 14: 14, 15: 14, 16: 9, 17: 9, 18: 3, 19: 3, 20: 2, 23: 3, 25: 1, 27: 1, 32: 1}
+  540+750      X  d_circ <= 6  min-weight sets 84  hist {6: 100, 7: 90, 8: 90, 9: 60, 10: 49, 11: 40, 12: 31, 13: 15, 14: 27, 15: 12, 16: 14, 17: 9, 18: 6, 19: 9, 20: 6, 21: 12, 22: 2, 23: 7, 24: 3, 25: 2, 26: 1, 27: 2, 28: 1, 29: 4, 32: 4, 35: 1, 37: 1, 39: 1, 42: 1}
+  716+497      Z  d_circ <= 6  min-weight sets 75  hist {6: 90, 7: 90, 8: 98, 9: 77, 10: 63, 11: 42, 12: 45, 13: 21, 14: 17, 15: 19, 16: 8, 17: 10, 18: 5, 19: 9, 20: 1, 21: 1, 22: 2, 26: 1, 27: 1}
+  716+497      X  d_circ <= 6  min-weight sets 50  hist {6: 55, 7: 83, 8: 75, 9: 71, 10: 53, 11: 40, 12: 24, 13: 22, 14: 23, 15: 22, 16: 14, 17: 11, 18: 11, 19: 10, 20: 10, 21: 13, 22: 8, 23: 5, 24: 5, 25: 6, 26: 7, 27: 6, 28: 3, 29: 5, 30: 3, 31: 6, 32: 2, 34: 1, 35: 1, 36: 1, 37: 2, 38: 1, 39: 1}
+  497+303      Z  d_circ <= 6  min-weight sets 56  hist {6: 64, 7: 92, 8: 116, 9: 90, 10: 61, 11: 50, 12: 45, 13: 26, 14: 20, 15: 13, 16: 6, 17: 3, 18: 5, 19: 3, 20: 2, 21: 2, 22: 1, 32: 1}
+  497+303      X  d_circ <= 6  min-weight sets 57  hist {6: 69, 7: 99, 8: 78, 9: 68, 10: 29, 11: 32, 12: 23, 13: 22, 14: 24, 15: 19, 16: 17, 17: 13, 18: 15, 19: 12, 20: 9, 21: 8, 22: 14, 23: 5, 24: 6, 25: 5, 26: 2, 28: 1, 29: 2, 30: 3, 31: 2, 32: 8, 33: 4, 34: 2, 35: 1, 37: 2, 38: 2, 39: 2, 40: 1, 42: 1}
+  540+391      Z  d_circ <= 6  min-weight sets 53  hist {6: 61, 7: 102, 8: 124, 9: 71, 10: 68, 11: 47, 12: 41, 13: 23, 14: 17, 15: 12, 16: 9, 17: 5, 18: 6, 19: 5, 21: 4, 22: 1, 23: 2, 24: 1, 30: 1}
+  540+391      X  d_circ <= 6  min-weight sets 74  hist {6: 86, 7: 105, 8: 70, 9: 53, 10: 41, 11: 33, 12: 28, 13: 24, 14: 18, 15: 21, 16: 17, 17: 8, 18: 14, 19: 6, 20: 15, 21: 11, 22: 4, 23: 5, 24: 4, 25: 3, 26: 4, 27: 2, 28: 3, 29: 3, 30: 7, 31: 6, 32: 3, 33: 1, 34: 1, 36: 3, 37: 1}
+  744+1517     Z  d_circ <= 6  min-weight sets 53  hist {6: 67, 7: 105, 8: 115, 9: 75, 10: 56, 11: 47, 12: 33, 13: 28, 14: 19, 15: 11, 16: 9, 17: 4, 18: 10, 19: 4, 20: 3, 21: 4, 22: 3, 23: 2, 24: 2, 25: 1, 28: 1, 40: 1}
+  744+1517     X  d_circ <= 6  min-weight sets 70  hist {6: 75, 7: 94, 8: 100, 9: 57, 10: 50, 11: 35, 12: 32, 13: 26, 14: 19, 15: 25, 16: 17, 17: 14, 18: 9, 19: 6, 20: 10, 21: 12, 22: 7, 23: 2, 24: 1, 25: 1, 26: 1, 27: 2, 28: 1, 31: 3, 32: 1}
+  744          Z  d_circ <= 6  min-weight sets 57  hist {6: 80, 7: 84, 8: 99, 9: 83, 10: 77, 11: 37, 12: 33, 13: 25, 14: 28, 15: 17, 16: 14, 17: 8, 18: 3, 19: 1, 20: 1, 21: 2, 23: 2, 24: 1, 25: 1, 26: 2, 28: 1, 33: 1}
+  744          X  d_circ <= 6  min-weight sets 61  hist {6: 69, 7: 81, 8: 79, 9: 71, 10: 44, 11: 36, 12: 26, 13: 29, 14: 25, 15: 14, 16: 14, 17: 14, 18: 14, 19: 10, 20: 6, 21: 6, 22: 6, 23: 4, 24: 10, 25: 5, 26: 5, 27: 3, 28: 7, 29: 2, 30: 4, 31: 4, 32: 1, 33: 3, 34: 1, 35: 2, 36: 1, 37: 2, 38: 1, 41: 1}
+done
+
+## Task D — candidate pairs, alternating d_circ bounds on [[72]], 4 cycles, 600 trials (2026-10-13)
+
+| spec | dZ | dX | min-weight sets Z / X | nontrivial Z / X |
+|---|---|---|---|---|
+| 497+303 | <= 6 | <= 6 | 56 / 57 | 54 / 48 |
+| 744 (best single) | <= 6 | <= 6 | 57 / 61 | 52 / 58 |
+| 744+1517 | <= 6 | <= 6 | 53 / 70 | 51 / 62 |
+| 716+497 | <= 6 | <= 6 | 75 / 50 | 70 / 43 |
+| 744+321 | <= 6 | <= 6 | 60 / 64 | 56 / 59 |
+| 540+391 | <= 6 | <= 6 | 53 / 74 | 51 / 71 |
+| 540+750 | <= 6 | <= 6 | 64 / 84 | 61 / 78 |
+
+**Finalist pair: 497+303** (highest min bound, then fewest nontrivial min-weight sets). Candidates: results/pair_candidates.csv
+finalist=497+303 pairA=744+1517
+== task F: [[144]] 4-cycle bounds for finalist 497+303, pair A 744+1517, best single 744 Tue Oct 13 17:51:26 UTC 2026
+6 configs x 12 chunks, 4000 trials each, 12 workers
+  12/72 chunks, 36 min
+  24/72 chunks, 69 min
+  36/72 chunks, 99 min
+  48/72 chunks, 131 min
+  60/72 chunks, 164 min
+  72/72 chunks, 198 min
+  497+303      Z  d_circ <= 11  min-weight sets 6  hist {11: 6, 12: 88, 13: 123, 14: 216, 15: 278, 16: 310, 17: 330, 18: 302, 19: 285, 20: 238, 21: 223, 22: 198, 23: 170, 24: 151, 25: 145, 26: 141, 27: 116, 28: 81, 29: 86, 30: 77, 31: 71, 32: 55, 33: 58, 34: 51, 35: 36, 36: 29, 37: 19, 38: 21, 39: 15, 40: 16, 41: 14, 42: 9, 43: 6, 44: 2, 45: 8, 46: 2, 47: 4, 48: 2, 49: 3, 51: 3, 53: 1, 54: 1, 58: 2, 60: 1, 61: 3}
+  497+303      X  d_circ <= 10  min-weight sets 1  hist {10: 1, 11: 30, 12: 157, 13: 255, 14: 275, 15: 341, 16: 310, 17: 287, 18: 235, 19: 198, 20: 142, 21: 147, 22: 105, 23: 90, 24: 93, 25: 65, 26: 60, 27: 46, 28: 54, 29: 55, 30: 62, 31: 40, 32: 43, 33: 41, 34: 39, 35: 31, 36: 25, 37: 32, 38: 37, 39: 17, 40: 32, 41: 28, 42: 24, 43: 28, 44: 22, 45: 16, 46: 27, 47: 23, 48: 25, 49: 23, 50: 30, 51: 23, 52: 22, 53: 25, 54: 23, 55: 19, 56: 13, 57: 23, 58: 21, 59: 22, 60: 23, 61: 20, 62: 18, 63: 14, 64: 11, 65: 15, 66: 9, 67: 18, 68: 5, 69: 11, 70: 10, 71: 10, 72: 12, 73: 5, 74: 3, 75: 9, 76: 5, 77: 6, 78: 4, 81: 3, 82: 1, 84: 1, 87: 1}
+  744+1517     Z  d_circ <= 10  min-weight sets 1  hist {10: 1, 11: 4, 12: 106, 13: 136, 14: 233, 15: 276, 16: 332, 17: 298, 18: 315, 19: 299, 20: 214, 21: 219, 22: 184, 23: 140, 24: 123, 25: 110, 26: 116, 27: 84, 28: 94, 29: 58, 30: 76, 31: 50, 32: 60, 33: 47, 34: 48, 35: 40, 36: 37, 37: 32, 38: 29, 39: 18, 40: 18, 41: 28, 42: 26, 43: 7, 44: 11, 45: 6, 46: 9, 47: 7, 48: 13, 49: 9, 50: 7, 51: 13, 52: 8, 53: 8, 54: 1, 55: 2, 56: 7, 57: 6, 58: 6, 59: 1, 60: 2, 61: 2, 62: 1, 64: 4, 65: 3, 66: 2, 67: 3, 68: 1, 69: 1, 70: 1, 71: 1, 73: 1, 75: 1, 89: 1}
+  744+1517     X  d_circ <= 10  min-weight sets 1  hist {10: 1, 11: 37, 12: 190, 13: 235, 14: 354, 15: 325, 16: 332, 17: 277, 18: 262, 19: 211, 20: 165, 21: 173, 22: 129, 23: 118, 24: 116, 25: 88, 26: 107, 27: 91, 28: 76, 29: 74, 30: 84, 31: 63, 32: 46, 33: 60, 34: 37, 35: 40, 36: 33, 37: 25, 38: 29, 39: 25, 40: 24, 41: 17, 42: 16, 43: 12, 44: 17, 45: 7, 46: 5, 47: 11, 48: 10, 49: 11, 50: 7, 51: 3, 52: 6, 53: 7, 54: 5, 55: 7, 56: 5, 57: 3, 58: 1, 59: 4, 61: 4, 62: 3, 63: 1, 65: 2, 66: 1, 68: 1, 69: 1, 72: 1, 76: 1}
+  744          Z  d_circ <= 11  min-weight sets 3  hist {11: 3, 12: 110, 13: 114, 14: 220, 15: 251, 16: 291, 17: 296, 18: 303, 19: 299, 20: 227, 21: 232, 22: 179, 23: 152, 24: 148, 25: 123, 26: 117, 27: 111, 28: 86, 29: 90, 30: 85, 31: 80, 32: 72, 33: 61, 34: 68, 35: 37, 36: 32, 37: 31, 38: 24, 39: 20, 40: 15, 41: 14, 42: 18, 43: 16, 44: 10, 45: 10, 46: 6, 47: 13, 48: 2, 49: 3, 50: 4, 51: 1, 53: 3, 54: 2, 55: 3, 56: 2, 57: 1, 60: 1, 61: 2, 62: 2, 63: 1, 64: 1, 65: 1, 67: 1, 70: 1, 79: 1}
+  744          X  d_circ <= 11  min-weight sets 31  hist {11: 31, 12: 172, 13: 236, 14: 336, 15: 329, 16: 304, 17: 285, 18: 204, 19: 183, 20: 152, 21: 131, 22: 114, 23: 96, 24: 85, 25: 91, 26: 76, 27: 68, 28: 74, 29: 75, 30: 38, 31: 48, 32: 44, 33: 61, 34: 48, 35: 45, 36: 29, 37: 35, 38: 42, 39: 34, 40: 25, 41: 30, 42: 29, 43: 22, 44: 19, 45: 26, 46: 31, 47: 26, 48: 8, 49: 16, 50: 13, 51: 23, 52: 21, 53: 16, 54: 21, 55: 14, 56: 9, 57: 19, 58: 17, 59: 12, 60: 15, 61: 11, 62: 10, 63: 9, 64: 11, 65: 11, 66: 10, 67: 6, 68: 7, 69: 5, 70: 7, 71: 5, 72: 2, 73: 3, 74: 3, 75: 5, 76: 2, 77: 1, 78: 3, 79: 1, 80: 1, 81: 1, 83: 1, 87: 1, 89: 1, 92: 1}
+done
+== task G: verification of bounds > 10 Tue Oct 13 21:09:14 UTC 2026
+
+## Task G — verification of [[144]] bounds above S (2026-10-13)
+
+4-cycle bounds (min over bases): 212: <= 11, 1307: <= 11, 212+1307: <= 11, 497+303: <= 10, 744+1517: <= 10, 744: <= 11
+
+Bravyi et al. report d_circ <= 10 for S; this search gives <= 11 for S, so the criterion is "bounds strictly above S".
+Circuits above S at 4 cycles: none.
+
+Nothing to verify.
+== task C: [[72]] LER for best 744 / median 131 / worst 52 (S exists), 6 cycles Tue Oct 13 21:09:14 UTC 2026
+[744 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 500 shots seed 86941: 75 fails (250s) -> total 75/500 LER=0.15
+[744 Z p=0.006] end: 75/500  LER=0.15
+[744 Z p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 1000 shots seed 18646: 11 fails (303s) -> total 11/1000 LER=0.011
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 1000 shots seed 19646: 23 fails (314s) -> total 34/2000 LER=0.017
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 1000 shots seed 20646: 23 fails (303s) -> total 57/3000 LER=0.019
+[744 Z p=0.004] end: 57/3000  LER=0.019
+[744 Z p=0.002] start: 0/0 failures
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 25802: 8 fails (502s) -> total 8/5000 LER=0.0016
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 30802: 10 fails (518s) -> total 18/10000 LER=0.0018
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 35802: 5 fails (512s) -> total 23/15000 LER=0.00153
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 40802: 8 fails (508s) -> total 31/20000 LER=0.00155
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 45802: 7 fails (513s) -> total 38/25000 LER=0.00152
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 50802: 4 fails (527s) -> total 42/30000 LER=0.0014
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 55802: 3 fails (503s) -> total 45/35000 LER=0.00129
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 60802: 6 fails (527s) -> total 51/40000 LER=0.00128
+[744 Z p=0.002] end: 51/40000  LER=0.00128
+[744 X p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 500 shots seed 26208: 94 fails (249s) -> total 94/500 LER=0.188
+[744 X p=0.006] end: 94/500  LER=0.188
+[744 X p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 1000 shots seed 21771: 28 fails (325s) -> total 28/1000 LER=0.028
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 1000 shots seed 22771: 16 fails (286s) -> total 44/2000 LER=0.022
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 1000 shots seed 23771: 21 fails (320s) -> total 65/3000 LER=0.0217
+[744 X p=0.004] end: 65/3000  LER=0.0217
+[744 X p=0.002] start: 0/0 failures
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 38199: 4 fails (474s) -> total 4/5000 LER=0.0008
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 43199: 5 fails (494s) -> total 9/10000 LER=0.0009
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 48199: 6 fails (471s) -> total 15/15000 LER=0.001
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 53199: 6 fails (482s) -> total 21/20000 LER=0.00105
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 58199: 7 fails (477s) -> total 28/25000 LER=0.00112
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 63199: 5 fails (506s) -> total 33/30000 LER=0.0011
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 68199: 7 fails (511s) -> total 40/35000 LER=0.00114
+  [mem guard] decoder ~0.25 GB, available 48.1 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 73199: 8 fails (484s) -> total 48/40000 LER=0.0012
+  [mem guard] decoder ~0.25 GB, available 46.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 5000 shots seed 78199: 11 fails (488s) -> total 59/45000 LER=0.00131
+[744 X p=0.002] end: 59/45000  LER=0.00131
+[131 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.25 GB, available 46.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+  batch 500 shots seed 50023: 84 fails (256s) -> total 84/500 LER=0.168
+[131 Z p=0.006] end: 84/500  LER=0.168
+[131 Z p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.25 GB, available 46.7 GB, reserve 8.0 GB -> 12 workers (requested 12)
+== stopped by user (pause before task H; verification first) Wed Oct 14 00:17:10 UTC 2026

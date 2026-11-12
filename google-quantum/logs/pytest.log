@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.2.0, pluggy-1.7.0 -- /home/ubuntu/quantum001/google-quantum/.venv/bin/python
+rootdir: /home/ubuntu/quantum001/google-quantum
+plugins: platformdirs-4.14.0
+collecting ... collected 9 items
+
+nnflags/tests/test_constraints.py::test_willow_matches_google_spec PASSED [ 11%]
+nnflags/tests/test_constraints.py::test_d3a6_passes_neighbour_and_degree_on_every_willow_embedding PASSED [ 22%]
+nnflags/tests/test_constraints.py::test_d3a6f2_native_failures_match_plan PASSED [ 33%]
+nnflags/tests/test_constraints.py::test_d3a6f2_cannot_be_nearest_neighbour_on_willow PASSED [ 44%]
+nnflags/tests/test_constraints.py::test_readout_rule_and_toggle PASSED   [ 55%]
+nnflags/tests/test_constraints.py::test_reuse_in_tick_detected PASSED    [ 66%]
+nnflags/tests/test_verify.py::test_verify_reproduces_step0[d3a6-0-4] PASSED [ 77%]
+nnflags/tests/test_verify.py::test_verify_reproduces_step0[d3a6f2-2-0] PASSED [ 88%]
+nnflags/tests/test_verify.py::test_verify_accepts_in_memory_circuits PASSED [100%]
+
+============================== 9 passed in 32.48s ==============================

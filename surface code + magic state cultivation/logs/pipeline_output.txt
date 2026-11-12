@@ -1,0 +1,57 @@
+====================================================================== 
+EXAMPLE: useless T
+======================================================================
+Simulating surface-code memory with Stim + PyMatching (d = 3, 5)...
+
+[Compile + Analyse]
+  used qubits: [0]  measured: [0]
+  gates: {'x': 1, 'measure': 1}
+  T count: 0
+
+[T gates?]  factory OFF
+
+[Normal QEC]  (real Stim simulation at p = 1e-03)
+  d=3: logical error per cycle 3.17e-04  (19 failures)
+  d=5: logical error per cycle 1.00e-05  (1 failures)
+  chosen d = 5, ~20 cycles, data failure ~ 2.0e-04
+
+[Logical execution + Readout]
+  ideal outcome probabilities: {'1': 1.0}
+  counts over 1000 shots: {'1': 999, '0': 1}
+
+[Result]
+  estimated success chance per run: 0.999800
+  physical qubits ~ {'data': 49, 'factory': 0, 'routing': 24, 'total': 73}
+
+====================================================================== 
+EXAMPLE: Toffoli AND
+======================================================================
+Simulating surface-code memory with Stim + PyMatching (d = 3, 5)...
+
+[Compile + Analyse]
+  used qubits: [0, 1, 2]  measured: [0, 1, 2]
+  gates: {'h': 4, 'cx': 6, 'tdg': 3, 't': 4, 'measure': 3}
+  T count: 7
+
+[T gates?]  factory ON
+
+[Normal QEC]  (real Stim simulation at p = 1e-03)
+  d=3: logical error per cycle 3.17e-04  (19 failures)
+  d=5: logical error per cycle 1.00e-05  (1 failures)
+  chosen d = 7, ~98 cycles, data failure ~ 9.3e-05
+
+[Magic-state factory]  (cultivation numbers: simulated or published, per line)
+  magic states needed: 7, max error each: 7.1e-05
+  option d1 = 3: error 2.09e-06, discard 77.5%  [simulated]
+  option d1 = 5: error 2.00e-09, discard 99.0%  [published]
+  chosen d1 = 3: error 2.09e-06, discard 77.5%, ~4.4 attempts per state  [simulated]
+
+[Logical execution + Readout]
+  ideal outcome probabilities: {'000': 0.25, '001': 0.25, '010': 0.25, '111': 0.25}
+  counts over 1000 shots: {'001': 234, '010': 246, '000': 285, '111': 235}
+
+[Result]
+  estimated success chance per run: 0.999893
+  physical qubits ~ {'data': 291, 'factory': 449, 'routing': 145, 'total': 885}
+
+saved /home/ubuntu/quantum001/surface code/pipeline_results.json

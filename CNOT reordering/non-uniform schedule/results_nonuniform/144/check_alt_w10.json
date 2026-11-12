@@ -1,0 +1,33 @@
+{
+ "date": "2026-10-25 07:44:16.263315",
+ "code": 144,
+ "S": 212,
+ "Sinv": 1307,
+ "weight": 10,
+ "results": {
+  "X | control: S only, cycle 0": {
+   "UNDETECTED+LOGICAL": 6
+  },
+  "X | alt S,S^-1: cycle 0 (Bravyi setup)": {
+   "UNDETECTED+LOGICAL": 6
+  },
+  "X | alt S,S^-1: cycle 2 of 3 (mid-circuit S cycle)": {
+   "UNDETECTED+LOGICAL": 6
+  },
+  "X | alt S^-1,S: cycle 1 of 2 (S after an S^-1 cycle)": {
+   "UNDETECTED+LOGICAL": 6
+  },
+  "Z | control: S only, cycle 0": {
+   "UNDETECTED+LOGICAL": 11
+  },
+  "Z | alt S,S^-1: cycle 0 (Bravyi setup)": {
+   "UNDETECTED+LOGICAL": 11
+  },
+  "Z | alt S,S^-1: cycle 2 of 3 (mid-circuit S cycle)": {
+   "UNDETECTED+LOGICAL": 11
+  },
+  "Z | alt S^-1,S: cycle 1 of 2 (S after an S^-1 cycle)": {
+   "UNDETECTED+LOGICAL": 11
+  }
+ }
+}

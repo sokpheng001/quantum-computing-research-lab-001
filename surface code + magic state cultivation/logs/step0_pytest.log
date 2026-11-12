@@ -1,0 +1,1454 @@
+........................................................................ [ 15%]
+........................................................................ [ 31%]
+........................................................................ [ 47%]
+.......................................FFFFFFFFFFFFFFFFFFFFFFFF......... [ 62%]
+.....................................................................F.. [ 78%]
+.F...........F.......................................................... [ 94%]
+...........................                                              [100%]
+=================================== FAILURES ===================================
+___________________ test_twirl_sample_on_simple_circuit[X-0] ___________________
+
+t = 0, error_basis = 'X'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33207cd040>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+_________________ test_twirl_sample_on_simple_circuit[X-0.25] __________________
+
+t = 0.25, error_basis = 'X'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33207cdb50>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+__________________ test_twirl_sample_on_simple_circuit[X-0.5] __________________
+
+t = 0.5, error_basis = 'X'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33207ccfb0>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+_________________ test_twirl_sample_on_simple_circuit[X-0.75] __________________
+
+t = 0.75, error_basis = 'X'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33207ccc20>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+___________________ test_twirl_sample_on_simple_circuit[X-1] ___________________
+
+t = 1, error_basis = 'X'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33207cef60>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+_________________ test_twirl_sample_on_simple_circuit[X-1.25] __________________
+
+t = 1.25, error_basis = 'X'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33207ce810>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+__________________ test_twirl_sample_on_simple_circuit[X-1.5] __________________
+
+t = 1.5, error_basis = 'X'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e3320ca4920>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+_________________ test_twirl_sample_on_simple_circuit[X-1.75] __________________
+
+t = 1.75, error_basis = 'X'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e3320ca4050>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+___________________ test_twirl_sample_on_simple_circuit[Y-0] ___________________
+
+t = 0, error_basis = 'Y'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e3320ca54f0>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+_________________ test_twirl_sample_on_simple_circuit[Y-0.25] __________________
+
+t = 0.25, error_basis = 'Y'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e3320ca7e30>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+__________________ test_twirl_sample_on_simple_circuit[Y-0.5] __________________
+
+t = 0.5, error_basis = 'Y'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33207cf140>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+_________________ test_twirl_sample_on_simple_circuit[Y-0.75] __________________
+
+t = 0.75, error_basis = 'Y'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33207cee10>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+___________________ test_twirl_sample_on_simple_circuit[Y-1] ___________________
+
+t = 1, error_basis = 'Y'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e3320ca46b0>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+_________________ test_twirl_sample_on_simple_circuit[Y-1.25] __________________
+
+t = 1.25, error_basis = 'Y'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e3320ca48c0>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+__________________ test_twirl_sample_on_simple_circuit[Y-1.5] __________________
+
+t = 1.5, error_basis = 'Y'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e3320ca60c0>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+_________________ test_twirl_sample_on_simple_circuit[Y-1.75] __________________
+
+t = 1.75, error_basis = 'Y'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e3320ca6750>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+___________________ test_twirl_sample_on_simple_circuit[Z-0] ___________________
+
+t = 0, error_basis = 'Z'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e3320ca63f0>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+_________________ test_twirl_sample_on_simple_circuit[Z-0.25] __________________
+
+t = 0.25, error_basis = 'Z'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e3320ca4cb0>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+__________________ test_twirl_sample_on_simple_circuit[Z-0.5] __________________
+
+t = 0.5, error_basis = 'Z'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33207cc7a0>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+_________________ test_twirl_sample_on_simple_circuit[Z-0.75] __________________
+
+t = 0.75, error_basis = 'Z'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33209fcbc0>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+___________________ test_twirl_sample_on_simple_circuit[Z-1] ___________________
+
+t = 1, error_basis = 'Z'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33209ff2f0>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+_________________ test_twirl_sample_on_simple_circuit[Z-1.25] __________________
+
+t = 1.25, error_basis = 'Z'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33209fe5a0>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+__________________ test_twirl_sample_on_simple_circuit[Z-1.5] __________________
+
+t = 1.5, error_basis = 'Z'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e33207cd1f0>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+_________________ test_twirl_sample_on_simple_circuit[Z-1.75] __________________
+
+t = 1.75, error_basis = 'Z'
+
+    @pytest.mark.parametrize('t', [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75])
+    @pytest.mark.parametrize('error_basis', ['X', 'Y', 'Z'])
+    def test_twirl_sample_on_simple_circuit(t: float, error_basis: str):
+        circuit = stim.Circuit(f"""
+            R 0 1 2
+            RX 3
+            CX 3 0 3 1 3 2
+            {error_basis}_ERROR(0.25) 0
+            S 0 1 2 3
+            {error_basis}_ERROR(0.25) 0
+            MPP X0*X1*X2*X3
+            MPP Z0*Z1*Z2*Z3
+            DETECTOR rec[-1]
+            DETECTOR rec[-2]
+        """)
+        assert circuit.has_flow(stim.Flow("1 -> XXXX"))
+        assert circuit.has_flow(stim.Flow("1 -> YYYY"))
+        assert circuit.has_flow(stim.Flow("1 -> ZZZZ"))
+        sample = TwirlInterceptSampler(turns=t).compiled_sampler_for_task(sinter.Task(
+            circuit=circuit,
+>       )).sample(100_000)
+           ^^^^^^^^^^^^^^^
+
+src/cultiv/_decoding/_twirl_intercept_sampler_test.py:62: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/cultiv/_decoding/_twirl_intercept_sampler.py:114: in sample
+    sample = self._sample_once(shots_left)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <cultiv._decoding._twirl_intercept_sampler.CompiledTwirlInterceptSampler object at 0x7e3320ca7050>
+shots = 256
+
+    def _sample_once(self, shots: int) -> sinter.AnonTaskStats:
+        shots = min(shots, 256)
+        if self.simulator is None or shots != self.simulator.batch_size:
+            self.simulator = stim.FlipSimulator(
+                batch_size=shots,
+                num_qubits=self.num_qubits,
+                disable_stabilizer_randomization=self.is_t_like,
+            )
+        else:
+>           self.simulator.reset()
+            ^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'stim._stim_sse2.FlipSimulator' object has no attribute 'reset'
+
+src/cultiv/_decoding/_twirl_intercept_sampler.py:75: AttributeError
+______________________ test_gate_to_unsigned_pauli_change ______________________
+
+    def test_gate_to_unsigned_pauli_change():
+        m = gate_to_unsigned_pauli_change()
+        assert m["H"] == {"X": "Z", "Z": "X", "Y": "Y"}
+        assert m["C_XYZ"] == {"X": "Y", "Y": "Z", "Z": "X"}
+        assert m["C_ZYX"] == {"X": "Z", "Z": "Y", "Y": "X"}
+>       assert m["X*C_ZYX"] == {"X": "Z", "Z": "Y", "Y": "X"}
+               ^^^^^^^^^^^^
+E       KeyError: 'X*C_ZYX'
+
+src/gen/_layers/_data_test.py:18: KeyError
+_________________________ test_with_squashed_rotations _________________________
+
+    def test_with_squashed_rotations():
+>       assert (
+            LayerCircuit.from_stim_circuit(
+                stim.Circuit(
+                    """
+                        S 0 1 2 3
+                        TICK
+                        CZ 1 2
+                        TICK
+                        H 0 3
+                        TICK
+                        CZ 1 2
+                        TICK
+                        S 0 1 2 3
+                    """
+                )
+            )
+            .with_clearable_rotation_layers_cleared()
+            .to_stim_circuit()
+            == stim.Circuit(
+                """
+                    S 1 2
+                    C_XYZ 0 3
+                    X 0 3
+                    TICK
+                    CZ 1 2
+                    TICK
+                    CZ 1 2
+                    TICK
+                    S 0 1 2 3
+                """
+            )
+        )
+E       AssertionError: assert stim.Circuit(...S 0 1 2 3\n''') == stim.Circuit(...S 0 1 2 3\n''')
+E         
+E         Use -v to get more diff
+
+src/gen/_layers/_layer_circuit_test.py:9: AssertionError
+_____________________ test_to_cz_circuit_rotation_folding ______________________
+
+    def test_to_cz_circuit_rotation_folding():
+        assert (
+            transpile_to_z_basis_interaction_circuit(
+                stim.Circuit(
+                    """
+        """
+                )
+            )
+            == stim.Circuit(
+                """
+        """
+            )
+        )
+    
+        assert (
+            transpile_to_z_basis_interaction_circuit(
+                stim.Circuit(
+                    """
+            C_XYZ 0
+            TICK
+            M 0 1 2 3
+        """
+                )
+            )
+            == stim.Circuit(
+                """
+            C_XYZ 0
+            TICK
+            M 0 1 2 3
+        """
+            )
+        )
+    
+        assert (
+            transpile_to_z_basis_interaction_circuit(
+                stim.Circuit(
+                    """
+            I 0
+            TICK
+            C_XYZ 0
+            TICK
+            M 0 1 2 3
+        """
+                )
+            )
+            == stim.Circuit(
+                """
+            C_XYZ 0
+            TICK
+            M 0 1 2 3
+        """
+            )
+        )
+    
+        assert (
+            transpile_to_z_basis_interaction_circuit(
+                stim.Circuit(
+                    """
+            C_XYZ 0
+            TICK
+            I 0
+            TICK
+            M 0 1 2 3
+        """
+                )
+            )
+            == stim.Circuit(
+                """
+            C_XYZ 0
+            TICK
+            M 0 1 2 3
+        """
+            )
+        )
+    
+        assert (
+            transpile_to_z_basis_interaction_circuit(
+                stim.Circuit(
+                    """
+            H 0
+            TICK
+            H 0
+            TICK
+            M 0 1 2 3
+        """
+                )
+            )
+            == stim.Circuit(
+                """
+            M 0 1 2 3
+        """
+            )
+        )
+    
+>       assert (
+            transpile_to_z_basis_interaction_circuit(
+                stim.Circuit(
+                    """
+                        H 0 1 2 3 4 5
+                        TICK
+                        I 0
+                        H_YZ 1
+                        H_XY 2
+                        C_XYZ 3
+                        C_ZYX 4
+                        H 5
+                        TICK
+                        M 0 1 2 3
+                    """
+                )
+            )
+            == stim.Circuit(
+                """
+                    H 0
+                    S 4
+                    SQRT_X_DAG 3
+                    C_XYZ 1
+                    Y 1
+                    C_ZYX 2
+                    Y 2
+                    TICK
+                    M 0 1 2 3
+                """
+            )
+        )
+E       AssertionError: assert stim.Circuit(...M 0 1 2 3\n''') == stim.Circuit(...M 0 1 2 3\n''')
+E         
+E         Use -v to get more diff
+
+src/gen/_layers/_transpile_test.py:100: AssertionError
+=============================== warnings summary ===============================
+../../../venv/lib/python3.12/site-packages/_pytest/python.py:124
+  /home/ubuntu/quantum001/venv/lib/python3.12/site-packages/_pytest/python.py:124: PytestRemovedIn10Warning: Passing a non-Collection iterable to parametrize is deprecated.
+  Test: src/latte/lattice_surgery_layer_test.py::test_error_mechanisms_during_move_do_right_thing, argvalues type: product
+  Please convert to a list or tuple.
+  See https://docs.pytest.org/en/stable/deprecations.html#parametrize-iterators
+    metafunc.parametrize(*marker.args, **marker.kwargs, _param_mark=marker)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[X-0]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[X-0.25]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[X-0.5]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[X-0.75]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[X-1]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[X-1.25]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[X-1.5]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[X-1.75]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Y-0]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Y-0.25]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Y-0.5]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Y-0.75]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Y-1]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Y-1.25]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Y-1.5]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Y-1.75]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Z-0]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Z-0.25]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Z-0.5]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Z-0.75]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Z-1]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Z-1.25]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Z-1.5]
+FAILED src/cultiv/_decoding/_twirl_intercept_sampler_test.py::test_twirl_sample_on_simple_circuit[Z-1.75]
+FAILED src/gen/_layers/_data_test.py::test_gate_to_unsigned_pauli_change - Ke...
+FAILED src/gen/_layers/_layer_circuit_test.py::test_with_squashed_rotations
+FAILED src/gen/_layers/_transpile_test.py::test_to_cz_circuit_rotation_folding
+27 failed, 432 passed, 1 warning in 79.09s (0:01:19)

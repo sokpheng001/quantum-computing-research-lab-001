@@ -1,0 +1,30 @@
+{
+ "started": "2026-11-01 09:57:51 PM KST",
+ "designs": {
+  "cont_success02": {
+   "name": "cont_success02",
+   "shots": 2000,
+   "detectors": 6,
+   "detectors_using_mpp_record": 1,
+   "detector_fires": 0,
+   "all_detectors_zero": true,
+   "fidelity_min": 0.9999999999999764,
+   "infidelity_max": 2.3647750424515834e-14,
+   "p_code_min": 0.9999999999999767,
+   "cirq_simulator": {
+    "detectors_zero": true,
+    "fidelity": 1.0,
+    "p_code": 1.0,
+    "fid_given_code": 1.0
+   },
+   "decode_all_zero": true,
+   "decode_shots": 2000,
+   "control_uniform_T": {
+    "acceptance": 0.5095,
+    "fidelity": 0.5000000041841993,
+    "p_code": 0.9999999999999656,
+    "fid_given_code": 0.5000000041842165
+   }
+  }
+ }
+}

@@ -1,0 +1,13 @@
+2026-10-25 10:11:16 PM KST  run_all.sh started
+2026-10-25 10:11:16 PM KST  start  validation
+2026-10-26 04:11:17 AM KST  CAPPED validation (6 h limit reached; results so far are kept)
+2026-10-26 04:11:17 AM KST  start  finalize
+2026-10-26 04:11:19 AM KST  done   finalize
+2026-10-26 04:11:19 AM KST  start  memory
+2026-10-26 04:12:42 AM KST  done   memory
+2026-10-26 04:12:44 AM KST  done   pipeline
+2026-10-26 04:12:44 AM KST  start  plots
+2026-10-26 04:13:30 AM KST  done   plots
+2026-10-26 04:13:30 AM KST  start  results
+2026-10-26 04:13:30 AM KST  done   results
+2026-10-26 04:13:30 AM KST  run_all.sh finished

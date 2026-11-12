@@ -1,0 +1,7 @@
+embedding_count 182968
+is_tree True
+histogram {'exempt': {1: 47424, 2: 135544}, 'check': {4: 29220, 5: 20816, 6: 18908, 7: 39280, 8: 34840, 9: 27232, 10: 9504, 11: 3168}}
+min_violations {'exempt': 1, 'check': 4}
+embeddings_hit_per_violation_exempt {'tick 6: M 5 vs 10': 64996, 'tick 6: M 5 vs 8': 64996, 'tick 6: M 5 vs 2': 57240, 'tick 6: M 5 vs 12': 52976, 'tick 6: M 5 vs 1': 43128, 'tick 6: M 5 vs 7': 35176}
+mrx5_argument {'embeddings': 182968, 'with_mechanism': 182968}
+runtime_s 3.6627845920156687

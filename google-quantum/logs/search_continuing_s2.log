@@ -1,0 +1,138 @@
+[     0.1 s] 2015 line-label patterns
+[   716.8 s] patterns 500/2015: 2564348 embedded bases
+[  1395.3 s] patterns 1000/2015: 4818556 embedded bases
+[  1679.5 s] patterns 1500/2015: 4818556 embedded bases
+[  2344.0 s] patterns 2000/2015: 9173839 embedded bases
+[  2430.3 s] enumerated: {'m1_n10_u0_embedded': 91668, 'm1_n10_u1_embedded': 300175, 'm1_n11_u0_embedded': 254148, 'm1_n11_u1_embedded': 1262077, 'm1_n12_u0_embedded': 414450, 'm1_n12_u1_embedded': 2678850, 'm1_n13_u0_embedded': 517520, 'm1_n13_u1_embedded': 3898069, 'm1_n8_u0_embedded': 3404, 'm1_n9_u0_embedded': 19365, 'm1_n9_u1_embedded': 50777}
+[  2430.6 s] abstract keys: 37649; embedded bases: 9490503
+[  2432.8 s] queue: 35710 keys (already done or screened out: 1939)
+[  2508.3 s] base s2-00099 T2=12 emb=24 eval=15 L1=10 L2=9 succ=0 0.2 s
+[  2508.8 s] base s2-00097 T2=11 emb=12 eval=26 L1=8 L2=6 succ=0 0.2 s
+[  2508.8 s] base s2-00094 T2=9 emb=1 eval=28 L1=4 L2=2 succ=0 0.3 s
+[  2621.9 s] base s2-00298 T2=12 emb=24 eval=31 L1=4 L2=2 succ=0 1.2 s
+[  2633.6 s] base s2-00299 T2=12 emb=128 eval=35 L1=6 L2=1 succ=0 3.1 s
+[  2645.9 s] base s2-00347 T2=8 emb=2 eval=33 L1=4 L2=1 succ=0 0.2 s
+[  2654.1 s] base s2-00352 T2=12 emb=48 eval=18 L1=9 L2=6 succ=0 0.2 s
+[  2660.9 s] base s2-00350 T2=10 emb=24 eval=28 L1=7 L2=4 succ=0 0.1 s
+[  2669.1 s] base s2-00369 T2=11 emb=2 eval=21 L1=6 L2=3 succ=0 0.2 s
+[  2673.5 s] base s2-00379 T2=9 emb=32 eval=26 L1=4 L2=3 succ=0 0.2 s
+[  2673.6 s] base s2-00381 T2=10 emb=96 eval=28 L1=5 L2=3 succ=0 0.2 s
+[  2675.3 s] base s2-00382 T2=12 emb=24 eval=32 L1=5 L2=2 succ=0 0.5 s
+[  2680.3 s] base s2-00380 T2=10 emb=16 eval=29 L1=5 L2=3 succ=0 0.2 s
+[  2682.3 s] base s2-00384 T2=12 emb=80 eval=27 L1=7 L2=4 succ=0 0.4 s
+[  2711.5 s] base s2-00432 T2=12 emb=2 eval=26 L1=5 L2=4 succ=0 0.3 s
+[  2714.8 s] base s2-00437 T2=12 emb=10 eval=27 L1=5 L2=2 succ=0 0.4 s
+[  2806.1 s] SUCCESS #0 base s2-00617 U=[] flags Zf10[q1@t2+q6@t4+q6@t14+q1@t16];Xf11[q2@t3+q2@t15] T3=356 S2=0 1 in 3531175
+[  2806.1 s] SUCCESS #1 base s2-00617 U=[] flags Zf10[q1@t2+q6@t4+q6@t14+q1@t16];Xf11[q8@t3+q8@t15] T3=388 S2=0 1 in 3357264
+[  2806.1 s] base s2-00617 T2=8 emb=2 eval=2 L1=None L2=0 succ=2 0.6 s
+[  2823.2 s] base s2-00630 T2=11 emb=26 eval=21 L1=7 L2=4 succ=0 0.3 s
+[  2824.1 s] base s2-00625 T2=11 emb=16 eval=9 L1=9 L2=7 succ=0 0.2 s
+[  2825.5 s] base s2-00627 T2=11 emb=32 eval=29 L1=4 L2=1 succ=0 0.3 s
+[  2830.0 s] base s2-00620 T2=8 emb=48 eval=47 L1=3 L2=1 succ=0 3.0 s
+[  2831.7 s] base s2-00624 T2=10 emb=16 eval=18 L1=7 L2=5 succ=0 0.1 s
+[  2832.4 s] base s2-00631 T2=11 emb=144 eval=24 L1=7 L2=3 succ=0 0.4 s
+[  2832.5 s] base s2-00634 T2=8 emb=62 eval=54 L1=3 L2=2 succ=0 1.2 s
+[  2838.6 s] base s2-00633 T2=12 emb=36 eval=24 L1=7 L2=4 succ=0 0.6 s
+[  2839.5 s] base s2-00632 T2=8 emb=7 eval=21 L1=6 L2=3 succ=0 0.2 s
+[  2841.0 s] base s2-00629 T2=9 emb=6 eval=24 L1=4 L2=2 succ=0 0.5 s
+[  2841.7 s] base s2-00635 T2=12 emb=80 eval=24 L1=6 L2=4 succ=0 0.6 s
+[  2844.3 s] base s2-00637 T2=12 emb=92 eval=24 L1=7 L2=5 succ=0 0.7 s
+[  2848.7 s] base s2-00648 T2=9 emb=84 eval=9 L1=8 L2=6 succ=0 0.1 s
+[  2851.5 s] base s2-00646 T2=11 emb=57 eval=25 L1=7 L2=6 succ=0 0.3 s
+[  2861.3 s] SUCCESS #2 base s2-00670 U=[] flags Zf10[q8@t2+q5@t3+q5@t13+q8@t14];Xf11[q5@t2+q5@t14] T3=350 S2=0 1 in 5679100
+[  2861.3 s] SUCCESS #3 base s2-00670 U=[] flags Zf10[q8@t3+q5@t4+q5@t14+q8@t15];Xf11[q8@t2+q8@t16] T3=356 S2=0 1 in 3246298
+[  2861.3 s] SUCCESS #4 base s2-00670 U=[] flags Zf10[q8@t3+q5@t4+q5@t14+q8@t15];Xf11[q8@t2+q8@t5+q5@t6+q5@t15] T3=429 S2=0 1 in 4826445
+[  2861.3 s] base s2-00670 T2=5 emb=59 eval=62 L1=1 L2=0 succ=3 0.8 s
+[  2861.7 s] base s2-00654 T2=11 emb=24 eval=25 L1=5 L2=2 succ=0 0.4 s
+[  2864.9 s] base s2-00673 T2=5 emb=4 eval=16 L1=3 L2=1 succ=0 0.1 s
+[  2866.4 s] base s2-00666 T2=12 emb=45 eval=18 L1=4 L2=3 succ=0 0.6 s
+[  2866.6 s] base s2-00659 T2=8 emb=40 eval=46 L1=3 L2=1 succ=0 3.5 s
+[  2874.8 s] base s2-00671 T2=10 emb=204 eval=38 L1=5 L2=2 succ=0 1.5 s
+[  2875.7 s] base s2-00672 T2=6 emb=240 eval=21 L1=4 L2=2 succ=0 0.2 s
+[  2877.1 s] base s2-00674 T2=10 emb=54 eval=15 L1=5 L2=3 succ=0 0.2 s
+[  2877.8 s] base s2-00662 T2=10 emb=264 eval=27 L1=7 L2=6 succ=0 0.3 s
+[  2881.2 s] base s2-00675 T2=11 emb=21 eval=24 L1=5 L2=3 succ=0 0.2 s
+[  2883.2 s] base s2-00677 T2=10 emb=10 eval=24 L1=5 L2=4 succ=0 0.2 s
+[  2884.7 s] base s2-00667 T2=12 emb=232 eval=25 L1=4 L2=1 succ=0 1.3 s
+[  2890.6 s] base s2-00676 T2=11 emb=110 eval=25 L1=6 L2=3 succ=0 0.3 s
+[  2891.8 s] base s2-00664 T2=12 emb=528 eval=21 L1=9 L2=8 succ=0 0.6 s
+[  2896.6 s] base s2-00680 T2=12 emb=78 eval=24 L1=4 L2=3 succ=0 1.2 s
+[  2908.2 s] base s2-00679 T2=12 emb=480 eval=33 L1=7 L2=4 succ=0 2.4 s
+[  2912.2 s] base s2-00687 T2=12 emb=384 eval=25 L1=6 L2=4 succ=0 0.6 s
+[  2914.3 s] base s2-00678 T2=11 emb=38 eval=21 L1=8 L2=6 succ=0 0.3 s
+[  2915.8 s] base s2-00704 T2=12 emb=20 eval=18 L1=7 L2=4 succ=0 0.4 s
+[  2915.9 s] base s2-00705 T2=11 emb=360 eval=26 L1=5 L2=3 succ=0 1.1 s
+[  2919.3 s] base s2-00710 T2=12 emb=70 eval=12 L1=10 L2=9 succ=0 0.5 s
+[  2920.5 s] base s2-00703 T2=12 emb=20 eval=27 L1=7 L2=3 succ=0 0.4 s
+[  2925.8 s] base s2-00711 T2=12 emb=296 eval=12 L1=8 L2=7 succ=0 0.5 s
+[  2925.9 s] base s2-00707 T2=10 emb=90 eval=45 L1=6 L2=4 succ=0 1.1 s
+[  2927.3 s] base s2-00698 T2=10 emb=36 eval=15 L1=7 L2=4 succ=0 0.2 s
+[  2948.8 s] base s2-00727 T2=12 emb=48 eval=26 L1=8 L2=4 succ=0 0.5 s
+[  2952.3 s] base s2-00737 T2=11 emb=19 eval=31 L1=8 L2=7 succ=0 0.4 s
+[  2953.2 s] base s2-00726 T2=12 emb=8 eval=27 L1=8 L2=5 succ=0 0.4 s
+[  2958.9 s] base s2-00738 T2=11 emb=114 eval=30 L1=7 L2=6 succ=0 0.8 s
+[  2977.7 s] base s2-00764 T2=8 emb=27 eval=69 L1=4 L2=1 succ=0 2.1 s
+[  2987.1 s] base s2-00781 T2=9 emb=48 eval=29 L1=5 L2=4 succ=0 0.2 s
+[  2989.7 s] base s2-00773 T2=12 emb=20 eval=25 L1=8 L2=5 succ=0 0.6 s
+[  2990.0 s] base s2-00772 T2=11 emb=288 eval=18 L1=9 L2=8 succ=0 0.3 s
+[  2990.7 s] base s2-00770 T2=10 emb=144 eval=27 L1=7 L2=6 succ=0 0.2 s
+[  3000.3 s] base s2-00783 T2=11 emb=128 eval=35 L1=8 L2=6 succ=0 0.9 s
+[  3022.0 s] base s2-00824 T2=12 emb=138 eval=15 L1=5 L2=3 succ=0 0.6 s
+[  3042.3 s] base s2-00845 T2=11 emb=350 eval=49 L1=7 L2=4 succ=0 2.0 s
+[  3062.8 s] base s2-00855 T2=12 emb=12 eval=21 L1=8 L2=7 succ=0 0.3 s
+[  3094.3 s] base s2-00919 T2=12 emb=48 eval=31 L1=4 L2=2 succ=0 1.3 s
+[  3115.9 s] base s2-00920 T2=12 emb=256 eval=35 L1=6 L2=1 succ=0 3.7 s
+[  3118.7 s] base s2-00971 T2=11 emb=4 eval=27 L1=5 L2=2 succ=0 0.2 s
+[  3128.1 s] base s2-00974 T2=11 emb=18 eval=27 L1=6 L2=2 succ=0 0.2 s
+[  3156.1 s] base s2-01000 T2=8 emb=4 eval=35 L1=4 L2=2 succ=0 0.2 s
+[  3158.5 s] base s2-01001 T2=12 emb=48 eval=31 L1=6 L2=3 succ=0 0.6 s
+[  3161.8 s] base s2-01029 T2=11 emb=2 eval=29 L1=7 L2=4 succ=0 0.2 s
+[  3165.2 s] base s2-01006 T2=10 emb=48 eval=30 L1=7 L2=4 succ=0 0.2 s
+[  3165.6 s] base s2-01026 T2=12 emb=16 eval=21 L1=9 L2=6 succ=0 0.2 s
+[  3175.2 s] base s2-01008 T2=12 emb=96 eval=25 L1=8 L2=6 succ=0 0.4 s
+[  3176.5 s] base s2-01032 T2=11 emb=10 eval=29 L1=7 L2=4 succ=0 0.2 s
+[  3192.9 s] base s2-01049 T2=11 emb=64 eval=29 L1=3 L2=2 succ=0 0.6 s
+[  3206.2 s] base s2-01070 T2=12 emb=48 eval=30 L1=4 L2=3 succ=0 0.5 s
+[  3222.6 s] base s2-01095 T2=12 emb=32 eval=21 L1=8 L2=5 succ=0 0.3 s
+[  3231.1 s] base s2-01082 T2=12 emb=240 eval=32 L1=6 L2=3 succ=0 0.7 s
+[  3270.0 s] base s2-01170 T2=11 emb=32 eval=32 L1=5 L2=3 succ=0 0.3 s
+[  3284.2 s] base s2-01204 T2=11 emb=72 eval=7 L1=9 L2=8 succ=0 0.2 s
+[  3294.8 s] base s2-01187 T2=11 emb=192 eval=32 L1=6 L2=4 succ=0 0.5 s
+[  3296.7 s] base s2-01202 T2=10 emb=36 eval=20 L1=7 L2=6 succ=0 0.2 s
+[  3300.2 s] base s2-01206 T2=12 emb=24 eval=28 L1=4 L2=3 succ=0 0.5 s
+[  3300.5 s] base s2-01199 T2=8 emb=3 eval=25 L1=4 L2=2 succ=0 0.2 s
+[  3302.9 s] base s2-01222 T2=8 emb=4 eval=29 L1=4 L2=3 succ=0 0.2 s
+[  3306.7 s] base s2-01228 T2=10 emb=2 eval=12 L1=5 L2=3 succ=0 0.1 s
+[  3307.0 s] base s2-01233 T2=5 emb=6 eval=15 L1=4 L2=3 succ=0 0.1 s
+[  3309.0 s] base s2-01207 T2=12 emb=132 eval=32 L1=6 L2=3 succ=0 0.8 s
+[  3315.0 s] base s2-01236 T2=8 emb=18 eval=18 L1=5 L2=4 succ=0 0.2 s
+[  3320.0 s] base s2-01243 T2=7 emb=24 eval=15 L1=5 L2=4 succ=0 0.1 s
+[  3321.5 s] base s2-01227 T2=12 emb=48 eval=18 L1=9 L2=8 succ=0 0.3 s
+[  3327.7 s] base s2-01235 T2=11 emb=40 eval=27 L1=5 L2=3 succ=0 0.6 s
+[  3329.7 s] base s2-01252 T2=11 emb=8 eval=3 L1=7 L2=7 succ=0 0.2 s
+[  3331.1 s] base s2-01234 T2=9 emb=24 eval=26 L1=4 L2=3 succ=0 0.2 s
+[  3337.8 s] base s2-01250 T2=11 emb=2 eval=15 L1=8 L2=6 succ=0 0.2 s
+[  3338.1 s] base s2-01225 T2=10 emb=24 eval=27 L1=7 L2=6 succ=0 0.2 s
+[  3338.7 s] base s2-01237 T2=12 emb=72 eval=27 L1=7 L2=4 succ=0 0.5 s
+[  3345.8 s] base s2-01257 T2=12 emb=2 eval=15 L1=6 L2=4 succ=0 0.3 s
+[  3360.9 s] base s2-01272 T2=12 emb=40 eval=26 L1=6 L2=4 succ=0 0.5 s
+[  3378.3 s] base s2-01295 T2=12 emb=64 eval=28 L1=5 L2=3 succ=0 0.6 s
+[  3384.3 s] base s2-01324 T2=6 emb=4 eval=18 L1=3 L2=2 succ=0 0.1 s
+[  3388.5 s] base s2-01320 T2=9 emb=32 eval=26 L1=3 L2=1 succ=0 0.2 s
+[  3391.8 s] base s2-01326 T2=7 emb=60 eval=55 L1=3 L2=2 succ=0 1.0 s
+[  3392.4 s] base s2-01322 T2=10 emb=32 eval=24 L1=6 L2=4 succ=0 0.2 s
+[  3393.9 s] base s2-01325 T2=10 emb=40 eval=21 L1=6 L2=3 succ=0 0.2 s
+[  3395.5 s] base s2-01321 T2=8 emb=4 eval=25 L1=3 L2=2 succ=0 0.2 s
+[  3397.0 s] base s2-01323 T2=10 emb=176 eval=25 L1=6 L2=3 succ=0 0.3 s
+[  3399.4 s] base s2-01328 T2=11 emb=104 eval=25 L1=6 L2=5 succ=0 0.4 s
+[  3402.0 s] base s2-01338 T2=8 emb=112 eval=12 L1=7 L2=5 succ=0 0.2 s
+[  3404.0 s] base s2-01327 T2=10 emb=88 eval=18 L1=4 L2=3 succ=0 0.2 s
+[  3405.5 s] base s2-01336 T2=9 emb=76 eval=31 L1=6 L2=5 succ=0 0.3 s
+[  3409.1 s] SUCCESS #5 base s2-01350 U=[] flags Zf11[q5@t3+q9@t4+q9@t14+q5@t15];Xf12[q5@t2+q5@t16] T3=389 S2=0 1 in 2874020
+[  3409.1 s] SUCCESS #6 base s2-01350 U=[] flags Zf11[q5@t2+q9@t3+q9@t13+q5@t14];Xf12[q9@t2+q9@t14] T3=370 S2=0 1 in 5200769
+[  3409.1 s] base s2-01350 T2=5 emb=8 eval=14 L1=1 L2=0 succ=2 0.6 s
+[  3409.7 s] SUCCESS #7 base s2-01348 U=[] flags Zf11[q9@t2+q6@t3+q6@t13+q9@t14];Xf12[q6@t2+q6@t14] T3=317 S2=0 1 in 5588585
+[  3409.7 s] SUCCESS #8 base s2-01348 U=[] flags Zf11[q9@t3+q6@t4+q6@t14+q9@t15];Xf12[q9@t2+q9@t16] T3=323 S2=0 1 in 3153833
+[  3409.7 s] SUCCESS #9 base s2-01348 U=[] flags Zf11[q9@t3+q6@t4+q6@t14+q9@t15];Xf12[q9@t2+q9@t5+q6@t6+q6@t15] T3=399 S2=0 1 in 4742157
+[  3409.7 s] base s2-01348 T2=5 emb=22 eval=62 L1=1 L2=0 succ=3 0.8 s
+[  3409.9 s] done: 10 successes bases 1347, evaluated 3097, successes 10

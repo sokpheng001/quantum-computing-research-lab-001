@@ -1,0 +1,127 @@
+== driver_72lr start Wed Oct 14 02:37:02 UTC 2026
+== Phase 1: {'HX_HZ^T == 0': True, 'row weight HX, HZ': ([np.uint64(6)], [np.uint64(6)]), 'col weight HX, HZ': ([np.uint64(3)], [np.uint64(3)]), 'k = n - rank HX - rank HZ': 12, 'every check: 3 targets in L, 3 in R': True, 'L targets: X-check via A labels, Z-check via B labels': True, 'logicals Z, X': (12, 12)}
+  strategy A, layout simultaneous: {'collision': 1296}
+  strategy A, layout z_first     : {'collision': 1296}
+  strategy A, layout x_first     : {'collision': 1296}
+  strategy B, layout simultaneous: {'collision': 1296}
+  strategy B, layout z_first     : {'collision': 1296}
+  strategy B, layout x_first     : {'collision': 1296}
+  strategy C, layout simultaneous: {'invalid (non-deterministic detectors)': 1296}
+  strategy C, layout z_first     : {'collision': 1296}
+  strategy C, layout x_first     : {'collision': 1296}
+== simultaneous layout, all 518400 orders: {'invalid': 25920, 'collision': 492480}; stim confirms 0  (9s)
+== valid staggered depth-7 schedules: 1872
+   distance search: 0 done, 1872 to go, 3 cycles, limit 4, 2 workers
+   50/1872  6 min, eta 200 min
+   100/1872  11 min, eta 189 min
+   150/1872  16 min, eta 180 min
+   200/1872  21 min, eta 176 min
+   250/1872  26 min, eta 171 min
+   300/1872  32 min, eta 167 min
+   350/1872  37 min, eta 162 min
+   400/1872  42 min, eta 155 min
+   450/1872  47 min, eta 149 min
+   500/1872  52 min, eta 143 min
+   550/1872  57 min, eta 138 min
+   600/1872  63 min, eta 133 min
+   650/1872  67 min, eta 126 min
+   700/1872  72 min, eta 120 min
+   750/1872  77 min, eta 116 min
+   800/1872  82 min, eta 110 min
+   850/1872  87 min, eta 105 min
+   900/1872  93 min, eta 100 min
+   950/1872  97 min, eta 94 min
+   1000/1872  102 min, eta 89 min
+   1050/1872  106 min, eta 83 min
+   1100/1872  112 min, eta 79 min
+   1150/1872  118 min, eta 74 min
+   1200/1872  123 min, eta 69 min
+   1250/1872  128 min, eta 64 min
+   1300/1872  133 min, eta 58 min
+   1350/1872  138 min, eta 53 min
+   1400/1872  142 min, eta 48 min
+   1450/1872  148 min, eta 43 min
+   1500/1872  153 min, eta 38 min
+   1550/1872  158 min, eta 33 min
+   1600/1872  164 min, eta 28 min
+   1650/1872  169 min, eta 23 min
+   1700/1872  174 min, eta 18 min
+   1750/1872  179 min, eta 12 min
+   1800/1872  183 min, eta 7 min
+   1850/1872  187 min, eta 2 min
+   1872/1872  189 min, eta 0 min
+== d_circ distribution {3: 48, 5: 144, 6: 1680}; by L/R switches {"4": {"5": 144, "6": 1584}, "10": {"3": 48, "6": 96}}
+== 1584 schedules with the fewest L/R switches (4) reach d_circ = 6 -> results_72code.json
+figure: figures/dcirc_by_lr_switches.png
+chosen: d6 x_first [A1 A2 B1 B2 B3 A3] [A3 B1 B2 B3 A1 A2]   d3 x_first [A1 B2 A2 B1 A3 B3] [B3 A3 B1 A2 B2 A1]
+[S Z p=0.006] start 0/0
+  [mem guard] decoder ~0.25 GB, available 38.5 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 seed 47924: 87 fails (1815s) -> 87/500
+[S Z p=0.006] end 87/500
+[LR_d6 Z p=0.006] start 0/0
+  [mem guard] decoder ~0.25 GB, available 38.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 seed 90964: 95 fails (2132s) -> 95/500
+[LR_d6 Z p=0.006] end 95/500
+[LR_d3 Z p=0.006] start 0/0
+  [mem guard] decoder ~0.25 GB, available 37.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 seed 68144: 115 fails (2097s) -> 115/500
+[LR_d3 Z p=0.006] end 115/500
+figure: figures/ler_72_lr.png
+[S Z p=0.004] start 0/0
+  [mem guard] decoder ~0.25 GB, available 37.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 44056: 24 fails (2296s) -> 24/1000
+  [mem guard] decoder ~0.25 GB, available 36.9 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 45056: 25 fails (2116s) -> 49/2000
+  [mem guard] decoder ~0.25 GB, available 36.9 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 46056: 20 fails (2192s) -> 69/3000
+[S Z p=0.004] end 69/3000
+[LR_d6 Z p=0.004] start 0/0
+  [mem guard] decoder ~0.25 GB, available 37.1 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 50584: 28 fails (2353s) -> 28/1000
+  [mem guard] decoder ~0.25 GB, available 39.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 51584: 35 fails (2066s) -> 63/2000
+[LR_d6 Z p=0.004] end 63/2000
+[LR_d3 Z p=0.004] start 0/0
+  [mem guard] decoder ~0.25 GB, available 38.9 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 75900: 33 fails (1779s) -> 33/1000
+  [mem guard] decoder ~0.25 GB, available 39.1 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 76900: 40 fails (1955s) -> 73/2000
+[LR_d3 Z p=0.004] end 73/2000
+figure: figures/ler_72_lr.png
+[S X p=0.006] start 0/0
+  [mem guard] decoder ~0.25 GB, available 38.8 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 seed 42301: 95 fails (2113s) -> 95/500
+[S X p=0.006] end 95/500
+[LR_d6 X p=0.006] start 0/0
+  [mem guard] decoder ~0.25 GB, available 38.8 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 seed 73181: 94 fails (2228s) -> 94/500
+[LR_d6 X p=0.006] end 94/500
+[LR_d3 X p=0.006] start 0/0
+  [mem guard] decoder ~0.25 GB, available 37.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 seed 27513: 97 fails (1993s) -> 97/500
+[LR_d3 X p=0.006] end 97/500
+figure: figures/ler_72_lr.png
+[S X p=0.004] start 0/0
+  [mem guard] decoder ~0.25 GB, available 37.4 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 36145: 19 fails (2132s) -> 19/1000
+  [mem guard] decoder ~0.25 GB, available 38.8 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 37145: 27 fails (1988s) -> 46/2000
+  [mem guard] decoder ~0.25 GB, available 39.1 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 38145: 31 fails (2223s) -> 77/3000
+[S X p=0.004] end 77/3000
+[LR_d6 X p=0.004] start 0/0
+  [mem guard] decoder ~0.25 GB, available 38.8 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 74385: 18 fails (2144s) -> 18/1000
+  [mem guard] decoder ~0.25 GB, available 39.9 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 75385: 18 fails (1767s) -> 36/2000
+  [mem guard] decoder ~0.25 GB, available 40.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 76385: 20 fails (1721s) -> 56/3000
+[LR_d6 X p=0.004] end 56/3000
+[LR_d3 X p=0.004] start 0/0
+  [mem guard] decoder ~0.25 GB, available 40.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 76981: 27 fails (1558s) -> 27/1000
+  [mem guard] decoder ~0.25 GB, available 40.2 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 seed 77981: 42 fails (1637s) -> 69/2000
+[LR_d3 X p=0.004] end 69/2000
+figure: figures/ler_72_lr.png
+== driver_72lr end Wed Oct 14 17:32:30 UTC 2026

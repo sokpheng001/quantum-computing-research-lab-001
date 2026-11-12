@@ -1,0 +1,352 @@
+== driver_004 start Wed Oct 14 06:34:52 UTC 2026
+== stage 1: d_circ bounds on [[90,8,10]], 4 cycles, 5 seeds x 6 chunks x 100 trials
+-- round 1, 2 workers Wed Oct 14 06:34:52 UTC 2026
+0 chunks done, 30 to go, 100 trials each, 2 workers
+  212       Z seed 1 chunk  0: min 10  sets<=11  19  (344s)  [1/30, 0.1 h]
+  212       X seed 1 chunk  0: min 10  sets<=11  18  (303s)  [2/30, 0.1 h]
+  212+1307  Z seed 1 chunk  0: min 10  sets<=11  14  (342s)  [3/30, 0.2 h]
+  212+1307  X seed 1 chunk  0: min 10  sets<=11   9  (320s)  [4/30, 0.2 h]
+  1307      Z seed 1 chunk  0: min 10  sets<=11  13  (342s)  [5/30, 0.3 h]
+  1307      X seed 1 chunk  0: min 10  sets<=11   8  (365s)  [6/30, 0.3 h]
+  212       Z seed 2 chunk  0: min 10  sets<=11  16  (359s)  [7/30, 0.4 h]
+  212       X seed 2 chunk  0: min 10  sets<=11  12  (383s)  [8/30, 0.4 h]
+  212+1307  Z seed 2 chunk  0: min 10  sets<=11  17  (311s)  [9/30, 0.5 h]
+  212+1307  X seed 2 chunk  0: min 10  sets<=11   8  (388s)  [10/30, 0.5 h]
+  1307      Z seed 2 chunk  0: min 10  sets<=11  14  (412s)  [11/30, 0.6 h]
+  1307      X seed 2 chunk  0: min 10  sets<=11  10  (319s)  [12/30, 0.6 h]
+  212       Z seed 3 chunk  0: min  9  sets<=11  17  (375s)  [13/30, 0.7 h]
+  212       X seed 3 chunk  0: min 10  sets<=11  10  (321s)  [14/30, 0.7 h]
+  212+1307  Z seed 3 chunk  0: min 10  sets<=11  11  (346s)  [15/30, 0.8 h]
+  212+1307  X seed 3 chunk  0: min 10  sets<=11  10  (364s)  [16/30, 0.8 h]
+  1307      Z seed 3 chunk  0: min  9  sets<=11  15  (385s)  [17/30, 0.9 h]
+  1307      X seed 3 chunk  0: min 10  sets<=11  12  (377s)  [18/30, 0.9 h]
+  212       Z seed 4 chunk  0: min 10  sets<=11  17  (344s)  [19/30, 1.0 h]
+  212       X seed 4 chunk  0: min  9  sets<=11   4  (344s)  [20/30, 1.0 h]
+  212+1307  Z seed 4 chunk  0: min 10  sets<=11  22  (356s)  [21/30, 1.1 h]
+  212+1307  X seed 4 chunk  0: min 10  sets<=11  11  (384s)  [22/30, 1.1 h]
+  1307      Z seed 4 chunk  0: min  9  sets<=11  14  (383s)  [23/30, 1.2 h]
+  1307      X seed 4 chunk  0: min 10  sets<=11  10  (407s)  [24/30, 1.2 h]
+  212       Z seed 5 chunk  0: min  9  sets<=11  17  (333s)  [25/30, 1.3 h]
+  212       X seed 5 chunk  0: min  9  sets<=11   6  (369s)  [26/30, 1.3 h]
+  212+1307  Z seed 5 chunk  0: min 10  sets<=11  14  (339s)  [27/30, 1.4 h]
+  212+1307  X seed 5 chunk  0: min  9  sets<=11  13  (355s)  [28/30, 1.4 h]
+  1307      Z seed 5 chunk  0: min  9  sets<=11  13  (361s)  [29/30, 1.5 h]
+  1307      X seed 5 chunk  0: min 10  sets<=11   9  (349s)  [30/30, 1.5 h]
+done
+-- round 2, 2 workers Wed Oct 14 08:04:54 UTC 2026
+30 chunks done, 30 to go, 100 trials each, 2 workers
+  212       Z seed 1 chunk  1: min 10  sets<=11  16  (387s)  [1/30, 0.1 h]
+  212       X seed 1 chunk  1: min 10  sets<=11  12  (414s)  [2/30, 0.1 h]
+  212+1307  Z seed 1 chunk  1: min 10  sets<=11  26  (324s)  [3/30, 0.2 h]
+  212+1307  X seed 1 chunk  1: min 10  sets<=11  12  (350s)  [4/30, 0.2 h]
+  1307      Z seed 1 chunk  1: min  9  sets<=11  13  (383s)  [5/30, 0.3 h]
+  1307      X seed 1 chunk  1: min 10  sets<=11  11  (374s)  [6/30, 0.3 h]
+  212       Z seed 2 chunk  1: min 10  sets<=11  11  (388s)  [7/30, 0.4 h]
+  212       X seed 2 chunk  1: min 10  sets<=11  13  (352s)  [8/30, 0.4 h]
+  212+1307  Z seed 2 chunk  1: min  9  sets<=11  17  (354s)  [9/30, 0.5 h]
+  212+1307  X seed 2 chunk  1: min  9  sets<=11  13  (415s)  [10/30, 0.5 h]
+  1307      Z seed 2 chunk  1: min 10  sets<=11  18  (365s)  [11/30, 0.6 h]
+  1307      X seed 2 chunk  1: min 10  sets<=11   9  (302s)  [12/30, 0.6 h]
+  212       Z seed 3 chunk  1: min  9  sets<=11  14  (342s)  [13/30, 0.7 h]
+  212       X seed 3 chunk  1: min 10  sets<=11  12  (369s)  [14/30, 0.7 h]
+  212+1307  Z seed 3 chunk  1: min 10  sets<=11  21  (348s)  [15/30, 0.8 h]
+  212+1307  X seed 3 chunk  1: min  9  sets<=11   9  (363s)  [16/30, 0.8 h]
+  1307      Z seed 3 chunk  1: min 10  sets<=11  20  (335s)  [17/30, 0.9 h]
+  1307      X seed 3 chunk  1: min 10  sets<=11   8  (331s)  [18/30, 0.9 h]
+  212       Z seed 4 chunk  1: min 10  sets<=11  16  (374s)  [19/30, 1.0 h]
+  212       X seed 4 chunk  1: min  9  sets<=11   9  (367s)  [20/30, 1.0 h]
+  212+1307  Z seed 4 chunk  1: min 10  sets<=11  19  (371s)  [21/30, 1.1 h]
+  212+1307  X seed 4 chunk  1: min 10  sets<=11   9  (373s)  [22/30, 1.1 h]
+  1307      Z seed 4 chunk  1: min  9  sets<=11  16  (415s)  [23/30, 1.2 h]
+  1307      X seed 4 chunk  1: min 10  sets<=11   6  (356s)  [24/30, 1.2 h]
+  212       Z seed 5 chunk  1: min 10  sets<=11  14  (386s)  [25/30, 1.3 h]
+  212       X seed 5 chunk  1: min 10  sets<=11   8  (330s)  [26/30, 1.3 h]
+  212+1307  Z seed 5 chunk  1: min 10  sets<=11  15  (297s)  [27/30, 1.4 h]
+  212+1307  X seed 5 chunk  1: min 10  sets<=11  11  (344s)  [28/30, 1.4 h]
+  1307      Z seed 5 chunk  1: min 10  sets<=11  19  (278s)  [29/30, 1.5 h]
+  1307      X seed 5 chunk  1: min 10  sets<=11   8  (280s)  [30/30, 1.5 h]
+done
+-- round 3, 2 workers Wed Oct 14 09:34:38 UTC 2026
+60 chunks done, 30 to go, 100 trials each, 2 workers
+  212       Z seed 1 chunk  2: min  9  sets<=11  16  (463s)  [1/30, 0.1 h]
+  212       X seed 1 chunk  2: min 10  sets<=11   8  (423s)  [2/30, 0.1 h]
+  212+1307  Z seed 1 chunk  2: min 10  sets<=11  14  (330s)  [3/30, 0.2 h]
+  212+1307  X seed 1 chunk  2: min  9  sets<=11   8  (288s)  [4/30, 0.2 h]
+  1307      Z seed 1 chunk  2: min 10  sets<=11  13  (301s)  [5/30, 0.3 h]
+  1307      X seed 1 chunk  2: min 10  sets<=11  11  (456s)  [6/30, 0.3 h]
+  212       Z seed 2 chunk  2: min 10  sets<=11  12  (295s)  [7/30, 0.4 h]
+  212       X seed 2 chunk  2: min 10  sets<=11   7  (490s)  [8/30, 0.5 h]
+  212+1307  Z seed 2 chunk  2: min 10  sets<=11  21  (273s)  [9/30, 0.5 h]
+  212+1307  X seed 2 chunk  2: min 10  sets<=11   6  (298s)  [10/30, 0.5 h]
+  1307      Z seed 2 chunk  2: min  9  sets<=11  24  (298s)  [11/30, 0.6 h]
+  1307      X seed 2 chunk  2: min 10  sets<=11   7  (286s)  [12/30, 0.6 h]
+  212       Z seed 3 chunk  2: min 10  sets<=11  19  (402s)  [13/30, 0.7 h]
+  212       X seed 3 chunk  2: min  9  sets<=11  15  (281s)  [14/30, 0.7 h]
+  212+1307  Z seed 3 chunk  2: min 10  sets<=11  19  (277s)  [15/30, 0.7 h]
+  212+1307  X seed 3 chunk  2: min 10  sets<=11   6  (386s)  [16/30, 0.8 h]
+  1307      Z seed 3 chunk  2: min 10  sets<=11  19  (420s)  [17/30, 0.9 h]
+  1307      X seed 3 chunk  2: min 10  sets<=11   8  (342s)  [18/30, 0.9 h]
+  212       Z seed 4 chunk  2: min  8  sets<=11  14  (336s)  [19/30, 1.0 h]
+  212       X seed 4 chunk  2: min 10  sets<=11   5  (287s)  [20/30, 1.0 h]
+  212+1307  Z seed 4 chunk  2: min 10  sets<=11  15  (329s)  [21/30, 1.0 h]
+  212+1307  X seed 4 chunk  2: min 10  sets<=11   8  (423s)  [22/30, 1.1 h]
+  1307      Z seed 4 chunk  2: min  9  sets<=11  14  (285s)  [23/30, 1.1 h]
+  1307      X seed 4 chunk  2: min 10  sets<=11  11  (403s)  [24/30, 1.2 h]
+  212       Z seed 5 chunk  2: min 10  sets<=11  14  (284s)  [25/30, 1.2 h]
+  212       X seed 5 chunk  2: min  9  sets<=11  12  (345s)  [26/30, 1.3 h]
+  212+1307  Z seed 5 chunk  2: min 10  sets<=11  17  (282s)  [27/30, 1.3 h]
+  212+1307  X seed 5 chunk  2: min  9  sets<=11  11  (490s)  [28/30, 1.4 h]
+  1307      Z seed 5 chunk  2: min 10  sets<=11  18  (303s)  [29/30, 1.4 h]
+  1307      X seed 5 chunk  2: min 10  sets<=11   8  (285s)  [30/30, 1.5 h]
+done
+-- round 4, 2 workers Wed Oct 14 11:02:24 UTC 2026
+90 chunks done, 30 to go, 100 trials each, 2 workers
+  212       Z seed 1 chunk  3: min  9  sets<=11  18  (313s)  [1/30, 0.1 h]
+  212       X seed 1 chunk  3: min  9  sets<=11  17  (331s)  [2/30, 0.1 h]
+  212+1307  Z seed 1 chunk  3: min  9  sets<=11  20  (377s)  [3/30, 0.2 h]
+  212+1307  X seed 1 chunk  3: min 10  sets<=11  13  (309s)  [4/30, 0.2 h]
+  1307      Z seed 1 chunk  3: min 10  sets<=11  16  (315s)  [5/30, 0.3 h]
+  1307      X seed 1 chunk  3: min 10  sets<=11   9  (286s)  [6/30, 0.3 h]
+  212       Z seed 2 chunk  3: min 10  sets<=11  20  (298s)  [7/30, 0.3 h]
+  212       X seed 2 chunk  3: min  9  sets<=11  12  (372s)  [8/30, 0.4 h]
+  212+1307  Z seed 2 chunk  3: min 10  sets<=11  21  (411s)  [9/30, 0.5 h]
+  212+1307  X seed 2 chunk  3: min 10  sets<=11   9  (395s)  [10/30, 0.5 h]
+  1307      Z seed 2 chunk  3: min  9  sets<=11  15  (366s)  [11/30, 0.6 h]
+  1307      X seed 2 chunk  3: min 10  sets<=11  11  (449s)  [12/30, 0.6 h]
+  212       Z seed 3 chunk  3: min 10  sets<=11  22  (280s)  [13/30, 0.6 h]
+  212       X seed 3 chunk  3: min 10  sets<=11  16  (354s)  [14/30, 0.7 h]
+  212+1307  Z seed 3 chunk  3: min 10  sets<=11  24  (356s)  [15/30, 0.7 h]
+  212+1307  X seed 3 chunk  3: min 10  sets<=11  18  (453s)  [16/30, 0.8 h]
+  1307      Z seed 3 chunk  3: min 10  sets<=11  20  (337s)  [17/30, 0.8 h]
+  1307      X seed 3 chunk  3: min 10  sets<=11   9  (354s)  [18/30, 0.9 h]
+  212       Z seed 4 chunk  3: min 10  sets<=11  12  (386s)  [19/30, 0.9 h]
+  212       X seed 4 chunk  3: min 10  sets<=11  11  (353s)  [20/30, 1.0 h]
+  212+1307  Z seed 4 chunk  3: min 10  sets<=11  17  (255s)  [21/30, 1.0 h]
+  212+1307  X seed 4 chunk  3: min  9  sets<=11  15  (289s)  [22/30, 1.1 h]
+  1307      Z seed 4 chunk  3: min 10  sets<=11  17  (323s)  [23/30, 1.1 h]
+  1307      X seed 4 chunk  3: min 10  sets<=11  12  (286s)  [24/30, 1.2 h]
+  212       Z seed 5 chunk  3: min 10  sets<=11  16  (350s)  [25/30, 1.2 h]
+  212       X seed 5 chunk  3: min 10  sets<=11  12  (356s)  [26/30, 1.3 h]
+  212+1307  Z seed 5 chunk  3: min 10  sets<=11  19  (341s)  [27/30, 1.3 h]
+  212+1307  X seed 5 chunk  3: min 10  sets<=11  16  (381s)  [28/30, 1.4 h]
+  1307      Z seed 5 chunk  3: min 10  sets<=11  16  (410s)  [29/30, 1.4 h]
+  1307      X seed 5 chunk  3: min 10  sets<=11   6  (348s)  [30/30, 1.5 h]
+done
+-- round 5, 2 workers Wed Oct 14 12:30:56 UTC 2026
+120 chunks done, 30 to go, 100 trials each, 2 workers
+  212       Z seed 1 chunk  4: min 10  sets<=11  12  (382s)  [1/30, 0.1 h]
+  212       X seed 1 chunk  4: min 10  sets<=11   7  (375s)  [2/30, 0.1 h]
+  212+1307  Z seed 1 chunk  4: min 10  sets<=11  15  (296s)  [3/30, 0.2 h]
+  212+1307  X seed 1 chunk  4: min  9  sets<=11   9  (344s)  [4/30, 0.2 h]
+  1307      Z seed 1 chunk  4: min 10  sets<=11  17  (371s)  [5/30, 0.3 h]
+  1307      X seed 1 chunk  4: min 10  sets<=11   7  (375s)  [6/30, 0.3 h]
+  212       Z seed 2 chunk  4: min 10  sets<=11   9  (361s)  [7/30, 0.4 h]
+  212       X seed 2 chunk  4: min  9  sets<=11  21  (326s)  [8/30, 0.4 h]
+  212+1307  Z seed 2 chunk  4: min 10  sets<=11  13  (313s)  [9/30, 0.5 h]
+  212+1307  X seed 2 chunk  4: min  9  sets<=11  12  (329s)  [10/30, 0.5 h]
+  1307      Z seed 2 chunk  4: min 10  sets<=11  13  (378s)  [11/30, 0.6 h]
+  1307      X seed 2 chunk  4: min 10  sets<=11   6  (352s)  [12/30, 0.6 h]
+  212       Z seed 3 chunk  4: min 10  sets<=11  12  (372s)  [13/30, 0.7 h]
+  212       X seed 3 chunk  4: min 10  sets<=11   8  (331s)  [14/30, 0.7 h]
+  212+1307  Z seed 3 chunk  4: min 10  sets<=11  18  (278s)  [15/30, 0.8 h]
+  212+1307  X seed 3 chunk  4: min  9  sets<=11  10  (319s)  [16/30, 0.8 h]
+  1307      Z seed 3 chunk  4: min  9  sets<=11  12  (375s)  [17/30, 0.9 h]
+  1307      X seed 3 chunk  4: min 10  sets<=11   4  (390s)  [18/30, 0.9 h]
+  212       Z seed 4 chunk  4: min 10  sets<=11  21  (370s)  [19/30, 1.0 h]
+  212       X seed 4 chunk  4: min 10  sets<=11  12  (338s)  [20/30, 1.0 h]
+  212+1307  Z seed 4 chunk  4: min 10  sets<=11  10  (270s)  [21/30, 1.0 h]
+  212+1307  X seed 4 chunk  4: min 10  sets<=11   7  (340s)  [22/30, 1.1 h]
+  1307      Z seed 4 chunk  4: min  9  sets<=11  12  (407s)  [23/30, 1.2 h]
+  1307      X seed 4 chunk  4: min  9  sets<=11   6  (317s)  [24/30, 1.2 h]
+  212       Z seed 5 chunk  4: min  9  sets<=11  16  (349s)  [25/30, 1.2 h]
+  212       X seed 5 chunk  4: min 10  sets<=11   9  (338s)  [26/30, 1.3 h]
+  212+1307  Z seed 5 chunk  4: min 10  sets<=11  15  (273s)  [27/30, 1.3 h]
+  212+1307  X seed 5 chunk  4: min 10  sets<=11  12  (263s)  [28/30, 1.3 h]
+  1307      Z seed 5 chunk  4: min 10  sets<=11  13  (388s)  [29/30, 1.4 h]
+  1307      X seed 5 chunk  4: min 10  sets<=11  13  (338s)  [30/30, 1.4 h]
+done
+-- round 6, 2 workers Wed Oct 14 13:56:51 UTC 2026
+150 chunks done, 30 to go, 100 trials each, 2 workers
+  212       Z seed 1 chunk  5: min  9  sets<=11  17  (314s)  [1/30, 0.1 h]
+  212       X seed 1 chunk  5: min 10  sets<=11  12  (418s)  [2/30, 0.1 h]
+  212+1307  Z seed 1 chunk  5: min  8  sets<=11  17  (262s)  [3/30, 0.2 h]
+  212+1307  X seed 1 chunk  5: min 10  sets<=11  12  (360s)  [4/30, 0.2 h]
+  1307      Z seed 1 chunk  5: min 10  sets<=11   8  (398s)  [5/30, 0.3 h]
+  1307      X seed 1 chunk  5: min 10  sets<=11   6  (422s)  [6/30, 0.3 h]
+  212       Z seed 2 chunk  5: min 10  sets<=11  16  (439s)  [7/30, 0.4 h]
+  212       X seed 2 chunk  5: min  9  sets<=11  13  (360s)  [8/30, 0.4 h]
+  212+1307  Z seed 2 chunk  5: min 10  sets<=11  16  (292s)  [9/30, 0.5 h]
+  212+1307  X seed 2 chunk  5: min 10  sets<=11  15  (395s)  [10/30, 0.5 h]
+  1307      Z seed 2 chunk  5: min  9  sets<=11  11  (371s)  [11/30, 0.6 h]
+  1307      X seed 2 chunk  5: min 10  sets<=11   9  (366s)  [12/30, 0.6 h]
+  212       Z seed 3 chunk  5: min 10  sets<=11  20  (306s)  [13/30, 0.7 h]
+  212       X seed 3 chunk  5: min 10  sets<=11   8  (366s)  [14/30, 0.7 h]
+  212+1307  Z seed 3 chunk  5: min 10  sets<=11  18  (360s)  [15/30, 0.8 h]
+  212+1307  X seed 3 chunk  5: min  9  sets<=11  12  (416s)  [16/30, 0.9 h]
+  1307      Z seed 3 chunk  5: min  9  sets<=11  16  (473s)  [17/30, 0.9 h]
+  1307      X seed 3 chunk  5: min  9  sets<=11   9  (483s)  [18/30, 1.0 h]
+  212       Z seed 4 chunk  5: min 10  sets<=11  14  (361s)  [19/30, 1.0 h]
+  212       X seed 4 chunk  5: min 10  sets<=11   9  (310s)  [20/30, 1.1 h]
+  212+1307  Z seed 4 chunk  5: min  9  sets<=11  12  (331s)  [21/30, 1.1 h]
+  212+1307  X seed 4 chunk  5: min 10  sets<=11  11  (386s)  [22/30, 1.2 h]
+  1307      Z seed 4 chunk  5: min  9  sets<=11  15  (365s)  [23/30, 1.2 h]
+  1307      X seed 4 chunk  5: min 10  sets<=11  10  (540s)  [24/30, 1.3 h]
+  212       Z seed 5 chunk  5: min 10  sets<=11  15  (314s)  [25/30, 1.3 h]
+  212       X seed 5 chunk  5: min  9  sets<=11  11  (332s)  [26/30, 1.4 h]
+  212+1307  Z seed 5 chunk  5: min 10  sets<=11  21  (394s)  [27/30, 1.4 h]
+  212+1307  X seed 5 chunk  5: min 10  sets<=11  10  (339s)  [28/30, 1.5 h]
+  1307      Z seed 5 chunk  5: min 10  sets<=11  12  (315s)  [29/30, 1.5 h]
+  1307      X seed 5 chunk  5: min 10  sets<=11  11  (340s)  [30/30, 1.6 h]
+done
+| circuit | basis | seed 1 | seed 2 | seed 3 | seed 4 | seed 5 | min over seeds | trials per seed |
+|---|---|---|---|---|---|---|---|---|
+| S | Z | <= 9 | <= 10 | <= 9 | <= 8 | <= 9 | <= 8 | 600 |
+| S | X | <= 9 | <= 9 | <= 9 | <= 9 | <= 9 | <= 9 | 600 |
+| S^-1 | Z | <= 9 | <= 9 | <= 9 | <= 9 | <= 9 | <= 9 | 600 |
+| S^-1 | X | <= 10 | <= 10 | <= 9 | <= 9 | <= 10 | <= 9 | 600 |
+| alt S/S^-1 | Z | <= 8 | <= 9 | <= 10 | <= 9 | <= 10 | <= 8 | 600 |
+| alt S/S^-1 | X | <= 9 | <= 9 | <= 9 | <= 9 | <= 9 | <= 9 | 600 |
+
+S: d_circ <= 8 (min over bases)
+S^-1: d_circ <= 9 (min over bases)
+alt S/S^-1: d_circ <= 8 (min over bases)
+Z: bound(alt) = 8 vs min(bound(S), bound(S^-1)) = 8 -> Shaw-Terhal Prop. 3 consistent: True
+X: bound(alt) = 9 vs min(bound(S), bound(S^-1)) = 9 -> Shaw-Terhal Prop. 3 consistent: True
+figure: figures/exp_90_bounds.png
+== stage 2: LER, 6 cycles, both bases Wed Oct 14 15:30:27 UTC 2026
+[212 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.39 GB, available 40.3 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 300 shots seed 46489: 30 fails (1464s) -> total 30/300 LER=0.1
+[212 Z p=0.006] end: 30/300  LER=0.1
+[212 X p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.39 GB, available 40.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 300 shots seed 3940: 31 fails (1298s) -> total 31/300 LER=0.103
+[212 X p=0.006] end: 31/300  LER=0.103
+[1307 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.39 GB, available 40.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 300 shots seed 58272: 31 fails (1340s) -> total 31/300 LER=0.103
+[1307 Z p=0.006] end: 31/300  LER=0.103
+[1307 X p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.39 GB, available 39.9 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 300 shots seed 14369: 24 fails (1375s) -> total 24/300 LER=0.08
+  [mem guard] decoder ~0.39 GB, available 40.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 300 shots seed 14669: 35 fails (1385s) -> total 59/600 LER=0.0983
+[1307 X p=0.006] end: 59/600  LER=0.0983
+[212+1307 Z p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.35 GB, available 40.1 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 300 shots seed 59379: 37 fails (1159s) -> total 37/300 LER=0.123
+[212+1307 Z p=0.006] end: 37/300  LER=0.123
+[212+1307 X p=0.006] start: 0/0 failures
+  [mem guard] decoder ~0.38 GB, available 40.8 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 300 shots seed 55906: 37 fails (1264s) -> total 37/300 LER=0.123
+[212+1307 X p=0.006] end: 37/300  LER=0.123
+| p | S (Bravyi) Z | S (Bravyi) X | S^-1 Z | S^-1 X | alt S/S^-1 Z | alt S/S^-1 X |
+|---|---|---|---|---|---|---|
+| 0.006 | 30/300 (1.7e-02) | 31/300 (1.8e-02) | 31/300 (1.8e-02) | 59/600 (1.7e-02) | 37/300 (2.2e-02) | 37/300 (2.2e-02) |
+figure: figures/exp_90_three_ler.png
+[212 Z p=0.005] start: 0/0 failures
+  [mem guard] decoder ~0.39 GB, available 40.7 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 6327: 23 fails (1798s) -> total 23/500 LER=0.046
+  [mem guard] decoder ~0.39 GB, available 40.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 6827: 11 fails (1836s) -> total 34/1000 LER=0.034
+[212 Z p=0.005] end: 34/1000  LER=0.034
+[212 X p=0.005] start: 0/0 failures
+  [mem guard] decoder ~0.39 GB, available 44.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 30602: 18 fails (1837s) -> total 18/500 LER=0.036
+  [mem guard] decoder ~0.39 GB, available 39.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 31102: 12 fails (1738s) -> total 30/1000 LER=0.03
+[212 X p=0.005] end: 30/1000  LER=0.03
+[1307 Z p=0.005] start: 0/0 failures
+  [mem guard] decoder ~0.39 GB, available 39.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 60880: 21 fails (1758s) -> total 21/500 LER=0.042
+  [mem guard] decoder ~0.39 GB, available 39.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 61380: 16 fails (1808s) -> total 37/1000 LER=0.037
+[1307 Z p=0.005] end: 37/1000  LER=0.037
+[1307 X p=0.005] start: 0/0 failures
+  [mem guard] decoder ~0.39 GB, available 39.3 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 39537: 17 fails (1646s) -> total 17/500 LER=0.034
+  [mem guard] decoder ~0.39 GB, available 39.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 40037: 17 fails (1798s) -> total 34/1000 LER=0.034
+[1307 X p=0.005] end: 34/1000  LER=0.034
+[212+1307 Z p=0.005] start: 0/0 failures
+  [mem guard] decoder ~0.35 GB, available 39.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 73718: 14 fails (1700s) -> total 14/500 LER=0.028
+  [mem guard] decoder ~0.35 GB, available 39.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 74218: 15 fails (1607s) -> total 29/1000 LER=0.029
+  [mem guard] decoder ~0.35 GB, available 39.7 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 74718: 29 fails (1805s) -> total 58/1500 LER=0.0387
+[212+1307 Z p=0.005] end: 58/1500  LER=0.0387
+[212+1307 X p=0.005] start: 0/0 failures
+  [mem guard] decoder ~0.38 GB, available 39.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 40551: 18 fails (1980s) -> total 18/500 LER=0.036
+  [mem guard] decoder ~0.38 GB, available 37.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 500 shots seed 41051: 17 fails (1826s) -> total 35/1000 LER=0.035
+[212+1307 X p=0.005] end: 35/1000  LER=0.035
+| p | S (Bravyi) Z | S (Bravyi) X | S^-1 Z | S^-1 X | alt S/S^-1 Z | alt S/S^-1 X |
+|---|---|---|---|---|---|---|
+| 0.005 | 34/1000 (5.7e-03) | 30/1000 (5.1e-03) | 37/1000 (6.3e-03) | 34/1000 (5.7e-03) | 58/1500 (6.6e-03) | 35/1000 (5.9e-03) |
+| 0.006 | 30/300 (1.7e-02) | 31/300 (1.8e-02) | 31/300 (1.8e-02) | 59/600 (1.7e-02) | 37/300 (2.2e-02) | 37/300 (2.2e-02) |
+figure: figures/exp_90_three_ler.png
+[212 Z p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.39 GB, available 38.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 64370: 11 fails (2369s) -> total 11/1000 LER=0.011
+  [mem guard] decoder ~0.39 GB, available 38.1 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 65370: 12 fails (2484s) -> total 23/2000 LER=0.0115
+  [mem guard] decoder ~0.39 GB, available 38.6 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 66370: 12 fails (2492s) -> total 35/3000 LER=0.0117
+[212 Z p=0.004] end: 35/3000  LER=0.0117
+[212 X p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.39 GB, available 38.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 20143: 8 fails (2153s) -> total 8/1000 LER=0.008
+  [mem guard] decoder ~0.39 GB, available 38.0 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 21143: 8 fails (2138s) -> total 16/2000 LER=0.008
+  [mem guard] decoder ~0.39 GB, available 38.1 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 22143: 10 fails (2179s) -> total 26/3000 LER=0.00867
+  [mem guard] decoder ~0.39 GB, available 37.8 GB, reserve 8.0 GB -> 2 workers (requested 2)
+  batch 1000 shots seed 23143: 10 fails (2183s) -> total 36/4000 LER=0.009
+[212 X p=0.004] end: 36/4000  LER=0.009
+[1307 Z p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.39 GB, available 37.8 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 95616: 10 fails (1227s) -> total 10/1000 LER=0.01
+  [mem guard] decoder ~0.39 GB, available 37.8 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 96616: 12 fails (1302s) -> total 22/2000 LER=0.011
+  [mem guard] decoder ~0.39 GB, available 37.8 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 97616: 11 fails (1233s) -> total 33/3000 LER=0.011
+[1307 Z p=0.004] end: 33/3000  LER=0.011
+[1307 X p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.39 GB, available 39.7 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 35169: 3 fails (1154s) -> total 3/1000 LER=0.003
+  [mem guard] decoder ~0.39 GB, available 39.7 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 36169: 8 fails (1225s) -> total 11/2000 LER=0.0055
+  [mem guard] decoder ~0.39 GB, available 39.7 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 37169: 6 fails (1301s) -> total 17/3000 LER=0.00567
+  [mem guard] decoder ~0.39 GB, available 39.6 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 38169: 11 fails (1349s) -> total 28/4000 LER=0.007
+  [mem guard] decoder ~0.39 GB, available 39.5 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 39169: 12 fails (1405s) -> total 40/5000 LER=0.008
+[1307 X p=0.004] end: 40/5000  LER=0.008
+[212+1307 Z p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.35 GB, available 39.7 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 92981: 9 fails (1276s) -> total 9/1000 LER=0.009
+  [mem guard] decoder ~0.35 GB, available 39.6 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 93981: 17 fails (1260s) -> total 26/2000 LER=0.013
+  [mem guard] decoder ~0.35 GB, available 39.7 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 94981: 9 fails (1233s) -> total 35/3000 LER=0.0117
+[212+1307 Z p=0.004] end: 35/3000  LER=0.0117
+[212+1307 X p=0.004] start: 0/0 failures
+  [mem guard] decoder ~0.38 GB, available 39.6 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 5860: 11 fails (1459s) -> total 11/1000 LER=0.011
+  [mem guard] decoder ~0.38 GB, available 38.2 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 6860: 7 fails (1383s) -> total 18/2000 LER=0.009
+  [mem guard] decoder ~0.38 GB, available 39.3 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 7860: 10 fails (1481s) -> total 28/3000 LER=0.00933
+  [mem guard] decoder ~0.38 GB, available 39.6 GB, reserve 8.0 GB -> 4 workers (requested 4)
+  batch 1000 shots seed 8860: 14 fails (1432s) -> total 42/4000 LER=0.0105
+[212+1307 X p=0.004] end: 42/4000  LER=0.0105
+| p | S (Bravyi) Z | S (Bravyi) X | S^-1 Z | S^-1 X | alt S/S^-1 Z | alt S/S^-1 X |
+|---|---|---|---|---|---|---|
+| 0.004 | 35/3000 (2.0e-03) | 36/4000 (1.5e-03) | 33/3000 (1.8e-03) | 40/5000 (1.3e-03) | 35/3000 (2.0e-03) | 42/4000 (1.8e-03) |
+| 0.005 | 34/1000 (5.7e-03) | 30/1000 (5.1e-03) | 37/1000 (6.3e-03) | 34/1000 (5.7e-03) | 58/1500 (6.6e-03) | 35/1000 (5.9e-03) |
+| 0.006 | 30/300 (1.7e-02) | 31/300 (1.8e-02) | 31/300 (1.8e-02) | 59/600 (1.7e-02) | 37/300 (2.2e-02) | 37/300 (2.2e-02) |
+figure: figures/exp_90_three_ler.png
+== driver_004 end Thu Oct 15 10:27:11 UTC 2026

@@ -1,0 +1,35 @@
+Testing CSS code...
+<Unnamed CSS code>, (3,6)-[[72,12,nan]]
+ -Block dimensions: Pass
+ -PCMs commute hz@hx.T==0: Pass
+ -PCMs commute hx@hz.T==0: Pass
+ -lx \in ker{hz} AND lz \in ker{hx}: Pass
+ -lx and lz anticommute: Pass
+ -<Unnamed CSS code> is a valid CSS code w/ params (3,6)-[[72,12,nan]]
+Done
+circuit test: OK
+error rate= 0.006
+Generating noisy circuits with a singe Z-type faulty operation...
+Number of noisy circuits= 9072
+Done.
+Generating noisy circuits with a singe X-type faulty operation...
+Number of noisy circuits= 9072
+Done.
+Computing syndrome histories for single-X-type-fault circuits...
+Done.
+Computing effective noise model for the X-decoder...
+Number of distinct X-syndrome histories= 2269
+Done.
+Decoding matrix HX sparseness:
+max col weight= 6
+max row weight= 35
+Computing syndrome histories for single-Z-type-fault circuits...
+Done.
+Computing effective noise model for the Z-decoder...
+Number of distinct Z-syndrome histories= 2233
+Done.
+Decoding matrix HZ sparseness:
+max col weight= 6
+max row weight= 35
+saving data to  ./TMP/mydata_72_12_p_0.006_cycles_6
+Done

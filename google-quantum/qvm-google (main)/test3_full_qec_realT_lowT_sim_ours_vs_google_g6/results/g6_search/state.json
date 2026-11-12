@@ -1,0 +1,128 @@
+{
+ "args": {
+  "workers": 11,
+  "dmax": 5,
+  "nmax": 13,
+  "umax": 1,
+  "ms": "1,2",
+  "hours": 3.0,
+  "screen_max_t2": 14,
+  "stop_per_base": 2,
+  "max_combos": 40,
+  "count_only": false,
+  "out": "qvm-google (main)/test3_full_qec_realT_lowT_sim_ours_vs_google_g6/results/g6_search",
+  "report": "qvm-google (main)/test3_full_qec_realT_lowT_sim_ours_vs_google_g6/RESULTS_search.md"
+ },
+ "started": "Mon Nov  2 15:30:29 2026",
+ "g6_positions": [
+  [
+   4,
+   5
+  ],
+  [
+   4,
+   7
+  ],
+  [
+   5,
+   4
+  ],
+  [
+   5,
+   6
+  ],
+  [
+   6,
+   5
+  ],
+  [
+   6,
+   7
+  ],
+  [
+   7,
+   6
+  ]
+ ],
+ "g6_lines": [
+  9,
+  11,
+  13
+ ],
+ "n_patterns": 66,
+ "space": {
+  "m1_n10_u0": 6,
+  "m1_n11_u0": 18,
+  "m1_n12_u0": 12,
+  "m1_n12_u1": 10,
+  "m1_n13_u0": 12,
+  "m1_n13_u1": 24,
+  "m2_n11_u0": 9,
+  "m2_n12_u0": 28,
+  "m2_n12_u1": 2,
+  "m2_n13_u0": 43,
+  "m2_n13_u1": 46
+ },
+ "n_placements": 210,
+ "n_groups": 121,
+ "g6_tree_found": true,
+ "n_done": 121,
+ "n_evaluated": 705,
+ "n_success": 0,
+ "elapsed_s": 257.77194571495056,
+ "n_queued": 121,
+ "stop_reason": "design space exhausted",
+ "screen_T2_hist": {
+  "6": 2,
+  "7": 4,
+  "8": 10,
+  "9": 6,
+  "10": 13,
+  "11": 3,
+  "12": 4,
+  "13": 1,
+  "17": 4,
+  "19": 4,
+  "20": 3,
+  "21": 1,
+  "22": 1,
+  "26": 1,
+  "30": 2,
+  "32": 1,
+  "40": 1,
+  "1000000": 60
+ },
+ "best_non_success": [
+  {
+   "T2": 2,
+   "rate": 1.2667059186768475e-06,
+   "id": 248,
+   "base": "g6-00021"
+  },
+  {
+   "T2": 2,
+   "rate": 1.6543466769536878e-06,
+   "id": 504,
+   "base": "g6-00109"
+  },
+  {
+   "T2": 2,
+   "rate": 1.679168152122304e-06,
+   "id": 222,
+   "base": "g6-00055"
+  },
+  {
+   "T2": 2,
+   "rate": 2.7183226511890455e-06,
+   "id": 218,
+   "base": "g6-00055"
+  },
+  {
+   "T2": 2,
+   "rate": 2.8671985461425703e-06,
+   "id": 509,
+   "base": "g6-00109"
+  }
+ ],
+ "finished": "Mon Nov  2 15:34:47 2026"
+}

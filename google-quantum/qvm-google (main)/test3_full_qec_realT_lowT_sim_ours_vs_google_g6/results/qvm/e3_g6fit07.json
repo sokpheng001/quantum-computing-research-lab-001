@@ -1,0 +1,75 @@
+{
+ "started": "2026-11-03 01:26:06 PM KST",
+ "random_pairs_per_design": 2000,
+ "seed": 2026,
+ "designs": {
+  "g6fit07": {
+   "info": {
+    "faults": 166,
+    "events": 1832,
+    "malignant2": 0,
+    "all_pairs": 13695
+   },
+   "summary": {
+    "single": {
+     "n": 1832,
+     "agree": 1832,
+     "signature_agree": 1832,
+     "accept_agree": 1832,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 1727,
+      "benign": 105
+     },
+     "cliffordea": {
+      "rejected": 1727,
+      "benign": 105
+     },
+     "disagreements": []
+    },
+    "malignant2": {
+     "n": 0,
+     "agree": 0,
+     "signature_agree": 0,
+     "accept_agree": 0,
+     "nondeterministic": 0,
+     "real": {},
+     "cliffordea": {},
+     "disagreements": []
+    },
+    "all2": {
+     "n": 13695,
+     "agree": 13695,
+     "signature_agree": 13695,
+     "accept_agree": 13695,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 13680,
+      "benign": 15
+     },
+     "cliffordea": {
+      "rejected": 13680,
+      "benign": 15
+     },
+     "disagreements": []
+    },
+    "random2": {
+     "n": 2000,
+     "agree": 2000,
+     "signature_agree": 2000,
+     "accept_agree": 2000,
+     "nondeterministic": 0,
+     "real": {
+      "rejected": 2000
+     },
+     "cliffordea": {
+      "rejected": 2000
+     },
+     "disagreements": []
+    }
+   },
+   "malignant2_rows": []
+  }
+ },
+ "runtime_s": 47.2554075717926
+}

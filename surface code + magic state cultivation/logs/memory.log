@@ -1,0 +1,2390 @@
+[31mStarting 12 workers...[0m
+[31m24 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching   ?   50000000         100 d=3,p=0.0002,rounds=3
+        1 pymatching   ?   50000000         100 d=3,p=0.0003,rounds=3
+        1 pymatching   ?   50000000         100 d=3,p=0.0005,rounds=3
+        1 pymatching   ?   50000000         100 d=3,p=0.0007,rounds=3
+        1 pymatching   ?   50000000         100 d=3,p=0.001,rounds=3 
+        1 pymatching   ?   50000000         100 d=3,p=0.002,rounds=3 
+        1 pymatching   ?   50000000         100 d=3,p=0.003,rounds=3 
+        1 pymatching   ?   50000000         100 d=3,p=0.005,rounds=3 
+        1 pymatching   ?   50000000         100 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49994607         100 d=5,p=0.0003,rounds=5
+        1 pymatching   ?   50000000         100 d=5,p=0.0005,rounds=5
+        1 pymatching   ?   50000000         100 d=5,p=0.0007,rounds=5
+        0 pymatching ?·∞   50000000         100 d=5,p=0.001,rounds=5 
+        0 pymatching ?·∞   50000000         100 d=5,p=0.002,rounds=5 
+        0 pymatching ?·∞   50000000         100 d=5,p=0.003,rounds=5 
+        0 pymatching ?·∞   50000000         100 d=5,p=0.005,rounds=5 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0002,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0003,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0005,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0007,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.001,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m24 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching   ?   50000000         100 d=3,p=0.0002,rounds=3
+        1 pymatching   ?   50000000         100 d=3,p=0.0003,rounds=3
+        1 pymatching   ?   50000000         100 d=3,p=0.0005,rounds=3
+        1 pymatching   ?   50000000         100 d=3,p=0.0007,rounds=3
+        1 pymatching   ?   50000000         100 d=3,p=0.001,rounds=3 
+        1 pymatching   ?   50000000         100 d=3,p=0.002,rounds=3 
+        1 pymatching   ?   50000000         100 d=3,p=0.003,rounds=3 
+        1 pymatching   ?   50000000         100 d=3,p=0.005,rounds=3 
+        1 pymatching   ?   50000000         100 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49957743         100 d=5,p=0.0003,rounds=5
+        1 pymatching   ?   50000000         100 d=5,p=0.0005,rounds=5
+        1 pymatching   ?   50000000         100 d=5,p=0.0007,rounds=5
+        0 pymatching ?·∞   50000000         100 d=5,p=0.001,rounds=5 
+        0 pymatching ?·∞   50000000         100 d=5,p=0.002,rounds=5 
+        0 pymatching ?·∞   50000000         100 d=5,p=0.003,rounds=5 
+        0 pymatching ?·∞   50000000         100 d=5,p=0.005,rounds=5 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0002,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0003,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0005,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0007,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.001,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m22 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   49895279          96 d=3,p=0.0002,rounds=3
+        1 pymatching <1m   49918831          96 d=3,p=0.0003,rounds=3
+        1 pymatching <1m   49937263          88 d=3,p=0.0005,rounds=3
+        1 pymatching <1m   49937263          75 d=3,p=0.0007,rounds=3
+        1 pymatching <1m   49929071          44 d=3,p=0.001,rounds=3 
+        1 pymatching   ?   50000000         100 d=3,p=0.005,rounds=3 
+        1 pymatching  1m   49986415         100 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49900399         100 d=5,p=0.0003,rounds=5
+        1 pymatching  2m   49977199         100 d=5,p=0.0005,rounds=5
+        1 pymatching  2m   49989487         100 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49997679         100 d=5,p=0.001,rounds=5 
+        1 pymatching   ?   50000000         100 d=5,p=0.002,rounds=5 
+        0 pymatching ?·∞   50000000         100 d=5,p=0.003,rounds=5 
+        0 pymatching ?·∞   50000000         100 d=5,p=0.005,rounds=5 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0002,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0003,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0005,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0007,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.001,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m20 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   49647471          86 d=3,p=0.0002,rounds=3
+        1 pymatching <1m   49787759          80 d=3,p=0.0003,rounds=3
+        1 pymatching <1m   49809263          72 d=3,p=0.0005,rounds=3
+        1 pymatching <1m   49828719          39 d=3,p=0.0007,rounds=3
+        1 pymatching  1m   49930095         100 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49862511         100 d=5,p=0.0003,rounds=5
+        1 pymatching  2m   49942383         100 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49943407          98 d=5,p=0.0007,rounds=5
+        1 pymatching  2m   49971055         100 d=5,p=0.001,rounds=5 
+        1 pymatching <1m   49986415          94 d=5,p=0.002,rounds=5 
+        1 pymatching <1m   49994607          88 d=5,p=0.003,rounds=5 
+        1 pymatching <1m   49998703          79 d=5,p=0.005,rounds=5 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0002,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0003,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0005,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0007,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.001,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m18 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   49494895          81 d=3,p=0.0002,rounds=3
+        1 pymatching <1m   49543023          68 d=3,p=0.0003,rounds=3
+        1 pymatching <1m   49572719          23 d=3,p=0.0005,rounds=3
+        1 pymatching  1m   49895279         100 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49797999         100 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49876847          98 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49915759          97 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49932143          97 d=5,p=0.001,rounds=5 
+        1 pymatching <1m   49966959          81 d=5,p=0.002,rounds=5 
+        1 pymatching <1m   49978223          41 d=5,p=0.003,rounds=5 
+        1 pymatching   ?   50000000         100 d=7,p=0.0002,rounds=7
+        1 pymatching   ?   50000000         100 d=7,p=0.0003,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0005,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.0007,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.001,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m16 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   49275759          72 d=3,p=0.0002,rounds=3
+        1 pymatching <1m   49334127          52 d=3,p=0.0003,rounds=3
+        1 pymatching  1m   49846127         100 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49707887         100 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49822575          98 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49878895          96 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49900399          94 d=5,p=0.001,rounds=5 
+        1 pymatching <1m   49932143          48 d=5,p=0.002,rounds=5 
+        1 pymatching  3m   49980271         100 d=7,p=0.0002,rounds=7
+        1 pymatching  4m   49989487         100 d=7,p=0.0003,rounds=7
+        1 pymatching   ?   50000000         100 d=7,p=0.0005,rounds=7
+        1 pymatching   ?   50000000         100 d=7,p=0.0007,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.001,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m16 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   49275759          72 d=3,p=0.0002,rounds=3
+        1 pymatching <1m   49334127          52 d=3,p=0.0003,rounds=3
+        1 pymatching  1m   49770351         100 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49707887         100 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49822575          98 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49829743          95 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49857391          89 d=5,p=0.001,rounds=5 
+        1 pymatching <1m   49903471          13 d=5,p=0.002,rounds=5 
+        1 pymatching  4m   49973103         100 d=7,p=0.0002,rounds=7
+        1 pymatching  2m   49958767         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49990511         100 d=7,p=0.0005,rounds=7
+        1 pymatching  5m   49991535         100 d=7,p=0.0007,rounds=7
+        0 pymatching ?·∞   50000000         100 d=7,p=0.001,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m15 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   48972655          61 d=3,p=0.0002,rounds=3
+        1 pymatching <1m   49050479          36 d=3,p=0.0003,rounds=3
+        1 pymatching  1m   49679215         100 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49587055         100 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49747823          97 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49760111          90 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49792879          85 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49942383         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49920879         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49963887         100 d=7,p=0.0005,rounds=7
+        1 pymatching  5m   49978223         100 d=7,p=0.0007,rounds=7
+        1 pymatching  3m   49997679         100 d=7,p=0.001,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m15 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   48972655          61 d=3,p=0.0002,rounds=3
+        1 pymatching <1m   49050479          36 d=3,p=0.0003,rounds=3
+        1 pymatching  1m   49679215         100 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49587055         100 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49747823          97 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49760111          90 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49792879          85 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49914735         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49895279         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49947503         100 d=7,p=0.0005,rounds=7
+        1 pymatching  5m   49967983         100 d=7,p=0.0007,rounds=7
+        1 pymatching  3m   49977199         100 d=7,p=0.001,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m15 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   48541551          54 d=3,p=0.0002,rounds=3
+        1 pymatching   ?   48599919           0 d=3,p=0.0003,rounds=3
+        1 pymatching  1m   49565551          99 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49587055         100 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49642351          93 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49664879          85 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49792879          85 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49914735         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49895279         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49924975         100 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   49953647         100 d=7,p=0.0007,rounds=7
+        1 pymatching  3m   49947503         100 d=7,p=0.001,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m14 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   48541551          54 d=3,p=0.0002,rounds=3
+        1 pymatching  1m   49565551          99 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49427311          99 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49642351          93 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49664879          85 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49708911          78 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49875823         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49859439         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49924975         100 d=7,p=0.0005,rounds=7
+        1 pymatching <1m   49934191          99 d=7,p=0.0007,rounds=7
+        1 pymatching  3m   49936239         100 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49994607          98 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m14 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   48541551          54 d=3,p=0.0002,rounds=3
+        1 pymatching  1m   49565551          99 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49427311          99 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49642351          93 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49664879          85 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49708911          78 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49875823         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49859439         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49894255         100 d=7,p=0.0005,rounds=7
+        1 pymatching <1m   49906543          99 d=7,p=0.0007,rounds=7
+        1 pymatching  4m   49918831         100 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49976175          90 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m14 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   47941487          37 d=3,p=0.0002,rounds=3
+        1 pymatching  1m   49383279          99 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49427311          99 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49518447          91 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49528687          79 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49598319          58 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49821551         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49810287         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49894255         100 d=7,p=0.0005,rounds=7
+        1 pymatching <1m   49906543          99 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49896303          99 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49965935          86 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m14 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   47941487          37 d=3,p=0.0002,rounds=3
+        1 pymatching  1m   49383279          99 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49427311          99 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49518447          91 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49528687          79 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49598319          58 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49821551         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49810287         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49851247         100 d=7,p=0.0005,rounds=7
+        1 pymatching  1m   49868655          99 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49896303          99 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49950575          79 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m14 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   47941487          37 d=3,p=0.0002,rounds=3
+        1 pymatching  1m   49383279          99 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49191791          98 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49518447          91 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49528687          79 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49598319          58 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49821551         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49810287         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49851247         100 d=7,p=0.0005,rounds=7
+        1 pymatching  1m   49868655          99 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49896303          99 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49930095          74 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m14 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   47941487          37 d=3,p=0.0002,rounds=3
+        1 pymatching  1m   49383279          99 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49191791          98 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49518447          91 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49528687          79 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49598319          58 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49745775         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49741679         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49851247         100 d=7,p=0.0005,rounds=7
+        1 pymatching  1m   49868655          99 d=7,p=0.0007,rounds=7
+        1 pymatching  1m   49864559          99 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49901423          68 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m14 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   47368047          18 d=3,p=0.0002,rounds=3
+        1 pymatching  1m   49131375          98 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49191791          98 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49311599          89 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49339247          70 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49433455          24 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49745775         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49741679         100 d=7,p=0.0003,rounds=7
+        1 pymatching  2m   49790831          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49815407          99 d=7,p=0.0007,rounds=7
+        1 pymatching  1m   49864559          99 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49901423          68 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m14 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   47368047          18 d=3,p=0.0002,rounds=3
+        1 pymatching  1m   49131375          98 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49191791          98 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49311599          89 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49339247          70 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49433455          24 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49745775         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49741679         100 d=7,p=0.0003,rounds=7
+        1 pymatching  2m   49790831          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49815407          99 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49819503          98 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49861487          56 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m14 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching <1m   47368047          18 d=3,p=0.0002,rounds=3
+        1 pymatching  1m   49131375          98 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49191791          98 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49311599          89 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49339247          70 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49433455          24 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49639279         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49741679         100 d=7,p=0.0003,rounds=7
+        1 pymatching  2m   49790831          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49815407          99 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49819503          98 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49861487          56 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m14 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching   ?   46790511           0 d=3,p=0.0002,rounds=3
+        1 pymatching  1m   49131375          98 d=5,p=0.0002,rounds=5
+        1 pymatching  1m   49191791          98 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49311599          89 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49339247          70 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49433455          24 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49639279         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49644399         100 d=7,p=0.0003,rounds=7
+        1 pymatching  2m   49790831          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49815407          99 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49819503          98 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49861487          56 d=7,p=0.002,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m13 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching  1m   49131375          98 d=5,p=0.0002,rounds=5
+        1 pymatching <1m   48857967          95 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49311599          89 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49339247          70 d=5,p=0.0007,rounds=5
+        1 pymatching <1m   49433455          24 d=5,p=0.001,rounds=5 
+        1 pymatching  3m   49639279         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49644399         100 d=7,p=0.0003,rounds=7
+        1 pymatching  2m   49705839          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49741679          99 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49819503          98 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49826671          47 d=7,p=0.002,rounds=7 
+        1 pymatching <1m   49993583          91 d=7,p=0.003,rounds=7 
+        0 pymatching ?·∞   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m12 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching  1m   49131375          98 d=5,p=0.0002,rounds=5
+        1 pymatching <1m   48857967          95 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49022831          88 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49071983          57 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49639279         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49644399         100 d=7,p=0.0003,rounds=7
+        1 pymatching  2m   49705839          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49741679          99 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49757039          97 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49826671          47 d=7,p=0.002,rounds=7 
+        1 pymatching <1m   49984367          77 d=7,p=0.003,rounds=7 
+        1 pymatching   ?   50000000         100 d=7,p=0.005,rounds=7 [0m
+[31m12 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching  1m   48773999          98 d=5,p=0.0002,rounds=5
+        1 pymatching <1m   48857967          95 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49022831          88 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49071983          57 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49639279         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49644399         100 d=7,p=0.0003,rounds=7
+        1 pymatching  2m   49705839          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49741679          99 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49757039          97 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49826671          47 d=7,p=0.002,rounds=7 
+        1 pymatching <1m   49966959          49 d=7,p=0.003,rounds=7 
+        1 pymatching <1m   49997679          73 d=7,p=0.005,rounds=7 [0m
+[31m12 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching  1m   48773999          98 d=5,p=0.0002,rounds=5
+        1 pymatching <1m   48857967          95 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49022831          88 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49071983          57 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49639279         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49644399         100 d=7,p=0.0003,rounds=7
+        1 pymatching  2m   49705839          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49741679          99 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49757039          97 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49826671          47 d=7,p=0.002,rounds=7 
+        1 pymatching <1m   49966959          49 d=7,p=0.003,rounds=7 
+        1 pymatching <1m   49993583          43 d=7,p=0.005,rounds=7 [0m
+[31m12 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        1 pymatching  1m   48773999          98 d=5,p=0.0002,rounds=5
+        1 pymatching <1m   48857967          95 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49022831          88 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49071983          57 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49521519         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49509231         100 d=7,p=0.0003,rounds=7
+        1 pymatching  2m   49705839          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49741679          99 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49757039          97 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49787759          35 d=7,p=0.002,rounds=7 
+        1 pymatching <1m   49952623          28 d=7,p=0.003,rounds=7 
+        1 pymatching <1m   49991535          24 d=7,p=0.005,rounds=7 [0m
+[31m11 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   48744030          98 d=5,p=0.0002,rounds=5
+        1 pymatching <1m   48857967          95 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49022831          88 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49071983          57 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49521519         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49509231         100 d=7,p=0.0003,rounds=7
+        1 pymatching  3m   49589103          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49635183          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49757039          97 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49787759          35 d=7,p=0.002,rounds=7 
+        1 pymatching <1m   49942383          15 d=7,p=0.003,rounds=7 [0m
+[31m11 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   48699998          98 d=5,p=0.0002,rounds=5
+        1 pymatching <1m   48857967          95 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49022831          88 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49071983          57 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49521519         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49509231         100 d=7,p=0.0003,rounds=7
+        1 pymatching  3m   49589103          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49635183          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49757039          97 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49787759          35 d=7,p=0.002,rounds=7 
+        1 pymatching <1m   49942383          15 d=7,p=0.003,rounds=7 [0m
+[31m10 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   48618078          98 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   48841310          95 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49022831          88 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49071983          57 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49521519         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49509231         100 d=7,p=0.0003,rounds=7
+        1 pymatching  3m   49589103          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49635183          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49671023          96 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49787759          35 d=7,p=0.002,rounds=7 [0m
+[31m10 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   48555614          98 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   48339550          91 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   49022831          88 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   49071983          57 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49521519         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49509231         100 d=7,p=0.0003,rounds=7
+        1 pymatching  3m   49589103          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49635183          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49671023          96 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49787759          35 d=7,p=0.002,rounds=7 [0m
+[31m10 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   48063070          97 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   48262750          91 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   48449391          79 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48705391          39 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49521519         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49509231         100 d=7,p=0.0003,rounds=7
+        1 pymatching  3m   49589103          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49635183          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49671023          96 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49787759          35 d=7,p=0.002,rounds=7 [0m
+[31m10 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   47967838          97 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   48262750          91 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   48449391          79 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48705391          39 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49521519         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49509231         100 d=7,p=0.0003,rounds=7
+        1 pymatching  3m   49589103          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49635183          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49671023          96 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49735535          19 d=7,p=0.002,rounds=7 [0m
+[31m10 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   47967838          97 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   48201310          91 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   48449391          79 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48705391          39 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49521519         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49509231         100 d=7,p=0.0003,rounds=7
+        1 pymatching  3m   49589103          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49635183          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49671023          96 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49735535          19 d=7,p=0.002,rounds=7 [0m
+[31m10 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   47835742          97 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   48113246          91 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   48449391          79 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48705391          39 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49317743         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49321839         100 d=7,p=0.0003,rounds=7
+        1 pymatching  3m   49589103          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49635183          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49671023          96 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49735535          19 d=7,p=0.002,rounds=7 [0m
+[31m10 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   47835742          97 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   48113246          91 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   48449391          79 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48705391          39 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49317743         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49321839         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49428335          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49491823          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49671023          96 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49735535          19 d=7,p=0.002,rounds=7 [0m
+[31m10 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   47835742          97 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   47989342          91 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   48449391          79 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48705391          39 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49317743         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49321839         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49428335          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49491823          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49671023          96 d=7,p=0.001,rounds=7 
+        1 pymatching <1m   49735535          19 d=7,p=0.002,rounds=7 [0m
+[31m10 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   47655518          97 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   47989342          91 d=5,p=0.0003,rounds=5
+        1 pymatching <1m   48449391          79 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48705391          39 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49317743         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49321839         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49428335          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49491823          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49566575          92 d=7,p=0.001,rounds=7 
+        1 pymatching   ?   49668975           0 d=7,p=0.002,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   47655518          97 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   47989342          91 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   48375390          78 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48705391          39 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49317743         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49321839         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49428335          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49491823          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49566575          92 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   47655518          97 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   47818334          91 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   48279134          77 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48705391          39 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49317743         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49321839         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49428335          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49491823          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49566575          92 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   47655518          97 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   47818334          91 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   48200286          77 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48705391          39 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49317743         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49321839         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49428335          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49491823          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49566575          92 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   47399518          97 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   47166046          84 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   48111198          73 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48705391          39 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49317743         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49321839         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49428335          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49491823          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49566575          92 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   47399518          97 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   47166046          84 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   47441502          64 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48252783          20 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49317743         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49321839         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49428335          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49491823          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49566575          92 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   46707294          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   46930526          84 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   47362654          64 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48252783          20 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49317743         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49321839         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49428335          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49491823          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49566575          92 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   46707294          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   46930526          84 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   47244894          62 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48252783          20 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49317743         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49321839         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49428335          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49491823          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49566575          92 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   46707294          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   46930526          84 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   47244894          62 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48252783          20 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49028975         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49428335          99 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   49491823          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49566575          92 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   46707294          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   46930526          84 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   47244894          62 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48252783          20 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49028975         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49566575          92 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   46352990          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   46930526          84 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   47096414          61 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48252783          20 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49028975         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49566575          92 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   46352990          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   46930526          84 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   47096414          61 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48252783          20 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49028975         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   46352990          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   46593630          83 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   47096414          61 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48252783          20 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49028975         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   46352990          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   46593630          83 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   46914142          58 d=5,p=0.0005,rounds=5
+        1 pymatching <1m   48252783          20 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49028975         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m9 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   46352990          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   46593630          83 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   46914142          58 d=5,p=0.0005,rounds=5
+        1 pymatching   ?   47740783           0 d=5,p=0.0007,rounds=5
+        1 pymatching  3m   49028975         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   45876830          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   46593630          83 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   46914142          58 d=5,p=0.0005,rounds=5
+        2 pymatching  2m   49025630         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   45876830          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   46593630          83 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   46914142          58 d=5,p=0.0005,rounds=5
+        2 pymatching  2m   49007198         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   45876830          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   45268574          75 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   46914142          58 d=5,p=0.0005,rounds=5
+        2 pymatching  2m   48981598         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   45876830          96 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   45268574          75 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   46622302          56 d=5,p=0.0005,rounds=5
+        2 pymatching  2m   48961118         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44986974          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   45268574          75 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   45836894          41 d=5,p=0.0005,rounds=5
+        2 pymatching  2m   48934494         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44986974          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   45268574          75 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   45836894          41 d=5,p=0.0005,rounds=5
+        2 pymatching  2m   48895582         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   49050479         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44986974          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   45268574          75 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   45836894          41 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48405086         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   49196911          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44986974          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   45268574          75 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   45836894          41 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48349790         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49289071          98 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44986974          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   45268574          75 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   45836894          41 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48349790         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49396591          86 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44986974          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   45268574          75 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   45836894          41 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48349790         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44986974          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   45268574          75 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   45836894          41 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48274014         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44293726          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   45268574          75 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   45426270          31 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48274014         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44293726          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   44607070          72 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   45426270          31 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48274014         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44293726          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   44607070          72 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   45426270          31 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48168542         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44293726          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   44607070          72 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   45426270          31 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48018014         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44293726          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   44607070          72 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   44845662          27 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48018014         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44293726          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   43305566          69 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   44845662          27 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48018014         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   44293726          95 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   43305566          69 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   43719262          12 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48018014         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   42945118          94 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   43305566          69 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   43719262          12 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48018014         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   41957982          93 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   43305566          69 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   43719262          12 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   48018014         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48582511         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   41957982          93 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   43305566          69 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   43719262          12 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   47234654         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48055151         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48879471          99 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   41957982          93 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   42377822          68 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   43719262          12 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   47234654         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48055151         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48416623          97 d=7,p=0.0005,rounds=7
+        1 pymatching  3m   49033071          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   41957982          93 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   42377822          68 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   43719262          12 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   47234654         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48055151         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48416623          97 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   49162095          81 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   41957982          93 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   42377822          68 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   43719262          12 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   47234654         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48055151         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48416623          97 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   41957982          93 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   42377822          68 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   42905182           1 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   47234654         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48055151         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48416623          97 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   41957982          93 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   42377822          68 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   42905182           1 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   46943838         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48055151         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48416623          97 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   40565342          93 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   42377822          68 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   42905182           1 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   46943838         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48055151         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48416623          97 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   40565342          93 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   41081438          64 d=5,p=0.0003,rounds=5
+        2 pymatching <1m   42905182           1 d=5,p=0.0005,rounds=5
+        2 pymatching  1m   46943838         100 d=7,p=0.0002,rounds=7
+        1 pymatching  3m   48055151         100 d=7,p=0.0003,rounds=7
+        1 pymatching  4m   48416623          97 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m8 tasks left:
+  workers    decoder        eta shots_left errors_left json_metadata        
+        2 pymatching        <1m   40565342          93 d=5,p=0.0002,rounds=5
+        2 pymatching        <1m   41081438          64 d=5,p=0.0003,rounds=5
+        2 pymatching [draining]   41492062         -39 d=5,p=0.0005,rounds=5
+        2 pymatching         1m   46943838         100 d=7,p=0.0002,rounds=7
+        1 pymatching         3m   48055151         100 d=7,p=0.0003,rounds=7
+        1 pymatching         4m   48416623          97 d=7,p=0.0005,rounds=7
+        1 pymatching         4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching        <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   40565342          93 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   41081438          64 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   46943838         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   48048734         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   48414302          97 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   40565342          93 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   46943838         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   48027230         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   48399966          97 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   40565342          93 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   46534238         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   48013918         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   48379486          96 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   46534238         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   47995486         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   48363102          96 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   46534238         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   47968862         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   48340574          96 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45723230         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   47190622         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   48309854          96 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45723230         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   47190622         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47668830          95 d=7,p=0.0005,rounds=7
+        1 pymatching  4m   48629615          97 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45723230         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   47140446         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47622750          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48824175          76 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45723230         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   47140446         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47622750          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45723230         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   47070814         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47622750          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45723230         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   47070814         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47561310          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45723230         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   46972510         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47561310          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45723230         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   46972510         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47477342          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45723230         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   46833246         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47477342          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45723230         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   46833246         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47358558          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   38620766          90 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45137502         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   46833246         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47358558          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   36699742          89 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45137502         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   46833246         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47358558          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   36699742          89 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   39262814          56 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45137502         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   46641758         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47358558          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   36699742          89 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   37455454          50 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45137502         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   46641758         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47193694          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   36699742          89 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   37455454          50 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45137502         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   46370398         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   47193694          95 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   36699742          89 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   37455454          50 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45137502         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   46370398         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   46963294          94 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   36699742          89 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   34930270          42 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45137502         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   46370398         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   46963294          94 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   33988190          87 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   34930270          42 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45137502         100 d=7,p=0.0002,rounds=7
+        2 pymatching  2m   46370398         100 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   46963294          94 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   33988190          87 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   34930270          42 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   45137502         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   45337182          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   46963294          94 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   33988190          87 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   34930270          42 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   44013150         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   45337182          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   46963294          94 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   48068463          93 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   33988190          87 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   34930270          42 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   44013150         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   45337182          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   46066270          94 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   48351087          66 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   33988190          87 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   34930270          42 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   44013150         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   45337182          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   46066270          94 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   33988190          87 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   34930270          42 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   43207262         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   45337182          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   46066270          94 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   33988190          87 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   34930270          42 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   43207262         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   44962398          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   45744734          94 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   31273566          86 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   34930270          42 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   43207262         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   44962398          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   45744734          94 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   31273566          86 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   32382558          36 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   43207262         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   44962398          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   45744734          94 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   31273566          86 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   32382558          36 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   43207262         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   44432990          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   45744734          94 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   31273566          86 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   32382558          36 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   43207262         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   44432990          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   45293150          93 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   31273566          86 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   32382558          36 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   42079838         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   44432990          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   45293150          93 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   31273566          86 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   28826206          22 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   42079838         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   44432990          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   45293150          93 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   27470430          81 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   28826206          22 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   42079838         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   44432990          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   45293150          93 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   27470430          81 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   28826206          22 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   42079838         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   43692638          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   45293150          93 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   27470430          81 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   28826206          22 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   40500830         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   42240606          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   44656222          91 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   27470430          81 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   28826206          22 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   40500830         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   42240606          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   43395678          89 d=7,p=0.0005,rounds=7
+        1 pymatching  2m   47285103          87 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   27470430          81 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   28826206          22 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   40500830         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   42240606          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   43395678          89 d=7,p=0.0005,rounds=7
+        1 pymatching  1m   46182255          79 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   47686511          53 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   27470430          81 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   28826206          22 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   40500830         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   42240606          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   43395678          89 d=7,p=0.0005,rounds=7
+        1 pymatching  1m   46182255          79 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   46756719          39 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   23667294          80 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   28826206          22 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   40500830         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   42240606          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   43395678          89 d=7,p=0.0005,rounds=7
+        1 pymatching  1m   46182255          79 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   46756719          39 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   23667294          80 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   25267806           5 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   40500830         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   42240606          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   43395678          89 d=7,p=0.0005,rounds=7
+        1 pymatching  1m   46182255          79 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   46756719          39 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   23667294          80 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   25267806           5 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   40500830         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   41206366          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   43395678          89 d=7,p=0.0005,rounds=7
+        1 pymatching  1m   46182255          79 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   46756719          39 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   23667294          80 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   25267806           5 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   40500830         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   41206366          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   42503774          87 d=7,p=0.0005,rounds=7
+        1 pymatching  1m   46182255          79 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   46756719          39 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   23667294          80 d=5,p=0.0002,rounds=5
+        2 pymatching <1m   25267806           5 d=5,p=0.0003,rounds=5
+        2 pymatching  1m   38926942         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   41206366          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   42503774          87 d=7,p=0.0005,rounds=7
+        1 pymatching  1m   46182255          79 d=7,p=0.0007,rounds=7
+        1 pymatching <1m   46756719          39 d=7,p=0.001,rounds=7 [0m
+[31m7 tasks left:
+  workers    decoder        eta shots_left errors_left json_metadata        
+        2 pymatching        <1m   23667294          80 d=5,p=0.0002,rounds=5
+        2 pymatching [draining]   20296286         -15 d=5,p=0.0003,rounds=5
+        2 pymatching         1m   38926942         100 d=7,p=0.0002,rounds=7
+        2 pymatching         1m   41206366          99 d=7,p=0.0003,rounds=7
+        2 pymatching         2m   42503774          87 d=7,p=0.0005,rounds=7
+        1 pymatching         1m   46182255          79 d=7,p=0.0007,rounds=7
+        1 pymatching        <1m   46756719          39 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   23667294          80 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   38926942         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   41206366          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   42503774          87 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   46179934          79 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   46756719          39 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   38926942         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   41206366          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   42503774          87 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   46166622          79 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   46744158          39 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   38926942         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   41206366          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   42503774          87 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   46149214          79 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   46728798          39 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   38926942         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   41206366          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   42503774          87 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   46134878          79 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   46716510          39 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   39176798          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   42503774          87 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   46115422          79 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   46699102          39 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   39176798          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   40737374          84 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44548702          72 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   46699102          39 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   39176798          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   40737374          84 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44548702          72 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   46675550          39 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   39176798          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   40737374          84 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44510814          72 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45371998          18 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   39176798          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   40737374          84 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44510814          72 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45337182          17 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   39176798          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   40737374          84 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44457566          72 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45337182          17 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   39176798          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   40737374          84 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44457566          72 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45292126          14 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   39176798          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   40737374          84 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44382814          72 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45292126          14 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   39176798          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   40737374          84 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44382814          72 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45229662          12 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   39176798          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   40737374          84 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44278366          72 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45229662          12 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   39176798          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   40737374          84 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44278366          72 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45140574          11 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   18342494          75 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44278366          72 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45140574          11 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   13038174          68 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44278366          72 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45140574          11 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   13038174          68 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44132958          71 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45140574          11 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   13038174          68 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   44132958          71 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45017694          10 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   13038174          68 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43927134          70 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   45017694          10 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   13038174          68 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   36719198         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43927134          70 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   44844638           4 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   13038174          68 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   34522718         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43927134          70 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   44844638           4 d=7,p=0.001,rounds=7 [0m
+[31m6 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        2 pymatching <1m   13038174          68 d=5,p=0.0002,rounds=5
+        2 pymatching  1m   34522718         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7
+        2 pymatching <1m   44844638           4 d=7,p=0.001,rounds=7 [0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   13031757          68 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34522718         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   12964173          68 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34500941         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   12930381          68 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34473293         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   12880205          68 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34452813         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   12814669          68 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34425165         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   12720461          67 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34386253         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   12590413          67 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34386253         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   12590413          67 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34329933         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   12407117          67 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34329933         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   12407117          67 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34253133         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   12150093          67 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34253133         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m    4930691          61 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34144589         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m    4568195          61 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   34144589         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m    4568195          61 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   33993037         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43638366          69 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m    4568195          61 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   33993037         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43239006          67 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m    4064387          61 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   33993037         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43239006          67 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m    3207755          61 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   33784141         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43239006          67 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m    2138503          59 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   33784141         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43239006          67 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m    1428871          58 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   33784141         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43239006          67 d=7,p=0.0007,rounds=7[0m
+[31m5 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m     223492          56 d=5,p=0.0002,rounds=5
+        3 pymatching <1m   33490253         100 d=7,p=0.0002,rounds=7
+        2 pymatching  1m   37724766          99 d=7,p=0.0003,rounds=7
+        2 pymatching  2m   39477854          82 d=7,p=0.0005,rounds=7
+        2 pymatching <1m   43239006          67 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33490253         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   37724766          99 d=7,p=0.0003,rounds=7
+        3 pymatching  1m   39477854          82 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   43239006          67 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33490253         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   37718349          99 d=7,p=0.0003,rounds=7
+        3 pymatching  1m   39472461          82 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   43234637          67 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33490253         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   37695821          99 d=7,p=0.0003,rounds=7
+        3 pymatching  1m   39451981          82 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   43215181          67 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33490253         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   37681485          99 d=7,p=0.0003,rounds=7
+        3 pymatching  1m   39440717          82 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   43203917          67 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33490253         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   37662029          99 d=7,p=0.0003,rounds=7
+        3 pymatching  1m   39425357          82 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   43189581          67 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33490253         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   37636429          99 d=7,p=0.0003,rounds=7
+        3 pymatching  1m   39402829          82 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   43170125          67 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33490253         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   37600589          99 d=7,p=0.0003,rounds=7
+        3 pymatching  1m   39371085          82 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   43140429          66 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33490253         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   37600589          99 d=7,p=0.0003,rounds=7
+        3 pymatching  1m   39327053          82 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   43140429          66 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33490253         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   37549389          99 d=7,p=0.0003,rounds=7
+        3 pymatching  1m   39327053          82 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   43101517          66 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33490253         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   35521869          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   37581133          77 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   43101517          66 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33490253         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   35452237          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   37518669          77 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   42488141          64 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33079629         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   35452237          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   37518669          77 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   42488141          64 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33079629         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   35452237          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   37433677          77 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   42488141          64 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33079629         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   35353933          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   37433677          77 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   42412365          64 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33079629         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   35353933          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   37314893          77 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   42412365          64 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33079629         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   35215693          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   37314893          77 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   42306893          64 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   33079629         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   32374093          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   37314893          77 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   42306893          64 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   29999437         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   32374093          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   37314893          77 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   42306893          64 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   29999437         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   32374093          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   34849101          75 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   40145229          52 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   29999437         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   32374093          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   34683213          75 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   40145229          52 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   29999437         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   32180557          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   34683213          75 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   39996749          52 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   29427021         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   32180557          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   34683213          75 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   39996749          52 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   29427021         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   32180557          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   34447693          75 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   39996749          52 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   29427021         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   31911245          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   34447693          75 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   39791949          51 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   29427021         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   31911245          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   34447693          75 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   39005517          46 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   29427021         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   31911245          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   34121037          75 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   39005517          46 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   29427021         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   31531341          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   34121037          75 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   38717773          43 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   28623181         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   31531341          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   34121037          75 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   38717773          43 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   25555277         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   31531341          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   34121037          75 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   38717773          43 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   25555277         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   31531341          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   33661261          74 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   38717773          43 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   25555277         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   31000909          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   33661261          74 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   38317389          41 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   25555277         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   31000909          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   33019213          74 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   38317389          41 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   25555277         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   30257485          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   33019213          74 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   37755213          37 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   24429901         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   30257485          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   33019213          74 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   37755213          37 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   24429901         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   30257485          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   33019213          74 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   36650317          32 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   24429901         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   27412813          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   33019213          74 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   36650317          32 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   24429901         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   27412813          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   30585165          71 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   36650317          32 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   24429901         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   27412813          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   29689165          71 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   36650317          32 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   24429901         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   26375501          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   29689165          71 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   35864909          29 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   22852941         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   26375501          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   29689165          71 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   35864909          29 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   22852941         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   22388045          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   29689165          71 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   35864909          29 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   18521421         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   22388045          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   29689165          71 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   35864909          29 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        3 pymatching <1m   18521421         100 d=7,p=0.0002,rounds=7
+        3 pymatching <1m   22388045          98 d=7,p=0.0003,rounds=7
+        3 pymatching <1m   26232141          67 d=7,p=0.0005,rounds=7
+        3 pymatching <1m   32830797           9 d=7,p=0.0007,rounds=7[0m
+[31m4 tasks left:
+  workers    decoder        eta shots_left errors_left json_metadata        
+        3 pymatching        <1m   18521421         100 d=7,p=0.0002,rounds=7
+        3 pymatching        <1m   22388045          98 d=7,p=0.0003,rounds=7
+        3 pymatching        <1m   26232141          67 d=7,p=0.0005,rounds=7
+        3 pymatching [draining]   31278413          -1 d=7,p=0.0007,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18518076         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   22388045          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   26231868          67 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18500668         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   22368316          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   26210364          67 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18474044         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   22344764          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   26199100          67 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18453564         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   22325308          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   26183740          67 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18425916         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   22299708          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   26161212          67 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18387004         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   22262844          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   26130492          67 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18387004         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   22262844          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   26086460          67 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18332732         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   22211644          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   26086460          67 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18332732         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   22211644          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   26026044          66 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18255932         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   22142012          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   26026044          66 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18255932         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   22142012          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   24770620          65 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18255932         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   20692028          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   24770620          65 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18148412         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   20594748          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   24686652          65 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   18148412         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   20594748          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   24566844          65 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   17997884         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   20458556          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   24566844          65 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   17997884         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   20458556          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   24399932          65 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   17788988         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   20266044          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   24399932          65 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   17788988         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   20266044          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   24167484          65 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   13183036         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   19997756          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   24167484          65 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   12864744         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   19997756          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   24167484          65 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   12864744         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   19997756          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   23840828          64 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m   10249448         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   19618876          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   23840828          64 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m    9678056         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   19618876          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   23840828          64 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m    9678056         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   19093564          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   23390268          64 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m    9678056         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   15105084          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   23390268          64 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m    5959086         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   15105084          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   19986492          62 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m    5959086         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   15105084          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   18232380          60 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m    5959086         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   13076540          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   18232380          60 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m    5959086         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   13076540          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   17594428          60 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m    5153198         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   12336188          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   17594428          60 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m    4645492         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   12336188          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   17594428          60 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m    3039860         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   12336188          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   17594428          60 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m    2279895         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   12336188          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   17594428          60 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m    1709921         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   12336188          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   17594428          60 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m     857480         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   12336188          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   17594428          60 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m     750609         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   12336188          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   17594428          60 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m     234692         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   12336188          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   17594428          60 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching <1m      66377         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   12336188          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   17594428          60 d=7,p=0.0005,rounds=7[0m
+[31m3 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        4 pymatching   ?          0         100 d=7,p=0.0002,rounds=7
+        4 pymatching <1m   12336188          98 d=7,p=0.0003,rounds=7
+        4 pymatching <1m   17594428          60 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    8811034          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   14558746          55 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    8757786          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   14510618          55 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    8730138          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   14488090          55 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    8692250          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   14455322          55 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    8640026          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   14410266          55 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    8568346          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   14348826          55 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    8518170          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   14348826          55 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    8466970          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   14260762          55 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    8395290          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   14260762          55 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    8323610          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   14134810          55 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    8323610          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   13245978          53 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    7289370          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   13245978          53 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    7093786          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   13075994          53 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    5624677          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   13075994          53 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    4236133          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   13075994          53 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    4098917          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   13075994          53 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    3959653          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   12837402          52 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    3766117          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   12837402          52 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    3572581          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   12499482          52 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m    2995806          97 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   12499482          52 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m     656377          96 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   12499482          52 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m     618376          96 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   12499482          52 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m     618376          96 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   12032538          52 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m     326899          96 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   12032538          52 d=7,p=0.0005,rounds=7[0m
+[31m2 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+        6 pymatching <1m        284          96 d=7,p=0.0003,rounds=7
+        6 pymatching <1m   12032538          52 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    7587354          47 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    7491508          47 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    7367604          47 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    7271348          47 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    7138228          47 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    7106484          47 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    6952884          46 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    6909876          46 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    6692788          46 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    6631348          46 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    5467527          43 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    4810119          43 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    4725127          42 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    4300167          42 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    4175291          42 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    2889199          41 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    2527727          40 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    2169327          40 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    1928560          40 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m    1767846          40 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m     159042          38 d=7,p=0.0005,rounds=7[0m
+[31m1 tasks left:
+  workers    decoder eta shots_left errors_left json_metadata        
+       12 pymatching <1m          3          38 d=7,p=0.0005,rounds=7[0m
+[31m0 tasks left:
+[0m
+wrote /home/ubuntu/quantum001/surface code/memory_results.csv (24 points)

@@ -1,0 +1,40 @@
+[      9 s] c and b done {'total': 350, 'hw_ok': 350, 'pass_ignore': 350, 'pass_strict': 0, 'pass_strict_final_check': 0, 'pass_strict_zreset_not_live': 0, 'readout_strict=1': 180, 'readout_strict=2': 170} {'total': 5, 'hw_ok': 5, 'pass_ignore': 5, 'pass_strict': 0, 'pass_strict_final_check': 0, 'pass_strict_zreset_not_live': 0, 'readout_strict=1': 5}
+[    204 s] a1 done {'total': 134848, 'hw_ok': 134848, 'pass_ignore': 134848, 'readout_strict=2': 51300, 'with_hook_flag': 2208, 'with_hook_flag_hw_ok': 2208, 'readout_strict=4': 19516, 'readout_strict=3': 11408, 'readout_strict=5': 5092, 'readout_strict=6': 1512, 'readout_strict=1': 46020}
+[    355 s] a2 0/2828 first-flag indices 2672
+[    893 s] a2 200/2828 first-flag indices 521572
+[   1385 s] a2 400/2828 first-flag indices 1005522
+[   1859 s] a2 600/2828 first-flag indices 1460322
+[   2276 s] a2 800/2828 first-flag indices 1864572
+[   2661 s] a2 1000/2828 first-flag indices 2228922
+[   3066 s] a2 1200/2828 first-flag indices 2562662
+[   3358 s] a2 1400/2828 first-flag indices 2846422
+[   3595 s] a2 1600/2828 first-flag indices 3078522
+[   3804 s] a2 1800/2828 first-flag indices 3279962
+[   3974 s] a2 2000/2828 first-flag indices 3443812
+[   4109 s] a2 2200/2828 first-flag indices 3572808
+[   4201 s] a2 2400/2828 first-flag indices 3658388
+[   4246 s] a2 2600/2828 first-flag indices 3701378
+[   4256 s] a2 2800/2828 first-flag indices 3713698
+[   4259 s] a2 done {'total': 3716448, 'hw_ok': 3650224, 'pass_ignore': 3650224, 'readout_strict=2': 745570, 'with_hook_flag': 122912, 'with_hook_flag_hw_ok': 122912, 'readout_strict=3': 594088, 'readout_strict=4': 688523, 'readout_strict=5': 123747, 'readout_strict=6': 111002, 'readout_strict=7': 37097, 'readout_strict=8': 2758, 'readout_strict=1': 1413663}
+[   4528 s] a3 sample done {'total': 20000, 'hw_ok': 19260, 'pass_ignore': 19260, 'pass_strict': 0, 'pass_strict_final_check': 0, 'pass_strict_zreset_not_live': 0, 'readout_strict=4': 4544, 'with_hook_flag': 10491, 'with_hook_flag_hw_ok': 10269, 'readout_strict=2': 4170, 'readout_strict=6': 1821, 'readout_strict=7': 953, 'readout_strict=5': 2305, 'readout_strict=3': 3223, 'readout_strict=1': 2410, 'readout_strict=8': 352, 'readout_strict=10': 48, 'readout_strict=11': 13, 'readout_strict=9': 161}
+[   4528 s] verify primary flags 0 ['q3->(5, 6) t2.5,3.5 Mfinal'] T malignant (k=2): 4
+[   4528 s] verify primary flags 1 ['q3->(5, 6) t2.5,3.5 Mnext'] T malignant (k=2): 4
+[   4528 s] verify primary flags 2 ['q3->(5, 6) t4.5,5 Mfinal'] T malignant (k=2): 4
+[   4528 s] verify primary flags 3 ['q3->(5, 6) t4.5,5 Mnext'] T malignant (k=2): 4
+[   4529 s] verify primary flags 4 ['q3->(5, 6) t4.5,5.5 Mfinal'] T malignant (k=2): 4
+[   4529 s] verify primary flags 5 ['q3->(5, 6) t4.5,5.5 Mnext'] T malignant (k=2): 4
+[   4529 s] verify primary flags 6 ['q3->(5, 6) t2.5,3.5 Mfinal', 'q11->(9, 4) t7,9.5 Mnext'] T malignant (k=2): 4
+[   4529 s] verify primary flags 7 ['q3->(5, 6) t2.5,3.5 Mfinal', 'q7->(7, 7) t6,8 Mnext'] T malignant (k=2): 4
+[   4529 s] verify primary flags 8 ['q3->(5, 6) t2.5,3.5 Mfinal', 'q11->(9, 4) t5.5,8 Mfinal'] T malignant (k=2): 4
+[   4529 s] verify primary flags 9 ['q3->(5, 6) t2.5,3.5 Mfinal', 'q11->(9, 4) t8,8.5 Mnext'] T malignant (k=2): 4
+[   4529 s] verify primary flags 10 ['q3->(5, 6) t2.5,3.5 Mfinal', 'q7->(7, 7) t3.5,6 Mfinal'] T malignant (k=2): 4
+[   4529 s] verify primary flags 11 ['q3->(5, 6) t2.5,3.5 Mfinal', 'q7->(5, 7) t2.5,7.5 Mnext'] T malignant (k=2): 4
+[   4529 s] verify primary flags 12 ['q11->(8, 3) t4.5,8 Mfinal'] T malignant (k=2): 4
+[   4529 s] verify primary flags 13 ['q7->(5, 7) t5,8.5 Mfinal'] T malignant (k=2): 4
+[   4529 s] verify primary flags 14 ['q0->(3, 4) t8,8.5 Mfinal'] T malignant (k=2): 4
+[   4529 s] verify primary flags 15 ['q6->(5, 6) t5,7 Mnext'] T malignant (k=2): 4
+[   4529 s] verify fold variant 1 [] T malignant (k=2): 5
+[   4529 s] verify fold variant 2 [] T malignant (k=2): 5
+[   4529 s] verify fold variant 3 [] T malignant (k=2): 5
+[   4529 s] verify fold variant 4 [] T malignant (k=2): 5
+[   4529 s] done

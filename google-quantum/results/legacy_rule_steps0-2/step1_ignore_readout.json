@@ -1,0 +1,184 @@
+{
+ "ignore_readout": true,
+ "d3a6_native": [],
+ "d3a6f2_native": [
+  "non_neighbour: tick=3, gate=CX, pair=(3, 4), at=((1.0, 1.0), (1.5, 0.5))",
+  "non_neighbour: tick=3, gate=CX, pair=(6, 9), at=((2.0, 1.0), (2.5, 0.5))",
+  "non_neighbour: tick=4, gate=CX, pair=(6, 4), at=((2.0, 1.0), (1.5, 0.5))",
+  "non_neighbour: tick=4, gate=CX, pair=(11, 9), at=((3.0, 1.0), (2.5, 0.5))",
+  "non_neighbour: tick=12, gate=CX, pair=(6, 4), at=((2.0, 1.0), (1.5, 0.5))",
+  "non_neighbour: tick=12, gate=CX, pair=(11, 9), at=((3.0, 1.0), (2.5, 0.5))",
+  "non_neighbour: tick=13, gate=CX, pair=(3, 4), at=((1.0, 1.0), (1.5, 0.5))",
+  "non_neighbour: tick=13, gate=CX, pair=(6, 9), at=((2.0, 1.0), (2.5, 0.5))",
+  "degree: qubit=6, partner_count=6, partners=[3, 4, 5, 7, 9, 11]",
+  "degree: qubit=11, partner_count=5, partners=[6, 9, 10, 12, 14]"
+ ],
+ "d3a6_all_embeddings": {
+  "count": 350,
+  "stats": {
+   "nn_degree_ok": 350,
+   "readout_ok": 350
+  },
+  "readout_by_symmetry": {
+   "id": {
+    "0": 46
+   },
+   "rot90": {
+    "0": 42
+   },
+   "rot180": {
+    "0": 46
+   },
+   "rot270": {
+    "0": 42
+   },
+   "flip_r": {
+    "0": 43
+   },
+   "flip_c": {
+    "0": 43
+   },
+   "transpose": {
+    "0": 44
+   },
+   "antitranspose": {
+    "0": 44
+   }
+  }
+ },
+ "d3a6_primary": {
+  "embedding": {
+   "0": [
+    4,
+    4
+   ],
+   "1": [
+    4,
+    5
+   ],
+   "2": [
+    5,
+    4
+   ],
+   "3": [
+    5,
+    5
+   ],
+   "4": [
+    6,
+    4
+   ],
+   "5": [
+    6,
+    5
+   ],
+   "6": [
+    6,
+    6
+   ],
+   "7": [
+    6,
+    7
+   ],
+   "8": [
+    7,
+    4
+   ],
+   "9": [
+    7,
+    5
+   ],
+   "10": [
+    7,
+    6
+   ],
+   "11": [
+    8,
+    4
+   ],
+   "12": [
+    8,
+    5
+   ]
+  },
+  "violations": [],
+  "readout_ops_mode": [
+   "readout: tick=6, measured=5, measured_at=(6, 5), data=8, data_at=(7, 4), line=11"
+  ]
+ },
+ "d3a6f2_willow": {
+  "embedding": {
+   "0": [
+    4,
+    4
+   ],
+   "1": [
+    4,
+    5
+   ],
+   "2": [
+    5,
+    4
+   ],
+   "3": [
+    5,
+    5
+   ],
+   "5": [
+    6,
+    4
+   ],
+   "6": [
+    6,
+    5
+   ],
+   "7": [
+    6,
+    6
+   ],
+   "8": [
+    6,
+    7
+   ],
+   "10": [
+    7,
+    4
+   ],
+   "11": [
+    7,
+    5
+   ],
+   "12": [
+    7,
+    6
+   ],
+   "13": [
+    8,
+    4
+   ],
+   "14": [
+    8,
+    5
+   ],
+   "4": [
+    5,
+    6
+   ],
+   "9": [
+    6,
+    3
+   ]
+  },
+  "violations": [
+   "non_neighbour: tick=3, gate=CX, pair=(6, 9), at=((6, 5), (6, 3))",
+   "non_neighbour: tick=4, gate=CX, pair=(6, 4), at=((6, 5), (5, 6))",
+   "non_neighbour: tick=4, gate=CX, pair=(11, 9), at=((7, 5), (6, 3))",
+   "non_neighbour: tick=12, gate=CX, pair=(6, 4), at=((6, 5), (5, 6))",
+   "non_neighbour: tick=12, gate=CX, pair=(11, 9), at=((7, 5), (6, 3))",
+   "non_neighbour: tick=13, gate=CX, pair=(6, 9), at=((6, 5), (6, 3))",
+   "degree: qubit=6, partner_count=6, partners=[3, 4, 5, 7, 9, 11]",
+   "degree: qubit=11, partner_count=5, partners=[6, 9, 10, 12, 14]"
+  ]
+ },
+ "runtime_s": 31.872000328963622
+}

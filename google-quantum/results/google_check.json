@@ -1,0 +1,987 @@
+{
+ "chan2609_sec5": {
+  "url_chars": 1107,
+  "qubits": 11,
+  "ticks": 28,
+  "identical_to_bundled_d3a4_full": true,
+  "bundled_d3a4_inner_matches_crumble_gates": true,
+  "data_qubits": [
+   0,
+   1,
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "native_rotated45": {
+   "embedding": {
+    "0": [
+     1,
+     1
+    ],
+    "1": [
+     2,
+     2
+    ],
+    "2": [
+     1,
+     0
+    ],
+    "3": [
+     2,
+     1
+    ],
+    "4": [
+     1,
+     -1
+    ],
+    "5": [
+     2,
+     0
+    ],
+    "6": [
+     3,
+     1
+    ],
+    "7": [
+     2,
+     -1
+    ],
+    "8": [
+     3,
+     0
+    ],
+    "9": [
+     3,
+     -1
+    ],
+    "10": [
+     4,
+     0
+    ]
+   },
+   "summary": {
+    "readout": 1
+   },
+   "violations": [
+    "readout: tick=14, measured=8, measured_at=(3, 0), victim=3, victim_at=(2, 1), victim_role=ancilla/flag, line=3"
+   ],
+   "max_degree": 4
+  },
+  "rigid_willow_placements": {
+   "count": 404,
+   "strict_readout_histogram": {
+    "exempt": {
+     "1": 404
+    },
+    "check": {
+     "1": 404
+    }
+   }
+  },
+  "all_nn_embeddings": {
+   "embedding_count": 38640,
+   "is_tree": true,
+   "histogram": {
+    "exempt": {
+     "1": 38640
+    },
+    "check": {
+     "1": 38640
+    }
+   },
+   "min_violations": {
+    "exempt": 1,
+    "check": 1
+   },
+   "embeddings_hit_per_violation_exempt": {
+    "tick 6: M 8 vs 2": 14688,
+    "tick 6: M 8 vs 7": 14544,
+    "tick 6: M 8 vs 3": 9408
+   },
+   "readout_events": {
+    "exempt": [
+     [
+      6,
+      8,
+      [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       9,
+       10
+      ]
+     ]
+    ],
+    "check": [
+     [
+      6,
+      8,
+      [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       9,
+       10
+      ]
+     ],
+     [
+      11,
+      2,
+      [
+       0,
+       1,
+       4,
+       5,
+       6,
+       9,
+       10
+      ]
+     ],
+     [
+      11,
+      3,
+      [
+       0,
+       1,
+       4,
+       5,
+       6,
+       9,
+       10
+      ]
+     ],
+     [
+      11,
+      7,
+      [
+       0,
+       1,
+       4,
+       5,
+       6,
+       9,
+       10
+      ]
+     ],
+     [
+      11,
+      8,
+      [
+       0,
+       1,
+       4,
+       5,
+       6,
+       9,
+       10
+      ]
+     ]
+    ]
+   }
+  },
+  "min_embedding_full_circuit_strict": [
+   1,
+   [
+    "readout: tick=14, measured=8, measured_at=(1, 6), victim=2, victim_at=(0, 7), victim_role=ancilla/flag, line=7"
+   ]
+  ],
+  "min_embedding_inner_circuit_strict": [
+   1,
+   [
+    "readout: tick=6, measured=8, measured_at=(1, 6), victim=2, victim_at=(0, 7), victim_role=ancilla/flag, line=7"
+   ]
+  ],
+  "verify": {
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 7,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 129,
+     "malignant": 12
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 7,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 115,
+     "malignant": 0
+    }
+   },
+   "fault_count": 195,
+   "error_rate_per_kept_shot": {
+    "T": 2.7902622054089187e-07,
+    "S": 0.0
+   },
+   "malignant_T": [
+    [
+     2,
+     [
+      71,
+      137
+     ]
+    ],
+    [
+     2,
+     [
+      87,
+      141
+     ]
+    ],
+    [
+     2,
+     [
+      10,
+      152
+     ]
+    ],
+    [
+     2,
+     [
+      36,
+      152
+     ]
+    ],
+    [
+     2,
+     [
+      10,
+      161
+     ]
+    ],
+    [
+     2,
+     [
+      36,
+      161
+     ]
+    ],
+    [
+     2,
+     [
+      80,
+      172
+     ]
+    ],
+    [
+     2,
+     [
+      80,
+      173
+     ]
+    ],
+    [
+     2,
+     [
+      87,
+      172
+     ]
+    ],
+    [
+     2,
+     [
+      87,
+      173
+     ]
+    ],
+    [
+     2,
+     [
+      134,
+      172
+     ]
+    ],
+    [
+     2,
+     [
+      134,
+      173
+     ]
+    ]
+   ],
+   "summary_text": "                             configuration_count               weight                                \n                                          benign malignant     benign malignant malignant_probability\ncultivated_state fault_count                                                                         \nT                0                             1         0   1.000000  0.000000              0.000000\n                 1                             7         0   0.666667  0.000000              0.000000\n                 2                           129        12  20.746667  0.278889              0.013264\nS                0                             1         0   1.000000  0.000000              0.000000\n                 1                             7         0   0.666667  0.000000              0.000000\n                 2                           115         0  29.031111  0.000000              0.000000",
+   "settings": {
+    "max_fault_count": 2,
+    "noise_level": 0.001,
+    "noise_model": "enum.noise.uniformly_depolarize",
+    "states": [
+     "T",
+     "S"
+    ]
+   }
+  }
+ },
+ "G4": {
+  "label": "Fig. 2 cultivation (as run)",
+  "qubits": 12,
+  "ticks": 56,
+  "all_on_willow": true,
+  "embedding": {
+   "0": [
+    7,
+    8
+   ],
+   "1": [
+    7,
+    9
+   ],
+   "2": [
+    7,
+    10
+   ],
+   "3": [
+    8,
+    7
+   ],
+   "4": [
+    8,
+    8
+   ],
+   "5": [
+    8,
+    9
+   ],
+   "6": [
+    8,
+    10
+   ],
+   "7": [
+    8,
+    11
+   ],
+   "8": [
+    9,
+    8
+   ],
+   "9": [
+    9,
+    9
+   ],
+   "10": [
+    9,
+    10
+   ],
+   "11": [
+    10,
+    9
+   ]
+  },
+  "measurement_ticks": {
+   "25": [
+    1,
+    4,
+    6,
+    9
+   ],
+   "40": [
+    6,
+    9
+   ],
+   "56": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "neighbour_degree": {},
+  "max_degree": 4,
+  "strict_exempt_zreset_live": [
+   0,
+   []
+  ],
+  "strict_exempt_zreset_not_live": [
+   0,
+   []
+  ],
+  "strict_check_zreset_live": [
+   0,
+   []
+  ],
+  "strict_check_zreset_not_live": [
+   0,
+   []
+  ],
+  "alt_lines_strict_exempt_live": {
+   "r+c": 0,
+   "r-c": 2,
+   "row": 16,
+   "col": 13
+  }
+ },
+ "G5": {
+  "label": "Fig. 3 kickback tomography",
+  "qubits": 14,
+  "ticks": 215,
+  "all_on_willow": true,
+  "embedding": {
+   "0": [
+    3,
+    3
+   ],
+   "1": [
+    3,
+    4
+   ],
+   "2": [
+    3,
+    5
+   ],
+   "3": [
+    3,
+    6
+   ],
+   "4": [
+    3,
+    7
+   ],
+   "5": [
+    4,
+    3
+   ],
+   "6": [
+    4,
+    4
+   ],
+   "7": [
+    4,
+    5
+   ],
+   "8": [
+    4,
+    6
+   ],
+   "9": [
+    4,
+    7
+   ],
+   "10": [
+    5,
+    4
+   ],
+   "11": [
+    5,
+    5
+   ],
+   "12": [
+    5,
+    6
+   ],
+   "13": [
+    6,
+    5
+   ]
+  },
+  "measurement_ticks": {
+   "25": [
+    2,
+    6,
+    8,
+    11
+   ],
+   "50": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    11
+   ],
+   "65": [
+    8,
+    11
+   ],
+   "80": [
+    2,
+    6,
+    8,
+    11
+   ],
+   "105": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    11
+   ],
+   "120": [
+    8,
+    11
+   ],
+   "135": [
+    2,
+    6,
+    8,
+    11
+   ],
+   "160": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    11
+   ],
+   "175": [
+    8,
+    11
+   ],
+   "190": [
+    2,
+    6,
+    8,
+    11
+   ],
+   "215": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  },
+  "neighbour_degree": {},
+  "max_degree": 4,
+  "strict_exempt_zreset_live": [
+   12,
+   [
+    "readout: tick=65, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=65, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=80, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=80, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=120, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=120, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=135, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=135, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=175, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=175, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=190, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=190, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10"
+   ]
+  ],
+  "strict_exempt_zreset_not_live": [
+   0,
+   []
+  ],
+  "strict_check_zreset_live": [
+   12,
+   [
+    "readout: tick=65, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=65, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=80, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=80, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=120, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=120, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=135, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=135, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=175, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=175, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=190, measured=8, measured_at=(4, 6), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10",
+    "readout: tick=190, measured=11, measured_at=(5, 5), victim=4, victim_at=(3, 7), victim_role=ancilla/flag, line=10"
+   ]
+  ],
+  "strict_check_zreset_not_live": [
+   0,
+   []
+  ],
+  "alt_lines_strict_exempt_live": {
+   "r+c": 12,
+   "r-c": 15,
+   "row": 106,
+   "col": 77
+  }
+ },
+ "G6": {
+  "label": "Fig. 4 grafting N=2 with cultivation",
+  "qubits": 54,
+  "ticks": 124,
+  "all_on_willow": true,
+  "embedding": {
+   "0": [
+    3,
+    7
+   ],
+   "1": [
+    3,
+    8
+   ],
+   "2": [
+    4,
+    5
+   ],
+   "3": [
+    4,
+    6
+   ],
+   "4": [
+    4,
+    7
+   ],
+   "5": [
+    4,
+    8
+   ],
+   "6": [
+    5,
+    2
+   ],
+   "7": [
+    5,
+    3
+   ],
+   "8": [
+    5,
+    4
+   ],
+   "9": [
+    5,
+    5
+   ],
+   "10": [
+    5,
+    6
+   ],
+   "11": [
+    5,
+    7
+   ],
+   "12": [
+    5,
+    8
+   ],
+   "13": [
+    5,
+    9
+   ],
+   "14": [
+    5,
+    10
+   ],
+   "15": [
+    6,
+    2
+   ],
+   "16": [
+    6,
+    3
+   ],
+   "17": [
+    6,
+    4
+   ],
+   "18": [
+    6,
+    5
+   ],
+   "19": [
+    6,
+    6
+   ],
+   "20": [
+    6,
+    7
+   ],
+   "21": [
+    6,
+    8
+   ],
+   "22": [
+    6,
+    9
+   ],
+   "23": [
+    6,
+    10
+   ],
+   "24": [
+    7,
+    2
+   ],
+   "25": [
+    7,
+    3
+   ],
+   "26": [
+    7,
+    4
+   ],
+   "27": [
+    7,
+    5
+   ],
+   "28": [
+    7,
+    6
+   ],
+   "29": [
+    7,
+    7
+   ],
+   "30": [
+    7,
+    8
+   ],
+   "31": [
+    7,
+    9
+   ],
+   "32": [
+    7,
+    10
+   ],
+   "33": [
+    7,
+    11
+   ],
+   "34": [
+    8,
+    4
+   ],
+   "35": [
+    8,
+    5
+   ],
+   "36": [
+    8,
+    6
+   ],
+   "37": [
+    8,
+    7
+   ],
+   "38": [
+    8,
+    8
+   ],
+   "39": [
+    8,
+    9
+   ],
+   "40": [
+    8,
+    10
+   ],
+   "41": [
+    8,
+    11
+   ],
+   "42": [
+    9,
+    4
+   ],
+   "43": [
+    9,
+    5
+   ],
+   "44": [
+    9,
+    6
+   ],
+   "45": [
+    9,
+    7
+   ],
+   "46": [
+    9,
+    8
+   ],
+   "47": [
+    9,
+    9
+   ],
+   "48": [
+    10,
+    6
+   ],
+   "49": [
+    10,
+    7
+   ],
+   "50": [
+    10,
+    8
+   ],
+   "51": [
+    10,
+    9
+   ],
+   "52": [
+    11,
+    6
+   ],
+   "53": [
+    11,
+    7
+   ]
+  },
+  "measurement_ticks": {
+   "25": [
+    3,
+    9,
+    11,
+    19
+   ],
+   "40": [
+    11,
+    19
+   ],
+   "55": [
+    3,
+    9,
+    11,
+    19
+   ],
+   "90": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    35,
+    37,
+    39,
+    41,
+    42,
+    44,
+    46,
+    49,
+    51,
+    52
+   ],
+   "124": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53
+   ]
+  },
+  "neighbour_degree": {},
+  "max_degree": 4,
+  "strict_exempt_zreset_live": [
+   0,
+   []
+  ],
+  "strict_exempt_zreset_not_live": [
+   0,
+   []
+  ],
+  "strict_check_zreset_live": [
+   0,
+   []
+  ],
+  "strict_check_zreset_not_live": [
+   0,
+   []
+  ],
+  "alt_lines_strict_exempt_live": {
+   "r+c": 0,
+   "r-c": 2,
+   "row": 126,
+   "col": 106
+  }
+ }
+}

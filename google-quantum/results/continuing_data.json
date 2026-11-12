@@ -1,0 +1,907 @@
+{
+ "success00": {
+  "continuing_data_conflicts": [
+   {
+    "measured": 1,
+    "measured_at": [
+     5,
+     7
+    ],
+    "data": 6,
+    "data_at": [
+     6,
+     6
+    ],
+    "line": 12
+   },
+   {
+    "measured": 1,
+    "measured_at": [
+     5,
+     7
+    ],
+    "data": 10,
+    "data_at": [
+     7,
+     5
+    ],
+    "line": 12
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     6,
+     5
+    ],
+    "data": 2,
+    "data_at": [
+     4,
+     7
+    ],
+    "line": 11
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     6,
+     5
+    ],
+    "data": 3,
+    "data_at": [
+     5,
+     6
+    ],
+    "line": 11
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     6,
+     5
+    ],
+    "data": 9,
+    "data_at": [
+     7,
+     4
+    ],
+    "line": 11
+   },
+   {
+    "measured": 8,
+    "measured_at": [
+     6,
+     4
+    ],
+    "data": 4,
+    "data_at": [
+     5,
+     5
+    ],
+    "line": 10
+   },
+   {
+    "measured": 12,
+    "measured_at": [
+     4,
+     6
+    ],
+    "data": 4,
+    "data_at": [
+     5,
+     5
+    ],
+    "line": 10
+   }
+  ],
+  "n": 7,
+  "strict_default_violations": 0,
+  "final_layer_measured": [
+   0,
+   1,
+   7,
+   8,
+   11,
+   12
+  ]
+ },
+ "success01": {
+  "continuing_data_conflicts": [
+   {
+    "measured": 1,
+    "measured_at": [
+     5,
+     7
+    ],
+    "data": 6,
+    "data_at": [
+     6,
+     6
+    ],
+    "line": 12
+   },
+   {
+    "measured": 1,
+    "measured_at": [
+     5,
+     7
+    ],
+    "data": 10,
+    "data_at": [
+     7,
+     5
+    ],
+    "line": 12
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     6,
+     5
+    ],
+    "data": 2,
+    "data_at": [
+     4,
+     7
+    ],
+    "line": 11
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     6,
+     5
+    ],
+    "data": 3,
+    "data_at": [
+     5,
+     6
+    ],
+    "line": 11
+   },
+   {
+    "measured": 8,
+    "measured_at": [
+     5,
+     5
+    ],
+    "data": 4,
+    "data_at": [
+     4,
+     6
+    ],
+    "line": 10
+   },
+   {
+    "measured": 11,
+    "measured_at": [
+     4,
+     5
+    ],
+    "data": 9,
+    "data_at": [
+     5,
+     4
+    ],
+    "line": 9
+   },
+   {
+    "measured": 12,
+    "measured_at": [
+     3,
+     6
+    ],
+    "data": 9,
+    "data_at": [
+     5,
+     4
+    ],
+    "line": 9
+   }
+  ],
+  "n": 7,
+  "strict_default_violations": 0,
+  "final_layer_measured": [
+   0,
+   1,
+   7,
+   8,
+   11,
+   12
+  ]
+ },
+ "success02": {
+  "continuing_data_conflicts": [
+   {
+    "measured": 1,
+    "measured_at": [
+     5,
+     7
+    ],
+    "data": 6,
+    "data_at": [
+     6,
+     6
+    ],
+    "line": 12
+   },
+   {
+    "measured": 1,
+    "measured_at": [
+     5,
+     7
+    ],
+    "data": 10,
+    "data_at": [
+     7,
+     5
+    ],
+    "line": 12
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     6,
+     5
+    ],
+    "data": 2,
+    "data_at": [
+     4,
+     7
+    ],
+    "line": 11
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     6,
+     5
+    ],
+    "data": 3,
+    "data_at": [
+     5,
+     6
+    ],
+    "line": 11
+   },
+   {
+    "measured": 8,
+    "measured_at": [
+     5,
+     5
+    ],
+    "data": 4,
+    "data_at": [
+     4,
+     6
+    ],
+    "line": 10
+   },
+   {
+    "measured": 11,
+    "measured_at": [
+     4,
+     5
+    ],
+    "data": 9,
+    "data_at": [
+     5,
+     4
+    ],
+    "line": 9
+   },
+   {
+    "measured": 12,
+    "measured_at": [
+     3,
+     6
+    ],
+    "data": 9,
+    "data_at": [
+     5,
+     4
+    ],
+    "line": 9
+   }
+  ],
+  "n": 7,
+  "strict_default_violations": 0,
+  "final_layer_measured": [
+   0,
+   1,
+   7,
+   8,
+   11,
+   12
+  ]
+ },
+ "success03": {
+  "continuing_data_conflicts": [
+   {
+    "measured": 1,
+    "measured_at": [
+     5,
+     7
+    ],
+    "data": 8,
+    "data_at": [
+     6,
+     6
+    ],
+    "line": 12
+   },
+   {
+    "measured": 2,
+    "measured_at": [
+     4,
+     7
+    ],
+    "data": 6,
+    "data_at": [
+     5,
+     6
+    ],
+    "line": 11
+   },
+   {
+    "measured": 2,
+    "measured_at": [
+     4,
+     7
+    ],
+    "data": 9,
+    "data_at": [
+     6,
+     5
+    ],
+    "line": 11
+   },
+   {
+    "measured": 3,
+    "measured_at": [
+     4,
+     6
+    ],
+    "data": 5,
+    "data_at": [
+     3,
+     7
+    ],
+    "line": 10
+   },
+   {
+    "measured": 3,
+    "measured_at": [
+     4,
+     6
+    ],
+    "data": 10,
+    "data_at": [
+     5,
+     5
+    ],
+    "line": 10
+   },
+   {
+    "measured": 11,
+    "measured_at": [
+     4,
+     5
+    ],
+    "data": 4,
+    "data_at": [
+     3,
+     6
+    ],
+    "line": 9
+   },
+   {
+    "measured": 12,
+    "measured_at": [
+     7,
+     5
+    ],
+    "data": 8,
+    "data_at": [
+     6,
+     6
+    ],
+    "line": 12
+   }
+  ],
+  "n": 7,
+  "strict_default_violations": 0,
+  "final_layer_measured": [
+   0,
+   1,
+   2,
+   3,
+   11,
+   12
+  ]
+ },
+ "success04": {
+  "continuing_data_conflicts": [
+   {
+    "measured": 1,
+    "measured_at": [
+     5,
+     7
+    ],
+    "data": 8,
+    "data_at": [
+     6,
+     6
+    ],
+    "line": 12
+   },
+   {
+    "measured": 2,
+    "measured_at": [
+     4,
+     7
+    ],
+    "data": 6,
+    "data_at": [
+     5,
+     6
+    ],
+    "line": 11
+   },
+   {
+    "measured": 2,
+    "measured_at": [
+     4,
+     7
+    ],
+    "data": 9,
+    "data_at": [
+     6,
+     5
+    ],
+    "line": 11
+   },
+   {
+    "measured": 3,
+    "measured_at": [
+     4,
+     6
+    ],
+    "data": 5,
+    "data_at": [
+     3,
+     7
+    ],
+    "line": 10
+   },
+   {
+    "measured": 3,
+    "measured_at": [
+     4,
+     6
+    ],
+    "data": 10,
+    "data_at": [
+     5,
+     5
+    ],
+    "line": 10
+   },
+   {
+    "measured": 11,
+    "measured_at": [
+     7,
+     5
+    ],
+    "data": 8,
+    "data_at": [
+     6,
+     6
+    ],
+    "line": 12
+   },
+   {
+    "measured": 12,
+    "measured_at": [
+     4,
+     5
+    ],
+    "data": 4,
+    "data_at": [
+     3,
+     6
+    ],
+    "line": 9
+   }
+  ],
+  "n": 7,
+  "strict_default_violations": 0,
+  "final_layer_measured": [
+   0,
+   1,
+   2,
+   3,
+   11,
+   12
+  ]
+ },
+ "success05": {
+  "continuing_data_conflicts": [
+   {
+    "measured": 3,
+    "measured_at": [
+     8,
+     7
+    ],
+    "data": 10,
+    "data_at": [
+     7,
+     8
+    ],
+    "line": 15
+   },
+   {
+    "measured": 8,
+    "measured_at": [
+     6,
+     9
+    ],
+    "data": 10,
+    "data_at": [
+     7,
+     8
+    ],
+    "line": 15
+   }
+  ],
+  "n": 2,
+  "strict_default_violations": 0,
+  "final_layer_measured": [
+   0,
+   3,
+   4,
+   8,
+   11,
+   12
+  ]
+ },
+ "success06": {
+  "continuing_data_conflicts": [
+   {
+    "measured": 3,
+    "measured_at": [
+     7,
+     7
+    ],
+    "data": 7,
+    "data_at": [
+     6,
+     8
+    ],
+    "line": 14
+   },
+   {
+    "measured": 3,
+    "measured_at": [
+     7,
+     7
+    ],
+    "data": 9,
+    "data_at": [
+     5,
+     9
+    ],
+    "line": 14
+   },
+   {
+    "measured": 8,
+    "measured_at": [
+     6,
+     9
+    ],
+    "data": 4,
+    "data_at": [
+     8,
+     7
+    ],
+    "line": 15
+   },
+   {
+    "measured": 8,
+    "measured_at": [
+     6,
+     9
+    ],
+    "data": 5,
+    "data_at": [
+     7,
+     8
+    ],
+    "line": 15
+   }
+  ],
+  "n": 4,
+  "strict_default_violations": 0,
+  "final_layer_measured": [
+   0,
+   1,
+   3,
+   8,
+   11,
+   12
+  ]
+ },
+ "success07": {
+  "continuing_data_conflicts": [
+   {
+    "measured": 3,
+    "measured_at": [
+     7,
+     7
+    ],
+    "data": 7,
+    "data_at": [
+     6,
+     8
+    ],
+    "line": 14
+   },
+   {
+    "measured": 3,
+    "measured_at": [
+     7,
+     7
+    ],
+    "data": 9,
+    "data_at": [
+     5,
+     9
+    ],
+    "line": 14
+   },
+   {
+    "measured": 8,
+    "measured_at": [
+     6,
+     9
+    ],
+    "data": 4,
+    "data_at": [
+     8,
+     7
+    ],
+    "line": 15
+   },
+   {
+    "measured": 8,
+    "measured_at": [
+     6,
+     9
+    ],
+    "data": 5,
+    "data_at": [
+     7,
+     8
+    ],
+    "line": 15
+   }
+  ],
+  "n": 4,
+  "strict_default_violations": 0,
+  "final_layer_measured": [
+   0,
+   1,
+   3,
+   8,
+   11,
+   12
+  ]
+ },
+ "success08": {
+  "continuing_data_conflicts": [
+   {
+    "measured": 1,
+    "measured_at": [
+     5,
+     7
+    ],
+    "data": 6,
+    "data_at": [
+     6,
+     6
+    ],
+    "line": 12
+   },
+   {
+    "measured": 1,
+    "measured_at": [
+     5,
+     7
+    ],
+    "data": 8,
+    "data_at": [
+     7,
+     5
+    ],
+    "line": 12
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     6,
+     5
+    ],
+    "data": 2,
+    "data_at": [
+     4,
+     7
+    ],
+    "line": 11
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     6,
+     5
+    ],
+    "data": 3,
+    "data_at": [
+     5,
+     6
+    ],
+    "line": 11
+   }
+  ],
+  "n": 4,
+  "strict_default_violations": 0,
+  "final_layer_measured": [
+   0,
+   1,
+   7,
+   10,
+   11
+  ]
+ },
+ "success09": {
+  "continuing_data_conflicts": [
+   {
+    "measured": 1,
+    "measured_at": [
+     5,
+     7
+    ],
+    "data": 6,
+    "data_at": [
+     6,
+     6
+    ],
+    "line": 12
+   },
+   {
+    "measured": 1,
+    "measured_at": [
+     5,
+     7
+    ],
+    "data": 8,
+    "data_at": [
+     7,
+     5
+    ],
+    "line": 12
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     6,
+     5
+    ],
+    "data": 2,
+    "data_at": [
+     4,
+     7
+    ],
+    "line": 11
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     6,
+     5
+    ],
+    "data": 3,
+    "data_at": [
+     5,
+     6
+    ],
+    "line": 11
+   }
+  ],
+  "n": 4,
+  "strict_default_violations": 0,
+  "final_layer_measured": [
+   0,
+   1,
+   7,
+   10,
+   11
+  ]
+ },
+ "G4-CX": {
+  "continuing_data_conflicts": [
+   {
+    "measured": 7,
+    "measured_at": [
+     8,
+     11
+    ],
+    "data": 10,
+    "data_at": [
+     9,
+     10
+    ],
+    "line": 19
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     8,
+     11
+    ],
+    "data": 11,
+    "data_at": [
+     10,
+     9
+    ],
+    "line": 19
+   }
+  ],
+  "n": 2,
+  "strict_default_violations": 0,
+  "final_layer_measured": [
+   1,
+   4,
+   6,
+   7,
+   9
+  ]
+ },
+ "G4-native_CZH": {
+  "continuing_data_conflicts": [
+   {
+    "measured": 7,
+    "measured_at": [
+     8,
+     11
+    ],
+    "data": 10,
+    "data_at": [
+     9,
+     10
+    ],
+    "line": 19
+   },
+   {
+    "measured": 7,
+    "measured_at": [
+     8,
+     11
+    ],
+    "data": 11,
+    "data_at": [
+     10,
+     9
+    ],
+    "line": 19
+   }
+  ],
+  "n": 2,
+  "strict_default_violations": 0,
+  "final_layer_measured": [
+   1,
+   4,
+   6,
+   7,
+   9
+  ]
+ }
+}

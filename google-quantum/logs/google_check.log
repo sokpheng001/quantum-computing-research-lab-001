@@ -1,0 +1,18 @@
+{'identical_to_bundled_d3a4_full': True, 'bundled_d3a4_inner_matches_crumble_gates': True, 'data_qubits': (0, 1, 4, 5, 6, 9, 10)}
+native rotated: {'readout': 1} max deg 4
+rigid: {'count': 404, 'strict_readout_histogram': {'exempt': {1: 404}, 'check': {1: 404}}}
+all NN: {'embedding_count': 38640, 'histogram': {'exempt': {1: 38640}, 'check': {1: 38640}}, 'min_violations': {'exempt': 1, 'check': 1}}
+min emb full/inner: 1 1
+verify T: {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 7, 'malignant': 0}, 2: {'benign': 129, 'malignant': 12}} S: {0: {'benign': 1, 'malignant': 0}, 1: {'benign': 7, 'malignant': 0}, 2: {'benign': 115, 'malignant': 0}}
+                             configuration_count               weight                                
+                                          benign malignant     benign malignant malignant_probability
+cultivated_state fault_count                                                                         
+T                0                             1         0   1.000000  0.000000              0.000000
+                 1                             7         0   0.666667  0.000000              0.000000
+                 2                           129        12  20.746667  0.278889              0.013264
+S                0                             1         0   1.000000  0.000000              0.000000
+                 1                             7         0   0.666667  0.000000              0.000000
+                 2                           115         0  29.031111  0.000000              0.000000
+G4 Fig. 2 cultivation (as run) 12 True {} maxdeg 4 {'strict_exempt_zreset_live': 0, 'strict_exempt_zreset_not_live': 0, 'strict_check_zreset_live': 0, 'strict_check_zreset_not_live': 0} {'r+c': 0, 'r-c': 2, 'row': 16, 'col': 13}
+G5 Fig. 3 kickback tomography 14 True {} maxdeg 4 {'strict_exempt_zreset_live': 12, 'strict_exempt_zreset_not_live': 0, 'strict_check_zreset_live': 12, 'strict_check_zreset_not_live': 0} {'r+c': 12, 'r-c': 15, 'row': 106, 'col': 77}
+G6 Fig. 4 grafting N=2 with cultivation 54 True {} maxdeg 4 {'strict_exempt_zreset_live': 0, 'strict_exempt_zreset_not_live': 0, 'strict_check_zreset_live': 0, 'strict_check_zreset_not_live': 0} {'r+c': 0, 'r-c': 2, 'row': 126, 'col': 106}

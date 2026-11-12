@@ -1,0 +1,25 @@
+file : /home/ubuntu/quantum001/google-quantum/nnflags/data/google_circuits/rosenfeld2512_G6.stim
+qubits : 54
+ticks : 124
+cultivation_data : [2, 4, 8, 10, 18, 20, 28]
+data_positions : {2: (4, 5), 4: (4, 7), 8: (5, 4), 10: (5, 6), 18: (6, 5), 20: (6, 7), 28: (7, 6)}
+data_lines : [9, 11, 13]
+grafting_starts_at_tick : 57
+double_check_ancillas : [3, 9, 11, 12, 19]
+ancilla_positions : {3: (4, 6), 9: (5, 5), 11: (5, 7), 12: (5, 8), 19: (6, 6)}
+ancilla_lines : {3: 10, 9: 10, 11: 12, 12: 13, 19: 12}
+cultivation_measurements : {25: [(3, (4, 6), 10), (9, (5, 5), 10), (11, (5, 7), 12), (19, (6, 6), 12)], 40: [(11, (5, 7), 12), (19, (6, 6), 12)], 55: [(3, (4, 6), 10), (9, (5, 5), 10), (11, (5, 7), 12), (19, (6, 6), 12)]}
+double_check_measured : [3, 9, 11, 19]
+double_check_never_measured : [12]
+resets_at_end_of_cultivation : [[11, 9, 12, 3, 19]]
+strict_whole_G6_data_cultivation_final_auto : {'n': 0, 'summary': {}}
+strict_whole_G6_data_cultivation_final_check : {'n': 0, 'summary': {}}
+strict_whole_G6_data_none_final_auto : {'n': 0, 'summary': {}}
+strict_whole_G6_data_none_final_check : {'n': 0, 'summary': {}}
+continuing_data_cultivation_stage : {'n': 0, 'violations': []}
+strict_plus_continuing_cultivation_stage : {'n': 0, 'summary': {}}
+what_if_q12_measured : [{'data': 20, 'at': (6, 7)}, {'data': 28, 'at': (7, 6)}]
+surface_code : {'first_round_measure_tick': 90, 'measure_qubits': [1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 35, 37, 39, 41, 42, 44, 46, 49, 51, 52], 'data_qubits': [0, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 34, 36, 38, 40, 43, 45, 47, 48, 50, 53], 'measure_line_parities': [1], 'data_line_parities': [0], 'measure_lines': [7, 9, 11, 13, 15, 17, 19], 'data_lines': [8, 10, 12, 14, 16, 18], 'lines_disjoint': True, 'cultivation_data_become': {'measure': [2, 4, 8, 10, 18, 20, 28], 'data': []}, 'cultivation_ancillas_become': {'measure': [12], 'data': [3, 9, 11, 19]}}
+g4_data_lines : [15, 17, 19]
+g4_ancilla_lines : {1: 16, 4: 16, 6: 18, 7: 19, 9: 18}
+cliffordea : {'G4-CX': {'continuing': 2, 'strict': 0, 'equivalence_ok': True, 'malignant_T': [0, 0, 7, 671], 'malignant_S_le2': 0, 'ler_T_mfc2': 4.128938416371733e-07, 'ler_T_mfc3': 4.868173977400084e-07, 'one_in_mfc3': 2054158}, 'G4-CX, q7 unmeasured (G6 style)': {'continuing': 0, 'strict': 0, 'equivalence_ok': True, 'malignant_T': [0, 0, 7, 667], 'malignant_S_le2': 0, 'ler_T_mfc2': 4.539012161593084e-07, 'ler_T_mfc3': 5.347717673258764e-07, 'one_in_mfc3': 1869957}}

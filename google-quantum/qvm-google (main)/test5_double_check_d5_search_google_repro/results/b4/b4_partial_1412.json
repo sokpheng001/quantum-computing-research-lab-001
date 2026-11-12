@@ -1,0 +1,1793 @@
+{
+ "d5a19": {
+  "label": "Gidney et al. (FD 3)",
+  "models": {
+   "si1000_0.0023": {
+    "rate": 7.110100447023821e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     4.345280097370854e-09,
+     7.110100447023821e-09
+    ],
+    "acceptance": 0.4667805,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      28,
+      0
+     ],
+     [
+      1872,
+      3
+     ],
+     [
+      39618,
+      601
+     ]
+    ]
+   },
+   "si1000_0.001": {
+    "rate": 4.5666583219818845e-10,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     3.578173884189912e-10,
+     4.5666583219818845e-10
+    ],
+    "acceptance": 0.7171845,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      28,
+      0
+     ],
+     [
+      1872,
+      3
+     ],
+     [
+      39618,
+      601
+     ]
+    ]
+   },
+   "spec": {
+    "rate": 3.099923021030964e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     1.7669203420307575e-08,
+     3.099923021030964e-08
+    ],
+    "acceptance": 0.43991,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      28,
+      0
+     ],
+     [
+      1872,
+      3
+     ],
+     [
+      39618,
+      601
+     ]
+    ]
+   },
+   "calibration": {
+    "rate": 1.1694758505799554e-07,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     3.9087841536146284e-08,
+     1.1694758505799554e-07
+    ],
+    "acceptance": 0.391893,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      28,
+      0
+     ],
+     [
+      1872,
+      3
+     ],
+     [
+      39618,
+      601
+     ]
+    ]
+   }
+  }
+ },
+ "d5a19f3": {
+  "label": "Chan et al., 3 flags (FD 4, not NN)",
+  "models": {
+   "si1000_0.0023": {
+    "rate": 1.9090241849962715e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.9090241849962715e-09
+    ],
+    "acceptance": 0.401112,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      25,
+      0
+     ],
+     [
+      2019,
+      0
+     ],
+     [
+      45003,
+      335
+     ]
+    ]
+   },
+   "si1000_0.001": {
+    "rate": 6.887038411564084e-11,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     6.887038411564084e-11
+    ],
+    "acceptance": 0.671219,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      25,
+      0
+     ],
+     [
+      2019,
+      0
+     ],
+     [
+      45003,
+      335
+     ]
+    ]
+   },
+   "spec": {
+    "rate": 2.2636322630610366e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.2636322630610366e-08
+    ],
+    "acceptance": 0.3209355,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      25,
+      0
+     ],
+     [
+      2019,
+      0
+     ],
+     [
+      45003,
+      335
+     ]
+    ]
+   }
+  }
+ },
+ "seed1000": {
+  "label": "ours #1000 (29 qubits)",
+  "models": {
+   "si1000_0.0023": {
+    "rate": 3.9959384018143455e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     3.9959384018143455e-09
+    ],
+    "acceptance": 0.644607,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1519,
+      0
+     ],
+     [
+      33006,
+      2988
+     ]
+    ]
+   },
+   "si1000_0.001": {
+    "rate": 1.4273422229592653e-10,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.4273422229592653e-10
+    ],
+    "acceptance": 0.824965,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1519,
+      0
+     ],
+     [
+      33006,
+      2988
+     ]
+    ]
+   },
+   "spec": {
+    "rate": 1.2821715024692801e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.2821715024692801e-08
+    ],
+    "acceptance": 0.6341705,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1519,
+      0
+     ],
+     [
+      33006,
+      2988
+     ]
+    ]
+   },
+   "calibration": {
+    "rate": 5.0747207799051536e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     5.0747207799051536e-08
+    ],
+    "acceptance": 0.5983845,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1519,
+      0
+     ],
+     [
+      33006,
+      2988
+     ]
+    ]
+   }
+  }
+ },
+ "seed1002": {
+  "label": "ours #1002 (31 qubits)",
+  "models": {
+   "si1000_0.0023": {
+    "rate": 3.2373828655906922e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     3.2373828655906922e-09
+    ],
+    "acceptance": 0.5779815,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1560,
+      0
+     ],
+     [
+      30872,
+      1312
+     ]
+    ]
+   },
+   "si1000_0.001": {
+    "rate": 1.1569301151109802e-10,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.1569301151109802e-10
+    ],
+    "acceptance": 0.786641,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1560,
+      0
+     ],
+     [
+      30872,
+      1312
+     ]
+    ]
+   },
+   "spec": {
+    "rate": 1.149364911102593e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.149364911102593e-08
+    ],
+    "acceptance": 0.550614,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1560,
+      0
+     ],
+     [
+      30872,
+      1312
+     ]
+    ]
+   },
+   "calibration": {
+    "rate": 5.404287112659453e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     5.404287112659453e-08
+    ],
+    "acceptance": 0.531026,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1560,
+      0
+     ],
+     [
+      30872,
+      1312
+     ]
+    ]
+   }
+  }
+ },
+ "seed1001": {
+  "label": "ours #1001 (23 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1003": {
+  "label": "ours #1003 (30 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1004": {
+  "label": "ours #1004 (29 qubits)",
+  "models": {
+   "si1000_0.0023": {
+    "rate": 2.710040268886925e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.710040268886925e-09
+    ],
+    "acceptance": 0.63626,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1567,
+      0
+     ],
+     [
+      33132,
+      1622
+     ]
+    ]
+   },
+   "si1000_0.001": {
+    "rate": 9.677214037005262e-11,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     9.677214037005262e-11
+    ],
+    "acceptance": 0.820496,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1567,
+      0
+     ],
+     [
+      33132,
+      1622
+     ]
+    ]
+   },
+   "spec": {
+    "rate": 8.450360706309589e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     8.450360706309589e-09
+    ],
+    "acceptance": 0.6208275,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1567,
+      0
+     ],
+     [
+      33132,
+      1622
+     ]
+    ]
+   },
+   "calibration": {
+    "rate": 5.415129256759405e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     5.415129256759405e-08
+    ],
+    "acceptance": 0.568081,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1567,
+      0
+     ],
+     [
+      33132,
+      1622
+     ]
+    ]
+   }
+  }
+ },
+ "seed1005": {
+  "label": "ours #1005 (30 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1006": {
+  "label": "ours #1006 (28 qubits)",
+  "models": {
+   "si1000_0.0023": {
+    "rate": 2.999611810455025e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.999611810455025e-09
+    ],
+    "acceptance": 0.6483905,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1508,
+      0
+     ],
+     [
+      29836,
+      1861
+     ]
+    ]
+   },
+   "si1000_0.001": {
+    "rate": 1.0709560512669962e-10,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0709560512669962e-10
+    ],
+    "acceptance": 0.827269,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1508,
+      0
+     ],
+     [
+      29836,
+      1861
+     ]
+    ]
+   },
+   "spec": {
+    "rate": 9.210899438223857e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     9.210899438223857e-09
+    ],
+    "acceptance": 0.628784,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1508,
+      0
+     ],
+     [
+      29836,
+      1861
+     ]
+    ]
+   },
+   "calibration": {
+    "rate": 3.038674251058611e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     3.038674251058611e-08
+    ],
+    "acceptance": 0.5979165,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1508,
+      0
+     ],
+     [
+      29836,
+      1861
+     ]
+    ]
+   }
+  }
+ },
+ "seed1007": {
+  "label": "ours #1007 (26 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1009": {
+  "label": "ours #1009 (25 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1008": {
+  "label": "ours #1008 (31 qubits)",
+  "models": {
+   "si1000_0.0023": {
+    "rate": 3.814862167977864e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     3.814862167977864e-09
+    ],
+    "acceptance": 0.5968625,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1506,
+      0
+     ],
+     [
+      31853,
+      2203
+     ]
+    ]
+   },
+   "si1000_0.001": {
+    "rate": 1.3633084709307704e-10,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.3633084709307704e-10
+    ],
+    "acceptance": 0.797696,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1506,
+      0
+     ],
+     [
+      31853,
+      2203
+     ]
+    ]
+   },
+   "spec": {
+    "rate": 1.3913661607644788e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.3913661607644788e-08
+    ],
+    "acceptance": 0.5796245,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1506,
+      0
+     ],
+     [
+      31853,
+      2203
+     ]
+    ]
+   },
+   "calibration": {
+    "rate": 4.1711946165911896e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     4.1711946165911896e-08
+    ],
+    "acceptance": 0.564995,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1506,
+      0
+     ],
+     [
+      31853,
+      2203
+     ]
+    ]
+   }
+  }
+ },
+ "seed1010": {
+  "label": "ours #1010 (33 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1011": {
+  "label": "ours #1011 (28 qubits)",
+  "models": {
+   "si1000_0.0023": {
+    "rate": 3.0975664623495755e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     3.0975664623495755e-09
+    ],
+    "acceptance": 0.6404725,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1448,
+      0
+     ],
+     [
+      31465,
+      2551
+     ]
+    ]
+   },
+   "si1000_0.001": {
+    "rate": 1.1048705627036556e-10,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.1048705627036556e-10
+    ],
+    "acceptance": 0.8223975,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1448,
+      0
+     ],
+     [
+      31465,
+      2551
+     ]
+    ]
+   },
+   "spec": {
+    "rate": 1.0688046097161061e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0688046097161061e-08
+    ],
+    "acceptance": 0.615635,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1448,
+      0
+     ],
+     [
+      31465,
+      2551
+     ]
+    ]
+   },
+   "calibration": {
+    "rate": 5.966498696989935e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     5.966498696989935e-08
+    ],
+    "acceptance": 0.5953285,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1448,
+      0
+     ],
+     [
+      31465,
+      2551
+     ]
+    ]
+   }
+  }
+ },
+ "seed1012": {
+  "label": "ours #1012 (25 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1013": {
+  "label": "ours #1013 (30 qubits)",
+  "models": {
+   "si1000_0.0023": {
+    "rate": 3.3877289939377913e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     3.3877289939377913e-09
+    ],
+    "acceptance": 0.6124605,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1548,
+      0
+     ],
+     [
+      31482,
+      2037
+     ]
+    ]
+   },
+   "si1000_0.001": {
+    "rate": 1.2102778434651406e-10,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.2102778434651406e-10
+    ],
+    "acceptance": 0.807109,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1548,
+      0
+     ],
+     [
+      31482,
+      2037
+     ]
+    ]
+   },
+   "spec": {
+    "rate": 1.1942313838944434e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.1942313838944434e-08
+    ],
+    "acceptance": 0.5947245,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1548,
+      0
+     ],
+     [
+      31482,
+      2037
+     ]
+    ]
+   },
+   "calibration": {
+    "rate": 6.950032657552248e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     6.950032657552248e-08
+    ],
+    "acceptance": 0.5713415,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1548,
+      0
+     ],
+     [
+      31482,
+      2037
+     ]
+    ]
+   }
+  }
+ },
+ "seed1015": {
+  "label": "ours #1015 (24 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1014": {
+  "label": "ours #1014 (31 qubits)",
+  "models": {
+   "si1000_0.0023": {
+    "rate": 3.1100645808028615e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     3.1100645808028615e-09
+    ],
+    "acceptance": 0.591351,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1459,
+      0
+     ],
+     [
+      29672,
+      2216
+     ]
+    ]
+   },
+   "si1000_0.001": {
+    "rate": 1.111842336436684e-10,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.111842336436684e-10
+    ],
+    "acceptance": 0.7943685,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1459,
+      0
+     ],
+     [
+      29672,
+      2216
+     ]
+    ]
+   },
+   "spec": {
+    "rate": 1.2057408540025e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.2057408540025e-08
+    ],
+    "acceptance": 0.571569,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1459,
+      0
+     ],
+     [
+      29672,
+      2216
+     ]
+    ]
+   },
+   "calibration": {
+    "rate": 2.516860560423415e-07,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.516860560423415e-07
+    ],
+    "acceptance": 0.5298575,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      0
+     ],
+     [
+      1459,
+      0
+     ],
+     [
+      29672,
+      2216
+     ]
+    ]
+   }
+  }
+ },
+ "seed1016": {
+  "label": "ours #1016 (28 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1017": {
+  "label": "ours #1017 (30 qubits)",
+  "models": {
+   "si1000_0.0023": {
+    "rate": 2.8697742329072736e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.8697742329072736e-09
+    ],
+    "acceptance": 0.60221,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1521,
+      0
+     ],
+     [
+      30126,
+      1564
+     ]
+    ]
+   },
+   "si1000_0.001": {
+    "rate": 1.0246770511980588e-10,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0246770511980588e-10
+    ],
+    "acceptance": 0.801459,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1521,
+      0
+     ],
+     [
+      30126,
+      1564
+     ]
+    ]
+   },
+   "spec": {
+    "rate": 9.974299280988645e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     9.974299280988645e-09
+    ],
+    "acceptance": 0.579265,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1521,
+      0
+     ],
+     [
+      30126,
+      1564
+     ]
+    ]
+   },
+   "calibration": {
+    "rate": 3.636675916266484e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     3.636675916266484e-08
+    ],
+    "acceptance": 0.5283515,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1521,
+      0
+     ],
+     [
+      30126,
+      1564
+     ]
+    ]
+   }
+  }
+ },
+ "seed1018": {
+  "label": "ours #1018 (29 qubits)",
+  "models": {
+   "si1000_0.0023": {
+    "rate": 3.3713569482375607e-09,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     3.3713569482375607e-09
+    ],
+    "acceptance": 0.630193,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1515,
+      0
+     ],
+     [
+      30271,
+      2422
+     ]
+    ]
+   },
+   "si1000_0.001": {
+    "rate": 1.2046089385295864e-10,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.2046089385295864e-10
+    ],
+    "acceptance": 0.816614,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1515,
+      0
+     ],
+     [
+      30271,
+      2422
+     ]
+    ]
+   },
+   "spec": {
+    "rate": 1.1057740590056897e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.1057740590056897e-08
+    ],
+    "acceptance": 0.6098565,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1515,
+      0
+     ],
+     [
+      30271,
+      2422
+     ]
+    ]
+   },
+   "calibration": {
+    "rate": 4.341160201355174e-08,
+    "rate_by_mfc": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     4.341160201355174e-08
+    ],
+    "acceptance": 0.5666465,
+    "counts": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      20,
+      0
+     ],
+     [
+      1515,
+      0
+     ],
+     [
+      30271,
+      2422
+     ]
+    ]
+   }
+  }
+ },
+ "seed1019": {
+  "label": "ours #1019 (23 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1020": {
+  "label": "ours #1020 (25 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1021": {
+  "label": "ours #1021 (25 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1022": {
+  "label": "ours #1022 (25 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1023": {
+  "label": "ours #1023 (30 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1024": {
+  "label": "ours #1024 (25 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1025": {
+  "label": "ours #1025 (26 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1026": {
+  "label": "ours #1026 (23 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ },
+ "seed1027": {
+  "label": "ours #1027 (24 qubits)",
+  "models": {},
+  "errors": [
+   "si1000_0.0023: out of memory (per-worker cap)",
+   "si1000_0.001: out of memory (per-worker cap)",
+   "spec: out of memory (per-worker cap)",
+   "calibration: out of memory (per-worker cap)"
+  ]
+ }
+}

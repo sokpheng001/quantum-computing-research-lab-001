@@ -1,0 +1,23 @@
+[Nov 05, 11:06 PM KST] clifft d5a19: 29 errors / 201,407,391 = 1 in 6,945,082 (95 % CI 1 in 4,835,847 to 1 in 10,370,195) vs exact 1 in 9,423,130
+[Nov 05, 11:57 PM KST] clifft d5a19f3: 11 errors / 143,462,021 = 1 in 13,042,002 (95 % CI 1 in 7,288,982 to 1 in 26,125,993) vs exact 1 in 23,921,527
+Traceback (most recent call last):
+  File "/home/ubuntu/quantum001/google-quantum/qvm-google (main)/test5_double_check_d5_search_google_repro/b4_clifft_check.py", line 51, in <module>
+    main()
+  File "/home/ubuntu/quantum001/google-quantum/qvm-google (main)/test5_double_check_d5_search_google_repro/b4_clifft_check.py", line 40, in main
+    ex = B4.exact(d5, "si1000_0.005", cal, a.mfc)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/quantum001/google-quantum/qvm-google (main)/test5_double_check_d5_search_google_repro/b4_real_noise.py", line 87, in exact
+    en, _ = CMP.enumerated(d["full"], native, mfc=mfc, noisy=noisy, states=("T",))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/quantum001/google-quantum/nnflags/comparison.py", line 223, in enumerated
+    kept_all = comb.get_kept_effects(logical_analyzer=AcceptAll(m.DATA_INDICES, m.LOGICAL_S),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/quantum001/google-quantum/cliffordea/cliffordea/enum/combinators/fault_combinator.py", line 322, in get_kept_effects
+    configurations.append(fault_indices)
+MemoryError
+exit 1
+[rerun Nov 06 08:56 AM KST with 30 GB cap]
+[Nov 06, 10:03 AM KST] clifft seed1035: 18 errors / 283,570,933 = 1 in 15,753,941 (95 % CI 1 in 9,968,129 to 1 in 26,581,600) vs exact 1 in 18,991,648
+[Nov 06, 11:02 AM KST] clifft seed1033: 24 errors / 283,280,116 = 1 in 11,803,338 (95 % CI 1 in 7,932,774 to 1 in 18,422,023) vs exact 1 in 18,124,225
+[Nov 06, 11:02 AM KST] clifft check done
+exit 0

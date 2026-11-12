@@ -1,0 +1,2303 @@
+{
+ "settings": {
+  "distance": 3,
+  "ancilla_count": 6,
+  "flag_count": "0 + new Z flags",
+  "base": "DoubleCheck(3, 6) inner circuit",
+  "grid": "Willow, 105 qubits",
+  "flag_measure": [
+   "final",
+   "next"
+  ],
+  "slots": "in place TICKs 2..10 + new TICKs k+0.5, k=2..9",
+  "readout_modes": [
+   "strict (final layer exempt)",
+   "ignore"
+  ],
+  "extra_readout_columns": [
+   "strict, final layer checked",
+   "strict, Z-reset idle not live"
+  ]
+ },
+ "b_layer_permutations": [
+  [
+   0,
+   1,
+   2,
+   3
+  ]
+ ],
+ "b_fold_variants": [
+  [
+   [
+    [
+     1,
+     0
+    ],
+    [
+     9,
+     8
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     12,
+     11
+    ]
+   ],
+   [
+    [
+     3,
+     1
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     9,
+     12
+    ]
+   ],
+   [
+    [
+     5,
+     3
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   [
+    [
+     5,
+     9
+    ]
+   ]
+  ],
+  [
+   [
+    [
+     1,
+     0
+    ],
+    [
+     9,
+     8
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     12,
+     11
+    ]
+   ],
+   [
+    [
+     3,
+     1
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   [
+    [
+     9,
+     12
+    ],
+    [
+     5,
+     3
+    ]
+   ],
+   [
+    [
+     5,
+     9
+    ]
+   ]
+  ],
+  [
+   [
+    [
+     1,
+     0
+    ],
+    [
+     9,
+     8
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   [
+    [
+     12,
+     11
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   [
+    [
+     9,
+     12
+    ],
+    [
+     5,
+     3
+    ]
+   ],
+   [
+    [
+     5,
+     9
+    ]
+   ]
+  ],
+  [
+   [
+    [
+     1,
+     0
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     12,
+     11
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   [
+    [
+     9,
+     8
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   [
+    [
+     9,
+     12
+    ],
+    [
+     5,
+     3
+    ]
+   ],
+   [
+    [
+     5,
+     9
+    ]
+   ]
+  ],
+  [
+   [
+    [
+     1,
+     0
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   [
+    [
+     9,
+     8
+    ],
+    [
+     12,
+     11
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   [
+    [
+     9,
+     12
+    ],
+    [
+     5,
+     3
+    ]
+   ],
+   [
+    [
+     5,
+     9
+    ]
+   ]
+  ],
+  [
+   [
+    [
+     1,
+     0
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     12,
+     11
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   [
+    [
+     3,
+     1
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     9,
+     12
+    ]
+   ],
+   [
+    [
+     9,
+     8
+    ],
+    [
+     5,
+     3
+    ]
+   ],
+   [
+    [
+     5,
+     9
+    ]
+   ]
+  ]
+ ],
+ "free_neighbours_per_qubit_over_350_placements": {
+  "0": {
+   "0": 28,
+   "1": 30,
+   "2": 292
+  },
+  "1": {
+   "0": 26,
+   "1": 30,
+   "2": 294
+  },
+  "2": {
+   "0": 10,
+   "1": 340
+  },
+  "3": {
+   "0": 10,
+   "1": 340
+  },
+  "4": {
+   "1": 350
+  },
+  "5": {
+   "0": 350
+  },
+  "6": {
+   "0": 10,
+   "1": 340
+  },
+  "7": {
+   "0": 2,
+   "1": 40,
+   "2": 40,
+   "3": 268
+  },
+  "8": {
+   "0": 10,
+   "1": 340
+  },
+  "9": {
+   "0": 350
+  },
+  "10": {
+   "0": 18,
+   "1": 20,
+   "2": 312
+  },
+  "11": {
+   "0": 28,
+   "1": 20,
+   "2": 302
+  },
+  "12": {
+   "0": 18,
+   "1": 30,
+   "2": 302
+  }
+ },
+ "slot_pairs_per_qubit_original_fold": {
+  "0": 105,
+  "1": 55,
+  "2": 105,
+  "3": 23,
+  "4": 105,
+  "5": 12,
+  "6": 55,
+  "7": 105,
+  "8": 105,
+  "9": 9,
+  "10": 33,
+  "11": 105,
+  "12": 55
+ },
+ "flag_set_counts": {
+  "rot90 (5, 9) fold2": {
+   "singles": 2620,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3172528,
+   "triples": 2354833968
+  },
+  "id (4, 4) fold2": {
+   "singles": 2620,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3172528,
+   "triples": 2354833968
+  },
+  "id (4, 4) fold0": {
+   "singles": 2828,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 132,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 3716448,
+   "triples": 3010264016
+  },
+  "rot90 (5, 9) fold0": {
+   "singles": 2828,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 132,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 3716448,
+   "triples": 3010264016
+  },
+  "id (4, 4) fold4": {
+   "singles": 2716,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3387760,
+   "triples": 2575861680
+  },
+  "rot90 (5, 9) fold4": {
+   "singles": 2716,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3387760,
+   "triples": 2575861680
+  },
+  "id (4, 4) fold1": {
+   "singles": 2812,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3662896,
+   "triples": 2931152688
+  },
+  "rot90 (5, 9) fold1": {
+   "singles": 2812,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3662896,
+   "triples": 2931152688
+  },
+  "rot90 (5, 9) fold3": {
+   "singles": 2908,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3896560,
+   "triples": 3192288432
+  },
+  "id (4, 4) fold3": {
+   "singles": 2908,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3896560,
+   "triples": 3192288432
+  },
+  "id (4, 4) fold5": {
+   "singles": 2972,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 66,
+    "10": 420,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 4068096,
+   "triples": 3403043600
+  },
+  "rot90 (5, 9) fold5": {
+   "singles": 2972,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 66,
+    "10": 420,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 4068096,
+   "triples": 3403043600
+  },
+  "rot180 (8, 8) fold0": {
+   "singles": 2828,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 132,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 3716448,
+   "triples": 3010264016
+  },
+  "rot180 (8, 8) fold2": {
+   "singles": 2620,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3172528,
+   "triples": 2354833968
+  },
+  "rot180 (8, 8) fold4": {
+   "singles": 2716,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3387760,
+   "triples": 2575861680
+  },
+  "rot180 (8, 8) fold1": {
+   "singles": 2812,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3662896,
+   "triples": 2931152688
+  },
+  "rot270 (7, 5) fold2": {
+   "singles": 2620,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3172528,
+   "triples": 2354833968
+  },
+  "rot270 (7, 5) fold0": {
+   "singles": 2828,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 132,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 3716448,
+   "triples": 3010264016
+  },
+  "rot180 (8, 8) fold3": {
+   "singles": 2908,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3896560,
+   "triples": 3192288432
+  },
+  "rot270 (7, 5) fold1": {
+   "singles": 2812,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3662896,
+   "triples": 2931152688
+  },
+  "rot270 (7, 5) fold4": {
+   "singles": 2716,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3387760,
+   "triples": 2575861680
+  },
+  "rot180 (8, 8) fold5": {
+   "singles": 2972,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 66,
+    "10": 420,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 4068096,
+   "triples": 3403043600
+  },
+  "rot270 (7, 5) fold3": {
+   "singles": 2908,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3896560,
+   "triples": 3192288432
+  },
+  "rot270 (7, 5) fold5": {
+   "singles": 2972,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 66,
+    "10": 420,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 4068096,
+   "triples": 3403043600
+  },
+  "flip_r (8, 6) fold0": {
+   "singles": 2828,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 132,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 3716448,
+   "triples": 3010264016
+  },
+  "flip_r (8, 6) fold2": {
+   "singles": 2620,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3172528,
+   "triples": 2354833968
+  },
+  "flip_r (8, 6) fold1": {
+   "singles": 2812,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3662896,
+   "triples": 2931152688
+  },
+  "flip_r (8, 6) fold4": {
+   "singles": 2716,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3387760,
+   "triples": 2575861680
+  },
+  "flip_c (4, 8) fold2": {
+   "singles": 2620,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3172528,
+   "triples": 2354833968
+  },
+  "flip_c (4, 8) fold0": {
+   "singles": 2828,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 132,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 3716448,
+   "triples": 3010264016
+  },
+  "flip_r (8, 6) fold3": {
+   "singles": 2908,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3896560,
+   "triples": 3192288432
+  },
+  "flip_c (4, 8) fold1": {
+   "singles": 2812,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3662896,
+   "triples": 2931152688
+  },
+  "flip_r (8, 6) fold5": {
+   "singles": 2972,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 66,
+    "10": 420,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 4068096,
+   "triples": 3403043600
+  },
+  "flip_c (4, 8) fold4": {
+   "singles": 2716,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3387760,
+   "triples": 2575861680
+  },
+  "flip_c (4, 8) fold3": {
+   "singles": 2908,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3896560,
+   "triples": 3192288432
+  },
+  "flip_c (4, 8) fold5": {
+   "singles": 2972,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 66,
+    "10": 420,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 4068096,
+   "triples": 3403043600
+  },
+  "transpose (5, 5) fold0": {
+   "singles": 2828,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 132,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 3716448,
+   "triples": 3010264016
+  },
+  "transpose (5, 5) fold2": {
+   "singles": 2620,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3172528,
+   "triples": 2354833968
+  },
+  "transpose (5, 5) fold1": {
+   "singles": 2812,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3662896,
+   "triples": 2931152688
+  },
+  "transpose (5, 5) fold4": {
+   "singles": 2716,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3387760,
+   "triples": 2575861680
+  },
+  "antitranspose (7, 9) fold2": {
+   "singles": 2620,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3172528,
+   "triples": 2354833968
+  },
+  "transpose (5, 5) fold3": {
+   "singles": 2908,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3896560,
+   "triples": 3192288432
+  },
+  "antitranspose (7, 9) fold0": {
+   "singles": 2828,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 132,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 3716448,
+   "triples": 3010264016
+  },
+  "antitranspose (7, 9) fold4": {
+   "singles": 2716,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 228,
+    "12": 108
+   },
+   "pairs": 3387760,
+   "triples": 2575861680
+  },
+  "antitranspose (7, 9) fold1": {
+   "singles": 2812,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 210,
+    "10": 228,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3662896,
+   "triples": 2931152688
+  },
+  "transpose (5, 5) fold5": {
+   "singles": 2972,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 66,
+    "10": 420,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 4068096,
+   "triples": 3403043600
+  },
+  "antitranspose (7, 9) fold3": {
+   "singles": 2908,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 114,
+    "10": 420,
+    "11": 420,
+    "12": 108
+   },
+   "pairs": 3896560,
+   "triples": 3192288432
+  },
+  "antitranspose (7, 9) fold5": {
+   "singles": 2972,
+   "by_q": {
+    "3": 46,
+    "0": 420,
+    "1": 220,
+    "2": 210,
+    "4": 210,
+    "6": 110,
+    "7": 630,
+    "8": 66,
+    "10": 420,
+    "11": 420,
+    "12": 220
+   },
+   "pairs": 4068096,
+   "triples": 3403043600
+  }
+ },
+ "verify_sample": [
+  {
+   "name": "primary flags 0",
+   "flags": [
+    "q3->(5, 6) t2.5,3.5 Mfinal"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 166,
+   "runtime_s": 0.049040858168154955,
+   "check": {
+    "readout": 2
+   },
+   "stim": "results/step3_sample/primary_flags_0.stim"
+  },
+  {
+   "name": "primary flags 1",
+   "flags": [
+    "q3->(5, 6) t2.5,3.5 Mnext"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 166,
+   "runtime_s": 0.02785961888730526,
+   "check": {
+    "readout": 3
+   },
+   "stim": "results/step3_sample/primary_flags_1.stim"
+  },
+  {
+   "name": "primary flags 2",
+   "flags": [
+    "q3->(5, 6) t4.5,5 Mfinal"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 162,
+   "runtime_s": 0.02704696706496179,
+   "check": {
+    "readout": 2
+   },
+   "stim": "results/step3_sample/primary_flags_2.stim"
+  },
+  {
+   "name": "primary flags 3",
+   "flags": [
+    "q3->(5, 6) t4.5,5 Mnext"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 162,
+   "runtime_s": 0.027017988031730056,
+   "check": {
+    "readout": 2
+   },
+   "stim": "results/step3_sample/primary_flags_3.stim"
+  },
+  {
+   "name": "primary flags 4",
+   "flags": [
+    "q3->(5, 6) t4.5,5.5 Mfinal"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 162,
+   "runtime_s": 0.027336152037605643,
+   "check": {
+    "readout": 2
+   },
+   "stim": "results/step3_sample/primary_flags_4.stim"
+  },
+  {
+   "name": "primary flags 5",
+   "flags": [
+    "q3->(5, 6) t4.5,5.5 Mnext"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 162,
+   "runtime_s": 0.028066991828382015,
+   "check": {
+    "readout": 2
+   },
+   "stim": "results/step3_sample/primary_flags_5.stim"
+  },
+  {
+   "name": "primary flags 6",
+   "flags": [
+    "q3->(5, 6) t2.5,3.5 Mfinal",
+    "q11->(9, 4) t7,9.5 Mnext"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 170,
+   "runtime_s": 0.029605803079903126,
+   "check": {
+    "readout": 5
+   },
+   "stim": "results/step3_sample/primary_flags_6.stim"
+  },
+  {
+   "name": "primary flags 7",
+   "flags": [
+    "q3->(5, 6) t2.5,3.5 Mfinal",
+    "q7->(7, 7) t6,8 Mnext"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 170,
+   "runtime_s": 0.02838124893605709,
+   "check": {
+    "readout": 2
+   },
+   "stim": "results/step3_sample/primary_flags_7.stim"
+  },
+  {
+   "name": "primary flags 8",
+   "flags": [
+    "q3->(5, 6) t2.5,3.5 Mfinal",
+    "q11->(9, 4) t5.5,8 Mfinal"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 170,
+   "runtime_s": 0.029119060141965747,
+   "check": {
+    "readout": 2
+   },
+   "stim": "results/step3_sample/primary_flags_8.stim"
+  },
+  {
+   "name": "primary flags 9",
+   "flags": [
+    "q3->(5, 6) t2.5,3.5 Mfinal",
+    "q11->(9, 4) t8,8.5 Mnext"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 170,
+   "runtime_s": 0.02906131185591221,
+   "check": {
+    "readout": 5
+   },
+   "stim": "results/step3_sample/primary_flags_9.stim"
+  },
+  {
+   "name": "primary flags 10",
+   "flags": [
+    "q3->(5, 6) t2.5,3.5 Mfinal",
+    "q7->(7, 7) t3.5,6 Mfinal"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 170,
+   "runtime_s": 0.02834019181318581,
+   "check": {
+    "readout": 2
+   },
+   "stim": "results/step3_sample/primary_flags_10.stim"
+  },
+  {
+   "name": "primary flags 11",
+   "flags": [
+    "q3->(5, 6) t2.5,3.5 Mfinal",
+    "q7->(5, 7) t2.5,7.5 Mnext"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 170,
+   "runtime_s": 0.028784093912690878,
+   "check": {
+    "readout": 5
+   },
+   "stim": "results/step3_sample/primary_flags_11.stim"
+  },
+  {
+   "name": "primary flags 12",
+   "flags": [
+    "q11->(8, 3) t4.5,8 Mfinal"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 162,
+   "runtime_s": 0.027589092031121254,
+   "check": {
+    "readout": 2
+   },
+   "stim": "results/step3_sample/primary_flags_12.stim"
+  },
+  {
+   "name": "primary flags 13",
+   "flags": [
+    "q7->(5, 7) t5,8.5 Mfinal"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 162,
+   "runtime_s": 0.026824288070201874,
+   "check": {
+    "readout": 1
+   },
+   "stim": "results/step3_sample/primary_flags_13.stim"
+  },
+  {
+   "name": "primary flags 14",
+   "flags": [
+    "q0->(3, 4) t8,8.5 Mfinal"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 162,
+   "runtime_s": 0.02638674504123628,
+   "check": {
+    "readout": 1
+   },
+   "stim": "results/step3_sample/primary_flags_14.stim"
+  },
+  {
+   "name": "primary flags 15",
+   "flags": [
+    "q6->(5, 6) t5,7 Mnext"
+   ],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 37,
+     "malignant": 4
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 162,
+   "runtime_s": 0.025910230120643973,
+   "check": {
+    "readout": 4
+   },
+   "stim": "results/step3_sample/primary_flags_15.stim"
+  },
+  {
+   "name": "fold variant 1",
+   "flags": [],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 36,
+     "malignant": 5
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 158,
+   "runtime_s": 0.024605164071545005,
+   "check": {
+    "readout": 1
+   },
+   "stim": "results/step3_sample/fold_variant_1.stim"
+  },
+  {
+   "name": "fold variant 2",
+   "flags": [],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 36,
+     "malignant": 5
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 158,
+   "runtime_s": 0.024437112966552377,
+   "check": {
+    "readout": 1
+   },
+   "stim": "results/step3_sample/fold_variant_2.stim"
+  },
+  {
+   "name": "fold variant 3",
+   "flags": [],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 36,
+     "malignant": 5
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 158,
+   "runtime_s": 0.024372906889766455,
+   "check": {
+    "readout": 1
+   },
+   "stim": "results/step3_sample/fold_variant_3.stim"
+  },
+  {
+   "name": "fold variant 4",
+   "flags": [],
+   "deterministic": true,
+   "T": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 36,
+     "malignant": 5
+    }
+   },
+   "S": {
+    "0": {
+     "benign": 1,
+     "malignant": 0
+    },
+    "1": {
+     "benign": 2,
+     "malignant": 0
+    },
+    "2": {
+     "benign": 34,
+     "malignant": 0
+    }
+   },
+   "fault_count": 158,
+   "runtime_s": 0.02463686978444457,
+   "check": {
+    "readout": 1
+   },
+   "stim": "results/step3_sample/fold_variant_4.stim"
+  }
+ ],
+ "runtime_s": 4528.999503881903,
+ "stats": {
+  "c": {
+   "total": 350,
+   "hw_ok": 350,
+   "pass_ignore": 350,
+   "pass_strict": 0,
+   "pass_strict_final_check": 0,
+   "pass_strict_zreset_not_live": 0,
+   "readout_strict=1": 180,
+   "readout_strict=2": 170
+  },
+  "b": {
+   "total": 5,
+   "hw_ok": 5,
+   "pass_ignore": 5,
+   "pass_strict": 0,
+   "pass_strict_final_check": 0,
+   "pass_strict_zreset_not_live": 0,
+   "readout_strict=1": 5
+  },
+  "a1": {
+   "total": 134848,
+   "hw_ok": 134848,
+   "pass_ignore": 134848,
+   "readout_strict=2": 51300,
+   "with_hook_flag": 2208,
+   "with_hook_flag_hw_ok": 2208,
+   "readout_strict=4": 19516,
+   "readout_strict=3": 11408,
+   "readout_strict=5": 5092,
+   "readout_strict=6": 1512,
+   "readout_strict=1": 46020
+  },
+  "a1 rot90": {
+   "total": 16856,
+   "hw_ok": 16856,
+   "pass_ignore": 16856,
+   "readout_strict=2": 10935,
+   "with_hook_flag": 276,
+   "with_hook_flag_hw_ok": 276,
+   "readout_strict=4": 3095,
+   "readout_strict=3": 1175,
+   "readout_strict=5": 1273,
+   "readout_strict=6": 378
+  },
+  "a1 id": {
+   "total": 16856,
+   "hw_ok": 16856,
+   "pass_ignore": 16856,
+   "readout_strict=2": 1890,
+   "with_hook_flag": 276,
+   "with_hook_flag_hw_ok": 276,
+   "readout_strict=3": 1677,
+   "readout_strict=4": 1784,
+   "readout_strict=1": 11505
+  },
+  "a1 rot180": {
+   "total": 16856,
+   "hw_ok": 16856,
+   "pass_ignore": 16856,
+   "readout_strict=2": 1890,
+   "with_hook_flag": 276,
+   "with_hook_flag_hw_ok": 276,
+   "readout_strict=3": 1677,
+   "readout_strict=4": 1784,
+   "readout_strict=1": 11505
+  },
+  "a1 rot270": {
+   "total": 16856,
+   "hw_ok": 16856,
+   "pass_ignore": 16856,
+   "readout_strict=2": 10935,
+   "with_hook_flag": 276,
+   "with_hook_flag_hw_ok": 276,
+   "readout_strict=4": 3095,
+   "readout_strict=3": 1175,
+   "readout_strict=5": 1273,
+   "readout_strict=6": 378
+  },
+  "a1 flip_r": {
+   "total": 16856,
+   "hw_ok": 16856,
+   "pass_ignore": 16856,
+   "readout_strict=2": 10935,
+   "with_hook_flag": 276,
+   "with_hook_flag_hw_ok": 276,
+   "readout_strict=4": 3095,
+   "readout_strict=3": 1175,
+   "readout_strict=5": 1273,
+   "readout_strict=6": 378
+  },
+  "a1 flip_c": {
+   "total": 16856,
+   "hw_ok": 16856,
+   "pass_ignore": 16856,
+   "readout_strict=2": 10935,
+   "with_hook_flag": 276,
+   "with_hook_flag_hw_ok": 276,
+   "readout_strict=4": 3095,
+   "readout_strict=3": 1175,
+   "readout_strict=5": 1273,
+   "readout_strict=6": 378
+  },
+  "a1 transpose": {
+   "total": 16856,
+   "hw_ok": 16856,
+   "pass_ignore": 16856,
+   "readout_strict=2": 1890,
+   "with_hook_flag": 276,
+   "with_hook_flag_hw_ok": 276,
+   "readout_strict=3": 1677,
+   "readout_strict=4": 1784,
+   "readout_strict=1": 11505
+  },
+  "a1 antitranspose": {
+   "total": 16856,
+   "hw_ok": 16856,
+   "pass_ignore": 16856,
+   "readout_strict=2": 1890,
+   "with_hook_flag": 276,
+   "with_hook_flag_hw_ok": 276,
+   "readout_strict=3": 1677,
+   "readout_strict=4": 1784,
+   "readout_strict=1": 11505
+  },
+  "a2": {
+   "total": 3716448,
+   "hw_ok": 3650224,
+   "pass_ignore": 3650224,
+   "readout_strict=2": 745570,
+   "with_hook_flag": 122912,
+   "with_hook_flag_hw_ok": 122912,
+   "readout_strict=3": 594088,
+   "readout_strict=4": 688523,
+   "readout_strict=5": 123747,
+   "readout_strict=6": 111002,
+   "readout_strict=7": 37097,
+   "readout_strict=8": 2758,
+   "readout_strict=1": 1413663
+  },
+  "a3 (sample)": {
+   "total": 20000,
+   "hw_ok": 19260,
+   "pass_ignore": 19260,
+   "pass_strict": 0,
+   "pass_strict_final_check": 0,
+   "pass_strict_zreset_not_live": 0,
+   "readout_strict=4": 4544,
+   "with_hook_flag": 10491,
+   "with_hook_flag_hw_ok": 10269,
+   "readout_strict=2": 4170,
+   "readout_strict=6": 1821,
+   "readout_strict=7": 953,
+   "readout_strict=5": 2305,
+   "readout_strict=3": 3223,
+   "readout_strict=1": 2410,
+   "readout_strict=8": 352,
+   "readout_strict=10": 48,
+   "readout_strict=11": 13,
+   "readout_strict=9": 161
+  }
+ },
+ "elapsed_s": 4528.999564029975
+}

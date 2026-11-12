@@ -1,0 +1,45 @@
+[Nov 04, 07:33 PM KST] start: {'max_anc': 14, 'max_depth': 8, 'evals': 120, 'max_flags': 6}, 11 workers, 8.0 h
+[Nov 04, 07:33 PM KST] SUCCESS seed 1000: 29 qubits, 0 flags, malignant at 4: 2988, rate 1 in 3,085,008,416
+[Nov 04, 07:33 PM KST] SUCCESS seed 1001: 23 qubits, 0 flags, malignant at 4: 4169, rate 1 in 1,474,807,179
+[Nov 04, 07:33 PM KST] SUCCESS seed 1002: 31 qubits, 0 flags, malignant at 4: 1312, rate 1 in 2,296,093,278
+[Nov 04, 07:33 PM KST] SUCCESS seed 1003: 30 qubits, 0 flags, malignant at 4: 2935, rate 1 in 1,295,122,524
+[Nov 04, 07:33 PM KST] SUCCESS seed 1004: 29 qubits, 0 flags, malignant at 4: 1622, rate 1 in 3,872,676,688
+[Nov 04, 07:33 PM KST] SUCCESS seed 1005: 30 qubits, 0 flags, malignant at 4: 2556, rate 1 in 2,676,080,854
+[Nov 04, 07:33 PM KST] SUCCESS seed 1006: 28 qubits, 0 flags, malignant at 4: 1861, rate 1 in 3,154,103,736
+[Nov 04, 07:33 PM KST] SUCCESS seed 1007: 26 qubits, 0 flags, malignant at 4: 2646, rate 1 in 2,752,508,738
+[Nov 04, 07:33 PM KST] SUCCESS seed 1008: 31 qubits, 0 flags, malignant at 4: 2203, rate 1 in 2,476,181,767
+[Nov 04, 07:33 PM KST] SUCCESS seed 1009: 25 qubits, 0 flags, malignant at 4: 4445, rate 1 in 1,215,472,508
+[Nov 04, 07:33 PM KST] SUCCESS seed 1010: 33 qubits, 0 flags, malignant at 4: 2101, rate 1 in 1,723,510,660
+[Nov 04, 07:33 PM KST] SUCCESS seed 1011: 28 qubits, 0 flags, malignant at 4: 2551, rate 1 in 2,562,448,384
+[Nov 04, 07:33 PM KST] SUCCESS seed 1012: 25 qubits, 2 flags, malignant at 4: 3360, rate 1 in 1,532,273,758
+[Nov 04, 07:33 PM KST] SUCCESS seed 1013: 30 qubits, 0 flags, malignant at 4: 2037, rate 1 in 2,922,570,093
+[Nov 04, 07:33 PM KST] SUCCESS seed 1014: 31 qubits, 0 flags, malignant at 4: 2216, rate 1 in 2,129,712,221
+[Nov 04, 07:33 PM KST] SUCCESS seed 1015: 24 qubits, 0 flags, malignant at 4: 3577, rate 1 in 1,900,195,574
+[Nov 04, 07:33 PM KST] SUCCESS seed 1016: 28 qubits, 0 flags, malignant at 4: 3430, rate 1 in 1,793,876,211
+[Nov 04, 07:33 PM KST] SUCCESS seed 1017: 30 qubits, 0 flags, malignant at 4: 1564, rate 1 in 2,320,232,083
+[Nov 04, 07:33 PM KST] SUCCESS seed 1018: 29 qubits, 0 flags, malignant at 4: 2422, rate 1 in 2,945,717,899
+[Nov 04, 07:33 PM KST] SUCCESS seed 1019: 23 qubits, 0 flags, malignant at 4: 4321, rate 1 in 3,511,381,665
+[Nov 04, 07:33 PM KST] SUCCESS seed 1020: 25 qubits, 1 flags, malignant at 4: 3554, rate 1 in 621,510,529
+[Nov 04, 07:33 PM KST] SUCCESS seed 1021: 25 qubits, 0 flags, malignant at 4: 2859, rate 1 in 4,903,605,602
+[Nov 04, 07:33 PM KST] SUCCESS seed 1022: 25 qubits, 0 flags, malignant at 4: 3137, rate 1 in 1,825,935,904
+[Nov 04, 07:33 PM KST] SUCCESS seed 1023: 30 qubits, 0 flags, malignant at 4: 2316, rate 1 in 1,849,539,717
+[Nov 04, 07:33 PM KST] 24 trees; successes 24
+[Nov 04, 07:33 PM KST] SUCCESS seed 1024: 25 qubits, 2 flags, malignant at 4: 4547, rate 1 in 2,007,277,678
+[Nov 04, 07:33 PM KST] SUCCESS seed 1025: 26 qubits, 0 flags, malignant at 4: 3299, rate 1 in 2,670,036,566
+[Nov 04, 07:33 PM KST] SUCCESS seed 1026: 23 qubits, 0 flags, malignant at 4: 2590, rate 1 in 1,547,675,328
+[Nov 04, 07:33 PM KST] SUCCESS seed 1027: 24 qubits, 1 flags, malignant at 4: 4098, rate 1 in 1,050,659,269
+[Nov 04, 07:33 PM KST] SUCCESS seed 1028: 30 qubits, 0 flags, malignant at 4: 1942, rate 1 in 2,659,710,044
+[Nov 04, 07:33 PM KST] SUCCESS seed 1029: 32 qubits, 0 flags, malignant at 4: 1601, rate 1 in 4,063,688,034
+[Nov 04, 07:33 PM KST] SUCCESS seed 1030: 24 qubits, 1 flags, malignant at 4: 5003, rate 1 in 1,293,723,506
+[Nov 04, 07:33 PM KST] SUCCESS seed 1031: 32 qubits, 0 flags, malignant at 4: 1191, rate 1 in 3,977,649,107
+[Nov 04, 07:33 PM KST] SUCCESS seed 1032: 29 qubits, 0 flags, malignant at 4: 3265, rate 1 in 1,256,783,656
+[Nov 04, 07:33 PM KST] SUCCESS seed 1033: 33 qubits, 0 flags, malignant at 4: 995, rate 1 in 4,387,920,123
+[Nov 04, 07:33 PM KST] SUCCESS seed 1034: 23 qubits, 0 flags, malignant at 4: 4205, rate 1 in 2,300,996,080
+[Nov 04, 07:33 PM KST] SUCCESS seed 1035: 33 qubits, 0 flags, malignant at 4: 1705, rate 1 in 7,587,187,214
+[Nov 04, 07:33 PM KST] SUCCESS seed 1036: 29 qubits, 0 flags, malignant at 4: 4257, rate 1 in 7,380,639,739
+[Nov 04, 07:33 PM KST] SUCCESS seed 1037: 24 qubits, 0 flags, malignant at 4: 4273, rate 1 in 3,115,470,008
+[Nov 04, 07:33 PM KST] SUCCESS seed 1038: 24 qubits, 0 flags, malignant at 4: 4044, rate 1 in 3,612,970,210
+[Nov 04, 07:33 PM KST] SUCCESS seed 1039: 33 qubits, 0 flags, malignant at 4: 2036, rate 1 in 3,007,748,915
+[Nov 04, 07:33 PM KST] SUCCESS seed 1040: 27 qubits, 0 flags, malignant at 4: 3084, rate 1 in 1,013,085,876
+[Nov 04, 07:33 PM KST] done
+exit 0

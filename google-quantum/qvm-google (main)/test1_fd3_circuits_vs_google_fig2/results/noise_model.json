@@ -1,0 +1,88 @@
+{
+ "gate_times_ns": {
+  "CZPowGate": 42.0,
+  "MeasurementGate": 600.0,
+  "PhasedXZGate": 25.0,
+  "XPowGate": 25.0,
+  "YPowGate": 25.0,
+  "HPowGate": 25.0,
+  "PhasedXPowGate": 25.0,
+  "SingleQubitCliffordGate": 25.0,
+  "ZPowGate": 0.0,
+  "ResetChannel": 160.0
+ },
+ "t1_us": {
+  "n": 105,
+  "median": 70.17575594332381,
+  "min": 27.387665920366242,
+  "max": 86.39593901541615
+ },
+ "tphi_us": {
+  "n": 105,
+  "median": 75.87481355825058,
+  "min": 4.801215594352098,
+  "max": 542.2292721844171
+ },
+ "depolarizing_after_gate": {
+  "ZPowGate": {
+   "n": 105,
+   "median": 0.00040461714515024894,
+   "min": 0.0002205156296834765,
+   "max": 0.0031868597369656415
+  },
+  "PhasedXZGate": {
+   "n": 105,
+   "median": 3.377726775188883e-05,
+   "min": -0.0002946228906066384,
+   "max": 0.00241950760548848
+  },
+  "ResetChannel": {
+   "n": 105,
+   "median": -0.0017821824682807685,
+   "min": -0.015267817414479051,
+   "max": 0.0006744485951971912
+  },
+  "CZPowGate": {
+   "n": 364,
+   "median": 0.0011813624467634058,
+   "min": -0.0027476668716407138,
+   "max": 0.009900651993241985
+  }
+ },
+ "depolarizing_nonpositive_dropped": {
+  "ZPowGate": 0,
+  "PhasedXZGate": 36,
+  "ResetChannel": 104,
+  "CZPowGate": 78
+ },
+ "readout_p00": {
+  "n": 105,
+  "median": 0.0037199999999999677,
+  "min": 0.0013999999999999746,
+  "max": 0.010259999999999976
+ },
+ "readout_p11": {
+  "n": 105,
+  "median": 0.010619999999999984,
+  "min": 0.0072999999999999775,
+  "max": 0.019819999999999994
+ },
+ "fsim_theta_rad": {
+  "n": 364,
+  "median": 0.022260207555798557,
+  "min": 0.00024114762988956465,
+  "max": 0.07739445033332851
+ },
+ "fsim_phi_rad": {
+  "n": 364,
+  "median": 0.03698159646011856,
+  "min": 0.00014158744005898782,
+  "max": 0.21434716854753688
+ },
+ "models": [
+  "ThermalNoiseModel",
+  "InsertionNoiseModel",
+  "InsertionNoiseModel",
+  "InsertionNoiseModel"
+ ]
+}

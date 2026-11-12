@@ -1,0 +1,416 @@
+{
+ "started": "2026-11-01 04:10:19 PM KST",
+ "processor": "willow_pink",
+ "device_source": "virtual_engine_factory.create_device_from_processor_id (virtual_engine_factory.py:346-357), template willow_pink_d7v1-2024_08_16_device_spec_for_grid_device.proto.txt",
+ "designs": {
+  "success03": {
+   "name": "success03",
+   "role": "main: ZZ + X flag, fault distance 3",
+   "placement": "own QUBIT_COORDS (Willow)",
+   "qubits": {
+    "0": [
+     6,
+     7
+    ],
+    "1": [
+     5,
+     7
+    ],
+    "2": [
+     4,
+     7
+    ],
+    "3": [
+     4,
+     6
+    ],
+    "4": [
+     3,
+     6
+    ],
+    "5": [
+     3,
+     7
+    ],
+    "6": [
+     5,
+     6
+    ],
+    "7": [
+     7,
+     7
+    ],
+    "8": [
+     6,
+     6
+    ],
+    "9": [
+     6,
+     5
+    ],
+    "10": [
+     5,
+     5
+    ],
+    "11": [
+     4,
+     5
+    ],
+    "12": [
+     7,
+     5
+    ]
+   },
+   "native_equals_comparison_round_file": true,
+   "phasedxz_is_H": true,
+   "H_native_gate": "cirq.PhasedXZGate(axis_phase_exponent=-0.5, x_exponent=0.5, z_exponent=1.0)",
+   "roundtrip_identical": true,
+   "flows_equal": true,
+   "detectors_deterministic": true,
+   "detector_error_model_equal": true,
+   "device_validation": {
+    "H as cirq.H": "PASS",
+    "H as PhasedXZGate (used)": "PASS"
+   },
+   "cz_pairs": 13,
+   "cz_pairs_on_couplers": 13,
+   "qubits_on_device": true,
+   "moments": 31,
+   "gate_counts": {
+    "T / T^-1 (virtual Z)": 14,
+    "reset": 7,
+    "PhasedXZ (H)": 38,
+    "CZ": 26,
+    "measure": 7
+   },
+   "readout_lines": {}
+  },
+  "success04": {
+   "name": "success04",
+   "role": "2nd best ZZ success",
+   "placement": "own QUBIT_COORDS (Willow)",
+   "qubits": {
+    "0": [
+     6,
+     7
+    ],
+    "1": [
+     5,
+     7
+    ],
+    "2": [
+     4,
+     7
+    ],
+    "3": [
+     4,
+     6
+    ],
+    "4": [
+     3,
+     6
+    ],
+    "5": [
+     3,
+     7
+    ],
+    "6": [
+     5,
+     6
+    ],
+    "7": [
+     7,
+     7
+    ],
+    "8": [
+     6,
+     6
+    ],
+    "9": [
+     6,
+     5
+    ],
+    "10": [
+     5,
+     5
+    ],
+    "11": [
+     7,
+     5
+    ],
+    "12": [
+     4,
+     5
+    ]
+   },
+   "native_equals_comparison_round_file": true,
+   "phasedxz_is_H": true,
+   "H_native_gate": "cirq.PhasedXZGate(axis_phase_exponent=-0.5, x_exponent=0.5, z_exponent=1.0)",
+   "roundtrip_identical": true,
+   "flows_equal": true,
+   "detectors_deterministic": true,
+   "detector_error_model_equal": true,
+   "device_validation": {
+    "H as cirq.H": "PASS",
+    "H as PhasedXZGate (used)": "PASS"
+   },
+   "cz_pairs": 13,
+   "cz_pairs_on_couplers": 13,
+   "qubits_on_device": true,
+   "moments": 32,
+   "gate_counts": {
+    "T / T^-1 (virtual Z)": 14,
+    "reset": 7,
+    "PhasedXZ (H)": 38,
+    "CZ": 26,
+    "measure": 7
+   },
+   "readout_lines": {}
+  },
+  "success00": {
+   "name": "success00",
+   "role": "3rd best ZZ success",
+   "placement": "own QUBIT_COORDS (Willow)",
+   "qubits": {
+    "0": [
+     6,
+     7
+    ],
+    "1": [
+     5,
+     7
+    ],
+    "2": [
+     4,
+     7
+    ],
+    "3": [
+     5,
+     6
+    ],
+    "4": [
+     5,
+     5
+    ],
+    "5": [
+     7,
+     7
+    ],
+    "6": [
+     6,
+     6
+    ],
+    "7": [
+     6,
+     5
+    ],
+    "8": [
+     6,
+     4
+    ],
+    "9": [
+     7,
+     4
+    ],
+    "10": [
+     7,
+     5
+    ],
+    "11": [
+     5,
+     4
+    ],
+    "12": [
+     4,
+     6
+    ]
+   },
+   "native_equals_comparison_round_file": true,
+   "phasedxz_is_H": true,
+   "H_native_gate": "cirq.PhasedXZGate(axis_phase_exponent=-0.5, x_exponent=0.5, z_exponent=1.0)",
+   "roundtrip_identical": true,
+   "flows_equal": true,
+   "detectors_deterministic": true,
+   "detector_error_model_equal": true,
+   "device_validation": {
+    "H as cirq.H": "PASS",
+    "H as PhasedXZGate (used)": "PASS"
+   },
+   "cz_pairs": 13,
+   "cz_pairs_on_couplers": 13,
+   "qubits_on_device": true,
+   "moments": 31,
+   "gate_counts": {
+    "T / T^-1 (virtual Z)": 14,
+    "reset": 7,
+    "PhasedXZ (H)": 38,
+    "CZ": 26,
+    "measure": 7
+   },
+   "readout_lines": {}
+  },
+  "G4": {
+   "name": "G4",
+   "role": "hardware reference: Google's as-run double check (native CZ + H)",
+   "placement": "own QUBIT_COORDS (Willow)",
+   "qubits": {
+    "0": [
+     7,
+     8
+    ],
+    "1": [
+     7,
+     9
+    ],
+    "2": [
+     7,
+     10
+    ],
+    "3": [
+     8,
+     7
+    ],
+    "4": [
+     8,
+     8
+    ],
+    "5": [
+     8,
+     9
+    ],
+    "6": [
+     8,
+     10
+    ],
+    "7": [
+     8,
+     11
+    ],
+    "8": [
+     9,
+     8
+    ],
+    "9": [
+     9,
+     9
+    ],
+    "10": [
+     9,
+     10
+    ],
+    "11": [
+     10,
+     9
+    ]
+   },
+   "native_equals_comparison_round_file": true,
+   "phasedxz_is_H": true,
+   "H_native_gate": "cirq.PhasedXZGate(axis_phase_exponent=-0.5, x_exponent=0.5, z_exponent=1.0)",
+   "roundtrip_identical": true,
+   "flows_equal": true,
+   "detectors_deterministic": true,
+   "detector_error_model_equal": true,
+   "device_validation": {
+    "H as cirq.H": "PASS",
+    "H as PhasedXZGate (used)": "PASS"
+   },
+   "cz_pairs": 11,
+   "cz_pairs_on_couplers": 11,
+   "qubits_on_device": true,
+   "moments": 26,
+   "gate_counts": {
+    "T / T^-1 (virtual Z)": 14,
+    "reset": 9,
+    "PhasedXZ (H)": 42,
+    "CZ": 24,
+    "measure": 7
+   },
+   "readout_lines": {}
+  },
+  "d3a6": {
+   "name": "d3a6",
+   "role": "what if: best Willow placement, breaks the readout rule",
+   "placement": "results/embed_search_d3a6.json example_min_embedding['exempt'] (1 strict readout conflict, the minimum over all 182,968 embeddings); NOT Willow-compatible",
+   "qubits": {
+    "0": [
+     1,
+     8
+    ],
+    "1": [
+     2,
+     8
+    ],
+    "2": [
+     3,
+     7
+    ],
+    "3": [
+     2,
+     7
+    ],
+    "4": [
+     3,
+     6
+    ],
+    "5": [
+     2,
+     6
+    ],
+    "6": [
+     2,
+     5
+    ],
+    "7": [
+     2,
+     4
+    ],
+    "8": [
+     1,
+     5
+    ],
+    "9": [
+     1,
+     6
+    ],
+    "10": [
+     1,
+     7
+    ],
+    "11": [
+     0,
+     7
+    ],
+    "12": [
+     0,
+     6
+    ]
+   },
+   "native_equals_comparison_round_file": true,
+   "phasedxz_is_H": true,
+   "H_native_gate": "cirq.PhasedXZGate(axis_phase_exponent=-0.5, x_exponent=0.5, z_exponent=1.0)",
+   "roundtrip_identical": true,
+   "flows_equal": true,
+   "detectors_deterministic": true,
+   "detector_error_model_equal": true,
+   "device_validation": {
+    "H as cirq.H": "PASS",
+    "H as PhasedXZGate (used)": "PASS"
+   },
+   "cz_pairs": 12,
+   "cz_pairs_on_couplers": 12,
+   "qubits_on_device": true,
+   "moments": 24,
+   "gate_counts": {
+    "T / T^-1 (virtual Z)": 14,
+    "reset": 7,
+    "PhasedXZ (H)": 42,
+    "CZ": 24,
+    "measure": 7
+   },
+   "readout_lines": {
+    "readout": 1
+   }
+  }
+ },
+ "runtime_s": 0.3296799659729004
+}

@@ -1,0 +1,116 @@
+[Nov 09, 03:03 PM KST] step 4: fig2/cultivation [X] vs G4: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:03 PM KST] step 4: fig2/cultivation [Z] vs G4: gates identical=False (differing ticks 9), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:03 PM KST] step 4: fig3/with_idle_rounds [X] vs G5: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 21 / T-dagger 21
+[Nov 09, 03:03 PM KST] step 4: fig4/cultivation_N=2 [X] vs G6: gates identical=True (differing ticks 0), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:03 PM KST] step 4: fig4/cultivation_N=2 [Z] vs G6: gates identical=False (differing ticks 13), with tags=False, detectors same=False, observable same=False, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:03 PM KST] step 4 done
+[Nov 09, 03:06 PM KST] run_t6.sh start
+[Nov 09, 03:06 PM KST] step 4: fig2/cultivation [X] vs G4: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:06 PM KST] step 4: fig2/cultivation [Z] vs G4: gates identical=False (differing ticks 9), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:06 PM KST] step 4: fig3/with_idle_rounds [X] vs G5: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 21 / T-dagger 21
+[Nov 09, 03:06 PM KST] step 4: fig4/cultivation_N=2 [X] vs G6: gates identical=True (differing ticks 0), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:06 PM KST] step 4: fig4/cultivation_N=2 [Z] vs G6: gates identical=False (differing ticks 13), with tags=False, detectors same=False, observable same=False, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:06 PM KST] step 4 done
+[Nov 09, 03:06 PM KST] step 1: fig2/injection: m2d check + aggregation
+[Nov 09, 03:06 PM KST] steps 2-3: 2844 chunks of 2000 shots to run (models ['ideal', 'si1000', 'qvm']; injection theta 0.125000), 3 workers
+[Nov 09, 03:06 PM KST] run_t6.sh finished
+[Nov 09, 03:09 PM KST] run_t6.sh start
+[Nov 09, 03:09 PM KST] step 4: fig2/cultivation [X] vs G4: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:09 PM KST] step 4: fig2/cultivation [Z] vs G4: gates identical=False (differing ticks 9), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:09 PM KST] step 4: fig3/with_idle_rounds [X] vs G5: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 21 / T-dagger 21
+[Nov 09, 03:09 PM KST] step 4: fig4/cultivation_N=2 [X] vs G6: gates identical=True (differing ticks 0), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:09 PM KST] step 4: fig4/cultivation_N=2 [Z] vs G6: gates identical=False (differing ticks 13), with tags=False, detectors same=False, observable same=False, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:09 PM KST] step 4 done
+[Nov 09, 03:09 PM KST] step 1: fig2/injection: m2d check + aggregation
+[Nov 09, 03:09 PM KST] steps 2-3: 2829 chunks of 2000 shots to run (models ['ideal', 'si1000', 'qvm']; injection theta 0.125000), 3 workers
+[Nov 09, 03:09 PM KST] step 1: fig2/injection: 8,600,000 shots, kept 6,519,434 (75.8 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): True
+[Nov 09, 03:09 PM KST] step 1: fig2/cultivation: m2d check + aggregation
+[Nov 09, 03:10 PM KST] step 1: fig2/cultivation: 24,600,000 shots, kept 6,999,703 (28.5 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): True
+[Nov 09, 03:10 PM KST] step 1: fig2/simulation: m2d check + aggregation
+[Nov 09, 03:10 PM KST] step 1: fig2/simulation: 24,600,000 shots, kept 7,027,582 (28.6 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): True
+[Nov 09, 03:10 PM KST] step 1: fig3/injection: m2d check + aggregation
+[Nov 09, 03:11 PM KST] step 1: fig3/injection: 21,500,000 shots, kept 4,257,016 (19.8 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): True
+[Nov 09, 03:11 PM KST] step 1: fig3/without_idle_rounds: m2d check + aggregation
+[Nov 09, 03:11 PM KST] steps 2-3: 100/2829 chunks, 2 min, about 56 min left
+[Nov 09, 03:11 PM KST] step 1: fig3/without_idle_rounds: 2,150,000 shots, kept 388,774 (18.1 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): True
+[Nov 09, 03:11 PM KST] step 1: fig3/with_idle_rounds: m2d check + aggregation
+[Nov 09, 03:13 PM KST] step 1: fig3/with_idle_rounds: 30,100,000 shots, kept 1,559,013 (5.2 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): True
+[Nov 09, 03:13 PM KST] step 1: fig3/with_idle_rounds_zoom: m2d check + aggregation
+[Nov 09, 03:13 PM KST] step 1: fig3/with_idle_rounds_zoom: 7,700,000 shots, kept 677,465 (8.8 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): True
+[Nov 09, 03:13 PM KST] step 1: fig3/simulation: m2d check + aggregation
+[Nov 09, 03:13 PM KST] step 1: fig3/simulation: 6,300,000 shots, kept 266,564 (4.2 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): True
+[Nov 09, 03:13 PM KST] step 1: fig3/simulation_zoom: m2d check + aggregation
+[Nov 09, 03:13 PM KST] steps 2-3: 200/2829 chunks, 4 min, about 59 min left
+[Nov 09, 03:14 PM KST] step 1: fig3/simulation_zoom: 4,200,000 shots, kept 271,023 (6.5 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): True
+[Nov 09, 03:14 PM KST] step 1: fig4/injection_N=2: m2d check + aggregation
+[Nov 09, 03:14 PM KST] step 1: fig4/injection_N=2: 8,200,000 shots, kept 271,530 (3.3 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): False
+[Nov 09, 03:14 PM KST] step 1: fig4/cultivation_N=2: m2d check + aggregation
+[Nov 09, 03:15 PM KST] step 1: fig4/cultivation_N=2: 8,200,000 shots, kept 126,476 (1.5 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): False
+[Nov 09, 03:15 PM KST] step 1: fig4/cultivation_N=3: m2d check + aggregation
+[Nov 09, 03:16 PM KST] step 1: fig4/cultivation_N=3: 8,200,000 shots, kept 26,065 (0.3 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): False
+[Nov 09, 03:16 PM KST] step 1: fig4/simulation_injection_N=2: m2d check + aggregation
+[Nov 09, 03:16 PM KST] step 1: fig4/simulation_injection_N=2: 820,000 shots, kept 31,241 (3.8 %), m2d {'X': {'rows': 200000, 'detectors_equal': True, 'observable_equal': True}}, corrected file = post-selected raw for every (basis, theta): False
+[Nov 09, 03:16 PM KST] step 1 done
+[Nov 09, 03:16 PM KST] steps 2-3: 300/2829 chunks, 7 min, about 58 min left
+[Nov 09, 03:18 PM KST] steps 2-3: 400/2829 chunks, 9 min, about 57 min left
+[Nov 09, 03:19 PM KST] run_t6.sh finished
+[Nov 09, 03:22 PM KST] restart after folder rename (quantum001 -> quantum001-PKNU-Lab); step 1 and 4 outputs kept, steps 2-3 resume
+[Nov 09, 03:22 PM KST] run_t6.sh start
+[Nov 09, 03:22 PM KST] step 4: fig2/cultivation [X] vs G4: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:22 PM KST] step 4: fig2/cultivation [Z] vs G4: gates identical=False (differing ticks 9), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:22 PM KST] step 4: fig3/with_idle_rounds [X] vs G5: gates identical=True (differing ticks 0), with tags=True, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 21 / T-dagger 21
+[Nov 09, 03:22 PM KST] step 4: fig4/cultivation_N=2 [X] vs G6: gates identical=True (differing ticks 0), with tags=False, detectors same=True, observable same=True, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:22 PM KST] step 4: fig4/cultivation_N=2 [Z] vs G6: gates identical=False (differing ticks 13), with tags=False, detectors same=False, observable same=False, cirq vs stim: CZ True, meas order True, T 7 / T-dagger 7
+[Nov 09, 03:22 PM KST] step 4 done
+[Nov 09, 03:22 PM KST] step 1 done
+[Nov 09, 03:22 PM KST] steps 2-3: 2391 chunks of 2000 shots to run (models ['ideal', 'si1000', 'qvm']; injection theta 0.125000), 3 workers
+[Nov 09, 03:25 PM KST] steps 2-3: 100/2391 chunks, 2 min, about 57 min left
+[Nov 09, 03:27 PM KST] steps 2-3: 200/2391 chunks, 5 min, about 54 min left
+[Nov 09, 03:29 PM KST] report written: RESULTS.md
+[Nov 09, 03:29 PM KST] report written: RESULTS.md
+[Nov 09, 03:30 PM KST] steps 2-3: 300/2391 chunks, 7 min, about 52 min left
+[Nov 09, 03:32 PM KST] steps 2-3: 400/2391 chunks, 10 min, about 50 min left
+[Nov 09, 03:35 PM KST] steps 2-3: 500/2391 chunks, 13 min, about 47 min left
+[Nov 09, 03:38 PM KST] steps 2-3: 600/2391 chunks, 15 min, about 45 min left
+[Nov 09, 03:40 PM KST] steps 2-3: 700/2391 chunks, 18 min, about 43 min left
+[Nov 09, 03:42 PM KST] steps 2-3: 800/2391 chunks, 20 min, about 40 min left
+[Nov 09, 03:44 PM KST] steps 2-3: 900/2391 chunks, 21 min, about 35 min left
+[Nov 09, 03:45 PM KST] steps 2-3: 1000/2391 chunks, 22 min, about 31 min left
+[Nov 09, 03:48 PM KST] steps 2-3: 1100/2391 chunks, 26 min, about 30 min left
+[Nov 09, 03:51 PM KST] steps 2-3: 1200/2391 chunks, 29 min, about 28 min left
+[Nov 09, 03:54 PM KST] steps 2-3: 1300/2391 chunks, 32 min, about 26 min left
+[Nov 09, 03:57 PM KST] steps 2-3: 1400/2391 chunks, 34 min, about 24 min left
+[Nov 09, 04:00 PM KST] steps 2-3: 1500/2391 chunks, 37 min, about 22 min left
+[Nov 09, 04:03 PM KST] steps 2-3: 1600/2391 chunks, 40 min, about 20 min left
+[Nov 09, 04:06 PM KST] steps 2-3: 1700/2391 chunks, 43 min, about 18 min left
+[Nov 09, 04:09 PM KST] steps 2-3: 1800/2391 chunks, 46 min, about 15 min left
+[Nov 09, 04:12 PM KST] steps 2-3: 1900/2391 chunks, 49 min, about 13 min left
+[Nov 09, 04:15 PM KST] steps 2-3: 2000/2391 chunks, 52 min, about 10 min left
+[Nov 09, 04:17 PM KST] steps 2-3: 2100/2391 chunks, 55 min, about 8 min left
+[Nov 09, 04:20 PM KST] steps 2-3: 2200/2391 chunks, 58 min, about 5 min left
+[Nov 09, 04:22 PM KST] steps 2-3: 2300/2391 chunks, 59 min, about 2 min left
+[Nov 09, 04:23 PM KST] steps 2-3: 2391/2391 chunks, 60 min, about 0 min left
+[Nov 09, 04:23 PM KST] steps 2-3 done
+[Nov 09, 04:23 PM KST] report written: RESULTS.md
+[Nov 09, 04:23 PM KST] run_t6.sh finished
+[Nov 09, 05:07 PM KST] part 2 start: SI1000 at p = 0.36 %
+[Nov 09, 05:07 PM KST] steps 2-3: 1400 chunks of 2000 shots to run (models ['si1000@0.0036']; injection theta 0.125000), 3 workers
+[Nov 09, 05:09 PM KST] steps 2-3: 100/1400 chunks, 2 min, about 32 min left
+[Nov 09, 05:12 PM KST] steps 2-3: 200/1400 chunks, 5 min, about 29 min left
+[Nov 09, 05:14 PM KST] steps 2-3: 300/1400 chunks, 7 min, about 27 min left
+[Nov 09, 05:17 PM KST] steps 2-3: 400/1400 chunks, 10 min, about 25 min left
+[Nov 09, 05:19 PM KST] steps 2-3: 500/1400 chunks, 12 min, about 22 min left
+[Nov 09, 05:21 PM KST] steps 2-3: 600/1400 chunks, 15 min, about 20 min left
+[Nov 09, 05:24 PM KST] steps 2-3: 700/1400 chunks, 17 min, about 17 min left
+[Nov 09, 05:26 PM KST] steps 2-3: 800/1400 chunks, 20 min, about 15 min left
+[Nov 09, 05:29 PM KST] steps 2-3: 900/1400 chunks, 22 min, about 12 min left
+[Nov 09, 05:31 PM KST] steps 2-3: 1000/1400 chunks, 25 min, about 10 min left
+[Nov 09, 05:34 PM KST] steps 2-3: 1100/1400 chunks, 27 min, about 7 min left
+[Nov 09, 05:36 PM KST] steps 2-3: 1200/1400 chunks, 30 min, about 5 min left
+[Nov 09, 05:37 PM KST] steps 2-3: 1300/1400 chunks, 31 min, about 2 min left
+[Nov 09, 05:39 PM KST] steps 2-3: 1400/1400 chunks, 32 min, about 0 min left
+[Nov 09, 05:39 PM KST] steps 2-3 done
+[Nov 09, 05:39 PM KST] steps 2-3: 0 chunks of 2000 shots to run (models ['ideal', 'si1000', 'qvm', 'si1000@0.0036']; injection theta 0.125000), 3 workers
+[Nov 09, 05:39 PM KST] steps 2-3 done
+[Nov 09, 05:39 PM KST] report written: RESULTS.md
+[Nov 09, 05:39 PM KST] part 2 finished

@@ -1,0 +1,30 @@
+What G6's layout offers (free grid points with >= 2 data neighbours):
+  (4, 4): 2 data, kind 2 data, 3-subsets: []
+  (4, 6): 3 data, kind partial, 3-subsets: ['partial']
+  (5, 5): 4 data, kind stabiliser, 3-subsets: ['partial', 'stabiliser']
+  (5, 7): 3 data, kind partial, 3-subsets: ['partial']
+  (6, 4): 2 data, kind 2 data, 3-subsets: []
+  (6, 6): 4 data, kind stabiliser, 3-subsets: ['partial', 'stabiliser']
+  (7, 5): 2 data, kind 2 data, 3-subsets: []
+  (7, 7): 2 data, kind 2 data, 3-subsets: []
+  kinds offered: {'2 data': 4, 'partial': 6, 'stabiliser': 4}
+cs00: q0 -> data [1, 2, 3, 4] (other-4); q5 -> data [4, 9] (2 data); q6 -> data [7, 8] (2 data); q10 -> data [1] (1 data); q11 -> data [2] (1 data)
+       NOT offered by G6's layout: q0 needs a other-4 group
+cs01: q0 -> data [1, 2, 3, 4] (other-4); q5 -> data [4, 9] (2 data); q6 -> data [7, 8] (2 data); q10 -> data [1] (1 data); q11 -> data [8] (1 data)
+       NOT offered by G6's layout: q0 needs a other-4 group
+cs02: q0 -> data [1, 2, 6] (partial); q3 -> data [2, 4, 5] (partial); q7 -> data [6, 8, 9] (partial); q10 -> data [5, 8] (2 data); q11 -> data [5] (1 data)
+cs03: q0 -> data [1, 2, 6] (partial); q3 -> data [2, 4, 5] (partial); q7 -> data [6, 8, 9] (partial); q10 -> data [5, 8] (2 data); q11 -> data [8] (1 data)
+cs04: q0 -> data [1, 2, 6] (partial); q3 -> data [2, 4, 5] (partial); q7 -> data [6, 8, 9] (partial); q10 -> data [5, 8] (2 data); q11 -> data [5, 8] (2 data)
+cs05: q0 -> data [3] (1 data); q1 -> data [2] (1 data); q4 -> data [3, 5, 6] (partial); q7 -> data [3, 8, 9, 10] (other-4); q11 -> data [5, 9] (2 data); q12 -> data [5] (1 data)
+       NOT offered by G6's layout: q7 needs a other-4 group
+cs06: q0 -> data [3] (1 data); q1 -> data [2] (1 data); q4 -> data [3, 5, 6] (partial); q7 -> data [3, 8, 9, 10] (other-4); q11 -> data [5, 9] (2 data); q12 -> data [9] (1 data)
+       NOT offered by G6's layout: q7 needs a other-4 group
+cs07: q0 -> data [3, 7] (2 data); q1 -> data [2] (1 data); q4 -> data [3, 5, 6] (partial); q8 -> data [7, 9, 10] (partial); q11 -> data [6, 9] (2 data); q12 -> data [6] (1 data)
+cs08: q0 -> data [3, 7] (2 data); q1 -> data [2] (1 data); q4 -> data [3, 5, 6] (partial); q8 -> data [7, 9, 10] (partial); q11 -> data [6, 9] (2 data); q12 -> data [9] (1 data)
+cs09: q0 -> data [3, 7] (2 data); q1 -> data [2] (1 data); q4 -> data [3, 5, 6] (partial); q8 -> data [7, 9, 10] (partial); q11 -> data [6, 9] (2 data); q12 -> data [6, 9] (2 data)
+cs02, 168 code-preserving maps: maps where qubit q has NO grid point next to all its data: q0 ([1, 2, 6], partial): 108, q3 ([2, 4, 5], partial): 108, q7 ([6, 8, 9], partial): 108, q10 ([5, 8], 2 data): 56
+  fewest failing qubits over all maps: [7]
+  failing [7] e.g. data map {'1': (4, 5), '2': (6, 5), '4': (7, 6), '5': (5, 6), '6': (5, 4), '8': (4, 7), '9': (6, 7)}
+  failing [3] e.g. data map {'1': (4, 7), '2': (4, 5), '4': (7, 6), '5': (6, 7), '6': (5, 6), '8': (6, 5), '9': (5, 4)}
+  failing [10] e.g. data map {'1': (4, 7), '2': (5, 6), '4': (5, 4), '5': (4, 5), '6': (6, 7), '8': (7, 6), '9': (6, 5)}
+/home/ubuntu/quantum001/google-quantum/qvm-google (main)/test3_full_qec_realT_lowT_sim_ours_vs_google_g6/results/g6_diagnosis.json

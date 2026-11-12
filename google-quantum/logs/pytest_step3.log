@@ -1,0 +1,45 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.2.0, pluggy-1.7.0 -- /home/ubuntu/quantum001/google-quantum/.venv/bin/python
+rootdir: /home/ubuntu/quantum001/google-quantum
+plugins: platformdirs-4.14.0
+collecting ... collected 37 items
+
+nnflags/tests/test_candidates.py::test_build_without_flags_is_d3a6 PASSED [  2%]
+nnflags/tests/test_candidates.py::test_slot_pairs_keep_z_of_control PASSED [  5%]
+nnflags/tests/test_candidates.py::test_hook_qubits_5_and_9_have_no_free_neighbour_anywhere PASSED [  8%]
+nnflags/tests/test_candidates.py::test_single_flag_circuit PASSED        [ 10%]
+nnflags/tests/test_candidates.py::test_flag_measured_in_final_layer_and_in_place_slots PASSED [ 13%]
+nnflags/tests/test_candidates.py::test_crossing_a_target_is_not_deterministic PASSED [ 16%]
+nnflags/tests/test_candidates.py::test_two_flags_same_control_same_slot_is_reuse PASSED [ 18%]
+nnflags/tests/test_candidates.py::test_degree_violation_when_control_gets_a_fifth_partner PASSED [ 21%]
+nnflags/tests/test_candidates.py::test_b_layer_permutations_and_fold_variants PASSED [ 24%]
+nnflags/tests/test_candidates.py::test_count_flag_sets_matches_brute_force PASSED [ 27%]
+nnflags/tests/test_candidates.py::test_strict_readout_never_passes_but_ignore_does PASSED [ 29%]
+nnflags/tests/test_candidates.py::test_verify_accepts_a_flagged_candidate PASSED [ 32%]
+nnflags/tests/test_constraints.py::test_willow_matches_google_spec PASSED [ 35%]
+nnflags/tests/test_constraints.py::test_d3a6_passes_neighbour_and_degree_on_every_willow_embedding PASSED [ 37%]
+nnflags/tests/test_constraints.py::test_d3a6f2_native_failures_match_plan PASSED [ 40%]
+nnflags/tests/test_constraints.py::test_d3a6f2_cannot_be_nearest_neighbour_on_willow PASSED [ 43%]
+nnflags/tests/test_constraints.py::test_readout_rule_and_toggle PASSED   [ 45%]
+nnflags/tests/test_constraints.py::test_reuse_in_tick_detected PASSED    [ 48%]
+nnflags/tests/test_crumble_embed.py::test_crumble_syntax PASSED          [ 51%]
+nnflags/tests/test_crumble_embed.py::test_chan_sec5_crumble_link_is_cliffordea_d3a4 PASSED [ 54%]
+nnflags/tests/test_crumble_embed.py::test_z_reset_idle_refinement PASSED [ 56%]
+nnflags/tests/test_crumble_embed.py::test_embedding_search_on_a_small_grid PASSED [ 59%]
+nnflags/tests/test_crumble_embed.py::test_d3a6_search_counts_and_fast_counter PASSED [ 62%]
+nnflags/tests/test_readout.py::test_victim_live_vs_not_yet_prepared PASSED [ 64%]
+nnflags/tests/test_readout.py::test_first_gate_prepares PASSED           [ 67%]
+nnflags/tests/test_readout.py::test_mr_keeps_live_and_ancilla_vs_ancilla PASSED [ 70%]
+nnflags/tests/test_readout.py::test_m_without_reset_ends_liveness_until_next_reset PASSED [ 72%]
+nnflags/tests/test_readout.py::test_measured_qubit_not_its_own_victim_and_simultaneous_readout PASSED [ 75%]
+nnflags/tests/test_readout.py::test_reset_in_same_tick_is_not_a_victim PASSED [ 78%]
+nnflags/tests/test_readout.py::test_other_line_never_a_victim PASSED     [ 81%]
+nnflags/tests/test_readout.py::test_final_layer_exempt_by_default_and_checkable PASSED [ 83%]
+nnflags/tests/test_readout.py::test_data_measured_without_reset_is_dead_until_prepared PASSED [ 86%]
+nnflags/tests/test_readout.py::test_check_circuit_modes PASSED           [ 89%]
+nnflags/tests/test_readout.py::test_d3a6_strict_native PASSED            [ 91%]
+nnflags/tests/test_verify.py::test_verify_reproduces_step0[d3a6-0-4] PASSED [ 94%]
+nnflags/tests/test_verify.py::test_verify_reproduces_step0[d3a6f2-2-0] PASSED [ 97%]
+nnflags/tests/test_verify.py::test_verify_accepts_in_memory_circuits PASSED [100%]
+
+============================= 37 passed in 38.86s ==============================

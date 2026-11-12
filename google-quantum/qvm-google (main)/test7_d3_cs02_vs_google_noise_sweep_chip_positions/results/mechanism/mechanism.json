@@ -1,0 +1,1016 @@
+{
+ "E1_G4_G6style": {
+  "fault_locations": 150,
+  "malignant_T_pairs": 7,
+  "malignant_T_single": 0,
+  "malignant_S_pairs": 0,
+  "malignant_S_single": 0
+ },
+ "E1_cont_success02": {
+  "fault_locations": 162,
+  "malignant_T_pairs": 0,
+  "malignant_T_single": 0,
+  "malignant_S_pairs": 0,
+  "malignant_S_single": 0
+ },
+ "E2_google_pairs": [
+  {
+   "cfg": [
+    8,
+    126
+   ],
+   "events": [
+    "time slice 1: X on q2",
+    "time slice 17: Y3 X4"
+   ],
+   "pauli_signatures": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "accept_T_cliffordea": 0.25,
+   "in_S_proxy": "not malignant",
+   "qvm_pair": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 9908,
+    "silent_in_code_wrong": 9908
+   },
+   "qvm_alone": [
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    },
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    }
+   ]
+  },
+  {
+   "cfg": [
+    8,
+    137
+   ],
+   "events": [
+    "time slice 1: X on q2",
+    "time slice 17: X9 Y10"
+   ],
+   "pauli_signatures": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "accept_T_cliffordea": 0.25,
+   "in_S_proxy": "not malignant",
+   "qvm_pair": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 9908,
+    "silent_in_code_wrong": 9908
+   },
+   "qvm_alone": [
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    },
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    }
+   ]
+  },
+  {
+   "cfg": [
+    47,
+    116
+   ],
+   "events": [
+    "time slice 5: X on q4",
+    "time slice 15: X8 X9"
+   ],
+   "pauli_signatures": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "accept_T_cliffordea": 0.25,
+   "in_S_proxy": "not malignant",
+   "qvm_pair": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 9998,
+    "silent_in_code_wrong": 9998
+   },
+   "qvm_alone": [
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    },
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    }
+   ]
+  },
+  {
+   "cfg": [
+    47,
+    149
+   ],
+   "events": [
+    "time slice 5: X on q4",
+    "time slice 19: Y2 X6"
+   ],
+   "pauli_signatures": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "accept_T_cliffordea": 0.25,
+   "in_S_proxy": "not malignant",
+   "qvm_pair": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 9908,
+    "silent_in_code_wrong": 9908
+   },
+   "qvm_alone": [
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    },
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    }
+   ]
+  },
+  {
+   "cfg": [
+    58,
+    118
+   ],
+   "events": [
+    "time slice 5: X on q5",
+    "time slice 15: Y on q8"
+   ],
+   "pauli_signatures": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "accept_T_cliffordea": 0.25,
+   "in_S_proxy": "not malignant",
+   "qvm_pair": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 10003,
+    "silent_in_code_wrong": 10003
+   },
+   "qvm_alone": [
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    },
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    }
+   ]
+  },
+  {
+   "cfg": [
+    67,
+    149
+   ],
+   "events": [
+    "time slice 5: X on q9",
+    "time slice 19: Y2 X6"
+   ],
+   "pauli_signatures": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "accept_T_cliffordea": 0.25,
+   "in_S_proxy": "not malignant",
+   "qvm_pair": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 9908,
+    "silent_in_code_wrong": 9908
+   },
+   "qvm_alone": [
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    },
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    }
+   ]
+  },
+  {
+   "cfg": [
+    113,
+    149
+   ],
+   "events": [
+    "time slice 15: X on q9",
+    "time slice 19: Y2 X6"
+   ],
+   "pauli_signatures": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "accept_T_cliffordea": 0.25,
+   "in_S_proxy": "not malignant",
+   "qvm_pair": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 9908,
+    "silent_in_code_wrong": 9908
+   },
+   "qvm_alone": [
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    },
+    {
+     "shots": 4000,
+     "fire_prob": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "silent": 1.0,
+     "silent_in_code": 0,
+     "silent_in_code_wrong": 0
+    }
+   ]
+  }
+ ],
+ "google_detectors": [
+  [
+   1
+  ],
+  [
+   2
+  ],
+  [
+   3
+  ],
+  [
+   4
+  ],
+  [
+   5,
+   1
+  ],
+  [
+   6
+  ]
+ ],
+ "google_data": [
+  0,
+  2,
+  3,
+  5,
+  8,
+  10,
+  11
+ ],
+ "google_pos": {
+  "0": [
+   7,
+   8
+  ],
+  "1": [
+   7,
+   9
+  ],
+  "2": [
+   7,
+   10
+  ],
+  "3": [
+   8,
+   7
+  ],
+  "4": [
+   8,
+   8
+  ],
+  "5": [
+   8,
+   9
+  ],
+  "6": [
+   8,
+   10
+  ],
+  "7": [
+   8,
+   11
+  ],
+  "8": [
+   9,
+   8
+  ],
+  "9": [
+   9,
+   9
+  ],
+  "10": [
+   9,
+   10
+  ],
+  "11": [
+   10,
+   9
+  ]
+ },
+ "E3_cs02_ablation": {
+  "cont_success02": {
+   "fault_locations": 162,
+   "detectors": 6,
+   "malignant_T_le2": 0,
+   "malignant": []
+  },
+  "cs02_noflagdet": {
+   "fault_locations": 141,
+   "detectors": 4,
+   "malignant_T_le2": 6,
+   "malignant": [
+    [
+     4,
+     125
+    ],
+    [
+     10,
+     131
+    ],
+    [
+     29,
+     125
+    ],
+    [
+     42,
+     102
+    ],
+    [
+     47,
+     135
+    ],
+    [
+     56,
+     137
+    ]
+   ]
+  },
+  "cs02_noflags": {
+   "fault_locations": 137,
+   "detectors": 6,
+   "malignant_T_le2": 5,
+   "malignant": [
+    [
+     3,
+     122
+    ],
+    [
+     9,
+     128
+    ],
+    [
+     29,
+     122
+    ],
+    [
+     44,
+     132
+    ],
+    [
+     53,
+     134
+    ]
+   ]
+  }
+ },
+ "E4_cs02_flag_catches": [
+  {
+   "cfg": [
+    4,
+    125
+   ],
+   "events": [
+    "time slice 1: X on q1",
+    "time slice 22: X3 Y5"
+   ],
+   "with_all_detectors": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "silent": 0.0,
+    "silent_in_code": 0,
+    "silent_in_code_wrong": 0
+   },
+   "flag_detectors_ignored": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 10066,
+    "silent_in_code_wrong": 10066
+   },
+   "caught_by": [
+    "ZZ flag F10",
+    "X flag F11"
+   ]
+  },
+  {
+   "cfg": [
+    10,
+    131
+   ],
+   "events": [
+    "time slice 1: X on q4",
+    "time slice 22: X7 Y9"
+   ],
+   "with_all_detectors": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "silent": 0.0,
+    "silent_in_code": 0,
+    "silent_in_code_wrong": 0
+   },
+   "flag_detectors_ignored": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 9976,
+    "silent_in_code_wrong": 9976
+   },
+   "caught_by": [
+    "ZZ flag F10"
+   ]
+  },
+  {
+   "cfg": [
+    29,
+    125
+   ],
+   "events": [
+    "time slice 5: X on q0",
+    "time slice 22: X3 Y5"
+   ],
+   "with_all_detectors": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "silent": 0.0,
+    "silent_in_code": 0,
+    "silent_in_code_wrong": 0
+   },
+   "flag_detectors_ignored": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 10066,
+    "silent_in_code_wrong": 10066
+   },
+   "caught_by": [
+    "ZZ flag F10",
+    "X flag F11"
+   ]
+  },
+  {
+   "cfg": [
+    42,
+    102
+   ],
+   "events": [
+    "time slice 5: X on q10",
+    "time slice 18: X on q2"
+   ],
+   "with_all_detectors": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "silent": 0.0,
+    "silent_in_code": 0,
+    "silent_in_code_wrong": 0
+   },
+   "flag_detectors_ignored": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 40000,
+    "silent_in_code_wrong": 40000
+   },
+   "caught_by": [
+    "X flag F11"
+   ]
+  },
+  {
+   "cfg": [
+    47,
+    135
+   ],
+   "events": [
+    "time slice 7: X on q3",
+    "time slice 24: X0 Y1"
+   ],
+   "with_all_detectors": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "silent": 0.0,
+    "silent_in_code": 0,
+    "silent_in_code_wrong": 0
+   },
+   "flag_detectors_ignored": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 10066,
+    "silent_in_code_wrong": 10066
+   },
+   "caught_by": [
+    "ZZ flag F10"
+   ]
+  },
+  {
+   "cfg": [
+    56,
+    137
+   ],
+   "events": [
+    "time slice 7: X on q7",
+    "time slice 24: X3 Y4"
+   ],
+   "with_all_detectors": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "silent": 0.0,
+    "silent_in_code": 0,
+    "silent_in_code_wrong": 0
+   },
+   "flag_detectors_ignored": {
+    "shots": 40000,
+    "fire_prob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "silent": 1.0,
+    "silent_in_code": 9976,
+    "silent_in_code_wrong": 9976
+   },
+   "caught_by": [
+    "ZZ flag F10"
+   ]
+  }
+ ],
+ "cs02_detectors": [
+  [
+   1
+  ],
+  [
+   2,
+   1
+  ],
+  [
+   3
+  ],
+  [
+   4
+  ],
+  [
+   6
+  ],
+  [
+   5
+  ]
+ ],
+ "cs02_flag_detector_indices": [
+  4,
+  5
+ ],
+ "cs02_data": [
+  1,
+  2,
+  4,
+  5,
+  6,
+  8,
+  9
+ ],
+ "cs02_pos": {
+  "0": [
+   5,
+   10
+  ],
+  "1": [
+   6,
+   10
+  ],
+  "2": [
+   4,
+   10
+  ],
+  "3": [
+   3,
+   10
+  ],
+  "4": [
+   2,
+   10
+  ],
+  "5": [
+   3,
+   9
+  ],
+  "6": [
+   5,
+   9
+  ],
+  "7": [
+   5,
+   8
+  ],
+  "8": [
+   4,
+   8
+  ],
+  "9": [
+   6,
+   8
+  ],
+  "10": [
+   3,
+   8
+  ],
+  "11": [
+   2,
+   9
+  ]
+ }
+}

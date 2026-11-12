@@ -1,0 +1,4 @@
+run_t6.sh: line 14: /home/ubuntu/quantum001-PKNU-Quantum-lab/google-quantum/.venv/bin/python: No such file or directory
+run_t6.sh: line 14: /home/ubuntu/quantum001/google-quantum/.venv/bin/python: No such file or directory
+[Nov 09, 04:23 PM KST] report written: RESULTS.md
+[Nov 09, 05:39 PM KST] report written: RESULTS.md

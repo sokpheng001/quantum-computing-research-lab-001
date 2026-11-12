@@ -1,0 +1,67 @@
+[2026-11-03 09:47 PM KST] clifft G4_G6style p=0.002: 2940 errors / 120,522,075, acceptance 0.7408, 42.1 s
+[2026-11-03 09:47 PM KST] qsim G4_G6style p=0.002: 0 chunks done, 800 to run
+[2026-11-03 09:49 PM KST]   100/800 chunks, 69 s
+[2026-11-03 09:50 PM KST]   200/800 chunks, 130 s
+[2026-11-03 09:51 PM KST]   300/800 chunks, 193 s
+[2026-11-03 09:52 PM KST]   400/800 chunks, 259 s
+[2026-11-03 09:53 PM KST]   500/800 chunks, 321 s
+[2026-11-03 09:54 PM KST]   600/800 chunks, 385 s
+[2026-11-03 09:55 PM KST]   700/800 chunks, 447 s
+[2026-11-03 09:56 PM KST]   800/800 chunks, 510 s
+[2026-11-03 09:56 PM KST] qsim G4_G6style p=0.002: 55 errors / 2,409,978, acceptance 0.7407
+[2026-11-03 09:57 PM KST] clifft G4_G6style p=0.005: 16902 errors / 56,908,945, acceptance 0.4826, 54.1 s
+[2026-11-03 09:57 PM KST] qsim G4_G6style p=0.005: 0 chunks done, 800 to run
+[2026-11-03 09:58 PM KST]   100/800 chunks, 68 s
+[2026-11-03 09:59 PM KST]   200/800 chunks, 129 s
+[2026-11-03 10:00 PM KST]   300/800 chunks, 192 s
+[2026-11-03 10:01 PM KST]   400/800 chunks, 257 s
+[2026-11-03 10:02 PM KST]   500/800 chunks, 319 s
+[2026-11-03 10:03 PM KST]   600/800 chunks, 384 s
+[2026-11-03 10:04 PM KST]   700/800 chunks, 446 s
+[2026-11-03 10:05 PM KST]   800/800 chunks, 508 s
+[2026-11-03 10:05 PM KST] qsim G4_G6style p=0.005: 336 errors / 1,138,058, acceptance 0.4827
+[2026-11-03 10:06 PM KST] clifft cont_success02 p=0.002: 2172 errors / 100,861,843, acceptance 0.6192, 30.3 s
+[2026-11-03 10:06 PM KST] qsim cont_success02 p=0.002: 0 chunks done, 800 to run
+[2026-11-03 10:07 PM KST]   100/800 chunks, 84 s
+[2026-11-03 10:08 PM KST]   200/800 chunks, 159 s
+[2026-11-03 10:10 PM KST]   300/800 chunks, 236 s
+[2026-11-03 10:11 PM KST]   400/800 chunks, 317 s
+[2026-11-03 10:12 PM KST]   500/800 chunks, 392 s
+[2026-11-03 10:14 PM KST]   600/800 chunks, 472 s
+[2026-11-03 10:15 PM KST]   700/800 chunks, 550 s
+[2026-11-03 10:16 PM KST]   800/800 chunks, 626 s
+[2026-11-03 10:16 PM KST] qsim cont_success02 p=0.002: 43 errors / 2,016,109, acceptance 0.6187
+[2026-11-03 10:17 PM KST] clifft cont_success02 p=0.005: 14966 errors / 36,639,918, acceptance 0.3179, 36.7 s
+[2026-11-03 10:17 PM KST] qsim cont_success02 p=0.005: 0 chunks done, 800 to run
+[2026-11-03 10:18 PM KST]   100/800 chunks, 85 s
+[2026-11-03 10:20 PM KST]   200/800 chunks, 161 s
+[2026-11-03 10:21 PM KST]   300/800 chunks, 239 s
+[2026-11-03 10:22 PM KST]   400/800 chunks, 321 s
+[2026-11-03 10:24 PM KST]   500/800 chunks, 398 s
+[2026-11-03 10:25 PM KST]   600/800 chunks, 479 s
+[2026-11-03 10:26 PM KST]   700/800 chunks, 558 s
+[2026-11-03 10:27 PM KST]   800/800 chunks, 634 s
+[2026-11-03 10:27 PM KST] qsim cont_success02 p=0.005: 339 errors / 733,959, acceptance 0.3181
+[2026-11-03 10:28 PM KST] clifft g6fit00 p=0.002: 2647 errors / 84,030,408, acceptance 0.5398, 35.1 s
+[2026-11-03 10:28 PM KST] qsim g6fit00 p=0.002: 0 chunks done, 800 to run
+[2026-11-03 10:30 PM KST]   100/800 chunks, 105 s
+[2026-11-03 10:31 PM KST]   200/800 chunks, 199 s
+[2026-11-03 10:33 PM KST]   300/800 chunks, 295 s
+[2026-11-03 10:35 PM KST]   400/800 chunks, 397 s
+[2026-11-03 10:36 PM KST]   500/800 chunks, 491 s
+[2026-11-03 10:38 PM KST]   600/800 chunks, 590 s
+[2026-11-03 10:40 PM KST]   700/800 chunks, 689 s
+[2026-11-03 10:41 PM KST]   800/800 chunks, 783 s
+[2026-11-03 10:41 PM KST] qsim g6fit00 p=0.002: 47 errors / 1,680,998, acceptance 0.5399
+[2026-11-03 10:42 PM KST] clifft g6fit00 p=0.005: 14855 errors / 23,484,826, acceptance 0.2308, 62.5 s
+[2026-11-03 10:42 PM KST] qsim g6fit00 p=0.005: 0 chunks done, 800 to run
+[2026-11-03 10:44 PM KST]   100/800 chunks, 106 s
+[2026-11-03 10:45 PM KST]   200/800 chunks, 200 s
+[2026-11-03 10:47 PM KST]   300/800 chunks, 298 s
+[2026-11-03 10:49 PM KST]   400/800 chunks, 400 s
+[2026-11-03 10:50 PM KST]   500/800 chunks, 495 s
+[2026-11-03 10:52 PM KST]   600/800 chunks, 595 s
+[2026-11-03 10:54 PM KST]   700/800 chunks, 694 s
+[2026-11-03 10:55 PM KST]   800/800 chunks, 789 s
+[2026-11-03 10:55 PM KST] qsim g6fit00 p=0.005: 322 errors / 469,911, acceptance 0.2310
+[2026-11-03 10:55 PM KST] done

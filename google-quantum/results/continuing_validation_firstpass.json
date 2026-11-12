@@ -1,0 +1,1298 @@
+{
+ "started": "2026-11-01 09:48:00 PM KST",
+ "settings": {
+  "uniform": "enum.noise.uniformly_depolarize p = 0.001, CX form; MC 10,000,000 shots, kept = no detector",
+  "willow": "willow_noise calibration / spec models, native CZ + H at own Willow positions; enumeration mfc 4 (table mfc 3); MC 4,000,000 shots, asymmetric readout",
+  "durations_ns": {
+   "q1": 25.0,
+   "cz": 42.0,
+   "meas": 600.0,
+   "reset": 200.0
+  },
+  "reset_error": 0.001
+ },
+ "designs": {
+  "success00": {
+   "note": "continuing-data search (results/continuing/success00)",
+   "qubits": 12,
+   "ticks": 18,
+   "n_2q": 24,
+   "gate_names": [
+    "CX"
+   ],
+   "strict": {},
+   "continuing": 0,
+   "mfc2": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 20,
+      "malignant": 0
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 20,
+      "malignant": 0
+     }
+    },
+    "rate": {
+     "T": 0.0,
+     "S": 0.0
+    },
+    "fault_count": 165
+   },
+   "mfc3": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 20,
+      "malignant": 0
+     },
+     "3": {
+      "benign": 1085,
+      "malignant": 356
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 20,
+      "malignant": 0
+     },
+     "3": {
+      "benign": 883,
+      "malignant": 113
+     }
+    },
+    "rate": {
+     "T": 2.831918544787943e-07,
+     "S": 1.5066407385757724e-07
+    },
+    "fault_count": 165
+   },
+   "uniform": {
+    "rate_T_mfc3": 2.831918544787943e-07,
+    "acc_enum_T": 0.8374903047077896,
+    "acc_enum_detectors": 0.8832755806414451,
+    "mc": {
+     "acceptance": 0.8832111,
+     "se": 0.00010156242062731175,
+     "rel_se": 0.00011499223756054667,
+     "shots": 10000000,
+     "kept": 8832111,
+     "seed": 3451645855
+    },
+    "attempts": 1.132232146991812,
+    "T_error_per_attempt": 2.5011818930525587e-07
+   },
+   "native_ticks": 31,
+   "native_uniform_counts_equal": true,
+   "willow": {
+    "calibration": {
+     "rate_T": 2.2884638124410565e-05,
+     "rate_T_mfc4": 2.495042783495135e-05,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       20,
+       0
+      ],
+      [
+       1085,
+       356
+      ],
+      [
+       28027,
+       16338
+      ]
+     ],
+     "acc_enum_detectors": 0.7473382562339791,
+     "mc": {
+      "acceptance": 0.76017325,
+      "se": 0.00021348880531800576,
+      "rel_se": 0.00028084230182791325,
+      "shots": 4000000,
+      "kept": 3040693,
+      "seed": 1122635845
+     },
+     "attempts": 1.315489593984003,
+     "T_error_per_attempt": 1.7396289738107083e-05
+    },
+    "spec": {
+     "rate_T": 2.945647361046025e-06,
+     "rate_T_mfc4": 3.181502958579984e-06,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       20,
+       0
+      ],
+      [
+       1085,
+       356
+      ],
+      [
+       28027,
+       16338
+      ]
+     ],
+     "acc_enum_detectors": 0.7627595434872572,
+     "mc": {
+      "acceptance": 0.76267875,
+      "se": 0.00021272039999635528,
+      "rel_se": 0.0002789121894327792,
+      "shots": 4000000,
+      "kept": 3050715,
+      "seed": 3942580289
+     },
+     "attempts": 1.311168037656746,
+     "T_error_per_attempt": 2.246582647263381e-06
+    }
+   },
+   "runtime_s": 16.31253065704368
+  },
+  "success01": {
+   "note": "continuing-data search (results/continuing/success01)",
+   "qubits": 12,
+   "ticks": 18,
+   "n_2q": 24,
+   "gate_names": [
+    "CX"
+   ],
+   "strict": {},
+   "continuing": 0,
+   "mfc2": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 20,
+      "malignant": 0
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 20,
+      "malignant": 0
+     }
+    },
+    "rate": {
+     "T": 0.0,
+     "S": 0.0
+    },
+    "fault_count": 165
+   },
+   "mfc3": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 20,
+      "malignant": 0
+     },
+     "3": {
+      "benign": 1073,
+      "malignant": 388
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 20,
+      "malignant": 0
+     },
+     "3": {
+      "benign": 883,
+      "malignant": 164
+     }
+    },
+    "rate": {
+     "T": 2.9786157943255935e-07,
+     "S": 1.551845218429177e-07
+    },
+    "fault_count": 165
+   },
+   "uniform": {
+    "rate_T_mfc3": 2.9786157943255935e-07,
+    "acc_enum_T": 0.8374903059217168,
+    "acc_enum_detectors": 0.8832699641642677,
+    "mc": {
+     "acceptance": 0.8831055,
+     "se": 0.00010160225187944903,
+     "rel_se": 0.00011505109172058041,
+     "shots": 10000000,
+     "kept": 8831055,
+     "seed": 4040934959
+    },
+    "attempts": 1.132367537060974,
+    "T_error_per_attempt": 2.6304319903558006e-07
+   },
+   "native_ticks": 31,
+   "native_uniform_counts_equal": true,
+   "willow": {
+    "calibration": {
+     "rate_T": 2.306139588851852e-05,
+     "rate_T_mfc4": 2.5026355282229777e-05,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       20,
+       0
+      ],
+      [
+       1073,
+       388
+      ],
+      [
+       27681,
+       16854
+      ]
+     ],
+     "acc_enum_detectors": 0.7558282296303217,
+     "mc": {
+      "acceptance": 0.7663245,
+      "se": 0.00021158406172237432,
+      "rel_se": 0.0002761024366601542,
+      "shots": 4000000,
+      "kept": 3065298,
+      "seed": 3645856810
+     },
+     "attempts": 1.3049302221186978,
+     "T_error_per_attempt": 1.7672512673571008e-05
+    },
+    "spec": {
+     "rate_T": 3.057337903509018e-06,
+     "rate_T_mfc4": 3.2997629452030926e-06,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       20,
+       0
+      ],
+      [
+       1073,
+       388
+      ],
+      [
+       27681,
+       16854
+      ]
+     ],
+     "acc_enum_detectors": 0.7627828345406278,
+     "mc": {
+      "acceptance": 0.762548,
+      "se": 0.00021276075043108868,
+      "rel_se": 0.0002790129282761068,
+      "shots": 4000000,
+      "kept": 3050192,
+      "seed": 3617532401
+     },
+     "attempts": 1.3113928565808317,
+     "T_error_per_attempt": 2.3313669036449946e-06
+    }
+   },
+   "runtime_s": 17.128082989016548
+  },
+  "attempt_1": {
+   "note": "continuing-data search (results/continuing/attempt_1)",
+   "qubits": 13,
+   "ticks": 15,
+   "n_2q": 26,
+   "gate_names": [
+    "CX"
+   ],
+   "strict": {},
+   "continuing": 0,
+   "mfc2": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 29,
+      "malignant": 1
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 26,
+      "malignant": 0
+     }
+    },
+    "rate": {
+     "T": 1.4738384500084276e-07,
+     "S": 0.0
+    },
+    "fault_count": 173
+   },
+   "mfc3": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 29,
+      "malignant": 1
+     },
+     "3": {
+      "benign": 1333,
+      "malignant": 429
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 26,
+      "malignant": 0
+     },
+     "3": {
+      "benign": 1066,
+      "malignant": 162
+     }
+    },
+    "rate": {
+     "T": 2.7822385430576546e-07,
+     "S": 6.021137289507967e-08
+    },
+    "fault_count": 173
+   },
+   "uniform": {
+    "rate_T_mfc3": 2.7822385430576546e-07,
+    "acc_enum_T": 0.8581702567330683,
+    "acc_enum_detectors": 0.8962500518550849,
+    "mc": {
+     "acceptance": 0.8961357,
+     "se": 9.647616658300122e-05,
+     "rel_se": 0.00010765798816295481,
+     "shots": 10000000,
+     "kept": 8961357,
+     "seed": 1017388580
+    },
+    "attempts": 1.1159024241529492,
+    "T_error_per_attempt": 2.4932632843499514e-07
+   },
+   "native_ticks": 28,
+   "native_uniform_counts_equal": true,
+   "willow": {
+    "calibration": {
+     "rate_T": 1.359398493401365e-05,
+     "rate_T_mfc4": 1.4724764689133134e-05,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       29,
+       1
+      ],
+      [
+       1333,
+       429
+      ],
+      [
+       31776,
+       15797
+      ]
+     ],
+     "acc_enum_detectors": 0.6857397574346472,
+     "mc": {
+      "acceptance": 0.69944325,
+      "se": 0.00022925007635191615,
+      "rel_se": 0.00032776079596438475,
+      "shots": 4000000,
+      "kept": 2797773,
+      "seed": 1648144434
+     },
+     "attempts": 1.4297085574848283,
+     "T_error_per_attempt": 9.508221002697541e-06
+    },
+    "spec": {
+     "rate_T": 6.520880533028499e-06,
+     "rate_T_mfc4": 6.7631290789127546e-06,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       29,
+       1
+      ],
+      [
+       1333,
+       429
+      ],
+      [
+       31776,
+       15797
+      ]
+     ],
+     "acc_enum_detectors": 0.7607100667734599,
+     "mc": {
+      "acceptance": 0.7606735,
+      "se": 0.00021333619383367066,
+      "rel_se": 0.0002804569816533252,
+      "shots": 4000000,
+      "kept": 3042694,
+      "seed": 467726842
+     },
+     "attempts": 1.3146244742323743,
+     "T_error_per_attempt": 4.9602610181406545e-06
+    }
+   },
+   "runtime_s": 16.89257763302885
+  },
+  "attempt_0": {
+   "note": "continuing-data search (results/continuing/attempt_0)",
+   "qubits": 13,
+   "ticks": 15,
+   "n_2q": 26,
+   "gate_names": [
+    "CX"
+   ],
+   "strict": {},
+   "continuing": 0,
+   "mfc2": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 29,
+      "malignant": 1
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 26,
+      "malignant": 0
+     }
+    },
+    "rate": {
+     "T": 1.471587654390836e-07,
+     "S": 0.0
+    },
+    "fault_count": 163
+   },
+   "mfc3": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 29,
+      "malignant": 1
+     },
+     "3": {
+      "benign": 1399,
+      "malignant": 445
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 26,
+      "malignant": 0
+     },
+     "3": {
+      "benign": 1110,
+      "malignant": 160
+     }
+    },
+    "rate": {
+     "T": 3.6699093467270343e-07,
+     "S": 1.0569889702558328e-07
+    },
+    "fault_count": 163
+   },
+   "uniform": {
+    "rate_T_mfc3": 3.6699093467270343e-07,
+    "acc_enum_T": 0.8594945939162011,
+    "acc_enum_detectors": 0.9066376183755498,
+    "mc": {
+     "acceptance": 0.9066859,
+     "se": 9.198183447898283e-05,
+     "rel_se": 0.00010144840068537829,
+     "shots": 10000000,
+     "kept": 9066859,
+     "seed": 29636500
+    },
+    "attempts": 1.1029177800162107,
+    "T_error_per_attempt": 3.3274550589556133e-07
+   },
+   "native_ticks": 28,
+   "native_uniform_counts_equal": true,
+   "willow": {
+    "calibration": {
+     "rate_T": 1.6302162652383855e-05,
+     "rate_T_mfc4": 1.799037758192633e-05,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       29,
+       1
+      ],
+      [
+       1399,
+       445
+      ],
+      [
+       33361,
+       16833
+      ]
+     ],
+     "acc_enum_detectors": 0.7074230393232679,
+     "mc": {
+      "acceptance": 0.7205165,
+      "se": 0.00022437272184233428,
+      "rel_se": 0.0003114053902198413,
+      "shots": 4000000,
+      "kept": 2882066,
+      "seed": 4187618397
+     },
+     "attempts": 1.3878932682318865,
+     "T_error_per_attempt": 1.1745977176726333e-05
+    },
+    "spec": {
+     "rate_T": 7.77107496565285e-06,
+     "rate_T_mfc4": 8.145905473287738e-06,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       29,
+       1
+      ],
+      [
+       1399,
+       445
+      ],
+      [
+       33361,
+       16833
+      ]
+     ],
+     "acc_enum_detectors": 0.7840692079685142,
+     "mc": {
+      "acceptance": 0.784104,
+      "se": 0.0002057212417228712,
+      "rel_se": 0.00026236473952801056,
+      "shots": 4000000,
+      "kept": 3136416,
+      "seed": 645978186
+     },
+     "attempts": 1.2753410261904032,
+     "T_error_per_attempt": 6.093330964868263e-06
+    }
+   },
+   "runtime_s": 17.898417092859745
+  },
+  "success03": {
+   "note": "ZZ + X flag, fault distance 3 (previous round's best)",
+   "qubits": 13,
+   "ticks": 16,
+   "n_2q": 26,
+   "gate_names": [
+    "CX"
+   ],
+   "strict": {},
+   "continuing": 7,
+   "mfc2": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 17,
+      "malignant": 0
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 17,
+      "malignant": 0
+     }
+    },
+    "rate": {
+     "T": 0.0,
+     "S": 0.0
+    },
+    "fault_count": 168
+   },
+   "mfc3": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 17,
+      "malignant": 0
+     },
+     "3": {
+      "benign": 928,
+      "malignant": 286
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 17,
+      "malignant": 0
+     },
+     "3": {
+      "benign": 800,
+      "malignant": 108
+     }
+    },
+    "rate": {
+     "T": 1.5220568245523353e-07,
+     "S": 7.025039302135856e-08
+    },
+    "fault_count": 168
+   },
+   "uniform": {
+    "rate_T_mfc3": 1.5220568245523353e-07,
+    "acc_enum_T": 0.8468190085107765,
+    "acc_enum_detectors": 0.8839973202214227,
+    "mc": {
+     "acceptance": 0.8837617,
+     "se": 0.00010135430805501561,
+     "rel_se": 0.00011468511031312583,
+     "shots": 10000000,
+     "kept": 8837617,
+     "seed": 2317063503
+    },
+    "attempts": 1.1315267452753384,
+    "T_error_per_attempt": 1.3451355267629736e-07
+   },
+   "native_ticks": 29,
+   "native_uniform_counts_equal": true,
+   "willow": {
+    "calibration": {
+     "rate_T": 1.121692976922296e-05,
+     "rate_T_mfc4": 1.256027884723518e-05,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       17,
+       0
+      ],
+      [
+       928,
+       286
+      ],
+      [
+       21922,
+       11651
+      ]
+     ],
+     "acc_enum_detectors": 0.6517906418659293,
+     "mc": {
+      "acceptance": 0.66470625,
+      "se": 0.00023604652677541003,
+      "rel_se": 0.00035511404740877646,
+      "shots": 4000000,
+      "kept": 2658825,
+      "seed": 896844469
+     },
+     "attempts": 1.504423946668171,
+     "T_error_per_attempt": 7.455963323413559e-06
+    },
+    "spec": {
+     "rate_T": 2.7771602117455076e-06,
+     "rate_T_mfc4": 2.9904153570926573e-06,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       17,
+       0
+      ],
+      [
+       928,
+       286
+      ],
+      [
+       21922,
+       11651
+      ]
+     ],
+     "acc_enum_detectors": 0.7436420900194985,
+     "mc": {
+      "acceptance": 0.74386925,
+      "se": 0.00021824744494749386,
+      "rel_se": 0.0002933949009822544,
+      "shots": 4000000,
+      "kept": 2975477,
+      "seed": 2908715665
+     },
+     "attempts": 1.3443222716895475,
+     "T_error_per_attempt": 2.065844083840972e-06
+    }
+   },
+   "runtime_s": 13.83328964211978
+  },
+  "G4-CX": {
+   "note": "Google's as-run double check (Fig. 2), CX form; native = its own CZ + H",
+   "qubits": 12,
+   "ticks": 12,
+   "n_2q": 24,
+   "gate_names": [
+    "CX"
+   ],
+   "strict": {},
+   "continuing": 2,
+   "mfc2": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 41,
+      "malignant": 7
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 33,
+      "malignant": 0
+     }
+    },
+    "rate": {
+     "T": 4.128938416371733e-07,
+     "S": 0.0
+    },
+    "fault_count": 154
+   },
+   "mfc3": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 41,
+      "malignant": 7
+     },
+     "3": {
+      "benign": 1598,
+      "malignant": 671
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 33,
+      "malignant": 0
+     },
+     "3": {
+      "benign": 1149,
+      "malignant": 162
+     }
+    },
+    "rate": {
+     "T": 4.868173977400084e-07,
+     "S": 2.913473924317357e-08
+    },
+    "fault_count": 154
+   },
+   "uniform": {
+    "rate_T_mfc3": 4.868173977400084e-07,
+    "acc_enum_T": 0.8979042684654059,
+    "acc_enum_detectors": 0.9307606237577369,
+    "mc": {
+     "acceptance": 0.9306223,
+     "se": 8.035199732595948e-05,
+     "rel_se": 8.634222210875398e-05,
+     "shots": 10000000,
+     "kept": 9306223,
+     "seed": 3031868559
+    },
+    "attempts": 1.074549793186774,
+    "T_error_per_attempt": 4.530431263648214e-07
+   },
+   "native_ticks": 24,
+   "native_uniform_counts_equal": true,
+   "willow": {
+    "calibration": {
+     "rate_T": 4.942216122070577e-05,
+     "rate_T_mfc4": 5.2840701081111875e-05,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       41,
+       7
+      ],
+      [
+       1598,
+       671
+      ],
+      [
+       37718,
+       21354
+      ]
+     ],
+     "acc_enum_detectors": 0.7228588285246023,
+     "mc": {
+      "acceptance": 0.73993125,
+      "se": 0.0002193359268755563,
+      "rel_se": 0.00029642744089475374,
+      "shots": 4000000,
+      "kept": 2959725,
+      "seed": 2920045955
+     },
+     "attempts": 1.351476910861651,
+     "T_error_per_attempt": 3.656900152973835e-05
+    },
+    "spec": {
+     "rate_T": 1.1009637175642954e-05,
+     "rate_T_mfc4": 1.1262985409887227e-05,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       41,
+       7
+      ],
+      [
+       1598,
+       671
+      ],
+      [
+       37718,
+       21354
+      ]
+     ],
+     "acc_enum_detectors": 0.7898308034226332,
+     "mc": {
+      "acceptance": 0.789985,
+      "se": 0.00020365945827225898,
+      "rel_se": 0.0002578016775916745,
+      "shots": 4000000,
+      "kept": 3159940,
+      "seed": 2482129745
+     },
+     "attempts": 1.2658468198763266,
+     "T_error_per_attempt": 8.697448224200299e-06
+    }
+   },
+   "runtime_s": 19.579164823051542
+  },
+  "G4-G6style": {
+   "note": "G4 with q7 unmeasured, as in G6 (Fig. 4 grafting)",
+   "qubits": 12,
+   "ticks": 12,
+   "n_2q": 24,
+   "gate_names": [
+    "CX"
+   ],
+   "strict": {},
+   "continuing": 0,
+   "mfc2": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 41,
+      "malignant": 7
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 33,
+      "malignant": 0
+     }
+    },
+    "rate": {
+     "T": 4.539012161593084e-07,
+     "S": 0.0
+    },
+    "fault_count": 150
+   },
+   "mfc3": {
+    "T": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 41,
+      "malignant": 7
+     },
+     "3": {
+      "benign": 1586,
+      "malignant": 667
+     }
+    },
+    "S": {
+     "0": {
+      "benign": 1,
+      "malignant": 0
+     },
+     "1": {
+      "benign": 2,
+      "malignant": 0
+     },
+     "2": {
+      "benign": 33,
+      "malignant": 0
+     },
+     "3": {
+      "benign": 1137,
+      "malignant": 162
+     }
+    },
+    "rate": {
+     "T": 5.347717673258764e-07,
+     "S": 2.9059239733809788e-08
+    },
+    "fault_count": 150
+   },
+   "uniform": {
+    "rate_T_mfc3": 5.347717673258764e-07,
+    "acc_enum_T": 0.9002464915144303,
+    "acc_enum_detectors": 0.9343636591929744,
+    "mc": {
+     "acceptance": 0.9341758,
+     "se": 7.841643621994053e-05,
+     "rel_se": 8.394184073269778e-05,
+     "shots": 10000000,
+     "kept": 9341758,
+     "seed": 1579246120
+    },
+    "attempts": 1.070462326255936,
+    "T_error_per_attempt": 4.995708435590644e-07
+   },
+   "native_ticks": 22,
+   "native_uniform_counts_equal": true,
+   "willow": {
+    "calibration": {
+     "rate_T": 4.145786930989735e-05,
+     "rate_T_mfc4": 4.4343851719746664e-05,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       41,
+       7
+      ],
+      [
+       1586,
+       667
+      ],
+      [
+       37391,
+       21258
+      ]
+     ],
+     "acc_enum_detectors": 0.7478449214165415,
+     "mc": {
+      "acceptance": 0.7607755,
+      "se": 0.0002133050272495646,
+      "rel_se": 0.00028037841288207176,
+      "shots": 4000000,
+      "kept": 3043102,
+      "seed": 827660182
+     },
+     "attempts": 1.314448217641078,
+     "T_error_per_attempt": 3.154013125317181e-05
+    },
+    "spec": {
+     "rate_T": 9.79981522848572e-06,
+     "rate_T_mfc4": 1.0014077615631876e-05,
+     "T_counts": [
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       41,
+       7
+      ],
+      [
+       1586,
+       667
+      ],
+      [
+       37391,
+       21258
+      ]
+     ],
+     "acc_enum_detectors": 0.8117106437808198,
+     "mc": {
+      "acceptance": 0.81191075,
+      "se": 0.000195391711719329,
+      "rel_se": 0.00024065663833041872,
+      "shots": 4000000,
+      "kept": 3247643,
+      "seed": 2036698614
+     },
+     "attempts": 1.2316624702899919,
+     "T_error_per_attempt": 7.956575332021261e-06
+    }
+   },
+   "runtime_s": 19.03725130087696
+  }
+ },
+ "finished": "2026-11-01 09:50:01 PM KST"
+}

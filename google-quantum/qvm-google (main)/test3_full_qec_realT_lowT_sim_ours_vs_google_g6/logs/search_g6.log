@@ -1,0 +1,48 @@
+[     0.2 s] 66 line patterns with three data lines two apart
+[    90.1 s] groups: 121, placements: 210, cs02's tree among them: True
+[    92.7 s] base g6-00016 T2=6 eval=4 L1=5 L2=4 succ=0
+[    93.8 s] base g6-00017 T2=6 eval=9 L1=5 L2=3 succ=0
+[    94.0 s] base g6-00000 T2=7 eval=9 L1=5 L2=4 succ=0
+[    97.0 s] base g6-00014 T2=8 eval=9 L1=7 L2=6 succ=0
+[    98.5 s] base g6-00013 T2=8 eval=9 L1=6 L2=5 succ=0
+[   101.4 s] base g6-00001 T2=8 eval=18 L1=6 L2=4 succ=0
+[   107.0 s] base g6-00038 T2=8 eval=9 L1=5 L2=4 succ=0
+[   110.2 s] base g6-00050 T2=7 eval=1 L1=6 L2= succ=0
+[   112.0 s] base g6-00046 T2=8 eval=4 L1=7 L2=6 succ=0
+[   112.5 s] base g6-00036 T2=8 eval=18 L1=5 L2=4 succ=0
+[   114.3 s] base g6-00051 T2=8 eval=1 L1=6 L2= succ=0
+[   120.5 s] base g6-00020 T2=10 eval=27 L1=4 L2=3 succ=0
+[   122.2 s] base g6-00012 T2=10 eval=12 L1=6 L2=5 succ=0
+[   125.2 s] base g6-00015 T2=10 eval=34 L1=4 L2=3 succ=0
+[   125.3 s] 50/121 groups, 164 circuits, 0 successes
+[   130.3 s] base g6-00054 T2=10 eval=4 L1=7 L2=5 succ=0
+[   131.2 s] base g6-00039 T2=9 eval=15 L1=7 L2=5 succ=0
+[   136.6 s] base g6-00057 T2=9 eval=9 L1=6 L2=4 succ=0
+[   138.3 s] base g6-00055 T2=9 eval=37 L1=5 L2=2 succ=0
+[   138.8 s] base g6-00077 T2=8 eval=9 L1=7 L2=6 succ=0
+[   141.3 s] base g6-00021 T2=11 eval=25 L1=3 L2=2 succ=0
+[   142.3 s] base g6-00037 T2=9 eval=24 L1=7 L2=5 succ=0
+[   143.1 s] base g6-00056 T2=11 eval=4 L1=7 L2=6 succ=0
+[   143.8 s] base g6-00085 T2=7 eval=5 L1=5 L2=4 succ=0
+[   144.1 s] base g6-00082 T2=8 eval=4 L1=6 L2=5 succ=0
+[   147.2 s] base g6-00053 T2=10 eval=34 L1=4 L2=3 succ=0
+[   151.2 s] base g6-00083 T2=8 eval=9 L1=6 L2=5 succ=0
+[   152.1 s] base g6-00086 T2=7 eval=13 L1=5 L2=4 succ=0
+[   156.1 s] base g6-00022 T2=13 eval=18 L1=6 L2=5 succ=0
+[   165.5 s] base g6-00023 T2=11 eval=18 L1=6 L2=5 succ=0
+[   165.5 s] 100/121 groups, 392 circuits, 0 successes
+[   184.3 s] base g6-00099 T2=10 eval=9 L1=8 L2=6 succ=0
+[   190.5 s] base g6-00098 T2=9 eval=17 L1=6 L2=4 succ=0
+[   193.4 s] base g6-00096 T2=9 eval=24 L1=6 L2=4 succ=0
+[   197.1 s] base g6-00100 T2=10 eval=12 L1=8 L2=6 succ=0
+[   226.7 s] base g6-00097 T2=10 eval=17 L1=5 L2=4 succ=0
+[   227.6 s] base g6-00095 T2=10 eval=24 L1=5 L2=4 succ=0
+[   229.8 s] base g6-00109 T2=12 eval=24 L1=4 L2=2 succ=0
+[   234.8 s] base g6-00108 T2=12 eval=27 L1=4 L2=2 succ=0
+[   239.3 s] base g6-00110 T2=10 eval=27 L1=6 L2=5 succ=0
+[   239.9 s] base g6-00112 T2=10 eval=29 L1=4 L2=3 succ=0
+[   244.5 s] base g6-00106 T2=12 eval=27 L1=6 L2=3 succ=0
+[   246.8 s] base g6-00107 T2=12 eval=24 L1=6 L2=3 succ=0
+[   247.9 s] base g6-00113 T2=10 eval=26 L1=4 L2=3 succ=0
+[   257.7 s] base g6-00111 T2=10 eval=26 L1=6 L2=5 succ=0
+[   257.8 s] done: design space exhausted groups 121, evaluated 705, successes 0

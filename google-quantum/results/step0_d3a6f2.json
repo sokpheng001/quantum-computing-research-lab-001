@@ -1,0 +1,24 @@
+{
+ "circuit": "d3a6f2",
+ "distance": 3,
+ "ancilla_count": 6,
+ "flag_count": 2,
+ "noise_model": "enum.noise.uniformly_depolarize(INNER_CIRCUIT, noise_level=0.001)",
+ "max_fault_count": 2,
+ "cultivated_states": [
+  "S",
+  "T"
+ ],
+ "combinator": "FaultCombinator with 198 faults distributed among 50 detector signatures.",
+ "summary_text": "                             configuration_count              weight                                \n                                          benign malignant    benign malignant malignant_probability\ncultivated_state fault_count                                                                        \nS                0                             1         0  1.000000       0.0                   0.0\n                 1                             2         0  3.200000       0.0                   0.0\n                 2                            37         0  4.671111       0.0                   0.0\nT                0                             1         0  1.000000       0.0                   0.0\n                 1                             2         0  3.200000       0.0                   0.0\n                 2                            37         0  4.331111       0.0                   0.0",
+ "T_error_rate_per_kept_shot": 0.0,
+ "S_error_rate_per_kept_shot": 0.0,
+ "malignant_T_configurations": [],
+ "timing_s": {
+  "build": 0.019999345997348428,
+  "get_kept_effects": 0.0020688711665570736,
+  "total": 0.0282003590837121
+ },
+ "started": "2026-10-31 07:53:40 PM KST",
+ "finished": "2026-10-31 07:53:40 PM KST"
+}

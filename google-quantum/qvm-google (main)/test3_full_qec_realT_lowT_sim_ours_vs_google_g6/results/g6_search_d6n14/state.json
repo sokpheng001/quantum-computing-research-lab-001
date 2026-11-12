@@ -1,0 +1,143 @@
+{
+ "args": {
+  "workers": 11,
+  "dmax": 6,
+  "nmax": 14,
+  "umax": 1,
+  "ms": "1,2",
+  "hours": 6.0,
+  "screen_max_t2": 14,
+  "stop_per_base": 2,
+  "max_combos": 40,
+  "count_only": false,
+  "out": "qvm-google (main)/test3_full_qec_realT_lowT_sim_ours_vs_google_g6/results/g6_search_d6n14",
+  "report": "qvm-google (main)/test3_full_qec_realT_lowT_sim_ours_vs_google_g6/RESULTS_search_d6n14.md"
+ },
+ "started": "Mon Nov  2 15:34:47 2026",
+ "g6_positions": [
+  [
+   4,
+   5
+  ],
+  [
+   4,
+   7
+  ],
+  [
+   5,
+   4
+  ],
+  [
+   5,
+   6
+  ],
+  [
+   6,
+   5
+  ],
+  [
+   6,
+   7
+  ],
+  [
+   7,
+   6
+  ]
+ ],
+ "g6_lines": [
+  9,
+  11,
+  13
+ ],
+ "n_patterns": 128,
+ "space": {
+  "m1_n10_u0": 6,
+  "m1_n11_u0": 30,
+  "m1_n12_u0": 64,
+  "m1_n12_u1": 16,
+  "m1_n13_u0": 62,
+  "m1_n13_u1": 76,
+  "m1_n14_u0": 32,
+  "m1_n14_u1": 112,
+  "m2_n11_u0": 9,
+  "m2_n12_u0": 30,
+  "m2_n12_u1": 2,
+  "m2_n13_u0": 61,
+  "m2_n13_u1": 44,
+  "m2_n14_u0": 76,
+  "m2_n14_u1": 176
+ },
+ "n_placements": 796,
+ "n_groups": 431,
+ "g6_tree_found": true,
+ "n_done": 217,
+ "n_evaluated": 1457,
+ "n_success": 11,
+ "elapsed_s": 836.6933958530426,
+ "n_queued": 431,
+ "stop_reason": "10 successes",
+ "screen_T2_hist": {
+  "5": 2,
+  "6": 6,
+  "7": 8,
+  "8": 13,
+  "9": 10,
+  "10": 14,
+  "11": 4,
+  "12": 9,
+  "13": 4,
+  "14": 5,
+  "15": 7,
+  "17": 8,
+  "18": 6,
+  "19": 6,
+  "20": 5,
+  "22": 1,
+  "24": 1,
+  "26": 4,
+  "27": 2,
+  "29": 3,
+  "30": 7,
+  "31": 2,
+  "32": 1,
+  "33": 3,
+  "34": 1,
+  "35": 1,
+  "38": 1,
+  "40": 1,
+  "1000000": 82
+ },
+ "best_non_success": [
+  {
+   "T2": 1,
+   "rate": 3.402463266281035e-07,
+   "id": 841,
+   "base": "g6-00100"
+  },
+  {
+   "T2": 1,
+   "rate": 5.163210395551241e-07,
+   "id": 1144,
+   "base": "g6-00099"
+  },
+  {
+   "T2": 1,
+   "rate": 1.2977490427099236e-06,
+   "id": 877,
+   "base": "g6-00103"
+  },
+  {
+   "T2": 1,
+   "rate": 1.2977490427099236e-06,
+   "id": 879,
+   "base": "g6-00103"
+  },
+  {
+   "T2": 1,
+   "rate": 1.2977490427099236e-06,
+   "id": 893,
+   "base": "g6-00103"
+  }
+ ],
+ "finished": "Mon Nov  2 15:48:44 2026"
+}

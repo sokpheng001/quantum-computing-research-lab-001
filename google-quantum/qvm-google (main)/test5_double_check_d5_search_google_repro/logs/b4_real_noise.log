@@ -1,0 +1,75 @@
+[Nov 05, 10:12 AM KST] resuming: 3 circuits already done
+[Nov 05, 10:31 AM KST] resuming: 3 circuits already done
+[Nov 05, 10:50 AM KST] seed1002: si1000_0.0023 1 in 308,891,485 acc 0.578, si1000_0.001 1 in 8,643,564,438 acc 0.787, spec 1 in 87,004,570 acc 0.551, calibration 1 in 18,503,828 acc 0.531
+[Nov 05, 10:53 AM KST] seed1001: 
+[Nov 05, 10:54 AM KST] seed1003: 
+[Nov 05, 11:15 AM KST] seed1004: si1000_0.0023 1 in 368,998,207 acc 0.636, si1000_0.001 1 in 10,333,552,572 acc 0.820, spec 1 in 118,338,144 acc 0.621, calibration 1 in 18,466,780 acc 0.568
+[Nov 05, 11:18 AM KST] seed1005: 
+[Nov 05, 11:20 AM KST] seed1006: si1000_0.0023 1 in 333,376,471 acc 0.648, si1000_0.001 1 in 9,337,451,325 acc 0.827, spec 1 in 108,567,030 acc 0.629, calibration 1 in 32,909,089 acc 0.598
+[Nov 05, 11:37 AM KST] seed1007: 
+[Nov 05, 11:41 AM KST] seed1009: 
+[Nov 05, 11:49 AM KST] seed1008: si1000_0.0023 1 in 262,132,668 acc 0.597, si1000_0.001 1 in 7,335,097,092 acc 0.798, spec 1 in 71,871,807 acc 0.580, calibration 1 in 23,973,947 acc 0.565
+[Nov 05, 12:00 PM KST] seed1010: 
+[Nov 05, 12:09 PM KST] seed1011: si1000_0.0023 1 in 322,834,074 acc 0.640, si1000_0.001 1 in 9,050,833,951 acc 0.822, spec 1 in 93,562,471 acc 0.616, calibration 1 in 16,760,248 acc 0.595
+[Nov 05, 12:10 PM KST] seed1012: 
+[Nov 05, 12:29 PM KST] seed1013: si1000_0.0023 1 in 295,182,998 acc 0.612, si1000_0.001 1 in 8,262,565,537 acc 0.807, spec 1 in 83,735,867 acc 0.595, calibration 1 in 14,388,422 acc 0.571
+[Nov 05, 12:33 PM KST] seed1015: 
+[Nov 05, 12:37 PM KST] seed1014: si1000_0.0023 1 in 321,536,731 acc 0.591, si1000_0.001 1 in 8,994,080,970 acc 0.794, spec 1 in 82,936,561 acc 0.572, calibration 1 in 3,973,204 acc 0.530
+[Nov 05, 12:53 PM KST] seed1016: 
+[Nov 05, 12:56 PM KST] seed1017: si1000_0.0023 1 in 348,459,467 acc 0.602, si1000_0.001 1 in 9,759,172,403 acc 0.801, spec 1 in 100,257,669 acc 0.579, calibration 1 in 27,497,639 acc 0.528
+[Nov 05, 01:01 PM KST] seed1018: si1000_0.0023 1 in 296,616,471 acc 0.630, si1000_0.001 1 in 8,301,449,275 acc 0.817, spec 1 in 90,434,388 acc 0.610, calibration 1 in 23,035,317 acc 0.567
+[Nov 05, 01:14 PM KST] seed1019: 
+[Nov 05, 01:18 PM KST] seed1020: 
+[Nov 05, 01:24 PM KST] seed1021: 
+[Nov 05, 01:35 PM KST] seed1022: 
+[Nov 05, 01:41 PM KST] seed1023: 
+[Nov 05, 01:46 PM KST] seed1024: 
+[Nov 05, 01:55 PM KST] seed1025: 
+[Nov 05, 02:03 PM KST] seed1026: 
+[Nov 05, 02:08 PM KST] seed1027: 
+[restart 02:12 PM KST: fresh process per circuit, retry capped]
+[Nov 05, 02:12 PM KST] resuming: 12 circuits already done
+[Nov 05, 02:39 PM KST] seed1001: 
+[Nov 05, 02:41 PM KST] seed1003: 
+[Nov 05, 02:45 PM KST] seed1005: si1000_0.0023 1 in 337,465,911 acc 0.622, si1000_0.001 1 in 9,437,762,733 acc 0.812, spec 1 in 94,211,667 acc 0.610, calibration 1 in 20,536,902 acc 0.575
+[Nov 05, 03:05 PM KST] seed1007: 
+[Nov 05, 03:07 PM KST] seed1009: 
+[Nov 05, 03:14 PM KST] seed1010: 
+[Nov 05, 03:32 PM KST] seed1012: 
+[Nov 05, 03:33 PM KST] seed1015: 
+[Nov 05, 03:42 PM KST] seed1016: 
+[Nov 05, 03:58 PM KST] seed1019: 
+[Nov 05, 04:00 PM KST] seed1020: 
+[Nov 05, 04:11 PM KST] seed1021: 
+[Nov 05, 04:24 PM KST] seed1022: 
+[Nov 05, 04:31 PM KST] seed1023: si1000_0.0023 1 in 254,817,662 acc 0.615, si1000_0.001 1 in 7,119,986,893 acc 0.809, spec 1 in 75,955,599 acc 0.599, calibration 1 in 18,033,638 acc 0.589
+[Nov 05, 04:37 PM KST] seed1024: 
+[Nov 05, 04:50 PM KST] seed1025: 
+[Nov 05, 04:59 PM KST] seed1026: 
+[Nov 05, 05:04 PM KST] seed1027: 
+[Nov 05, 05:14 PM KST] seed1028: si1000_0.0023 1 in 296,851,790 acc 0.614, si1000_0.001 1 in 8,312,055,603 acc 0.808, spec 1 in 88,069,743 acc 0.597, calibration 1 in 14,044,924 acc 0.556
+[Nov 05, 05:23 PM KST] seed1029: si1000_0.0023 1 in 328,603,333 acc 0.581, si1000_0.001 1 in 9,192,648,913 acc 0.789, spec 1 in 94,396,168 acc 0.565, calibration 1 in 18,257,152 acc 0.536
+[Nov 05, 05:29 PM KST] seed1031: si1000_0.0023 1 in 391,327,898 acc 0.571, si1000_0.001 1 in 10,941,928,096 acc 0.783, spec 1 in 115,603,875 acc 0.549, calibration 1 in 46,903,560 acc 0.523
+[Nov 05, 05:30 PM KST] seed1030: 
+[Nov 05, 05:48 PM KST] seed1033: si1000_0.0023 1 in 403,427,255 acc 0.567, si1000_0.001 1 in 11,272,279,175 acc 0.781, spec 1 in 117,025,221 acc 0.554, calibration 1 in 30,823,716 acc 0.521
+[Nov 05, 05:52 PM KST] seed1032: 
+[Nov 05, 05:56 PM KST] seed1034: 
+[Nov 05, 06:16 PM KST] seed1035: si1000_0.0023 1 in 422,728,848 acc 0.571, si1000_0.001 1 in 11,811,102,444 acc 0.782, spec 1 in 148,371,537 acc 0.558, calibration 1 in 32,285,448 acc 0.529
+[Nov 05, 06:19 PM KST] seed1036: 
+[Nov 05, 06:24 PM KST] seed1037: 
+[Nov 05, 06:43 PM KST] seed1038: 
+[Nov 05, 06:53 PM KST] seed1040: 
+[Nov 05, 06:53 PM KST] seed1039: si1000_0.0023 1 in 296,614,276 acc 0.572, si1000_0.001 1 in 8,287,242,646 acc 0.783, spec 1 in 90,430,479 acc 0.560, calibration 1 in 17,386,802 acc 0.519
+[Nov 05, 07:33 PM KST] d5a19 (to 5 faults): si1000_0.0023 1 in 140,644,989, si1000_0.001 1 in 2,189,785,023, spec 1 in 32,258,866, calibration 1 in 8,550,839
+[Nov 05, 08:03 PM KST] d5a19f3 (to 5 faults): si1000_0.0023 1 in 523,827,832, si1000_0.001 1 in 14,520,029,369, spec 1 in 44,176,787
+exit 143
+[retry 10:16 PM KST, one at a time, 36 GB: seed1036,seed1021,seed1038,seed1019,seed1037,seed1007]
+[Nov 05, 10:16 PM KST] resuming: 37 circuits already done
+[Nov 05, 10:57 PM KST] seed1036: si1000_0.0023 1 in 364,155,745 acc 0.654, si1000_0.001 1 in 10,201,313,221 acc 0.830, spec 1 in 131,347,499 acc 0.649, calibration 1 in 26,208,832 acc 0.609
+[Nov 05, 11:32 PM KST] seed1021: si1000_0.0023 1 in 323,658,261 acc 0.725, si1000_0.001 1 in 9,085,171,517 acc 0.868, spec 1 in 99,914,422 acc 0.716, calibration 1 in 16,795,302 acc 0.723
+[Nov 06, 12:18 AM KST] seed1038: si1000_0.0023 1 in 234,286,040 acc 0.750, si1000_0.001 1 in 6,577,262,710 acc 0.881, spec 1 in 68,190,999 acc 0.744, calibration 1 in 12,173,918 acc 0.725
+[Nov 06, 01:04 AM KST] seed1019: si1000_0.0023 1 in 227,807,383 acc 0.780, si1000_0.001 1 in 6,396,153,128 acc 0.897, spec 1 in 69,003,039 acc 0.780, calibration 1 in 9,474,188 acc 0.763
+[Nov 06, 01:45 AM KST] seed1037: si1000_0.0023 1 in 286,379,278 acc 0.747, si1000_0.001 1 in 8,034,718,747 acc 0.879, spec 1 in 86,603,220 acc 0.738, calibration 1 in 11,235,849 acc 0.708
+[Nov 06, 02:23 AM KST] seed1007: si1000_0.0023 1 in 226,497,742 acc 0.709, si1000_0.001 1 in 6,349,252,723 acc 0.860, spec 1 in 63,260,853 acc 0.702, calibration 1 in 5,861,821 acc 0.675
+[Nov 06, 02:23 AM KST] done
+retry exit 0

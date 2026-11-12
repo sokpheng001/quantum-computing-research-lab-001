@@ -1,0 +1,19 @@
+{
+ "n": 72,
+ "count": 1872,
+ "z_first": 936,
+ "x_first": 936,
+ "stim_rejects": [],
+ "ids": {
+  "S": 212,
+  "Sinv": 1307,
+  "Smirror": 676
+ },
+ "reverse_ids": {
+  "S": 1307,
+  "Sinv": 212,
+  "Smirror": 1787
+ },
+ "seconds": 399,
+ "date": "2026-10-16 16:23:02.984735"
+}

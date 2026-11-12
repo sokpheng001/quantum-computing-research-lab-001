@@ -1,0 +1,18 @@
+[Nov 04, 09:35 PM KST] d5a19 p=0.003: 37 / 546,347,054 = 1 in 14,766,137, acc 0.318, cliffordea 1 in 19,034,383, 1746.7 s
+[Nov 04, 09:50 PM KST] d5a19 p=0.005: 50 / 106,284,802 = 1 in 2,125,696, acc 0.151, cliffordea 1 in 2,581,131, 890.2 s
+[Nov 04, 09:59 PM KST] d5a19 p=0.007: 50 / 21,236,996 = 1 in 424,740, acc 0.073, cliffordea 1 in 645,710, 543.3 s
+[Nov 04, 10:09 PM KST] d5a19 p=0.01: 50 / 4,030,128 = 1 in 80,603, acc 0.025, cliffordea 1 in 140,720, 527.8 s
+[Nov 04, 10:37 PM KST] d5a19f3 p=0.003: 12 / 304,972,004 = 1 in 25,414,334, acc 0.197, cliffordea 1 in 24,193,019, 1673.2 s
+[Nov 04, 11:03 PM KST] d5a19f3 p=0.005: 30 / 67,579,481 = 1 in 2,252,649, acc 0.069, cliffordea 1 in 2,443,498, 1501.5 s
+[Nov 04, 11:27 PM KST] d5a19f3 p=0.007: 44 / 15,196,373 = 1 in 345,372, acc 0.025, cliffordea 1 in 524,139, 1438.0 s
+[Nov 04, 11:53 PM KST] d5a19f3 p=0.01: 28 / 1,668,341 = 1 in 59,584, acc 0.006, cliffordea 1 in 100,856, 1535.9 s
+[Nov 05, 12:29 AM KST] seed1035 p=0.003: 11 / 702,386,446 = 1 in 63,853,313, acc 0.455, cliffordea 1 in 65,495,571, 2089.9 s
+[Nov 05, 01:01 AM KST] seed1035 p=0.005: 43 / 268,693,533 = 1 in 6,248,687, acc 0.274, cliffordea 1 in 7,150,524, 1866.7 s
+[Nov 05, 01:19 AM KST] seed1035 p=0.007: 52 / 65,495,222 = 1 in 1,259,524, acc 0.167, cliffordea 1 in 1,616,866, 1045.3 s
+[Nov 05, 01:34 AM KST] seed1035 p=0.01: 52 / 14,154,178 = 1 in 272,196, acc 0.081, cliffordea 1 in 327,393, 851.8 s
+[Nov 05, 02:11 AM KST] seed1019 p=0.003: 40 / 1,222,215,306 = 1 in 30,555,383, acc 0.741, cliffordea 1 in 37,722,676, 2125.7 s
+[Nov 05, 02:25 AM KST] seed1019 p=0.005: 52 / 246,877,985 = 1 in 4,747,654, acc 0.611, cliffordea 1 in 4,497,209, 737.7 s
+[Nov 05, 02:31 AM KST] seed1019 p=0.007: 59 / 61,951,624 = 1 in 1,050,028, acc 0.508, cliffordea 1 in 1,083,851, 320.6 s
+[Nov 05, 02:34 AM KST] seed1019 p=0.01: 52 / 10,206,858 = 1 in 196,286, acc 0.389, cliffordea 1 in 234,267, 124.4 s
+[Nov 05, 02:34 AM KST] done
+exit 0

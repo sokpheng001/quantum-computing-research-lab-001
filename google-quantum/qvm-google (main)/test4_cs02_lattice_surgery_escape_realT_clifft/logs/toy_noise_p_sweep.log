@@ -1,0 +1,6 @@
+p=0.02% G4_G6style      acc 97.00%  errors    215 / 1,900,868,155  1 in 8,841,247  (494.0 s)
+p=0.02% cont_success02  acc 95.21%  errors     52 / 1,867,103,529  1 in 35,905,837  (342.5 s)
+p=0.05% G4_G6style      acc 92.68%  errors   1580 / 1,761,412,596  1 in 1,114,818  (357.6 s)
+p=0.05% cont_success02  acc 88.49%  errors    482 / 1,684,306,001  1 in 3,494,411  (281.8 s)
+
+[exited with code 124]

@@ -1,0 +1,26 @@
+=== d3a6 {'distance': 3, 'ancilla_count': 6, 'flag_count': 0} max_fault_count=2 p=0.001 (2026-10-31 06:02:53 PM KST -> 2026-10-31 06:02:53 PM KST)
+FaultCombinator with 158 faults distributed among 19 detector signatures.
+                             configuration_count               weight                                
+                                          benign malignant     benign malignant malignant_probability
+cultivated_state fault_count                                                                         
+S                0                             1         0   1.000000      0.00              0.000000
+                 1                             2         0   0.933333      0.00              0.000000
+                 2                            34         0  14.208889      0.00              0.000000
+T                0                             1         0   1.000000      0.00              0.000000
+                 1                             2         0   0.933333      0.00              0.000000
+                 2                            37         4   5.441111      0.21              0.037161
+timing_s: {'build': 0.017117708921432495, 'get_kept_effects': 0.002882867120206356, 'total': 0.029936468927189708}
+malignant T configurations: 4
+=== d3a6f2 {'distance': 3, 'ancilla_count': 6, 'flag_count': 2} max_fault_count=2 p=0.001 (2026-10-31 06:02:53 PM KST -> 2026-10-31 06:02:53 PM KST)
+FaultCombinator with 198 faults distributed among 50 detector signatures.
+                             configuration_count              weight                                
+                                          benign malignant    benign malignant malignant_probability
+cultivated_state fault_count                                                                        
+S                0                             1         0  1.000000       0.0                   0.0
+                 1                             2         0  3.200000       0.0                   0.0
+                 2                            37         0  4.671111       0.0                   0.0
+T                0                             1         0  1.000000       0.0                   0.0
+                 1                             2         0  3.200000       0.0                   0.0
+                 2                            37         0  4.331111       0.0                   0.0
+timing_s: {'build': 0.020770448027178645, 'get_kept_effects': 0.0022163009271025658, 'total': 0.029488725820556283}
+malignant T configurations: 0

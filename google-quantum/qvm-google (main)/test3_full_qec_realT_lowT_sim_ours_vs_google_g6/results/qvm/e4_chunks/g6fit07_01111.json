@@ -1,0 +1,1 @@
+{"shots": 5000, "kept": 3279, "kept_code": 2593, "kept_code_logical_error": 0, "kept_not_T": 686, "all_code": 2984, "all_not_T": 2016, "detector_fires": [345, 140, 313, 272, 177, 182, 359, 585], "chunk": 1111, "seed": 1137916830, "wall_s": 25.32357382774353, "finished": "2026-11-03 07:53:12 PM KST"}

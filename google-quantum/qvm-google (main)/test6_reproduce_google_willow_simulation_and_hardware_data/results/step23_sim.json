@@ -1,0 +1,1246 @@
+{
+ "p_si1000": 0.003,
+ "injection_theta": 0.125,
+ "models": {
+  "ideal": [
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.0,
+    "shots": 4000,
+    "kept": 3397,
+    "retention": 0.84925,
+    "retention_ci95": [
+     0.8377820693073859,
+     0.8602051830320816
+    ],
+    "expectation_kept": 0.7144539299381807,
+    "expectation_kept_se": 0.012004753032739356
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.0625,
+    "shots": 4000,
+    "kept": 3828,
+    "retention": 0.957,
+    "retention_ci95": [
+     0.950246154906918,
+     0.963075492843142
+    ],
+    "expectation_kept": 0.7189132706374086,
+    "expectation_kept_se": 0.011234692468622845
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.125,
+    "shots": 4000,
+    "kept": 4000,
+    "retention": 1.0,
+    "retention_ci95": [
+     0.9990782052505169,
+     1.0
+    ],
+    "expectation_kept": 0.7125,
+    "expectation_kept_se": 0.011094410191623527
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.1875,
+    "shots": 4000,
+    "kept": 3849,
+    "retention": 0.96225,
+    "retention_ci95": [
+     0.9558712532624942,
+     0.9679414948841085
+    ],
+    "expectation_kept": 0.7194076383476228,
+    "expectation_kept_se": 0.011195755165226345
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.25,
+    "shots": 4000,
+    "kept": 3419,
+    "retention": 0.85475,
+    "retention_ci95": [
+     0.8434468062140961,
+     0.8655322541389462
+    ],
+    "expectation_kept": 0.7127815150628839,
+    "expectation_kept_se": 0.011995203679580119
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.375,
+    "shots": 4000,
+    "kept": 1997,
+    "retention": 0.49925,
+    "retention_ci95": [
+     0.48363546799613927,
+     0.5148656285440576
+    ],
+    "expectation_kept": 0.7245868803204807,
+    "expectation_kept_se": 0.015422181816191708
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.5,
+    "shots": 4000,
+    "kept": 612,
+    "retention": 0.153,
+    "retention_ci95": [
+     0.1419755612705905,
+     0.16453383814661204
+    ],
+    "expectation_kept": 0.6830065359477124,
+    "expectation_kept_se": 0.02952516573237193
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.625,
+    "shots": 4000,
+    "kept": 0,
+    "retention": 0.0,
+    "retention_ci95": [
+     0.0,
+     0.0009217947494830555
+    ],
+    "expectation_kept": null,
+    "expectation_kept_se": null
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.75,
+    "shots": 4000,
+    "kept": 634,
+    "retention": 0.1585,
+    "retention_ci95": [
+     0.14730977870679873,
+     0.17019144299270536
+    ],
+    "expectation_kept": 0.7003154574132492,
+    "expectation_kept_se": 0.028349949791266038
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.875,
+    "shots": 4000,
+    "kept": 1997,
+    "retention": 0.49925,
+    "retention_ci95": [
+     0.48363546799613927,
+     0.5148656285440576
+    ],
+    "expectation_kept": 0.6945418127190786,
+    "expectation_kept_se": 0.016099522574696056
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.0,
+    "shots": 4000,
+    "kept": 3393,
+    "retention": 0.84825,
+    "retention_ci95": [
+     0.8367526725453606,
+     0.8592360681113318
+    ],
+    "expectation_kept": 0.6934865900383143,
+    "expectation_kept_se": 0.012368689606934925
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.0625,
+    "shots": 4000,
+    "kept": 3849,
+    "retention": 0.96225,
+    "retention_ci95": [
+     0.9558712532624942,
+     0.9679414948841085
+    ],
+    "expectation_kept": 0.7225253312548714,
+    "expectation_kept_se": 0.011143471942136586
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.125,
+    "shots": 4000,
+    "kept": 4000,
+    "retention": 1.0,
+    "retention_ci95": [
+     0.9990782052505169,
+     1.0
+    ],
+    "expectation_kept": 0.6975,
+    "expectation_kept_se": 0.011330200240948966
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.1875,
+    "shots": 4000,
+    "kept": 3847,
+    "retention": 0.96175,
+    "retention_ci95": [
+     0.9553342998092447,
+     0.9674793067898059
+    ],
+    "expectation_kept": 0.6927475955289837,
+    "expectation_kept_se": 0.011627401115065186
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.25,
+    "shots": 4000,
+    "kept": 3422,
+    "retention": 0.8555,
+    "retention_ci95": [
+     0.8442196790393711,
+     0.8662582633724487
+    ],
+    "expectation_kept": 0.7130333138515488,
+    "expectation_kept_se": 0.011985568632588404
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.375,
+    "shots": 4000,
+    "kept": 1975,
+    "retention": 0.49375,
+    "retention_ci95": [
+     0.47814068105198776,
+     0.5093684567903707
+    ],
+    "expectation_kept": 0.710379746835443,
+    "expectation_kept_se": 0.015837155723507895
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.5,
+    "shots": 4000,
+    "kept": 550,
+    "retention": 0.1375,
+    "retention_ci95": [
+     0.12697057481125354,
+     0.14856192753459427
+    ],
+    "expectation_kept": 0.6799999999999999,
+    "expectation_kept_se": 0.03126426946938862
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.625,
+    "shots": 4000,
+    "kept": 0,
+    "retention": 0.0,
+    "retention_ci95": [
+     0.0,
+     0.0009217947494830555
+    ],
+    "expectation_kept": null,
+    "expectation_kept_se": null
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.75,
+    "shots": 4000,
+    "kept": 590,
+    "retention": 0.1475,
+    "retention_ci95": [
+     0.13664636870994967,
+     0.158871218362791
+    ],
+    "expectation_kept": 0.7186440677966102,
+    "expectation_kept_se": 0.02862826337909708
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.875,
+    "shots": 4000,
+    "kept": 1998,
+    "retention": 0.4995,
+    "retention_ci95": [
+     0.4838852755612028,
+     0.5151154554655903
+    ],
+    "expectation_kept": 0.7037037037037037,
+    "expectation_kept_se": 0.01589506847732163
+   },
+   {
+    "exp": "fig2/injection",
+    "basis": "X",
+    "theta": 0.125,
+    "shots": 4000,
+    "kept": 4000,
+    "retention": 1.0,
+    "retention_ci95": [
+     0.9990782052505169,
+     1.0
+    ],
+    "expectation_kept": 0.6990000000000001,
+    "expectation_kept_se": 0.011307066374617246
+   },
+   {
+    "exp": "fig2/injection",
+    "basis": "Z",
+    "theta": 0.125,
+    "shots": 4000,
+    "kept": 4000,
+    "retention": 1.0,
+    "retention_ci95": [
+     0.9990782052505169,
+     1.0
+    ],
+    "expectation_kept": 0.7135,
+    "expectation_kept_se": 0.011078331891580067
+   }
+  ],
+  "qvm": [
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.0,
+    "shots": 100000,
+    "kept": 41079,
+    "retention": 0.41079,
+    "retention_ci95": [
+     0.4077383736760392,
+     0.4138468014991705
+    ],
+    "expectation_kept": 0.6992137101682125,
+    "expectation_kept_se": 0.0035273056068547775
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.0625,
+    "shots": 100000,
+    "kept": 45286,
+    "retention": 0.45286,
+    "retention_ci95": [
+     0.44977123313511863,
+     0.4559515014417462
+    ],
+    "expectation_kept": 0.7036611756392704,
+    "expectation_kept_se": 0.003338903819404086
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.125,
+    "shots": 300000,
+    "kept": 140991,
+    "retention": 0.46997,
+    "retention_ci95": [
+     0.46818266638369216,
+     0.47175791377090537
+    ],
+    "expectation_kept": 0.7059812328446496,
+    "expectation_kept_se": 0.001886161845092941
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.1875,
+    "shots": 100000,
+    "kept": 45470,
+    "retention": 0.4547,
+    "retention_ci95": [
+     0.4516101210498854,
+     0.45779250678721545
+    ],
+    "expectation_kept": 0.6945678469320431,
+    "expectation_kept_se": 0.0033738392053039197
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.25,
+    "shots": 100000,
+    "kept": 40669,
+    "retention": 0.40669,
+    "retention_ci95": [
+     0.40364320989725555,
+     0.40974220314187415
+    ],
+    "expectation_kept": 0.6766087191718508,
+    "expectation_kept_se": 0.0036513063002186446
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.375,
+    "shots": 100000,
+    "kept": 25090,
+    "retention": 0.2509,
+    "retention_ci95": [
+     0.2482152502651129,
+     0.2535992045362573
+    ],
+    "expectation_kept": 0.5954563571143883,
+    "expectation_kept_se": 0.005071948372551195
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.5,
+    "shots": 100000,
+    "kept": 9666,
+    "retention": 0.09666,
+    "retention_ci95": [
+     0.0948352575227279,
+     0.09850817440161568
+    ],
+    "expectation_kept": 0.2842954686530106,
+    "expectation_kept_se": 0.009751601896680957
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.625,
+    "shots": 100000,
+    "kept": 3471,
+    "retention": 0.03471,
+    "retention_ci95": [
+     0.03358401212277127,
+     0.03586307848448337
+    ],
+    "expectation_kept": -0.5338519158743877,
+    "expectation_kept_se": 0.014352460540676081
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.75,
+    "shots": 100000,
+    "kept": 10124,
+    "retention": 0.10124,
+    "retention_ci95": [
+     0.09937699514751112,
+     0.10312616900235401
+    ],
+    "expectation_kept": 0.4095219280916633,
+    "expectation_kept_se": 0.009066960780577562
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.875,
+    "shots": 100000,
+    "kept": 25504,
+    "retention": 0.25504,
+    "retention_ci95": [
+     0.2523405489855378,
+     0.2577536653908424
+    ],
+    "expectation_kept": 0.6525250941028858,
+    "expectation_kept_se": 0.004744949609760839
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.0,
+    "shots": 100000,
+    "kept": 40998,
+    "retention": 0.40998,
+    "retention_ci95": [
+     0.40692931175495617,
+     0.4130359104126862
+    ],
+    "expectation_kept": 0.6916434948046246,
+    "expectation_kept_se": 0.0035669715332042975
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.0625,
+    "shots": 100000,
+    "kept": 46001,
+    "retention": 0.46001,
+    "retention_ci95": [
+     0.45691714980780135,
+     0.4631051699935316
+    ],
+    "expectation_kept": 0.7107019412621465,
+    "expectation_kept_se": 0.003280018531776412
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.125,
+    "shots": 300000,
+    "kept": 142579,
+    "retention": 0.4752633333333333,
+    "retention_ci95": [
+     0.4734749096518618,
+     0.4770522349062662
+    ],
+    "expectation_kept": 0.7034626417635136,
+    "expectation_kept_se": 0.0018822540129300042
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.1875,
+    "shots": 100000,
+    "kept": 45682,
+    "retention": 0.45682,
+    "retention_ci95": [
+     0.4537288924109578,
+     0.4599136124436588
+    ],
+    "expectation_kept": 0.6973424981393108,
+    "expectation_kept_se": 0.0033534196854444233
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.25,
+    "shots": 100000,
+    "kept": 40789,
+    "retention": 0.40789,
+    "retention_ci95": [
+     0.4048417717175469,
+     0.41094357170261686
+    ],
+    "expectation_kept": 0.6866802324156023,
+    "expectation_kept_se": 0.003599471558982848
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.375,
+    "shots": 100000,
+    "kept": 25320,
+    "retention": 0.2532,
+    "retention_ci95": [
+     0.25050704298839227,
+     0.2559072782419786
+    ],
+    "expectation_kept": 0.6039494470774092,
+    "expectation_kept_se": 0.005008858918839159
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.5,
+    "shots": 100000,
+    "kept": 9752,
+    "retention": 0.09752,
+    "retention_ci95": [
+     0.09568797916520089,
+     0.09937540246567245
+    ],
+    "expectation_kept": 0.2981952420016407,
+    "expectation_kept_se": 0.00966565555023082
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.625,
+    "shots": 100000,
+    "kept": 3379,
+    "retention": 0.03379,
+    "retention_ci95": [
+     0.03267864175835257,
+     0.03492850446223841
+    ],
+    "expectation_kept": -0.5247114530926309,
+    "expectation_kept_se": 0.014644630215144758
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.75,
+    "shots": 100000,
+    "kept": 10182,
+    "retention": 0.10182,
+    "retention_ci95": [
+     0.09995223569655155,
+     0.10371089455444973
+    ],
+    "expectation_kept": 0.39560007857002555,
+    "expectation_kept_se": 0.009101776058792845
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.875,
+    "shots": 100000,
+    "kept": 25843,
+    "retention": 0.25843,
+    "retention_ci95": [
+     0.25571875002480754,
+     0.26115526749107637
+    ],
+    "expectation_kept": 0.6314669349533724,
+    "expectation_kept_se": 0.004823429153068131
+   },
+   {
+    "exp": "fig2/injection",
+    "basis": "X",
+    "theta": 0.125,
+    "shots": 200000,
+    "kept": 158757,
+    "retention": 0.793785,
+    "retention_ci95": [
+     0.7920051016146071,
+     0.7955563795101478
+    ],
+    "expectation_kept": 0.6750505489521722,
+    "expectation_kept_se": 0.001851635168381207
+   },
+   {
+    "exp": "fig2/injection",
+    "basis": "Z",
+    "theta": 0.125,
+    "shots": 200000,
+    "kept": 157943,
+    "retention": 0.789715,
+    "retention_ci95": [
+     0.7879223446376855,
+     0.7914992546171711
+    ],
+    "expectation_kept": 0.7077679922503688,
+    "expectation_kept_se": 0.0017775758211080008
+   }
+  ],
+  "si1000": [
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.0,
+    "shots": 100000,
+    "kept": 45117,
+    "retention": 0.45117,
+    "retention_ci95": [
+     0.4480822920330833,
+     0.45426054058214776
+    ],
+    "expectation_kept": 0.6993151140368375,
+    "expectation_kept_se": 0.0033652912194789405
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.0625,
+    "shots": 100000,
+    "kept": 50598,
+    "retention": 0.50598,
+    "retention_ci95": [
+     0.5028761106880004,
+     0.509083542417301
+    ],
+    "expectation_kept": 0.698288469899996,
+    "expectation_kept_se": 0.003182255229531055
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.125,
+    "shots": 300000,
+    "kept": 157973,
+    "retention": 0.5265766666666667,
+    "retention_ci95": [
+     0.5247880856224961,
+     0.5283647342720132
+    ],
+    "expectation_kept": 0.7049495799915175,
+    "expectation_kept_se": 0.0017844831679791747
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.1875,
+    "shots": 100000,
+    "kept": 50537,
+    "retention": 0.50537,
+    "retention_ci95": [
+     0.5022660854675901,
+     0.5084736030233004
+    ],
+    "expectation_kept": 0.7009319904228585,
+    "expectation_kept_se": 0.003172661408720837
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.25,
+    "shots": 100000,
+    "kept": 44859,
+    "retention": 0.44859,
+    "retention_ci95": [
+     0.4455039778554778,
+     0.45167900442820325
+    ],
+    "expectation_kept": 0.694732383691121,
+    "expectation_kept_se": 0.003395987928739721
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.375,
+    "shots": 100000,
+    "kept": 26861,
+    "retention": 0.26861,
+    "retention_ci95": [
+     0.26586458341767627,
+     0.27136884298304803
+    ],
+    "expectation_kept": 0.6645694501321618,
+    "expectation_kept_se": 0.004559226607661278
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.5,
+    "shots": 100000,
+    "kept": 9084,
+    "retention": 0.09084,
+    "retention_ci95": [
+     0.08906570858095364,
+     0.09263806386989179
+    ],
+    "expectation_kept": 0.5345662703654778,
+    "expectation_kept_se": 0.008867132291292597
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.625,
+    "shots": 100000,
+    "kept": 1540,
+    "retention": 0.0154,
+    "retention_ci95": [
+     0.014645879775707886,
+     0.016182414451756996
+    ],
+    "expectation_kept": -0.4493506493506494,
+    "expectation_kept_se": 0.022764805285651002
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.75,
+    "shots": 100000,
+    "kept": 9187,
+    "retention": 0.09187,
+    "retention_ci95": [
+     0.09008662416081951,
+     0.09367708800258302
+    ],
+    "expectation_kept": 0.5419614672907369,
+    "expectation_kept_se": 0.008768007441710187
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.875,
+    "shots": 100000,
+    "kept": 26989,
+    "retention": 0.26989,
+    "retention_ci95": [
+     0.26714041933409,
+     0.27265293274648716
+    ],
+    "expectation_kept": 0.6720145244358813,
+    "expectation_kept_se": 0.004507688866630561
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.0,
+    "shots": 100000,
+    "kept": 45233,
+    "retention": 0.45233,
+    "retention_ci95": [
+     0.4492415613521084,
+     0.45542120397049396
+    ],
+    "expectation_kept": 0.7026949351137444,
+    "expectation_kept_se": 0.003345352450861138
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.0625,
+    "shots": 100000,
+    "kept": 50635,
+    "retention": 0.50635,
+    "retention_ci95": [
+     0.5032461282334161,
+     0.509453503408494
+    ],
+    "expectation_kept": 0.7032487409894341,
+    "expectation_kept_se": 0.0031594385742109345
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.125,
+    "shots": 300000,
+    "kept": 157517,
+    "retention": 0.5250566666666666,
+    "retention_ci95": [
+     0.5232678190905626,
+     0.5268450301691612
+    ],
+    "expectation_kept": 0.704412857024956,
+    "expectation_kept_se": 0.001788407385927512
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.1875,
+    "shots": 100000,
+    "kept": 50574,
+    "retention": 0.50574,
+    "retention_ci95": [
+     0.5026361002147448,
+     0.508843566812756
+    ],
+    "expectation_kept": 0.7019021631668446,
+    "expectation_kept_se": 0.0031672551815434954
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.25,
+    "shots": 100000,
+    "kept": 45128,
+    "retention": 0.45128,
+    "retention_ci95": [
+     0.44819222201833914,
+     0.4543706042156901
+    ],
+    "expectation_kept": 0.6984577202623649,
+    "expectation_kept_se": 0.003368824864160369
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.375,
+    "shots": 100000,
+    "kept": 26750,
+    "retention": 0.2675,
+    "retention_ci95": [
+     0.26475821805725763,
+     0.27025527279380074
+    ],
+    "expectation_kept": 0.6744672897196262,
+    "expectation_kept_se": 0.004514126839729769
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.5,
+    "shots": 100000,
+    "kept": 8863,
+    "retention": 0.08863,
+    "retention_ci95": [
+     0.08687543552558201,
+     0.09040846631486062
+    ],
+    "expectation_kept": 0.5419158298544511,
+    "expectation_kept_se": 0.008927145249234615
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.625,
+    "shots": 100000,
+    "kept": 1487,
+    "retention": 0.01487,
+    "retention_ci95": [
+     0.014128941843682045,
+     0.015639387543396638
+    ],
+    "expectation_kept": -0.4108944182918628,
+    "expectation_kept_se": 0.0236422247870777
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.75,
+    "shots": 100000,
+    "kept": 9017,
+    "retention": 0.09017,
+    "retention_ci95": [
+     0.08840165497869629,
+     0.0919621566937399
+    ],
+    "expectation_kept": 0.5541754463790618,
+    "expectation_kept_se": 0.008765990155852681
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.875,
+    "shots": 100000,
+    "kept": 27223,
+    "retention": 0.27223,
+    "retention_ci95": [
+     0.26947288180326284,
+     0.27500033441340904
+    ],
+    "expectation_kept": 0.6845314623663814,
+    "expectation_kept_se": 0.004418243000669486
+   },
+   {
+    "exp": "fig2/injection",
+    "basis": "X",
+    "theta": 0.125,
+    "shots": 200000,
+    "kept": 154084,
+    "retention": 0.77042,
+    "retention_ci95": [
+     0.768570424680481,
+     0.7722617345140369
+    ],
+    "expectation_kept": 0.6864048181511384,
+    "expectation_kept_se": 0.0018526220802069823
+   },
+   {
+    "exp": "fig2/injection",
+    "basis": "Z",
+    "theta": 0.125,
+    "shots": 200000,
+    "kept": 153291,
+    "retention": 0.766455,
+    "retention_ci95": [
+     0.764594424071442,
+     0.7683078501705969
+    ],
+    "expectation_kept": 0.7049924653110751,
+    "expectation_kept_se": 0.0018114212471478173
+   }
+  ],
+  "si1000@0.0036": [
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.0,
+    "shots": 100000,
+    "kept": 39464,
+    "retention": 0.39464,
+    "retention_ci95": [
+     0.3916086997696277,
+     0.39767741237259746
+    ],
+    "expectation_kept": 0.6982566389620921,
+    "expectation_kept_se": 0.0036034622028809733
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.0625,
+    "shots": 100000,
+    "kept": 44589,
+    "retention": 0.44589,
+    "retention_ci95": [
+     0.4428058318670333,
+     0.44897730704698036
+    ],
+    "expectation_kept": 0.707192356859315,
+    "expectation_kept_se": 0.0033482553162142957
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.125,
+    "shots": 300000,
+    "kept": 138404,
+    "retention": 0.4613466666666667,
+    "retention_ci95": [
+     0.45956154083270395,
+     0.46313253925194625
+    ],
+    "expectation_kept": 0.7048784717204706,
+    "expectation_kept_se": 0.0019066581671866678
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.1875,
+    "shots": 100000,
+    "kept": 44408,
+    "retention": 0.44408,
+    "retention_ci95": [
+     0.44099712622707815,
+     0.4471661176876052
+    ],
+    "expectation_kept": 0.708475950279229,
+    "expectation_kept_se": 0.003348968185769215
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.25,
+    "shots": 100000,
+    "kept": 39630,
+    "retention": 0.3963,
+    "retention_ci95": [
+     0.39326645212964145,
+     0.39933956370317353
+    ],
+    "expectation_kept": 0.6915468079737572,
+    "expectation_kept_se": 0.003628478952674273
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.375,
+    "shots": 100000,
+    "kept": 23831,
+    "retention": 0.23831,
+    "retention_ci95": [
+     0.23567198380113857,
+     0.24096320222967715
+    ],
+    "expectation_kept": 0.6547354286433638,
+    "expectation_kept_se": 0.00489631283079054
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.5,
+    "shots": 100000,
+    "kept": 8065,
+    "retention": 0.08065,
+    "retention_ci95": [
+     0.07896949695454974,
+     0.08235487253570992
+    ],
+    "expectation_kept": 0.5013019218846869,
+    "expectation_kept_se": 0.009634976986964361
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.625,
+    "shots": 100000,
+    "kept": 1604,
+    "retention": 0.01604,
+    "retention_ci95": [
+     0.015270416514343445,
+     0.016837835549746827
+    ],
+    "expectation_kept": -0.4052369077306732,
+    "expectation_kept_se": 0.022826777061283474
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.75,
+    "shots": 100000,
+    "kept": 8137,
+    "retention": 0.08137,
+    "retention_ci95": [
+     0.07968262343319014,
+     0.08308170383197849
+    ],
+    "expectation_kept": 0.4946540494039572,
+    "expectation_kept_se": 0.00963457537061121
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "X",
+    "theta": 0.875,
+    "shots": 100000,
+    "kept": 24011,
+    "retention": 0.24011,
+    "retention_ci95": [
+     0.23746511161179068,
+     0.24276996986673313
+    ],
+    "expectation_kept": 0.6712340177418683,
+    "expectation_kept_se": 0.004783623016280514
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.0,
+    "shots": 100000,
+    "kept": 39712,
+    "retention": 0.39712,
+    "retention_ci95": [
+     0.3940853553177554,
+     0.400160612940707
+    ],
+    "expectation_kept": 0.6968170829975826,
+    "expectation_kept_se": 0.0035992250068239244
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.0625,
+    "shots": 100000,
+    "kept": 44664,
+    "retention": 0.44664,
+    "retention_ci95": [
+     0.44355530764479545,
+     0.4497277877607333
+    ],
+    "expectation_kept": 0.703967401038868,
+    "expectation_kept_se": 0.003360636984165019
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.125,
+    "shots": 300000,
+    "kept": 138982,
+    "retention": 0.4632733333333333,
+    "retention_ci95": [
+     0.4614876677120193,
+     0.4650597084840572
+    ],
+    "expectation_kept": 0.7022492121281892,
+    "expectation_kept_se": 0.0019096718752869605
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.1875,
+    "shots": 100000,
+    "kept": 44696,
+    "retention": 0.44696,
+    "retention_ci95": [
+     0.44387508613575044,
+     0.45004799070617213
+    ],
+    "expectation_kept": 0.7058349740468945,
+    "expectation_kept_se": 0.003350654872598627
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.25,
+    "shots": 100000,
+    "kept": 39680,
+    "retention": 0.3968,
+    "retention_ci95": [
+     0.39376578228325226,
+     0.39984020454079744
+    ],
+    "expectation_kept": 0.6957157258064517,
+    "expectation_kept_se": 0.0036060392222799
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.375,
+    "shots": 100000,
+    "kept": 23880,
+    "retention": 0.2388,
+    "retention_ci95": [
+     0.2361601066291722,
+     0.2414550509399111
+    ],
+    "expectation_kept": 0.6536850921273032,
+    "expectation_kept_se": 0.004897166139181451
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.5,
+    "shots": 100000,
+    "kept": 7916,
+    "retention": 0.07916,
+    "retention_ci95": [
+     0.07749384824610242,
+     0.08085060864816106
+    ],
+    "expectation_kept": 0.4770085901970692,
+    "expectation_kept_se": 0.009878383800405344
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.625,
+    "shots": 100000,
+    "kept": 1600,
+    "retention": 0.016,
+    "retention_ci95": [
+     0.015231373388535604,
+     0.01679688130191139
+    ],
+    "expectation_kept": -0.44625000000000004,
+    "expectation_kept_se": 0.022372708506962227
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.75,
+    "shots": 100000,
+    "kept": 8338,
+    "retention": 0.08338,
+    "retention_ci95": [
+     0.08167364140164966,
+     0.08511056801950496
+    ],
+    "expectation_kept": 0.49604221635883905,
+    "expectation_kept_se": 0.0095090702908755
+   },
+   {
+    "exp": "fig2/cultivation",
+    "basis": "Z",
+    "theta": 0.875,
+    "shots": 100000,
+    "kept": 24175,
+    "retention": 0.24175,
+    "retention_ci95": [
+     0.23909890637794734,
+     0.24441607984421407
+    ],
+    "expectation_kept": 0.670899689762151,
+    "expectation_kept_se": 0.004769315948154577
+   },
+   {
+    "exp": "fig2/injection",
+    "basis": "X",
+    "theta": 0.125,
+    "shots": 200000,
+    "kept": 146257,
+    "retention": 0.731285,
+    "retention_ci95": [
+     0.7293363829020312,
+     0.7332269116255435
+    ],
+    "expectation_kept": 0.6905584006235599,
+    "expectation_kept_se": 0.0018912376590120303
+   },
+   {
+    "exp": "fig2/injection",
+    "basis": "Z",
+    "theta": 0.125,
+    "shots": 200000,
+    "kept": 145524,
+    "retention": 0.72762,
+    "retention_ci95": [
+     0.7256631398687479,
+     0.7295702609631981
+    ],
+    "expectation_kept": 0.7011352079382095,
+    "expectation_kept_se": 0.001869129890504124
+   }
+  ]
+ }
+}

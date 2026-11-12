@@ -1,0 +1,12 @@
+G6 data positions: [(4, 5), (4, 7), (5, 4), (5, 6), (6, 5), (6, 7), (7, 6)]; 7 weight-4 X and Z stabilisers at TICK 56
+cs00: 2096 placements, 0 with data on G6's positions, 0 with G6's code (code-preserving maps: 168)
+cs01: 2100 placements, 0 with data on G6's positions, 0 with G6's code (code-preserving maps: 168)
+cs02: 25124 placements, 26 with data on G6's positions, 0 with G6's code (code-preserving maps: 168)
+cs03: 25124 placements, 26 with data on G6's positions, 0 with G6's code (code-preserving maps: 168)
+cs04: 5152 placements, 0 with data on G6's positions, 0 with G6's code (code-preserving maps: 168)
+cs05: 4868 placements, 0 with data on G6's positions, 0 with G6's code (code-preserving maps: 168)
+cs06: 2584 placements, 0 with data on G6's positions, 0 with G6's code (code-preserving maps: 168)
+cs07: 11074 placements, 0 with data on G6's positions, 0 with G6's code (code-preserving maps: 168)
+cs08: 11074 placements, 0 with data on G6's positions, 0 with G6's code (code-preserving maps: 168)
+cs09: 4608 placements, 0 with data on G6's positions, 0 with G6's code (code-preserving maps: 168)
+/home/ubuntu/quantum001/google-quantum/qvm-google (main)/test3_full_qec_realT_lowT_sim_ours_vs_google_g6/results/g6_fit.json

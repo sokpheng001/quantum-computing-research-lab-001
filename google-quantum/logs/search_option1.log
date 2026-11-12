@@ -1,0 +1,72 @@
+[     0.1 s] labelling classes 210
+[     8.3 s] enumerated m = 1
+[    66.5 s] enumerated m = 2
+[    66.5 s] space {"m1_d3_n8_abstract_bases": 1, "m1_d3_n8_embedded_bases": 136, "m1_d4_n10_abstract_bases": 374, "m1_d4_n10_embedded_bases": 88396, "m1_d4_n11_abstract_bases": 489, "m1_d4_n11_embedded_bases": 157892, "m1_d4_n8_abstract_bases": 31, "m1_d4_n8_embedded_bases": 2850, "m1_d4_n9_abstract_bases": 157, "m1_d4_n9_embedded_bases": 24828, "m1_forests_n10": 9500, "m1_forests_n11": 11806, "m1_forests_n2": 4, "m1_forests_n3": 14, "m1_forests_n4": 48, "m1_forests_n5": 163, "m1_forests_n6": 490, "m1_forests_n7": 1282, "m1_forests_n8": 2986, "m1_forests_n9": 5860, "m2_d3_n10_abstract_bases": 130, "m2_d3_n10_embedded_bases": 66766, "m2_d3_n11_abstract_bases": 215, "m2_d3_n11_embedded_bases": 181488, "m2_d3_n9_abstract_bases": 37, "m2_d3_n9_embedded_bases": 10576, "m2_d4_n10_abstract_bases": 504, "m2_d4_n10_embedded_bases": 237624, "m2_d4_n11_abstract_bases": 1731, "m2_d4_n11_embedded_bases": 1388958, "m2_d4_n9_abstract_bases": 74, "m2_d4_n9_embedded_bases": 17948, "m2_forests_n10": 77538, "m2_forests_n11": 190118, "m2_forests_n3": 8, "m2_forests_n4": 42, "m2_forests_n5": 188, "m2_forests_n6": 765, "m2_forests_n7": 2832, "m2_forests_n8": 9447, "m2_forests_n9": 28524}
+[    66.5 s] abstract bases in the space: 3743 ; x 210 labellings = 786030
+[    66.7 s] --- screening group depth 3, n 8, m 1: 1 abstract bases
+[    67.3 s] --- screening group depth 3, n 9, m 2: 37 abstract bases
+[    73.7 s] --- screening group depth 3, n 10, m 2: 130 abstract bases
+[    90.5 s]    screened 100/130
+[    96.9 s] --- screening group depth 3, n 11, m 2: 215 abstract bases
+[   114.7 s]    screened 100/215
+[   135.5 s]    screened 200/215
+[   139.1 s] --- screening group depth 4, n 8, m 1: 31 abstract bases
+[   157.2 s] --- screening group depth 4, n 9, m 1: 157 abstract bases
+[   218.4 s]    screened 100/157
+[   253.1 s] --- screening group depth 4, n 9, m 2: 74 abstract bases
+[   276.4 s] --- screening group depth 4, n 10, m 1: 374 abstract bases
+[   338.2 s]    screened 100/374
+[   400.0 s]    screened 200/374
+[   462.6 s]    screened 300/374
+[   508.6 s] --- screening group depth 4, n 10, m 2: 504 abstract bases
+[   535.9 s]    screened 100/504
+[   580.5 s]    screened 200/504
+[   590.6 s]    screened 300/504
+[   617.5 s]    screened 400/504
+[   652.2 s]    screened 500/504
+[   653.1 s] --- screening group depth 4, n 11, m 1: 489 abstract bases
+[   718.0 s]    screened 100/489
+[   782.2 s]    screened 200/489
+[   846.3 s]    screened 300/489
+[   910.3 s]    screened 400/489
+[   967.5 s] --- screening group depth 4, n 11, m 2: 1731 abstract bases
+[   977.0 s]    screened 100/1731
+[  1028.4 s]    screened 200/1731
+[  1055.9 s]    screened 300/1731
+[  1063.7 s]    screened 400/1731
+[  1072.5 s]    screened 500/1731
+[  1113.3 s]    screened 600/1731
+[  1178.3 s]    screened 700/1731
+[  1210.7 s]    screened 800/1731
+[  1225.5 s]    screened 900/1731
+[  1234.1 s]    screened 1000/1731
+[  1243.4 s]    screened 1100/1731
+[  1254.5 s]    screened 1200/1731
+[  1275.0 s]    screened 1300/1731
+[  1296.9 s]    screened 1400/1731
+[  1340.1 s]    screened 1500/1731
+[  1378.6 s]    screened 1600/1731
+[  1401.3 s]    screened 1700/1731
+[  1408.7 s] screen done; best-labelling malignant T2 histogram: {6: 7, 7: 12, 8: 8, 9: 28, 10: 66, 11: 80, 12: 82, 13: 91, 14: 118, 15: 103, 16: 106, 17: 117, 18: 112, 19: 131, 20: 142, 21: 112, 22: 66, 23: 75, 24: 56, 25: 105, 26: 136, 27: 107, 28: 26, 29: 84, 30: 27, 31: 74, 32: 54, 33: 58, 34: 21, 35: 27, 36: 37, 37: 23, 38: 28, 39: 2, 40: 50, 41: 11, 42: 30, 43: 20, 44: 9, 45: 46, 46: 4, 47: 12, 48: 12, 51: 8, 52: 8, 57: 8, 1000000: 1204}
+[  1408.8 s] VALID #0 base 3 d4 n11 m1 flags=['q8->(7, 10) t5,7.5'] malT1=0 malT2=6 malT3=728 LER 1 in 1767523
+[  1408.9 s] VALID #1 base 3 d4 n11 m1 flags=['q2->(10, 10) t5,7.5'] malT1=0 malT2=6 malT3=728 LER 1 in 1767524
+[  1409.0 s] VALID #2 base 3 d4 n11 m1 flags=['q8->(7, 10) t5,7.5', 'q2->(10, 10) t5,7.5'] malT1=0 malT2=6 malT3=730 LER 1 in 2269811
+[  1409.2 s] VALID #3 base 6 d4 n11 m1 flags=['q8->(7, 10) t5,7.5'] malT1=0 malT2=6 malT3=633 LER 1 in 1781499
+[  1409.4 s] VALID #4 base 21 d4 n11 m1 flags=['q9->(10, 10) t4,8.5'] malT1=0 malT2=8 malT3=713 LER 1 in 523713
+[  1409.5 s] VALID #5 base 21 d4 n11 m1 flags=['q3->(7, 10) t5,7.5'] malT1=0 malT2=8 malT3=713 LER 1 in 530228
+[  1409.7 s] VALID #6 base 21 d4 n11 m1 flags=['q9->(10, 10) t4,8.5', 'q3->(7, 10) t5,7.5'] malT1=0 malT2=8 malT3=715 LER 1 in 502229
+[  1409.8 s] VALID #7 base 28 d4 n11 m1 flags=['q9->(6, 8) t4,8.5'] malT1=0 malT2=9 malT3=781 LER 1 in 490093
+[  1409.9 s] VALID #8 base 28 d4 n11 m1 flags=['q0->(9, 10) t6.5,8.5'] malT1=0 malT2=9 malT3=725 LER 1 in 410447
+[  1410.1 s] VALID #9 base 28 d4 n11 m1 flags=['q9->(6, 8) t4,8.5', 'q0->(9, 10) t6.5,8.5'] malT1=0 malT2=9 malT3=727 LER 1 in 456097
+[  1410.2 s] VALID #10 base 30 d4 n11 m1 flags=['q9->(6, 8) t4,8.5'] malT1=0 malT2=9 malT3=862 LER 1 in 402586
+[  1410.3 s] VALID #11 base 30 d4 n11 m1 flags=['q2->(10, 10) t5,7.5'] malT1=0 malT2=9 malT3=862 LER 1 in 429523
+[  1410.4 s] VALID #12 base 30 d4 n11 m1 flags=['q9->(6, 8) t4,8.5', 'q2->(10, 10) t5,7.5'] malT1=0 malT2=9 malT3=864 LER 1 in 378398
+[  1410.6 s] VALID #13 base 31 d4 n11 m1 flags=['q5->(8, 7) t4,8.5'] malT1=0 malT2=9 malT3=801 LER 1 in 392078
+[  1410.7 s] VALID #14 base 31 d4 n11 m1 flags=['q2->(7, 10) t5,7.5'] malT1=0 malT2=9 malT3=801 LER 1 in 429522
+[  1410.8 s] VALID #15 base 31 d4 n11 m1 flags=['q8->(10, 10) t5,7.5'] malT1=0 malT2=9 malT3=801 LER 1 in 413758
+[  1410.9 s] VALID #16 base 31 d4 n11 m1 flags=['q5->(8, 7) t4,8.5', 'q2->(7, 10) t5,7.5'] malT1=0 malT2=9 malT3=803 LER 1 in 378397
+[  1411.0 s] VALID #17 base 31 d4 n11 m1 flags=['q5->(8, 7) t4,8.5', 'q8->(10, 10) t5,7.5'] malT1=0 malT2=9 malT3=803 LER 1 in 366130
+[  1411.2 s] VALID #18 base 31 d4 n11 m1 flags=['q2->(7, 10) t5,7.5', 'q8->(10, 10) t5,7.5'] malT1=0 malT2=9 malT3=803 LER 1 in 451057
+[  1411.3 s] VALID #19 base 33 d4 n11 m1 flags=['q2->(7, 10) t5,7.5'] malT1=0 malT2=9 malT3=820 LER 1 in 378284
+[  1411.3 s] flag phase: bases tried 34, evaluated 51, valid 20, invalid {'constraints': 31}
+[  1411.3 s] done 20 valid; stopped at max-valid

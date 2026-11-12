@@ -1,0 +1,217 @@
+{
+ "readout": "strict",
+ "final_layer": "check",
+ "ignore_readout": false,
+ "d3a6_native": [
+  "readout: tick=6, measured=5, measured_at=(2.0, 1.0), victim=8, victim_at=(3.0, 0.0), victim_role=data, line=3.0",
+  "readout: tick=11, measured=4, measured_at=(2.0, 0.0), victim=3, victim_at=(1.0, 1.0), victim_role=data, line=2.0",
+  "readout: tick=11, measured=6, measured_at=(2.0, 2.0), victim=11, victim_at=(4.0, 0.0), victim_role=data, line=4.0",
+  "readout: tick=11, measured=9, measured_at=(3.0, 1.0), victim=11, victim_at=(4.0, 0.0), victim_role=data, line=4.0",
+  "readout: tick=11, measured=12, measured_at=(4.0, 1.0), victim=7, victim_at=(2.0, 3.0), victim_role=data, line=5.0",
+  "readout: tick=11, measured=12, measured_at=(4.0, 1.0), victim=10, victim_at=(3.0, 2.0), victim_role=data, line=5.0"
+ ],
+ "d3a6f2_native": [
+  "non_neighbour: tick=3, gate=CX, pair=(3, 4), at=((1.0, 1.0), (1.5, 0.5))",
+  "non_neighbour: tick=3, gate=CX, pair=(6, 9), at=((2.0, 1.0), (2.5, 0.5))",
+  "non_neighbour: tick=4, gate=CX, pair=(6, 4), at=((2.0, 1.0), (1.5, 0.5))",
+  "non_neighbour: tick=4, gate=CX, pair=(11, 9), at=((3.0, 1.0), (2.5, 0.5))",
+  "non_neighbour: tick=12, gate=CX, pair=(6, 4), at=((2.0, 1.0), (1.5, 0.5))",
+  "non_neighbour: tick=12, gate=CX, pair=(11, 9), at=((3.0, 1.0), (2.5, 0.5))",
+  "non_neighbour: tick=13, gate=CX, pair=(3, 4), at=((1.0, 1.0), (1.5, 0.5))",
+  "non_neighbour: tick=13, gate=CX, pair=(6, 9), at=((2.0, 1.0), (2.5, 0.5))",
+  "degree: qubit=6, partner_count=6, partners=[3, 4, 5, 7, 9, 11]",
+  "degree: qubit=11, partner_count=5, partners=[6, 9, 10, 12, 14]",
+  "readout: tick=8, measured=6, measured_at=(2.0, 1.0), victim=9, victim_at=(2.5, 0.5), victim_role=ancilla/flag, line=3.0",
+  "readout: tick=8, measured=6, measured_at=(2.0, 1.0), victim=10, victim_at=(3.0, 0.0), victim_role=data, line=3.0",
+  "readout: tick=14, measured=4, measured_at=(1.5, 0.5), victim=3, victim_at=(1.0, 1.0), victim_role=data, line=2.0",
+  "readout: tick=14, measured=4, measured_at=(1.5, 0.5), victim=5, victim_at=(2.0, 0.0), victim_role=ancilla/flag, line=2.0",
+  "readout: tick=14, measured=9, measured_at=(2.5, 0.5), victim=6, victim_at=(2.0, 1.0), victim_role=data, line=3.0",
+  "readout: tick=14, measured=9, measured_at=(2.5, 0.5), victim=10, victim_at=(3.0, 0.0), victim_role=data, line=3.0",
+  "readout: tick=15, measured=5, measured_at=(2.0, 0.0), victim=3, victim_at=(1.0, 1.0), victim_role=data, line=2.0",
+  "readout: tick=15, measured=7, measured_at=(2.0, 2.0), victim=13, victim_at=(4.0, 0.0), victim_role=data, line=4.0",
+  "readout: tick=15, measured=11, measured_at=(3.0, 1.0), victim=13, victim_at=(4.0, 0.0), victim_role=data, line=4.0",
+  "readout: tick=15, measured=14, measured_at=(4.0, 1.0), victim=8, victim_at=(2.0, 3.0), victim_role=data, line=5.0",
+  "readout: tick=15, measured=14, measured_at=(4.0, 1.0), victim=12, victim_at=(3.0, 2.0), victim_role=data, line=5.0"
+ ],
+ "d3a6_all_embeddings": {
+  "count": 350,
+  "stats": {
+   "nn_degree_ok": 350,
+   "readout_fail": 350
+  },
+  "readout_by_symmetry": {
+   "id": {
+    "6": 46
+   },
+   "rot90": {
+    "8": 42
+   },
+   "rot180": {
+    "6": 46
+   },
+   "rot270": {
+    "8": 42
+   },
+   "flip_r": {
+    "8": 43
+   },
+   "flip_c": {
+    "8": 43
+   },
+   "transpose": {
+    "6": 44
+   },
+   "antitranspose": {
+    "6": 44
+   }
+  }
+ },
+ "d3a6_primary": {
+  "embedding": {
+   "0": [
+    4,
+    4
+   ],
+   "1": [
+    4,
+    5
+   ],
+   "2": [
+    5,
+    4
+   ],
+   "3": [
+    5,
+    5
+   ],
+   "4": [
+    6,
+    4
+   ],
+   "5": [
+    6,
+    5
+   ],
+   "6": [
+    6,
+    6
+   ],
+   "7": [
+    6,
+    7
+   ],
+   "8": [
+    7,
+    4
+   ],
+   "9": [
+    7,
+    5
+   ],
+   "10": [
+    7,
+    6
+   ],
+   "11": [
+    8,
+    4
+   ],
+   "12": [
+    8,
+    5
+   ]
+  },
+  "violations": [
+   "readout: tick=6, measured=5, measured_at=(6, 5), victim=8, victim_at=(7, 4), victim_role=data, line=11",
+   "readout: tick=11, measured=4, measured_at=(6, 4), victim=3, victim_at=(5, 5), victim_role=data, line=10",
+   "readout: tick=11, measured=6, measured_at=(6, 6), victim=11, victim_at=(8, 4), victim_role=data, line=12",
+   "readout: tick=11, measured=9, measured_at=(7, 5), victim=11, victim_at=(8, 4), victim_role=data, line=12",
+   "readout: tick=11, measured=12, measured_at=(8, 5), victim=7, victim_at=(6, 7), victim_role=data, line=13",
+   "readout: tick=11, measured=12, measured_at=(8, 5), victim=10, victim_at=(7, 6), victim_role=data, line=13"
+  ]
+ },
+ "d3a6f2_willow": {
+  "embedding": {
+   "0": [
+    4,
+    4
+   ],
+   "1": [
+    4,
+    5
+   ],
+   "2": [
+    5,
+    4
+   ],
+   "3": [
+    5,
+    5
+   ],
+   "5": [
+    6,
+    4
+   ],
+   "6": [
+    6,
+    5
+   ],
+   "7": [
+    6,
+    6
+   ],
+   "8": [
+    6,
+    7
+   ],
+   "10": [
+    7,
+    4
+   ],
+   "11": [
+    7,
+    5
+   ],
+   "12": [
+    7,
+    6
+   ],
+   "13": [
+    8,
+    4
+   ],
+   "14": [
+    8,
+    5
+   ],
+   "4": [
+    5,
+    6
+   ],
+   "9": [
+    7,
+    7
+   ]
+  },
+  "violations": [
+   "non_neighbour: tick=3, gate=CX, pair=(6, 9), at=((6, 5), (7, 7))",
+   "non_neighbour: tick=4, gate=CX, pair=(6, 4), at=((6, 5), (5, 6))",
+   "non_neighbour: tick=4, gate=CX, pair=(11, 9), at=((7, 5), (7, 7))",
+   "non_neighbour: tick=12, gate=CX, pair=(6, 4), at=((6, 5), (5, 6))",
+   "non_neighbour: tick=12, gate=CX, pair=(11, 9), at=((7, 5), (7, 7))",
+   "non_neighbour: tick=13, gate=CX, pair=(6, 9), at=((6, 5), (7, 7))",
+   "degree: qubit=6, partner_count=6, partners=[3, 4, 5, 7, 9, 11]",
+   "degree: qubit=11, partner_count=5, partners=[6, 9, 10, 12, 14]",
+   "readout: tick=8, measured=6, measured_at=(6, 5), victim=4, victim_at=(5, 6), victim_role=ancilla/flag, line=11",
+   "readout: tick=8, measured=6, measured_at=(6, 5), victim=10, victim_at=(7, 4), victim_role=data, line=11",
+   "readout: tick=14, measured=4, measured_at=(5, 6), victim=6, victim_at=(6, 5), victim_role=data, line=11",
+   "readout: tick=14, measured=4, measured_at=(5, 6), victim=10, victim_at=(7, 4), victim_role=data, line=11",
+   "readout: tick=15, measured=5, measured_at=(6, 4), victim=3, victim_at=(5, 5), victim_role=data, line=10",
+   "readout: tick=15, measured=7, measured_at=(6, 6), victim=13, victim_at=(8, 4), victim_role=data, line=12",
+   "readout: tick=15, measured=11, measured_at=(7, 5), victim=13, victim_at=(8, 4), victim_role=data, line=12",
+   "readout: tick=15, measured=14, measured_at=(8, 5), victim=8, victim_at=(6, 7), victim_role=data, line=13",
+   "readout: tick=15, measured=14, measured_at=(8, 5), victim=12, victim_at=(7, 6), victim_role=data, line=13"
+  ]
+ },
+ "runtime_s": 43.79540755203925
+}

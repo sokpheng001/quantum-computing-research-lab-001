@@ -1,0 +1,61 @@
+{
+ "n": 90,
+ "A_star": 1277,
+ "A_star_trials": 16400,
+ "A_star_d1": 8,
+ "circuits": {
+  "212": {
+   "noiseless_ok": true,
+   "mins": {
+    "X4": 8,
+    "X6": 8,
+    "Z4": 8,
+    "Z6": 8
+   },
+   "min": 8,
+   "exact": {
+    "ok": 53
+   }
+  },
+  "212+1307": {
+   "noiseless_ok": true,
+   "mins": {
+    "X4": 8,
+    "X6": 8,
+    "Z4": 8,
+    "Z6": 8
+   },
+   "min": 8,
+   "exact": {
+    "ok": 109
+   }
+  },
+  "1277": {
+   "noiseless_ok": true,
+   "mins": {
+    "X4": 8,
+    "X6": 8,
+    "Z4": 8,
+    "Z6": 8
+   },
+   "min": 8,
+   "exact": {
+    "ok": 13
+   }
+  },
+  "1277+268": {
+   "noiseless_ok": true,
+   "mins": {
+    "X4": 8,
+    "X6": 8,
+    "Z4": 9,
+    "Z6": 8
+   },
+   "min": 8,
+   "exact": {
+    "ok": 10
+   }
+  }
+ },
+ "date": "2026-10-19 07:42 AM KST"
+}

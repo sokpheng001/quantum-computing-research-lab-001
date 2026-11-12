@@ -1,0 +1,58 @@
+== d3a6: native QUBIT_COORDS geometry (no grid) -> {}
+== d3a6f2: native QUBIT_COORDS geometry (no grid) -> {'non_neighbour': 8, 'degree': 2}
+   non_neighbour: tick=3, gate=CX, pair=(3, 4), at=((1.0, 1.0), (1.5, 0.5))
+   non_neighbour: tick=3, gate=CX, pair=(6, 9), at=((2.0, 1.0), (2.5, 0.5))
+   non_neighbour: tick=4, gate=CX, pair=(6, 4), at=((2.0, 1.0), (1.5, 0.5))
+   non_neighbour: tick=4, gate=CX, pair=(11, 9), at=((3.0, 1.0), (2.5, 0.5))
+   non_neighbour: tick=12, gate=CX, pair=(6, 4), at=((2.0, 1.0), (1.5, 0.5))
+   non_neighbour: tick=12, gate=CX, pair=(11, 9), at=((3.0, 1.0), (2.5, 0.5))
+   non_neighbour: tick=13, gate=CX, pair=(3, 4), at=((1.0, 1.0), (1.5, 0.5))
+   non_neighbour: tick=13, gate=CX, pair=(6, 9), at=((2.0, 1.0), (2.5, 0.5))
+   degree: qubit=6, partner_count=6, partners=[3, 4, 5, 7, 9, 11]
+   degree: qubit=11, partner_count=5, partners=[6, 9, 10, 12, 14]
+settings: distance 3, ancilla_count 6, flag_count 0 / 2; readout ignore, final measurement layer exempt
+
+== d3a6 on Willow: 350 embeddings (8 symmetries x translations) -> {'nn_degree_ok': 350, 'readout_ok': 350}
+   readout violations per embedding, by symmetry: id: {0: 46}; rot90: {0: 42}; rot180: {0: 46}; rot270: {0: 42}; flip_r: {0: 43}; flip_c: {0: 43}; transpose: {0: 44}; antitranspose: {0: 44}
+
+== d3a6 primary embedding ('id', (4, 4)): {0: (4, 4), 1: (4, 5), 2: (5, 4), 3: (5, 5), 4: (6, 4), 5: (6, 5), 6: (6, 6), 7: (6, 7), 8: (7, 4), 9: (7, 5), 10: (7, 6), 11: (8, 4), 12: (8, 5)}
+   violations: {}
+ 0 ......###......
+ 1 .....####......
+ 2 ....#######....
+ 3 ...########....
+ 4 ..##ab#######..
+ 5 .###cd#######..
+ 6 ####efgh#######
+ 7 ..##ijk#######.
+ 8 ..##lm#######..
+ 9 ....########...
+10 ....#######....
+11 ......####.....
+12 ......###......
+
+== d3a6f2 on Willow: shared qubits as d3a6 primary, flags placed by extend_embedding: {0: (4, 4), 1: (4, 5), 2: (5, 4), 3: (5, 5), 5: (6, 4), 6: (6, 5), 7: (6, 6), 8: (6, 7), 10: (7, 4), 11: (7, 5), 12: (7, 6), 13: (8, 4), 14: (8, 5), 4: (5, 6), 9: (6, 3)}
+   violations: {'non_neighbour': 6, 'degree': 2}
+   non_neighbour: tick=3, gate=CX, pair=(6, 9), at=((6, 5), (6, 3))
+   non_neighbour: tick=4, gate=CX, pair=(6, 4), at=((6, 5), (5, 6))
+   non_neighbour: tick=4, gate=CX, pair=(11, 9), at=((7, 5), (6, 3))
+   non_neighbour: tick=12, gate=CX, pair=(6, 4), at=((6, 5), (5, 6))
+   non_neighbour: tick=12, gate=CX, pair=(11, 9), at=((7, 5), (6, 3))
+   non_neighbour: tick=13, gate=CX, pair=(6, 9), at=((6, 5), (6, 3))
+   degree: qubit=6, partner_count=6, partners=[3, 4, 5, 7, 9, 11]
+   degree: qubit=11, partner_count=5, partners=[6, 9, 10, 12, 14]
+ 0 ......###......
+ 1 .....####......
+ 2 ....#######....
+ 3 ...########....
+ 4 ..##ab#######..
+ 5 .###cde######..
+ 6 ###jfghi#######
+ 7 ..##klm#######.
+ 8 ..##no#######..
+ 9 ....########...
+10 ....#######....
+11 ......####.....
+12 ......###......
+
+runtime_s: 31.96

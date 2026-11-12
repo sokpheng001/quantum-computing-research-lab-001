@@ -1,0 +1,89 @@
+{
+ "started": "2026-11-03 12:35:32 PM KST",
+ "processor": "willow_pink",
+ "designs": {
+  "g6fit03": {
+   "name": "g6fit03",
+   "role": "continuing-data search: fault distance 3, data lines disjoint from measured lines",
+   "placement": "own QUBIT_COORDS (Willow)",
+   "qubits": {
+    "0": [
+     8,
+     6
+    ],
+    "1": [
+     7,
+     6
+    ],
+    "2": [
+     6,
+     6
+    ],
+    "3": [
+     6,
+     7
+    ],
+    "4": [
+     6,
+     5
+    ],
+    "5": [
+     6,
+     4
+    ],
+    "6": [
+     5,
+     4
+    ],
+    "7": [
+     5,
+     6
+    ],
+    "8": [
+     4,
+     6
+    ],
+    "9": [
+     4,
+     5
+    ],
+    "10": [
+     4,
+     7
+    ],
+    "11": [
+     5,
+     5
+    ],
+    "12": [
+     3,
+     5
+    ]
+   },
+   "native_equals_comparison_round_file": null,
+   "phasedxz_is_H": true,
+   "H_native_gate": "cirq.PhasedXZGate(axis_phase_exponent=-0.5, x_exponent=0.5, z_exponent=1.0)",
+   "roundtrip_identical": true,
+   "flows_equal": true,
+   "detectors_deterministic": true,
+   "detector_error_model_equal": true,
+   "device_validation": {
+    "H as cirq.H": "PASS",
+    "H as PhasedXZGate (used)": "PASS"
+   },
+   "cz_pairs": 13,
+   "cz_pairs_on_couplers": 13,
+   "qubits_on_device": true,
+   "moments": 40,
+   "gate_counts": {
+    "T / T^-1 (virtual Z)": 14,
+    "reset": 7,
+    "PhasedXZ (H)": 38,
+    "CZ": 26,
+    "measure": 7
+   },
+   "readout_lines": {},
+   "continuing_data_violations": 0
+  }
+ }
+}
