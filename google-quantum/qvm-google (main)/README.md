@@ -16,6 +16,10 @@ spaces need quotes: `"qvm-google (main)/..."`. Nothing in `nnflags/` or `cliffor
 | `test1_fd3_circuits_vs_google_fig2/` | **Test 1 (Nov 1).** First fault-distance-3 circuits (success03, success04, success00) vs Google's G4 (Fig. 2) and Chan et al.'s d3a6. |
 | `test2_cs02_continuing_data_vs_google/` | **Test 2 (Nov 1–2).** Our final circuit cs02 (fault distance 3, valid when the data continue) vs G4 (Fig. 2) and G4 G6-style (Fig. 4 way). |
 | `test3_full_qec_realT_lowT_sim_ours_vs_google_g6/` | **Test 3 (Nov 2–, in progress).** Logical error rate of the full experiment (Google's injection + our double check + Google's grafting into the surface code, G6 / Fig. 4) with real T gates, using a low-T-count simulator (54+ qubits is too large for the QVM's state vector), vs Google's G6 as run. Done: cs02 does not fit G6 (steps 0, 0b); 9 fault-distance-3 double checks that fit G6 found (step 1). |
+| `test4_cs02_lattice_surgery_escape_realT_clifft/` | **Test 4 (paused).** cs02 followed by a lattice-surgery escape, simulated with real T gates (Clifft). |
+| `test5_double_check_d5_search_google_repro/` | **Test 5.** Distance 5: search for Willow-placeable double checks with fault distance 4 with real T gates, compared with Gidney et al.'s d = 5 design; cross-checked with Clifft. |
+| `test6_reproduce_google_willow_simulation_and_hardware_data/` | **Test 6.** Our simulation compared with Google's released hardware and simulation data (Zenodo 10.5281/zenodo.17872003, not included): our QVM is within 6 % of the hardware. |
+| `test7_d3_cs02_vs_google_noise_sweep_chip_positions/` | **Test 7.** cs02 vs Google under other noise models, a noise sweep, every chip placement, noisy input, one input error plus one fault, and the mechanism proof. |
 
 Each test folder has the same layout: `RESULTS.md` (report), `results/` (JSON + resumable
 checkpoints), `figures/` (PNG only), `logs/`, and its own scripts.
